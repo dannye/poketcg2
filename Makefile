@@ -5,7 +5,7 @@
 .PRECIOUS:
 .SECONDARY:
 
-ROM := TCG2.gbc
+ROM := tcg2.gbc
 OBJS := main.o wram.o
 
 MD5 := md5sum -c
@@ -22,7 +22,7 @@ endif
 
 $(ROM): $(OBJS) tcg2.link
 	rgblink -n $(ROM:.gbc=.sym) -m $(ROM:.gbc=.map) -l tcg2.link -o $@ $(OBJS)
-	# rgbfix -jsvc -k 01 -l 0x33 -m 0x1e -p 0 -r 02 -t "POKEPINBALL" -i VPHE $@
+	rgbfix -Cv -k 2P -l 0x33 -m 0x1b -p 0 -r 03 -t "POKEMON-CG2" -i BP7J $@
 
 # For contributors to make sure a change didn't affect the contents of the rom.
 compare: $(ROM)
@@ -36,7 +36,7 @@ tidy:
 	$(MAKE) -C tools clean
 
 clean: tidy
-	find . \( -iname '*.1bpp' -o -iname '*.2bpp' -o -iname '*.pcm' \) -exec rm {} +
+	find . \( -iname '*.1bpp' -o -iname '*.2bpp' \) -exec rm {} +
 
 %.interleave.2bpp: %.interleave.png
 	rgbgfx -o $@ $<
