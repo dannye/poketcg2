@@ -6,40 +6,31 @@ DEF half2full EQUS "db TX_HALF2FULL"
 
 MACRO _textfw
 	REPT _NARG
-		IF STRLEN(\1) > 0
-			IF !STRCMP(STRSUB(\1, 1, 1), "<") && STRLEN(\1) > 1
+		DEF str_len = STRLEN(\1)
+		IF str_len > 0
+			IF !STRCMP(STRSLICE(\1, 0, 1), "<") && str_len > 1
 				db \1
 			ELIF STRCMP(\1, "[相手]") == 0
-				db "FW0_7a", "FW0_7b", "FW0_7c"
+				db "FW_7a", "FW_7b", "FW_7c"
 			ELIF STRCMP(\1, "[自分]") == 0
-				db "FW0_7d", "FW0_7e", "FW0_7f"
+				db "FW_7d", "FW_7e", "FW_7f"
 			ELSE
-				FOR i, 1, STRLEN(\1) + 1
-					REDEF char EQUS STRSUB(\1, i, 1)
-					IF INCHARMAP("FW{x:TX_KATAKANA}_{char}")
+				FOR i, 0, str_len
+					REDEF char EQUS STRSLICE(\1, i, i+1)
+					IF INCHARMAP("FWK_{char}")
 						IF cur_set != TX_KATAKANA
 							DEF cur_set = TX_KATAKANA
 							db cur_set
 						ENDC
-						db "FW{x:TX_KATAKANA}_{char}"
-					ELIF INCHARMAP("FW{x:TX_HIRAGANA}_{char}")
+						db "FWK_{char}"
+					ELIF INCHARMAP("FWH_{char}")
 						IF cur_set != TX_HIRAGANA
 							DEF cur_set = TX_HIRAGANA
 							db cur_set
 						ENDC
-						db "FW{x:TX_HIRAGANA}_{char}"
-					ELIF INCHARMAP("FW0_{char}")
-						db "FW0_{char}"
-					ELIF INCHARMAP("FW1_{char}")
-						db TX_FULLWIDTH1, "FW1_{char}"
-					ELIF INCHARMAP("FW2_{char}")
-						db TX_FULLWIDTH2, "FW2_{char}"
-					ELIF INCHARMAP("FW3_{char}")
-						db TX_FULLWIDTH3, "FW3_{char}"
-					ELIF INCHARMAP("FW4_{char}")
-						db TX_FULLWIDTH4, "FW4_{char}"
+						db "FWH_{char}"
 					ELSE
-						FAIL "Unmapped fullwidth character: {char}"
+						db "FW_{char}"
 					ENDC
 				ENDR
 			ENDC
@@ -68,4 +59,12 @@ MACRO hiragana
 	DEF cur_set = TX_HIRAGANA
 	db TX_HIRAGANA
 	_textfw \#
+ENDM
+
+MACRO ldfw
+	PUSHO
+	OPT Wno-obsolete
+	REDEF char EQUS \2
+	ld \1, "FW_{char}"
+	POPO
 ENDM
