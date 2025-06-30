@@ -1,0 +1,1285 @@
+Text033e:
+	textfw "POWERPLANT"
+	done
+
+Text033f:
+	db $04, $25, $04, $1e, $04, $1b, $04, $23, $04, $85, $04, $22, $04, $17, $04, $1e, $04, $12, $04, $1a, $00
+
+Text0340:
+	textfw "OVERFLOW"
+	done
+
+Text0341:
+	db $04, $23, $04, $21, $04, $18, $04, $85, $04, $29, $04, $10, $04, $1f, $04, $13, $04, $1e, $04, $22, $00
+
+Text0342:
+	textfw "ODDBARRIER"
+	done
+
+Text0343:
+	textfw "ZEROEVOLVE"
+	done
+
+Text0344:
+	textfw "PHANTOM"
+	done
+
+Text0345:
+	textfw "PUPPETEER"
+	done
+
+Text0346:
+	db $04, $1c, $04, $14, $04, $26, $05, $11, $04, $96, $04, $9a, $00
+
+Text0347:
+	db $04, $25, $04, $14, $04, $1d, $04, $24, $04, $22, $04, $10, $04, $24, $04, $21, $04, $9b, $04, $99, $00
+
+Text0348:
+	textfw "MUTUALLOSS"
+	done
+
+Text0349:
+	db $04, $1b, $04, $14, $04, $23, $04, $8c, $04, $22, $04, $85, $04, $22, $04, $24, $04, $21, $04, $15, $00
+
+Text034a:
+	db $04, $16, $04, $21, $04, $10, $04, $1d, $04, $13, $04, $85, $04, $15, $04, $18, $04, $21, $04, $14, $00
+
+Text034b:
+	textfw "MYTHFOSSIL"
+	done
+
+Text034c:
+	textfw "FABLEDAQUA"
+	done
+
+Text034d:
+	textfw "DRAGONLORE"
+	done
+
+Text034e:
+	text "THE STARTER DECK GIVEN BY DR. MASON."
+	linefw "IT USES FIRE AND FIGHTING POKÉMON."
+	done
+
+Text034f:
+	text "THIS DECK IS MADE OF ELECTRIC, FIRE,"
+	linefw "AND COLORLESS POKÉMON."
+	done
+
+Text0350:
+	text "THIS DECK IS MADE OF"
+	linefw "FIGHTING AND WATER POKÉMON."
+	done
+
+Text0351:
+	text "THIS DECK IS MADE OF"
+	linefw "PSYCHIC AND GRASS POKÉMON."
+	done
+
+Text0352:
+	text "ROCK CLUB MASTER GENE'S DECK OF"
+	linefw "GRASS AND FIGHTING POKÉMON."
+	done
+
+Text0353:
+	text "GRASS CLUB MASTER NIKKI'S DECK OF"
+	linefw "GRASS AND FIGHTING POKÉMON."
+	done
+
+Text0354:
+	text "WATER CLUB MASTER AMY'S DECK OF"
+	linefw "FIRE AND WATER POKÉMON."
+	done
+
+Text0355:
+	text "PSYCHIC CLUB MASTER MURRAY'S DECK"
+	linefw "OF PSYCHIC AND ELECTRIC POKÉMON."
+	done
+
+Text0356:
+	text "POWERFUL AND STYLISH ROCK POKÉMON."
+	linefw "LOTS OF FOSSIL EVOLUTIONS."
+	done
+
+Text0357:
+	text "A DECK INCLUDING NEW MACHOKE CARDS."
+	linefw "USE FOCUS BLAST FOR BENCH K.O.'S!"
+	done
+
+Text0358:
+	text "FULL OF TOUGH ROCK POKÉMON."
+	linefw "STOPS ELECTRIC POKÉMON EASILY!"
+	done
+
+Text0359:
+	text "USES VARIOUS PUNCHES TO ATTACK"
+	linefw "AND KNOCKOUT THE OPPOSITION."
+	done
+
+Text035a:
+	text "THIS DECK SPREADS SEEDS AND QUICKLY"
+	linefw "CALLS MORE POKÉMON TO YOUR BENCH."
+	done
+
+Text035b:
+	text "SEARCH YOUR DECK FOR NIDORAN TO"
+	linefw "EVOLVE INTO NIDOKING OR NIDOQUEEN."
+	done
+
+Text035c:
+	text "THERE ARE PLENTY OF INTERESTING AND"
+	linefw "ENJOYABLE POKÉMON IN THE FOREST!"
+	done
+
+Text035d:
+	text "EVOLVE YOUR POKÉMON WITH THE POWER"
+	linefw "OF SCIENCE TO ATTAIN GREAT STRENGTH!"
+	done
+
+Text035e:
+	text "THESE POKÉMON WOULD LOVE TO PLAY"
+	linefw "WITH YOU. WATER YOU WAITING FOR?"
+	done
+
+Text035f:
+	text "POKÉMON ARE ALL OVER THE BEACH."
+	linefw "YOU CAN JUST SEA THE ACTIVITY!"
+	done
+
+Text0360:
+	text "THESE WATER POKÉMON AREN'T WEAK"
+	linefw "TO RE-VOLT-ING ELECTRIC ATTACKS."
+	done
+
+Text0361:
+	text "THESE POKÉMON LIVE IN FRIGID WATERS."
+	linefw "SEAL THE FOE'S FATE WITH ICE!"
+	done
+
+Text0362:
+	text "VULPIX AND NINETALES CONFOUND YOUR"
+	linefw "OPPONENT. IT'S ONE OF THOSE DAZE!"
+	done
+
+Text0363:
+	text "A DUAL-TYPE DECK OF ELECTRIC AND"
+	linefw "FIRE TO COVER WEAKNESSES."
+	done
+
+Text0364:
+	text "SELF-SACRIFICING EXPLOSIONS HURT!"
+	linefw "USE DEFENDER TO CUSHION THE BLOW."
+	done
+
+Text0365:
+	text "CHARIZARD INCINERATES ALL FOES AFTER"
+	linefw "A LITTLE PREPARATION ON THE BENCH."
+	done
+
+Text0366:
+	text "MAGNEMITE AND VOLTORB STEAL THE"
+	linefw "THUNDER OF THIS DECK!"
+	done
+
+Text0367:
+	text "PARALYZE FOES WITH ELECTRICITY!"
+	linefw "IT'S YOUR NUMBER ONE OFFENSE! "
+	done
+
+Text0368:
+	text "COLLECTED ENERGY OVERFLOWS AND"
+	linefw "STRIKES THE ENEMY. FEEL THE JUICE!"
+	done
+
+Text0369:
+	text "FEEL THE POWER OF 3 MIGHTY ZAPDOS!"
+	linefw "BE SURE TO CHARGE THEM WITH ENERGY."
+	done
+
+Text036a:
+	text "ENTRAP YOUR OPPONENTS USING PSYCHIC"
+	linefw "BARRIERS AND SHIELDS."
+	done
+
+Text036b:
+	text "DEVOLVE FOES WITH MEW AND KEEP THEM"
+	linefw "FROM EVOLVING WITH AERODACTYL."
+	done
+
+Text036c:
+	text "GASTLY, HAUNTER, AND GENGAR STRIKE"
+	linefw "TERROR INTO THE HEARTS OF YOUR FOES."
+	done
+
+Text036d:
+	text "A DECK UTILIZING HYPNO'S PUPPET"
+	linefw "MASTER POWER ON CLEFAIRY DOLLS."
+	done
+
+Text036e:
+	text "MEW'S MYSTERY ATTACK IS"
+	linefw "UNCOVERED AT LONG LAST!"
+	done
+
+Text036f:
+	text "UTILIZE THE FULL BENEFITS OF"
+	linefw "VENUSAUR'S SOLAR POWER ABILITY!"
+	done
+
+Text0370:
+	text "THIS DECK FOCUSES ON SELF-SACRIFICE"
+	linefw "TO TAKE DOWN THE OPPONENT."
+	done
+
+Text0371:
+	text "UTILIZE BLASTOISE'S RAIN DANCE"
+	linefw "TO GET EVERYONE SURFING!"
+	done
+
+Text0372:
+	text "TAKE ADVANTAGE OF MOLTRES'S POWER"
+	linefw "TO BRING FIRE ENERGY TO YOUR HAND."
+	done
+
+Text0373:
+	text "AERODACTYL'S ABILITY TO PREVENT"
+	linefw "EVOLUTION IS A FORMIDABLE TACTIC!"
+	done
+
+Text0374:
+	text "FREEZE THE OPPONENT SOLID WITH THE"
+	linefw "LEGENDARY ARTICUNO CARD."
+	done
+
+Text0375:
+	text "USE DARK DRAGONAIR'S EVOLUTIONARY"
+	linefw "LIGHT TO EVOLVE YOUR TEAM QUICKLY!"
+	done
+
+Text0376:
+	textfw "BUGCATCHER"
+	done
+
+Text0377:
+	textfw "SPELEUNKER"
+	done
+
+Text0378:
+	textfw "SHADYFIELD"
+	done
+
+Text0379:
+	textfw "VILEWHEEZE"
+	done
+
+Text037a:
+	textfw "BENCHSHOCK"
+	done
+
+Text037b:
+	textfw "ENERGYCALL"
+	done
+
+Text037c:
+	textfw "SONICBOOM"
+	done
+
+Text037d:
+	db $04, $10, $04, $1d, $04, $16, $04, $21, $04, $28, $04, $85, $04, $22, $04, $1a, $04, $28, $00
+
+Text037e:
+	db $04, $13, $04, $10, $04, $21, $04, $1a, $04, $85, $04, $26, $04, $10, $04, $23, $04, $14, $04, $21, $00
+
+Text037f:
+	textfw "FASTFREEZE"
+	done
+
+Text0380:
+	textfw "HURRICANE"
+	done
+
+Text0381:
+	db $04, $26, $04, $10, $04, $23, $04, $14, $04, $21, $04, $85, $04, $16, $04, $10, $04, $1d, $04, $16, $00
+
+Text0382:
+	textfw "FIREBALL"
+	done
+
+Text0383:
+	textfw "COMBUSTION"
+	done
+
+Text0384:
+	db $04, $22, $04, $17, $04, $10, $04, $13, $04, $28, $04, $85, $04, $15, $04, $18, $04, $21, $04, $14, $00
+
+Text0385:
+	textfw "PERMABLAZE"
+	done
+
+Text0386:
+	textfw "TRAPSENSE"
+	done
+
+Text0387:
+	db $04, $13, $04, $14, $04, $25, $04, $18, $04, $1b, $04, $85, $04, $1a, $04, $18, $04, $12, $04, $1a, $00
+
+Text0388:
+	db $04, $21, $04, $1e, $04, $12, $04, $1a, $04, $85, $04, $11, $04, $1b, $04, $10, $04, $22, $04, $23, $00
+
+Text0389:
+	textfw "SHEERFORCE"
+	done
+
+Text038a:
+	db $04, $22, $04, $1b, $04, $1e, $04, $26, $04, $85, $04, $13, $04, $14, $04, $12, $04, $1e, $04, $28, $00
+
+Text038b:
+	db $04, $13, $04, $18, $04, $21, $04, $14, $04, $12, $04, $23, $04, $85, $04, $17, $04, $18, $04, $23, $00
+
+Text038c:
+	textfw "NIGHTMARE"
+	done
+
+Text038d:
+	textfw "BENCHPANIC"
+	done
+
+Text038e:
+	textfw "SNOREBLOCK"
+	done
+
+Text038f:
+	textfw "TYPHOON"
+	done
+
+Text0390:
+	db $04, $13, $04, $14, $04, $10, $04, $23, $04, $17, $04, $85, $04, $1e, $04, $1c, $04, $14, $04, $1d, $00
+
+Text0391:
+	textfw "DRAGONKING"
+	done
+
+Text0392:
+	db $04, $13, $04, $10, $04, $21, $04, $1a, $04, $85, $04, $12, $04, $17, $04, $10, $04, $21, $00
+
+Text0393:
+	db $04, $13, $04, $10, $04, $21, $04, $1a, $04, $85, $04, $11, $04, $1b, $04, $10, $04, $22, $04, $23, $00
+
+Text0394:
+	db $04, $13, $04, $10, $04, $21, $04, $1a, $04, $85, $04, $25, $04, $14, $04, $1d, $04, $24, $04, $22, $00
+
+Text0395:
+	db $04, $13, $04, $10, $04, $21, $04, $1a, $04, $85, $04, $13, $04, $21, $04, $10, $04, $12, $04, $1e, $00
+
+Text0396:
+	textfw "GOODHEALTH"
+	done
+
+Text0397:
+	db $04, $26, $04, $10, $04, $23, $04, $14, $04, $21, $04, $85, $04, $16, $04, $24, $04, $1d, $04, $22, $00
+
+Text0398:
+	textfw "HADESFIEND"
+	done
+
+Text0399:
+	db $04, $1f, $04, $21, $04, $18, $04, $1c, $04, $1e, $04, $85, $04, $19, $04, $1e, $04, $1b, $04, $23, $00
+
+Text039a:
+	textfw "MEWTWOPEON"
+	done
+
+Text039b:
+	textfw "LUGIAETHER"
+	done
+
+Text039c:
+	textfw "BADTRAINER"
+	done
+
+Text039d:
+	db $04, $1d, $04, $18, $04, $16, $04, $17, $04, $23, $04, $85, $04, $15, $04, $14, $04, $10, $04, $21, $00
+
+Text039e:
+	text "MOSTLY COMPOSED OF BUG POKÉMON!"
+	linefw "METAPOD ALSO GRANTS FIRE PROTECTION!"
+	done
+
+Text039f:
+	text "POKÉMON THAT LIVE IN DARK CAVES"
+	linefw "AND THREATEN FOES WITH POISON!"
+	done
+
+Text03a0:
+	text "SOMETHING FOUL-SMELLING LIVES HERE."
+	linefw "WHY AM I SUDDENLY FEELING DIZZY?"
+	done
+
+Text03a1:
+	text "DARK WEEZING EXPLOSIONS!"
+	linefw "POISON ATTACKS ARE EFFICACIOUS."
+	done
+
+Text03a2:
+	text "ATTACK THE FOE'S BENCHED POKÉMON!"
+	linefw "NO ONE IS SAFE FROM BATTLE."
+	done
+
+Text03a3:
+	text "ENERGY IS IMPORTANT, SO THIS DECK IS"
+	linefw "LOADED WITH ENERGY RETRIEVAL CARDS."
+	done
+
+Text03a4:
+	text "GROUND POKÉMON AREN'T SAFE FROM"
+	linefw "RESISTANCE-IGNORING SONIC BOOMS."
+	done
+
+Text03a5:
+	text "POKÉMON ATTACK FROM THE HEAVENS"
+	linefw "WITH SPEED AND TERRIBLE THUNDER."
+	done
+
+Text03a6:
+	text "A MIXED DECK OF PSYCHIC AND"
+	linefw "WATER POKÉMON."
+	done
+
+Text03a7:
+	text "SHOW YOUR OPPONENT THE CRIPPLING"
+	linefw "POWER OF FREEZING BEAM ATTACKS."
+	done
+
+Text03a8:
+	text "USE YOUR ATTACKS AND TRAINER CARDS"
+	linefw "TO REMOVE ALL OF YOUR FOE'S ENERGY!"
+	done
+
+Text03a9:
+	text "EVOLVE YOUR DARK POKÉMON QUICKLY"
+	linefw "TO STRIKE FAST AND HARD!"
+	done
+
+Text03aa:
+	text "USE CONTINUOUS FIREBALL TO SET"
+	linefw "EVERYTHING ABLAZE."
+	done
+
+Text03ab:
+	text "RETRIEVE THE ENERGY DISCARDED BY"
+	linefw "YOUR ATTACKS TO STAY POWERED UP!"
+	done
+
+Text03ac:
+	text "THIS DECK FOCUSES ON CONFUSION TO"
+	linefw "KEEP THE FOE UNSTABLE."
+	done
+
+Text03ad:
+	text "THIS SPECIAL DECK SHOWS THE HOT,"
+	linefw "BLAZING POWER OF FIRE!"
+	done
+
+Text03ae:
+	text "THE DUEL MAY BE FULL OF TRAPS."
+	linefw "DON'T MOVE ABOUT CARELESSLY!"
+	done
+
+Text03af:
+	text "THIS SPECIALTY DECK IS FULL OF"
+	linefw "TOUGH, HARD-KICKING POKÉMON!"
+	done
+
+Text03b0:
+	text "ROCK BLAST IS SUPER EFFECTIVE."
+	linefw "ATTACK EVERYONE AT ONCE!"
+	done
+
+Text03b1:
+	text "UTILIZE THE SUPERHUMAN STRENGTH OF"
+	linefw "YOUR POKÉMON TO SHIFT YOUR FOES!"
+	done
+
+Text03b2:
+	text "USE DARK SLOWBRO'S REEL IN POWER"
+	linefw "TO POWER UP WIGGLYTUFF'S ATTACKS!"
+	done
+
+Text03b3:
+	text "COLORLESS POKÉMON PARTNERS. DON'T"
+	linefw "WORRY ABOUT WEAKNESS OR RESISTANCE! "
+	done
+
+Text03b4:
+	text "A DECK FOCUSING AROUND DREAM EATER"
+	linefw "AND LONG DISTANCE HYPNOSIS ATTACKS."
+	done
+
+Text03b5:
+	text "USE DARK GENGAR'S PLAY TRICKS POWER"
+	linefw "TO WEAKEN THE OPPONENT'S BENCH!"
+	done
+
+Text03b6:
+	text "REMOVE THE FOE'S ENERGY AND BLOCK"
+	linefw "ESCAPE WITH SNORLAX!"
+	done
+
+Text03b7:
+	text "A DECK OF FLYING POKÉMON THAT FIGHT"
+	linefw "TOGETHER AND RETREAT WHEN NECESSARY."
+	done
+
+Text03b8:
+	text "POWERFUL POKÉMON WITH STRONG ATTACKS"
+	linefw "THAT COME TO FIGHT QUICKLY!"
+	done
+
+Text03b9:
+	text "DRAGONITE'S RAMPAGES TAKE DOWN"
+	linefw "EVERY KIND OF POKÉMON!"
+	done
+
+Text03ba:
+	text "CONTROL DARK CHARIZARD'S HEINOUS"
+	linefw "CONTINUOUS FIREBALL ATTACK!"
+	done
+
+Text03bb:
+	text "A DECK FOCUSED ON DARK BLASTOISE."
+	linefw "AERODACTYL WILL STOP ELECTRIC FOES."
+	done
+
+Text03bc:
+	text "DISH OUT STATUS CONDITIONS WITH"
+	linefw "DARK VENUSUAUR'S HORRID POLLEN!"
+	done
+
+Text03bd:
+	text "STRENGTHEN YOUR BENCH WITH DARK"
+	linefw "DRAGONITE'S SUMMON MINIONS POWER!"
+	done
+
+Text03be:
+	text "THE POWER OF YOUR RARE VENUSAUR CARD"
+	linefw "WILL PROTECT YOUR ALLIES."
+	done
+
+Text03bf:
+	text "SHOOT WATER GUN WILDLY ABOUT!"
+	linefw "MARILL IS SO CUTE!"
+	done
+
+Text03c0:
+	text "THE RARE DUGTRIO CARD'S EARTH WAVE"
+	linefw "ATTACK WEAKENS THE OPPONENT'S BENCH! "
+	done
+
+Text03c1:
+	text "A DECK FILLED WITH RARE CARDS."
+	linefw "WORK HARD TO COLLECT THEM ALL!"
+	done
+
+Text03c2:
+	text "TEAM GR'S MEWTWO...?"
+	linefw "ITS ARMY IS HERE TO FIGHT!"
+	done
+
+Text03c3:
+	text "DISCOVER THE POWER OF THE "
+	linefw "MYSTERIOUS POKÉMON LUGIA!"
+	done
+
+Text03c4:
+	text "MAKE THINGS DIFFICULT FOR YOUR"
+	linefw "OPPONENT WITH TRICKY TRAINER CARDS!"
+	done
+
+Text03c5:
+	text "A DECK THAT WILL TEACH TRUE TERROR"
+	linefw "TO ANY OPPONENT!"
+	done
+
+Text03c6:
+	text "   --POKÉMON CARD GLOSSARY--"
+	done
+
+Text03c7:
+	text "POKÉMON CARD GAME BASICS"
+	done
+
+Text03c8:
+	text "CARD TYPE EXPLANATIONS"
+	done
+
+Text03c9:
+	text "STATUS AND WINNING/LOSING"
+	done
+
+Text03ca:
+	text "SPECIAL DUEL RULES"
+	done
+
+Text03cb:
+	text "EXIT GLOSSARY"
+	done
+
+Text03cc:
+	text "DECKS               BENCH"
+	linefw "YOUR DECK           ACTIVE POKÉMON"
+	linefw "THE DISCARD PILE    BENCHED POKÉMON"
+	linefw "YOUR HAND           PRIZE CARDS"
+	linefw "BATTLE ARENA        DAMAGE COUNTERS"
+	done
+
+Text03cd:
+	text "ENERGY CARDS        ATTACKS"
+	linefw "TRAINER CARDS       POKÉMON POWERS"
+	linefw "BASIC POKÉMON       WEAKNESS"
+	linefw "EVOLUTION CARDS     RESISTANCE"
+	linefw "DARK EVOLUTION      RETREAT COST"
+	done
+
+Text03ce:
+	text "POISON STATUS       WIN CONDITION 1"
+	linefw "PARALYSIS STATUS    WIN CONDITION 2"
+	linefw "SLEEP STATUS        WIN CONDITION 3"
+	linefw "CONFUSE STATUS      SUDDEN DEATH"
+	done
+
+Text03cf:
+	text "CHLOROPHYLL         EARTH POWER"
+	linefw "THUNDER CHARGE      LOW RESISTANCE"
+	linefw "FLAME ARMOR         ENERGY RETURN"
+	linefw "SMALL BENCH         TOUGH ESCAPE"
+	linefw "RUNNING WATER       BLACK HOLE"
+	done
+
+Text03d0:
+	text "PLEASE SELECT A TOPIC."
+	done
+
+Text03d1:
+	text "POKÉMON CARD GAME BASICS"
+	done
+
+Text03d2:
+	text "CARD TYPE EXPLANATIONS"
+	done
+
+Text03d3:
+	text "STATUS AND WINNING/LOSING"
+	done
+
+Text03d4:
+	text "SPECIAL DUEL RULES"
+	done
+
+Text03d5:
+	text "ABOUT DECKS"
+	done
+
+Text03d6:
+	text "ABOUT YOUR DECK"
+	done
+
+Text03d7:
+	text "ABOUT THE DISCARD PILE"
+	done
+
+Text03d8:
+	text "ABOUT YOUR HAND"
+	done
+
+Text03d9:
+	text "ABOUT THE BATTLE ARENA"
+	done
+
+Text03da:
+	text "ABOUT THE BENCH"
+	done
+
+Text03db:
+	text "ABOUT ACTIVE POKÉMON"
+	done
+
+Text03dc:
+	text "ABOUT BENCHED POKÉMON"
+	done
+
+Text03dd:
+	text "ABOUT PRIZE CARDS"
+	done
+
+Text03de:
+	text "ABOUT DAMAGE COUNTERS"
+	done
+
+Text03df:
+	text "ABOUT ENERGY CARDS"
+	done
+
+Text03e0:
+	text "ABOUT TRAINER CARDS"
+	done
+
+Text03e1:
+	text "ABOUT BASIC POKÉMON CARDS"
+	done
+
+Text03e2:
+	text "ABOUT EVOLUTION CARDS"
+	done
+
+Text03e3:
+	text "ABOUT DARK EVOLUTION CARDS"
+	done
+
+Text03e4:
+	text "ABOUT ATTACKS"
+	done
+
+Text03e5:
+	text "ABOUT POKÉMON POWERS"
+	done
+
+Text03e6:
+	text "ABOUT WEAKNESS"
+	done
+
+Text03e7:
+	text "ABOUT RESISTANCE"
+	done
+
+Text03e8:
+	text "ABOUT RETREAT COST"
+	done
+
+Text03e9:
+	text "ABOUT POISON STATUS"
+	done
+
+Text03ea:
+	text "ABOUT PARALYSIS STATUS"
+	done
+
+Text03eb:
+	text "ABOUT SLEEP STATUS"
+	done
+
+Text03ec:
+	text "ABOUT CONFUSE STATUS"
+	done
+
+Text03ed:
+	text "ABOUT WIN CONDITION 1"
+	done
+
+Text03ee:
+	text "ABOUT WIN CONDITION 2"
+	done
+
+Text03ef:
+	text "ABOUT WIN CONDITION 3"
+	done
+
+Text03f0:
+	text "ABOUT SUDDEN DEATH"
+	done
+
+Text03f1:
+	text "ABOUT CHLOROPHYLL"
+	done
+
+Text03f2:
+	text "ABOUT THUNDER CHARGE"
+	done
+
+Text03f3:
+	text "ABOUT FLAME ARMOR"
+	done
+
+Text03f4:
+	text "ABOUT SMALL BENCH"
+	done
+
+Text03f5:
+	text "ABOUT RUNNING WATER"
+	done
+
+Text03f6:
+	text "ABOUT EARTH POWER"
+	done
+
+Text03f7:
+	text "ABOUT LOW RESISTANCE"
+	done
+
+Text03f8:
+	text "ABOUT ENERGY RETURN"
+	done
+
+Text03f9:
+	text "ABOUT TOUGH ESCAPE"
+	done
+
+Text03fa:
+	text "ABOUT BLACK HOLE"
+	done
+
+Text03fb:
+	text "IN ORDER TO DUEL WITH POKÉMON CARDS,"
+	linefw "EACH PLAYER NEEDS TO HAVE A DECK."
+	linefw "A DECK IS MADE OF 60 CARDS."
+	linefw ""
+	linefw "ADDITIONALLY, YOU MAY ONLY HAVE 4 OF"
+	linefw "ANY CARD IN YOUR DECK (EXCEPT FOR"
+	linefw "BASIC ENERGY CARDS)."
+	linefw ""
+	linefw "BUILD A DECK USING YOUR BEST"
+	linefw "POKÉMON CARDS!"
+	linefw ""
+	done
+
+Text03fc:
+	text "CARDS ARE DRAWN FROM THE DECK"
+	linefw "THROUGHOUT THE DUEL."
+	linefw ""
+	linefw "AT THE START OF EACH PLAYER'S TURN,"
+	linefw "1 CARD IS DRAWN FROM THEIR DECK."
+	linefw ""
+	linefw "IF THERE ARE NO CARDS LEFT IN THEIR"
+	linefw "DECK AT THIS TIME, THAT PLAYER LOSES"
+	linefw "THE DUEL."
+	linefw ""
+	done
+
+Text03fd:
+	text "ONCE CARDS ARE USED OR OUT OF PLAY,"
+	linefw "YOU PLACE THEM IN THE DISCARD PILE."
+	linefw ""
+	linefw "IT'S POSSIBLE TO SEE WHAT CARDS"
+	linefw "EITHER PLAYER HAS DISCARDED BY USING"
+	linefw "THE CHECK COMMAND DURING A DUEL."
+	done
+
+Text03fe:
+	text "CARDS THAT YOU PICK UP GO INTO"
+	linefw "YOUR HAND."
+	linefw ""
+	linefw "YOU MAY HAVE ANY NUMBER OF CARDS"
+	linefw "IN YOUR HAND."
+	linefw ""
+	linefw "IT'S POSSIBLE TO HAVE 10, 20, OR"
+	linefw "EVEN MORE!"
+	done
+
+Text03ff:
+	text "THE PLACE WHERE POKÉMON BATTLE IN"
+	linefw "A DUEL IS CALLED THE ARENA."
+	linefw ""
+	linefw "EACH PLAYER MUST HAVE A POKÉMON IN"
+	linefw "THE ARENA TO PLAY THE GAME."
+	linefw ""
+	linefw "DEFEAT YOUR OPPONENT'S POKÉMON TO"
+	linefw "WIN THE DUEL."
+	done
+
+Text0400:
+	text "POKÉMON NOT FIGHTING IN THE ARENA"
+	linefw "ARE KEPT ON THE BENCH."
+	linefw ""
+	linefw "YOU MAY HAVE UP TO 5 POKÉMON ON"
+	linefw "YOUR BENCH AT ANY TIME."
+	done
+
+Text0401:
+	text "THE POKÉMON EACH PLAYER HAS IN THE"
+	linefw "ARENA IS CALLED THEIR ACTIVE"
+	linefw "POKÉMON."
+	linefw ""
+	linefw "THE OPPONENT'S ACTIVE POKÉMON IS"
+	linefw "ALSO CALLED THE DEFENDING POKÉMON."
+	linefw ""
+	linefw "BATTLES TAKE PLACE BETWEEN EACH"
+	linefw "PLAYER'S ACTIVE POKÉMON."
+	done
+
+Text0402:
+	text "POKÉMON ON THE BENCH MAY BE PREPARED"
+	linefw "FOR FUTURE FIGHTS."
+	linefw ""
+	linefw "WHEN AN ACTIVE POKÉMON RETREATS OR"
+	linefw "IS KNOCKED OUT, IT IS REPLACED BY"
+	linefw "ANOTHER POKÉMON FROM THE BENCH."
+	done
+
+Text0403:
+	text "BEFORE A DUEL STARTS, A NUMBER OF"
+	linefw "PRIZE CARDS IS DECIDED AND SET"
+	linefw "ASIDE."
+	linefw ""
+	linefw "1 CARD IS DRAWN FROM THESE CARDS"
+	linefw "ANY TIME AN OPPONENT'S POKÉMON IS"
+	linefw "KNOCKED OUT."
+	linefw ""
+	linefw "WHEN ONE PLAYER DRAWS ALL OF THEIR"
+	linefw "PRIZE CARDS, THEY WIN THE DUEL."
+	done
+
+Text0404:
+	text "DAMAGE COUNTERS SHOW HOW MUCH DAMAGE"
+	linefw "A POKÉMON HAS TAKEN."
+	linefw ""
+	linefw "EACH COUNTER SYMBOLIZES 10 DAMAGE."
+	linefw ""
+	linefw "FOR EXAMPLE, IF A POKÉMON HAS 3"
+	linefw "DAMAGE COUNTERS, IT MEANS THAT"
+	linefw "POKÉMON HAS TAKEN 30 DAMAGE."
+	linefw ""
+	linefw "ONCE A POKÉMON'S DAMAGE EQUALS OR"
+	linefw "SURPASSES ITS HP, IT IS KNOCKED OUT."
+	done
+
+Text0405:
+	text "ENERGY CARDS ARE CARDS WHICH SHOW"
+	linefw "COLORED ENERGY SYMBOLS."
+	linefw "THERE ARE 7 TYPES OF ENERGY."
+	linefw ""
+	linefw "  ", "<GRASS>", " GRASS    ", "<FIGHTING>", " FIGHTING"
+	linefw "  ", "<FIRE>", " FIRE     ", "<LIGHTNING>", " ELECTRIC"
+	linefw "  ", "<WATER>", " WATER    ", "<PSYCHIC>", " PSYCHIC"
+	linefw "  ", "<COLORLESS>", " COLORLESS (ANY OF THE 7 TYPES)"
+	linefw ""
+	linefw "YOU MAY ONLY PLAY 1 ENERGY CARD"
+	linefw "PER TURN."
+	done
+
+Text0406:
+	text "TRAINER CARDS ARE CARDS WITH HELPFUL"
+	linefw "EFFECTS."
+	linefw ""
+	linefw "EACH OF THE VARIOUS TRAINER CARDS"
+	linefw "HAVE DIFFERENT EFFECTS WHEN PLAYED,"
+	linefw "SO READ THE TEXT ON THE RESPECTIVE"
+	linefw "CARDS TO FIND OUT WHAT THEY DO."
+	linefw ""
+	linefw "YOU MAY PLAY AS MANY TRAINER CARDS"
+	linefw "AS YOU LIKE EACH TURN."
+	done
+
+Text0407:
+	text "POKÉMON THAT ARE THE BASE FORM OF"
+	linefw "EVOLUTIONS ARE CALLED BASIC POKÉMON."
+	linefw ""
+	linefw "FOR EXAMPLE, BULBASAUR, CHARMANDER,"
+	linefw "AND SQUIRTLE ARE ALL BASIC POKÉMON."
+	linefw ""
+	linefw "BASIC POKÉMON MAY BE PLAYED DIRECTLY"
+	linefw "OUT OF YOUR HAND TO YOUR BENCH OR"
+	linefw "INTO THE ARENA."
+	done
+
+Text0408:
+	text "CARDS WHICH SHOW EVOLVED FORMS OF"
+	linefw "POKÉMON ARE CALLED EVOLUTION CARDS."
+	linefw "YOU MAY ONLY EVOLVE STAGE 1 POKÉMON"
+	linefw "FROM THEIR BASIC POKÉMON CARD, AND"
+	linefw "STAGE 2 FROM THEIR STAGE 1 CARD."
+	linefw "FOR EXAMPLE, YOU MAY ONLY PLAY"
+	linefw "WARTORTLE ON A SQUIRTLE, AND YOU MAY"
+	linefw "ONLY PLAY BLASTOISE ON A WARTORTLE."
+	linefw ""
+	linefw "WHEN A POKÉMON EVOLVES, IT IS HEALED"
+	linefw "OF ANY STATUS EFFECTS AND CANNOT"
+	linefw "RETURN TO ITS PREVIOUS FORM."
+	done
+
+Text0409:
+	text "A DARK EVOLUTION CARD IS PLAYED"
+	linefw "JUST LIKE A NORMAL EVOLUTION CARD."
+	linefw "SO, DARK CHARMELEON MAY BE PLAYED ON"
+	linefw "A CHARMANDER."
+	linefw ""
+	linefw "HOWEVER, SOME DARK EVOLUTION CARDS"
+	linefw "MAY ONLY BE PLAYED ON OTHER DARK"
+	linefw "EVOLUTION CARDS."
+	linefw ""
+	linefw "MAKE SURE TO LOOK CAREFULLY AT YOUR"
+	linefw "DARK EVOLUTION CARDS TO SEE WHAT"
+	linefw "POKÉMON THEY EVOLVE FROM."
+	done
+
+Text040a:
+	text "POKÉMON KNOCK OUT THEIR OPPONENTS"
+	linefw "BY USING THE ATTACKS ON THEIR CARD."
+	linefw ""
+	linefw "THE ENERGY REQUIRED TO USE EACH"
+	linefw "ATTACK IS SHOWN NEXT TO IT."
+	linefw ""
+	linefw "ATTACKS USE DIFFERENT AMOUNTS AND"
+	linefw "TYPES OF ENERGY, SO READ EACH"
+	linefw "POKÉMON CARD'S TEXT CAREFULLY."
+	linefw ""
+	linefw "POKÉMON MAY ONLY USE THEIR ATTACKS"
+	linefw "WHILE IN THE ARENA."
+	done
+
+Text040b:
+	text "POKÉMON POWERS ARE SPECIAL ABILITIES"
+	linefw "THAT MAY BE USED BEFORE ATTACKING,"
+	linefw "TYPICALLY EVEN FROM THE BENCH."
+	linefw ""
+	linefw "POKÉMON WITH POKÉMON POWERS WILL BE"
+	linefw "ANNOUNCED AS SOON AS THEY'RE PLAYED."
+	linefw ""
+	linefw "SOME POWERS ARE USED AUTOMATICALLY,"
+	linefw "WHILE OTHERS MUST BE SELECTED FROM"
+	linefw "THE BATTLE MENU TO USE."
+	linefw ""
+	linefw "READ EACH CARD'S TEXT CAREFULLY!"
+	done
+
+Text040c:
+	text "SOME POKÉMON HAVE A WEAKNESS"
+	linefw "LISTED ON THEIR CARD."
+	linefw ""
+	linefw "POKÉMON TAKE DOUBLE DAMAGE FROM"
+	linefw "ATTACKS DONE BY POKÉMON MATCHING"
+	linefw "THEIR WEAKNESS'S TYPE."
+	done
+
+Text040d:
+	text "SOME POKÉMON HAVE A RESISTANCE"
+	linefw "LISTED ON THEIR CARD."
+	linefw ""
+	linefw "ATTACKS DONE BY POKÉMON MATCHING THE"
+	linefw "RESISTANCE TYPE HAVE THEIR DAMAGE"
+	linefw "REDUCED BY 30."
+	done
+
+Text040e:
+	text "IN A DUEL, IT'S POSSIBLE TO PULL"
+	linefw "YOUR ACTIVE POKÉMON BACK TO THE"
+	linefw "BENCH AND REPLACE IT WITH ANOTHER."
+	linefw "THIS IS CALLED RETREATING."
+	linefw ""
+	linefw "IN ORDER TO RETREAT, YOUR ACTIVE"
+	linefw "POKÉMON MUST DISCARD AN AMOUNT OF"
+	linefw "ENERGY CARDS EQUAL TO THE RETREAT"
+	linefw "COST LISTED ON ITS CARD."
+	done
+
+Text040f:
+	text "POKÉMON THAT ARE POISONED TAKE 10"
+	linefw "DAMAGE AFTER EACH PLAYER'S TURN."
+	linefw ""
+	linefw "USING A TRAINER CARD OR RETREATING"
+	linefw "THE POISONED POKÉMON BACK TO THE"
+	linefw "BENCH WILL HEAL THE POISONED STATUS."
+	linefw ""
+	linefw "ADDITIONALLY, A POKÉMON IS CURED OF"
+	linefw "POISON IF IT EVOLVES."
+	done
+
+Text0410:
+	text "A POKÉMON WITH THE PARALYSIS STATUS"
+	linefw "HAS FEW OPTIONS IN BATTLE."
+	linefw ""
+	linefw "A PARALYZED POKÉMON CANNOT ATTACK OR"
+	linefw "RETREAT ON ITS NEXT TURN."
+	linefw ""
+	linefw "YOU CAN HEAL A PARALYZED POKÉMON BY"
+	linefw "USING A TRAINER CARD, EVOLVING IT,"
+	linefw "SWITCHING IT TO THE BENCH, OR"
+	linefw "WAITING FOR A TURN."
+	done
+
+Text0411:
+	text "A POKÉMON THAT IS ASLEEP CANNOT"
+	linefw "ATTACK OR RETREAT."
+	linefw ""
+	linefw "AFTER EACH PLAYER'S TURN, A COIN IS"
+	linefw "FLIPPED TO SEE IF THE SLEEPING"
+	linefw "POKÉMON AWAKENS. IF HEADS, IT DOES."
+	linefw ""
+	linefw "ALTERNATIVELY, YOU MAY HEAL THE"
+	linefw "SLEEP STATUS BY USING A TRAINER"
+	linefw "CARD OR EVOLVING THE POKÉMON."
+	done
+
+Text0412:
+	text "CONFUSED POKÉMON MUST MAKE A COIN"
+	linefw "FLIP BEFORE ATTACKING OR RETREATING."
+	linefw "IF THIS COIN FLIP IS TAILS WHILE THE"
+	linefw "POKÉMON IS ATTACKING, IT TAKES 20"
+	linefw "DAMAGE AND DOES NOT PERFORM ITS"
+	linefw "ATTACK. IF THE COIN FLIP IS TAILS"
+	linefw "FOR AN ATTEMPT TO RETREAT, THE"
+	linefw "ATTEMPT FAILS AND THE ENERGY PAID TO"
+	linefw "FLEE IS LOST."
+	linefw ""
+	linefw "IT'S POSSIBLE TO BE BOTH CONFUSED"
+	linefw "AND POISONED."
+	done
+
+Text0413:
+	text "WHEN A POKÉMON'S DAMAGE COUNTERS"
+	linefw "EQUAL OR EXCEED ITS TOTAL HP, THAT"
+	linefw "POKÉMON IS KNOCKED OUT AND ITS"
+	linefw "OPPONENT GETS TO DRAW A PRIZE CARD."
+	linefw ""
+	linefw "ONCE ALL OF A PLAYER'S PRIZE CARDS"
+	linefw "HAVE BEEN TAKEN, THEY WIN THE DUEL."
+	linefw ""
+	linefw "IN OTHER WORDS, YOU ONLY NEED TO"
+	linefw "KNOCK OUT AS MANY OF YOUR OPPONENT'S"
+	linefw "POKÉMON AS THERE ARE PRIZE CARDS."
+	done
+
+Text0414:
+	text "IF THERE ARE NO CARDS LEFT IN A"
+	linefw "PLAYER'S DECK WHEN THEIR TURN"
+	linefw "BEGINS, THAT PLAYER LOSES THE DUEL."
+	linefw ""
+	linefw "THERE ARE VARIOUS CARDS THAT ALLOW"
+	linefw "YOU TO DRAW FROM THE DECK, BUT BE"
+	linefw "CAREFUL NOT TO DRAW TOO MANY!"
+	done
+
+Text0415:
+	text "IF A PLAYER'S ACTIVE POKÉMON IS"
+	linefw "KNOCKED OUT AND THERE ARE NO OTHER"
+	linefw "POKÉMON ON HIS OR HER BENCH, THAT"
+	linefw "PLAYER LOSES THE DUEL."
+	linefw ""
+	linefw "MAKE SURE TO KEEP POKÉMON IN RESERVE"
+	linefw "ON YOUR BENCH AS OFTEN AS YOU CAN!"
+	done
+
+Text0416:
+	text "IF BOTH PLAYERS DRAW THEIR LAST"
+	linefw "PRIZE CARD AFTER THE SAME TURN,"
+	linefw "THE PLAYERS MUST PLAY SUDDEN DEATH."
+	linefw ""
+	linefw "IN SUDDEN DEATH, 1 PRIZE CARD IS"
+	linefw "PLACED AND THE FIRST PLAYER TO PICK"
+	linefw "THEIR PRIZE CARD UP WINS."
+	linefw ""
+	linefw "IF BOTH PLAYERS DRAW THEIR PRIZE"
+	linefw "CARD AT THE SAME TIME AGAIN, IT IS"
+	linefw "REPEATED UNTIL ONLY ONE PLAYER WINS."
+	done
+
+Text0417:
+	text "SPECIAL RULE 1: CHLOROPHYLL"
+	linefw ""
+	linefw "GRASS-TYPE POKÉMON CANNOT BECOME"
+	linefw "POISONED, ASLEEP, OR PARALYZED"
+	linefw "FOR THE DURATION OF THE DUEL."
+	linefw ""
+	linefw "THIS RULE IS ONLY IN EFFECT WHEN"
+	linefw "PRESENTED BEFORE A DUEL BEGINS."
+	done
+
+Text0418:
+	text "SPECIAL RULE 2: THUNDER CHARGE"
+	linefw ""
+	linefw "FOR THE DURATION OF THE DUEL, ALL"
+	linefw "ELECTRIC-TYPE POKÉMON DO 10"
+	linefw "ADDITIONAL DAMAGE FOR THEIR ATTACKS"
+	linefw "AS AN ACTIVE POKÉMON."
+	linefw ""
+	linefw "THIS RULE IS ONLY IN EFFECT WHEN"
+	linefw "PRESENTED BEFORE A DUEL BEGINS."
+	done
+
+Text0419:
+	text "SPECIAL RULE 3: FLAME ARMOR"
+	linefw ""
+	linefw "FIRE-TYPE POKÉMON DO NOT RECEIVE"
+	linefw "DOUBLE DAMAGE FROM A WEAKNESS TO"
+	linefw "WATER-TYPE ATTACKS FOR THE DURATION"
+	linefw "OF THE DUEL."
+	linefw ""
+	linefw "THIS RULE IS ONLY IN EFFECT WHEN"
+	linefw "PRESENTED BEFORE A DUEL BEGINS."
+	done
+
+Text041a:
+	text "SPECIAL RULE 4: SMALL BENCH"
+	linefw ""
+	linefw "THE NUMBER OF POKÉMON ALLOWED ON"
+	linefw "EACH PLAYER'S BENCH IS 3 FOR THE"
+	linefw "DURATION OF THE DUEL."
+	linefw ""
+	linefw "THIS RULE IS ONLY IN EFFECT WHEN"
+	linefw "PRESENTED BEFORE A DUEL BEGINS."
+	done
+
+Text041b:
+	text "SPECIAL RULE 5: RUNNING WATER"
+	linefw ""
+	linefw "WATER-TYPE POKÉMON PAY ", "<COLORLESS>", " LESS TO"
+	linefw "RETREAT TO THE BENCH FOR THE"
+	linefw "DURATION OF THE DUEL."
+	linefw ""
+	linefw "THIS RULE IS ONLY IN EFFECT WHEN"
+	linefw "PRESENTED BEFORE A DUEL BEGINS."
+	done
+
+Text041c:
+	text "SPECIAL RULE 6: EARTH POWER"
+	linefw ""
+	linefw "RESISTANCE TO FIGHTING-TYPE ATTACKS"
+	linefw "IS IGNORED FOR THE DURATION OF THE"
+	linefw "DUEL."
+	linefw ""
+	linefw "THIS RULE IS ONLY IN EFFECT WHEN"
+	linefw "PRESENTED BEFORE A DUEL BEGINS."
+	done
+
+Text041d:
+	text "SPECIAL RULE 7: LOW RESISTANCE"
+	linefw ""
+	linefw "ALL RESISTANCES BECOME -10 INSTEAD"
+	linefw "OF -30 FOR THE DURATION OF THE DUEL."
+	linefw ""
+	linefw "THIS RULE IS ONLY IN EFFECT WHEN"
+	linefw "PRESENTED BEFORE A DUEL BEGINS."
+	done
+
+Text041e:
+	text "SPECIAL RULE 8: ENERGY RETURN"
+	linefw ""
+	linefw "WHEN A POKÉMON IS KNOCKED OUT IN"
+	linefw "THIS DUEL, ALL ENERGY CARDS"
+	linefw "ATTACHED TO IT RETURN TO ITS"
+	linefw "PLAYER'S HAND."
+	linefw ""
+	linefw "THIS RULE IS ONLY IN EFFECT WHEN"
+	linefw "PRESENTED BEFORE A DUEL BEGINS."
+	done
+
+Text041f:
+	text "SPECIAL RULE 9: TOUGH ESCAPE"
+	linefw ""
+	linefw "ACTIVE POKÉMON MUST PAY ", "<COLORLESS>", " MORE"
+	linefw "TO RETREAT FOR THE DURATION OF THE"
+	linefw "DUEL."
+	linefw ""
+	linefw "THIS RULE IS ONLY IN EFFECT WHEN"
+	linefw "PRESENTED BEFORE A DUEL BEGINS."
+	done
+
+Text0420:
+	text "SPECIAL RULE 10: BLACK HOLE"
+	linefw ""
+	linefw "NO DISCARDED CARDS MAY BE RETRIEVED"
+	linefw "FOR THE DURATION OF THE DUEL."
+	linefw "(THE DISCARD PILE IS TREATED AS"
+	linefw "BEING EMPTY AT ALL TIMES.)"
+	linefw ""
+	linefw "THIS RULE IS ONLY IN EFFECT WHEN"
+	linefw "PRESENTED BEFORE A DUEL BEGINS."
+	done

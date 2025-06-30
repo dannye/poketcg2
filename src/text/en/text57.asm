@@ -1,0 +1,1103 @@
+Text105e:
+	text "YOU DON'T WANT TO CARD BATTLE?"
+	linefw "THAT'S ALRIGHT."
+	linefw "I'LL CONTINUE THE SCIENCE RESEARCH"
+	linefw "MY DECK IS BUILT AROUND, THEN."
+	done
+
+Text105f:
+	text "HERE'S A BOOSTER PACK WE RECEIVED"
+	linefw "WHEN WE GOT SOME OF OUR CARDS BACK."
+	done
+
+Text1060:
+	text "YOU SHOULD WORK HARDER TO STUDY"
+	linefw "DECKS BUILT AROUND SCIENCE RESEARCH."
+	linefw "I'M NOT IN TEAM GR, OF COURSE, BUT"
+	linefw "THEY ALSO USE SCIENCE-THEMED CARDS."
+	done
+
+Text1061:
+	text "THAT'S THE POWER OF SCIENCE."
+	linefw "A LITTLE STUDYING GOES A LONG WAY."
+	linefw "<RAMNAME>", ", DON'T GIVE UP."
+	linefw "I KNOW YOU CAN WIN!"
+	linefw "IF YOU'D LIKE TO LEARN MORE,"
+	linefw "STICK AROUND THE SCIENCE CLUB!"
+	done
+
+Text1062:
+	text "HEY HEY HEEEY! WHAT A SIGHT!"
+	linefw "EVERYTHING HERE BELONGS TO TEAM GR!"
+	linefw "THAT INCLUDES THIS CLUB'S MASTER,"
+	linefw "RICK, OF COURSE! HE'S AAALL OURS!"
+	linefw "OHHH?"
+	linefw "WHO'S THERE?!"
+	linefw "SO THE RUMORS ARE TRUE!"
+	linefw "IT'S YOU, ", "<RAMNAME>", "!"
+	linefw "LET'S SEE JUST HOW STRONG"
+	linefw "YOU ARE IN REALITY!"
+	done
+
+Text1063:
+	text "WHAT DO YOU WANT?"
+	linefw "YOU'RE SUCH A TROUBLESOME KID!"
+	linefw "IF YOU'RE ITCHING FOR A FIGHT,"
+	linefw "I'LL GLADLY SCRATCH THAT ITCH!"
+	done
+
+Text1064:
+	text "WOULD YOU LIKE TO DUEL GR No.2?"
+	done
+
+Text1065:
+	text "6 PRIZE CARDS!"
+	linefw "LET'S GOOO!"
+	done
+
+Text1066:
+	text "WELL IF YOU'RE NOT GONNA FIGHT ME,"
+	linefw "YOU'RE JUST IN THE WAY. GO AWAAAY!"
+	done
+
+Text1067:
+	text "GAHH...DEFEATED."
+	linefw "HERE, TAKE THESE BOOSTER PACKS."
+	done
+
+Text1068:
+	text "YES YES YESSS! YOU LOSE!"
+	linefw "HAND OVER YOUR CARDS OR GET OUT!"
+	done
+
+Text1069:
+	text "ALSOOO..."
+	linefw "TAKE THIS GR COIN PIECE!"
+	done
+
+Text106a:
+	text "COLLECT ALL 4 PIECES OF THE GR COIN"
+	linefw "TO EARN FREE AIRFARE AT THE AIRPORT."
+	linefw "BY THE BY, WE STILL HAVE THE SCIENCE"
+	linefw "CLUB MASTER, RICK, IN OUR CUSTODY."
+	linefw "IF YOU WANT HIM BACK, YOU'LL JUST"
+	linefw "HAVE TO COME TO GR ISLAND."
+	linefw "MAYBE I'LL SEE YOU ON OUR ISLAND!"
+	linefw "I'M OUTTA HEEERE!"
+	done
+
+Text106b:
+	text "OH? SO YOU'VE COLLECTED ALL"
+	linefw "4 PIECES OF THE GR COIN."
+	linefw "GO ON OVER TO OUR AIRPORT. SHOW THEM"
+	linefw "THAT COIN AND YOU CAN FLY FOR FREE!"
+	linefw "BY THE BY, WE STILL HAVE THE SCIENCE"
+	linefw "CLUB MASTER, RICK, IN OUR CUSTODY."
+	linefw "IF YOU WANT HIM BACK, YOU'LL JUST"
+	linefw "HAVE TO COME TO GR ISLAND."
+	linefw "MAYBE I'LL SEE YOU ON OUR ISLAND!"
+	linefw "I'M OUTTA HEEERE!"
+	done
+
+Text106c:
+	text "HEY, ", "<RAMNAME>", ". IT'S ME,"
+	linefw "JOSEPH OF THE SCIENCE CLUB."
+	linefw "LOOK AT THIS PLACE! GR No.2 OF"
+	linefw "TEAM GR IS TO BLAME FOR ALL OF THIS!"
+	linefw "OUR CLUB'S BEEN TAKEN OVER, AND OUR"
+	linefw "CLUB MASTER, RICK, WAS KIDNAPPED!"
+	linefw "I ASK YOU, ", "<RAMNAME>", "!"
+	linefw "PLEASE FIND AND RETURN RICK!"
+	linefw "ONLY YOU, THE ONE WHO DEFEATED THE"
+	linefw "GRAND MASTERS, CAN DO THIS!"
+	done
+
+Text106d:
+	text "A MEMBER OF TEAM GR IS IN OUR PLAY"
+	linefw "HALL WAITING FOR YOU, ", "<RAMNAME>", "."
+	linefw "PLEASE DO YOUR BEST"
+	linefw "TO TAKE HIM DOWN!"
+	done
+
+Text106e:
+	text "I'VE BEEN TOLD THAT GR No.2"
+	linefw "IS OVER IN THE GRASS CLUB."
+	linefw "IF I UNDERSTOOD CORRECTLY,"
+	linefw "HE'S TAKEN CONTROL OF THEIR GARDEN."
+	done
+
+Text106f:
+	text "A MEMBER OF TEAM GR IS IN OUR PLAY"
+	linefw "HALL WAITING FOR YOU, ", "<RAMNAME>", "."
+	linefw "GIVE HIM WHAT HE HAS COMING!"
+	done
+
+Text1070:
+	text "I'VE LOOKED ALL OVER BUT FOUND NO"
+	linefw "TRACE OF RICK ANYWHERE."
+	linefw "THOUGH GR No.2 HAS SUPPOSEDLY"
+	linefw "BEEN SEEN AT THE GRASS CLUB..."
+	done
+
+Text1071:
+	text "GR No.2 JUST RAN OUT IN A PANIC!"
+	linefw "SERVES HIM RIGHT!"
+	done
+
+Text1072:
+	text "UM, I'M DAVID, THE SCIENCE CLUB"
+	linefw "MEMBER WHO BUILDS RECORD MACHINES."
+	linefw "TEAM GR HAS LOCKED UP OUR DECK"
+	linefw "MACHINES, THOUGH. IT'S A MESS."
+	linefw "HOWEVER, WOULD YOU CARE TO DUEL ME?"
+	linefw "I'VE HIDDEN MY CARDS FROM THEM."
+	done
+
+Text1073:
+	text "UNTIL GR No.2 IS STOPPED, WE'LL"
+	linefw "NEVER ACCESS OUR DECK MACHINES."
+	linefw "YOU'RE THE LAST PLAYER REMAINING WHO"
+	linefw "CAN DEFEAT HIM, ", "<RAMNAME>", "."
+	linefw "BUT IF YOU'RE NOT READY YET,"
+	linefw "WHY NOT DUEL ME?"
+	done
+
+Text1074:
+	text "WOULD YOU LIKE TO DUEL DAVID?"
+	done
+
+Text1075:
+	text "WE'LL IMPLEMENT 4 PRIZE CARDS"
+	linefw "FOR THIS DUEL!"
+	linefw "I'LL HAVE YOU KNOW, THOUGH, THAT"
+	linefw "I WON'T BE DEFEATED SO SIMPLY!"
+	done
+
+Text1076:
+	text "THAT'S OKAY, I GUESS."
+	linefw "JUST DON'T FORGET THE DECK MACHINES."
+	done
+
+Text1077:
+	text "WELL, UNTIL GR No.2 IS DEFEATED,"
+	linefw "THE DECK MACHINES ARE LOST."
+	linefw "DO YOU THINK YOU CAN TAKE HIM ON"
+	linefw "ONCE YOU'RE MORE PREPARED?"
+	done
+
+Text1078:
+	text "AHH, JUST AS I EXPECTED. EASILY"
+	linefw "DEFEATED WITHOUT THE DECK MACHINES."
+	linefw "WELL, A LOSS IS A LOSS."
+	linefw "HERE, TAKE THESE BOOSTER PACKS."
+	done
+
+Text1079:
+	text "YOU CAN DEFINITELY BEAT TEAM GR!"
+	linefw "THAT'S MY HYPOTHESIS, ", "<RAMNAME>", "!"
+	done
+
+Text107a:
+	text "WITHOUT OUR DECK MACHINES,"
+	linefw "WE CAN'T STUDY OR EXPERIMENT."
+	done
+
+Text107b:
+	text "I'M ERIC, A SCIENCE CLUB MEMBER"
+	linefw "STUDYING THE POKÉMON CARD GAME."
+	linefw "BUT I CAN'T USE OUR DECK MACHINES"
+	linefw "SINCE GR No.2 LOCKED THEM UP."
+	done
+
+Text107c:
+	text "THANK YOU, ", "<RAMNAME>", "."
+	linefw "WE CAN RETURN TO THE PLAY HALL NOW."
+	done
+
+Text107d:
+	text "RICK, THE SCIENCE CLUB MASTER,"
+	linefw "HAS BEEN KIDNAPPED."
+	linefw "HE'S SUPPOSEDLY BEING HELD"
+	linefw "ON GR ISLAND."
+	linefw "I'VE HEARD OTHER CLUB MASTERS HAVE"
+	linefw "ALSO BEEN TAKEN THERE."
+	linefw "I HOPE THEY'RE ALL RIGHT..."
+	done
+
+Text107e:
+	text "WHILE RICK HAS RETURNED, MANY OTHER"
+	linefw "CLUB MASTERS ARE STILL MISSING."
+	linefw "I HOPE THE OTHERS ARE ALRIGHT."
+	done
+
+Text107f:
+	text "TEAM GR HAS RENOUNCED THEIR WAYS."
+	linefw "EVERYTHING'S PEACEFUL AGAIN!"
+	done
+
+Text1080:
+	text "THE GRAND MASTERS ARE REGARDED AS"
+	linefw "THE MOST POWERFUL CARD GAME PLAYERS."
+	linefw "BUT WHO CAN BEAT THE GRAND MASTERS?"
+	linefw "ONLY YOU HAVE SO FAR, ", "<RAMNAME>", "."
+	linefw "I DON'T KNOW HOW YOU CAN DO IT,"
+	linefw "BUT I BELIEVE IN YOU."
+	linefw "PLEASE, FIND AND BRING BACK"
+	linefw "THE GRAND MASTERS."
+	linefw "THEY SHOULD STILL HAVE THE"
+	linefw "LEGENDARY POKÉMON CARDS...RIGHT?"
+	done
+
+Text1081:
+	text "IF IT ISN'T ", "<RAMNAME>", "!"
+	linefw "WHAT'S GOING ON?"
+	linefw "I'VE HEARD ABOUT YOUR EXPLOITS!"
+	linefw "TEAM GR WAS DEFEATED!"
+	linefw "ALL THAT'S LEFT IS TO GO"
+	linefw "CLEAR OUT GR ISLAND!"
+	linefw "I WISH YOU GOOD LUCK, ", "<RAMNAME>", "!"
+	linefw "I'VE HAD NONE OF IT MYSELF..."
+	done
+
+Text1082:
+	text "YOU DID IT! ", "<RAMNAME>", ","
+	linefw "IT WAS ALL YOUR DOING!"
+	linefw "THANKS SO MUCH!"
+	linefw "WE FINALLY GOT OUR CARDS BACK."
+	done
+
+Text1083:
+	text "THANK YOU, ", "<RAMNAME>", "."
+	done
+
+Text1084:
+	text "I'M HERE STUDYING HOW I CAN"
+	linefw "TAKE DOWN TEAM GR."
+	linefw "THE RESEARCH AND TRAINING THIS"
+	linefw "CLUB OFFERS IS QUITE HELPFUL!"
+	done
+
+Text1085:
+	text "YOUR CONQUEST OVER TEAM GR"
+	linefw "WAS QUITE ADMIRABLE, ", "<RAMNAME>", "!"
+	linefw "I HOPE YOU CONTINUE IN YOUR SUCCESS"
+	linefw "AGAINST THEM IN THE FUTURE."
+	done
+
+Text1086:
+	text "I'VE BEEN DIGILENTLY STUDYING HOW"
+	linefw "TO PLAY BETTER, BUT IT'S NOT EASY."
+	linefw "HOW ON EARTH HAVE YOU GOTTEN SO"
+	linefw "FIERCELY STRONG, ", "<RAMNAME>", "?"
+	linefw "BOY, POKÉMON CARDS SURE ARE A DEEP"
+	linefw "AND COMPLEX SUBJECT..."
+	done
+
+Text1087:
+	text "NONE MAY ENTER. THE DREADED"
+	linefw "CATASTROPHE DECKS ARE SEALED INSIDE."
+	linefw "      GREAT ROCKET KING"
+	linefw "             VILLICCI"
+	done
+
+Text1088:
+	text "WELCOME TO THE SEALED FORTRESS!!"
+	done
+
+Text1089:
+	text "ALL OF THE RESIDENTS OF THIS FORT"
+	linefw "WERE ONCE FEARED CARD GAME PLAYERS."
+	linefw "OUR POWER WAS SO FRIGHTENING THAT"
+	linefw "WE WERE ALL LOCKED INSIDE..."
+	linefw "FATE HAS BROUGHT YOU TO THIS PLACE."
+	linefw "WHY NOT INDULGE ITS HOSTS' REQUESTS?"
+	linefw "HAVE CARD BATTLES WITH US. YOU WILL"
+	linefw "LEARN THE POWER OF YOUR DECK."
+	linefw "SPEAK TO THE STATUE OF THE PLAYER"
+	linefw "YOU WISH TO CHALLENGE."
+	linefw "WE ARE ALL SKILLED AT CARD COMBAT."
+	linefw "CHOOSE YOUR OPPONENT WISELY!"
+	done
+
+Text108a:
+	text "OH, HAVE YOU RETURNED?"
+	linefw "YOU REALLY SHOULDN'T HAVE..."
+	linefw "BUT SINCE YOU'RE HERE, YOU MAY"
+	linefw "CHALLENGE US AT YOUR LEISURE."
+	done
+
+Text108b:
+	text "POISON STORM DECK"
+	done
+
+Text108c:
+	text "THERE IS A STONE STATUE HERE"
+	linefw "WITH AN INSCRIPTION."
+	linefw "'GHOST MASTER ", "<RAMTEXT>", ":"
+	linefw "<RAMTEXT>", "'"
+	done
+
+Text108d:
+	text "WOULD YOU LIKE TO DUEL ", "<RAMTEXT>", "?"
+	done
+
+Text108e:
+	text "OF ALL THE MASTERS HERE,"
+	linefw "YOU'D LIKE TO CHALLENGE ME MOST?"
+	linefw "ARE YOU PREPARED TO FIGHT?"
+	linefw "THEN MEET ME AT THE DUELLING TABLE."
+	done
+
+Text108f:
+	text "LET'S HAVE A FULL FIGHT WITH"
+	linefw "6 PRIZE CARDS."
+	done
+
+Text1090:
+	text "I'LL SHOW YOU THE POWER OF MY"
+	linefw "'POISON STORM' DECK."
+	done
+
+Text1091:
+	text "WOW...COLOR ME SURPRISED."
+	linefw "I ACTUALLY LOST."
+	done
+
+Text1092:
+	text "HEH HEH HEH...WELL, THAT'S THAT."
+	linefw "PREPARE YOURSELF FOR YOUR NEXT DUEL."
+	linefw "HOPEFULLY WE'LL MEET AGAIN,"
+	linefw "<RAMNAME>", "."
+	done
+
+Text1093:
+	text "I'M SURE YOU UNDERSTAND NOW"
+	linefw "WHY OUR DECKS ARE SO FEARED."
+	linefw "YOU CAN'T WIN, ", "<RAMNAME>", "."
+	linefw "YOU SHOULD NOT HAVE EVEN COME HERE."
+	linefw "THANK YOU FOR PLAYING, BUT YOU"
+	linefw "REALLY SHOULD LEAVE WHILE YOU CAN."
+	done
+
+Text1094:
+	text "EVERYONE'S FRIENDS DECK"
+	done
+
+Text1095:
+	text "BEFORE WE CAN FIGHT,"
+	linefw "YOU MUST SIT AT THE DUELLING TABLE."
+	done
+
+Text1096:
+	text "I'M THE YOUNGEST MASTER HERE."
+	linefw "NICE TO MEETCHA!"
+	linefw "LET'S START THE DUEL ALREADY!"
+	linefw "SET DOWN YOUR 6 PRIZE CARDS."
+	linefw "I'M GOING TO SHOW YOU MY PRIZED"
+	linefw "'EVERYONE'S FRIENDS' DECK!"
+	done
+
+Text1097:
+	text "YOU THINK YOU CAN TAKE ME?"
+	linefw "I GUESS WE'LL FIND OUT SOON ENOUGH."
+	linefw "LET'S GET TO THE FIGHT ALREADY!"
+	linefw "6 PRIZE CARDS!"
+	done
+
+Text1098:
+	text "EH? I LOST? HEH, I GUESS I'VE GOT"
+	linefw "TO GIVE YOU A BOOSTER PACK, THEN."
+	done
+
+Text1099:
+	text "YOUR DECK IS CERTAINLY A TOUGH ONE"
+	linefw "AFTER ALL, I MUST ADMIT."
+	linefw "SEE YA LATER!"
+	done
+
+Text109a:
+	text "DON'T WORRY SO MUCH ABOUT THE LOSS!"
+	linefw "IT'S ONLY NATURAL, YOU KNOW?"
+	linefw "SEE YA LATER!"
+	done
+
+Text109b:
+	text "INVINCIBLE POKÉMON DECK"
+	done
+
+Text109c:
+	text "I'D BE HAPPY TO FIGHT YOU. IT'S BEEN"
+	linefw "TIRING WAITING FOR OPPONENTS."
+	done
+
+Text109d:
+	text "BY PROFESSION AND BY NAME,"
+	linefw "I AM KNOWN AS MAGICIAN."
+	linefw "OUR CARD BATTLE WILL BE A FULL GAME"
+	linefw "WITH 6 PRIZE CARDS."
+	linefw "ALLOW ME TO SHOW YOU MY"
+	linefw "'INVINCIBLE POKÉMON' DECK."
+	done
+
+Text109e:
+	text "ALLOW ME TO SHOW YOU MY"
+	linefw "'INVINCIBLE POKÉMON' DECK."
+	done
+
+Text109f:
+	text "HO HO HO! YOU'RE QUITE COMPETENT"
+	linefw "TO HAVE WON AGAINST ME."
+	linefw "HERE, TAKE THIS GIFT."
+	linefw "I REWARD ALL THOSE WHO DEFEAT ME..."
+	done
+
+Text10a0:
+	text "YOU HAVE MY DEEPEST THANKS FOR"
+	linefw "A TRULY MEMORABLE BATTLE."
+	linefw "I'LL BE LEAVING, NOW..."
+	done
+
+Text10a1:
+	text "YOU LOST. IN THE END, YOU COULDN'T"
+	linefw "DO A THING TO STOP ME."
+	linefw "IT'S NEARLY IMPOSSIBLE TO DEFEAT ME."
+	linefw "THAT'S WHY I AM SO FEARED, YOU SEE."
+	linefw "I'LL BE LEAVING, NOW..."
+	done
+
+Text10a2:
+	text "SEALED TRAINER DECK"
+	done
+
+Text10a3:
+	text "ARE YOU CHALLENGING ME?"
+	linefw "YOU'VE GOT GUTS, KID!"
+	done
+
+Text10a4:
+	text "THE NAME'S WARREN!"
+	linefw "YOU WON'T BEAT ME EASILY!"
+	linefw "LET'S GO! 6 PRIZE CARDS!"
+	linefw "OUR FIGHT WILL BE TO 6 PRIZE CARDS!"
+	linefw "YOU WON'T FEEL SO HOT WHEN YOU"
+	linefw "FIGHT MY 'SEALED TRAINER' DECK!"
+	done
+
+Text10a5:
+	text "TIME FOR ME TO BREAK OUT MY"
+	linefw "'SEALED TRAINER' DECK AGAIN!"
+	done
+
+Text10a6:
+	text "DANGIT ALL--!"
+	linefw "IN THE END, I LOST!"
+	linefw "TCH!! I GUESS IT WAS INEVITABLE."
+	linefw "HERE, TAKE THIS BOOSTER PACK."
+	done
+
+Text10a7:
+	text "MARK MY WORDS, KID:"
+	linefw "I WON'T BE DEFEATED NEXT TIME!"
+	linefw "'BYE!"
+	done
+
+Text10a8:
+	text "HA HA HA! I DID IT AGAIN!"
+	linefw "I READ YOU LIKE A BOOK, KID!"
+	linefw "POP BY FOR ANOTHER BATTLE SOMETIME,"
+	linefw "IF YOU DARE! BYE-BYE!"
+	done
+
+Text10a9:
+	text "KINDLED FLAME DECK"
+	done
+
+Text10aa:
+	text "OOH-HYAHYAHYAHYA!"
+	linefw "YOU WANT TO FIIIGHT? REEEALLY?"
+	done
+
+Text10ab:
+	text "I'M THE JOKER, PIERROT. TO CHALLENGE"
+	linefw "ME, YOU MUST BE A JOKER AS WELL!"
+	linefw "6 PRRRRIZE CARDS!"
+	linefw "LEEEEEET'S BOOGIE!"
+	done
+
+Text10ac:
+	text "KINDLED FLAME DECK..."
+	linefw "HERE WE GOOOOO!"
+	done
+
+Text10ad:
+	text "OOH-HYAHYAHYAHYA!"
+	linefw "IT'S MY LOSS-LOSS-LOSS-LOSS-LOSS!"
+	done
+
+Text10ae:
+	text "OKEEDOKE, SLOWPOKE!"
+	linefw "SMELL YOU LAAAATER!"
+	done
+
+Text10af:
+	text "OOH-HYAHYAHYAHYA!"
+	linefw "I WON-WON-WON-WON-WON!"
+	linefw "I GUESS WE'RE DONE-DONE, DUM-DUM!"
+	linefw "SEE YOU LATER, POTATER!!"
+	done
+
+Text10b0:
+	text "CONFUSION DAMAGE DECK"
+	done
+
+Text10b1:
+	text "GOOD AFTERNOON!"
+	linefw "DO I FINALLY HAVE A CUSTOMER?"
+	linefw "I'LL GLADLY TAKE YOUR ORDER"
+	linefw "IF YOU HAVE A SEAT AT THE TABLE!"
+	done
+
+Text10b2:
+	text "HOW DO YOU DO?"
+	linefw "MY NAME IS ANNA."
+	linefw "WOULD YOU LIKE TO ORDER A CARD DUEL?"
+	linefw "PLEASE PAY WITH 6 PRIZE CARDS."
+	done
+
+Text10b3:
+	text "FOR THE CARD BATTLE YOU ORDERED,"
+	linefw "PLEASE PAY WITH 6 PRIZE CARDS!"
+	done
+
+Text10b4:
+	text "THANKS FOR YOUR BUSINESS! HERE'S A"
+	linefw "BOOSTER PACK FOR YOUR CHANGE."
+	done
+
+Text10b5:
+	text "THANK YOU VERY MUCH FOR THE BATTLE!"
+	linefw "I'LL BE WAITING FOR YOU TO RETURN!"
+	done
+
+Text10b6:
+	text "THANK YOU VERY MUCH FOR THE BATTLE!"
+	done
+
+Text10b7:
+	text "BIG THUNDER DECK"
+	done
+
+Text10b8:
+	text "IF YOU WANT TO FIGHT ME,"
+	linefw "GO SIT AT THE DUELLING TABLE."
+	done
+
+Text10b9:
+	text "I AM FRANK."
+	linefw "GLAD YOU ASKED TO FIGHT."
+	linefw "ALRIGHTY, THEN."
+	linefw "LET'S HAVE US A 6 PRIZE CARD BOUT."
+	done
+
+Text10ba:
+	text "YOU'LL BE SHAKING BEFORE MY"
+	linefw "'BIG THUNDER' DECK!"
+	done
+
+Text10bb:
+	text "WELL DON'T THAT BEAT ALL?"
+	linefw "INCREDIBLY DONE, KID."
+	done
+
+Text10bc:
+	text "I'LL BE HERE WAITIN' FOR YOU!"
+	linefw "CHALLENGE ME AGAIN SOMETIME!"
+	linefw "I'LL BE SEEIN' YOU!"
+	done
+
+Text10bd:
+	text "I'VE WON! NOW YOU CAN SEE WHY"
+	linefw "I HAVE THE TITLE OF GHOST MASTER!"
+	linefw "IT'S ALL BECAUSE OF MY STRENGTH!"
+	linefw "TAKE IT EASY, PAL!"
+	done
+
+Text10be:
+	text "POWER OF DARKNESS DECK"
+	done
+
+Text10bf:
+	text "SIT AT THE DUELLING TABLE..."
+	done
+
+Text10c0:
+	text "I AM MASQUERADE..."
+	linefw "...6 PRIZE CARDS."
+	done
+
+Text10c1:
+	text "MY 'POWER OF DARKNESS' DECK..."
+	done
+
+Text10c2:
+	text "A BOOSTER PACK FOR WINNING..."
+	done
+
+Text10c3:
+	text "FAREWELL..."
+	done
+
+Text10c4:
+	text "NOW YOU UNDERSTAND WHY OUR DECKS"
+	linefw "ARE SO FEARED."
+	linefw "FEAR IS ONLY NATURAL..."
+	linefw "FAREWELL..."
+	done
+
+Text10c5:
+	text "TORRENTIAL DOWNPOUR DECK"
+	done
+
+Text10c6:
+	text "HIIIII! HELLO THERE!"
+	linefw "YOU WANNA BATTLE, RIGHT?"
+	linefw "THEN GO SIT AT THE DUELLING TABLE!"
+	done
+
+Text10c7:
+	text "I'M MARY."
+	linefw "NICE TO MEET YOU!"
+	linefw "IT'S GREAT TO HAVE A CARD BATTLE"
+	linefw "AFTER WAITING FOR SUCH A LONG TIME!"
+	linefw "TO GET THE MOST ENJOYMENT OUT OF IT,"
+	linefw "LET'S PLAY TO 6 PRIZE CARDS!"
+	done
+
+Text10c8:
+	text "WITNESS THE POWER OF MY"
+	linefw "'TORRENTIAL DOWNPOUR' DECK!"
+	linefw "JUST LIKE LAST TIME,"
+	linefw "LET'S USE 6 PRIZE CARDS."
+	done
+
+Text10c9:
+	text "DID MY SKILLS GET RUSTY BECAUSE I"
+	linefw "HAVEN'T PLAYED IN SUCH A LONG TIME?"
+	done
+
+Text10ca:
+	text "THANKS SO MUCH FOR PLAYING CARDS"
+	linefw "WITH ME. YOU'LL PLAY AGAIN, RIGHT?"
+	linefw "GOODBYE FOR NOW!"
+	done
+
+Text10cb:
+	text "EVEN THOUGH I WON, DON'T THINK"
+	linefw "THAT YOU WEREN'T A HARD OPPONENT!"
+	linefw "I'M ALWAYS ITCHING TO SEE WHAT KINDS"
+	linefw "OF DECKS MY ADVERSARIES PLAY WITH."
+	linefw "LET'S FIGHT AGAIN SOON!"
+	linefw "GOODBYE FOR NOW!"
+	done
+
+Text10cc:
+	text "LOOK AT THAT! GENE!"
+	linefw "IT SEEMS YOU'RE ABOUT TO LOSE!"
+	linefw "THIS PLACE'LL SOON BE UNDER"
+	linefw "THE CONTROL OF TEAM GR!"
+	done
+
+Text10cd:
+	text "BUT YOU SEE..."
+	linefw "I'M GENE!"
+	linefw "I'LL SHOW YOU WHY THEY CALL ME"
+	linefw "THE ROCK CLUB MASTER!"
+	done
+
+Text10ce:
+	text "SAVE YOURSELF THE TROUBLE! FALL TO"
+	linefw "YOUR KNEES AND RESPECT ME, GR No.1!"
+	done
+
+Text10cf:
+	text "AH, BUT YOU'RE SO INEXPERIENCED!"
+	linefw "I WON'T DO ANYTHING OF THE SORT!"
+	done
+
+Text10d0:
+	text "GAH!"
+	linefw "IMPOSSIBLE...!"
+	done
+
+Text10d1:
+	text "THAT I, GR No.1 OF TEAM"
+	linefw "GREAT ROCKET, WOULD LOSE..."
+	done
+
+Text10d2:
+	text "TCH!! SO IT SEEMS I'VE FAILED TO"
+	linefw "CAPTURE THE ROCK CLUB..."
+	linefw "IT FIGURES THAT THE ROCK CLUB'S"
+	linefw "THE ONLY ONE GOOD AT DEFENSE..."
+	done
+
+Text10d3:
+	text "ROCK CLUB MASTER GENE!!"
+	linefw "I MAY BE RETREATIN' TODAY..."
+	linefw "BUT BE WARNED!"
+	linefw "I'LL RETURN AND BEAT YOU TO A PULP!"
+	done
+
+Text10d4:
+	text "YOU'RE ", "<RAMNAME>", ", THE PUPIL"
+	linefw "OF DR. MASON, AREN'T YOU?"
+	linefw "I SEE!"
+	linefw "<RAMNAME>", "!"
+	linefw "TEAM GR HAS BEEN ATTACKING THE"
+	linefw "8 CLUBS ON THIS ISLAND RECENTLY."
+	linefw "BUT I, GENE, HAVE DEFENDED THE"
+	linefw "ROCK CLUB LIKE A HARDENED STONE."
+	linefw "THE OTHER CLUBS, THOUGH,"
+	linefw "SEEM TO HAVE BEEN TAKEN OVER."
+	linefw "I KNOW YOU HAD THE POWER TO DEFEAT"
+	linefw "THE GRAND MASTERS ONCE BEFORE!"
+	linefw "PLEASE HELP ALL OF THE OTHER"
+	linefw "CLUBS BY TAKING DOWN TEAM GR!"
+	done
+
+Text10d5:
+	text "SO YOUR CARDS WERE TAKEN AWAY."
+	linefw "DON'T DESPAIR, ", "<RAMNAME>", "!"
+	linefw "FEEL FREE TO DUEL THE MEMBERS OF THE"
+	linefw "ROCK CLUB TO GAIN SOME CARDS BACK!"
+	linefw "BUT I, GENE, HAVE THE TOUGHNESS"
+	linefw "OF A HARDENED STONE!"
+	linefw "I MADE A DECK THAT MAKES GR No.1'S"
+	linefw "DECK LOOK WEAK IN COMPARISON!"
+	linefw "ARE YOU READY TO FIGHT AGAINST"
+	linefw "GENE, THE ROCK CLUB MASTER?"
+	done
+
+Text10d6:
+	text "SO THE KING OF TEAM GR WAS DEFEATED"
+	linefw "AT LAST! BRAVO, ", "<RAMNAME>", "!"
+	linefw "NOW WE CAN ALL ENJOY BOTH PEACE OF"
+	linefw "MIND AND OUR POKÉMON CARDS!!"
+	done
+
+Text10d7:
+	text "YOU DROVE THAT OBNOXIOUS TEAM GR"
+	linefw "RIGHT OUT OF THE ISLAND'S CLUBS!"
+	linefw "IN ORDER TO WIN UPCOMING BOUTS,"
+	linefw "YOU'LL NEED TO COLLECT MORE CARDS."
+	done
+
+Text10d8:
+	text "SO YOU'VE COME AGAIN, ", "<RAMNAME>", "!"
+	linefw "TAKE ON GENE, THE HARDENED ROCK!"
+	done
+
+Text10d9:
+	text "<RAMNAME>", "! YOU MUST HURRY."
+	linefw "IF YOU CAN BEST ME, GENE, IN A DUEL,"
+	linefw "I'LL GIVE YOU THE DECK I USED"
+	linefw "TO FLATTEN GR No.1!"
+	linefw "WELL THEN, ARE YOU READY TO TAKE"
+	linefw "ON THE ROCK CLUB MASTER OR NOT?"
+	done
+
+Text10da:
+	text "IF YOU DEFEAT ME,"
+	linefw "I'LL GIVE YOU 2 BOOSTER PACKS!"
+	done
+
+Text10db:
+	text "WOULD YOU LIKE TO DUEL GENE?"
+	done
+
+Text10dc:
+	text "BRING IT ON!"
+	linefw "WE'LL USE 6 PRIZE CARDS."
+	done
+
+Text10dd:
+	text "6 PRIZE CARDS!"
+	linefw "1 CONTEST! LET'S GO!"
+	done
+
+Text10de:
+	text "YOU CAN'T BEAT THOSE TEAM GR GUYS"
+	linefw "IF YOU DON'T DUEL TOUGH OPPONENTS!"
+	linefw "C'MON, SHOW ME THE POWER YOU USED"
+	linefw "TO DEFEAT THE GRAND MASTERS!"
+	done
+
+Text10df:
+	text "I SEE..."
+	linefw "I'M A BIT DISAPPOINTED."
+	linefw "BUT NO MATTER! I, GENE, WILL BE"
+	linefw "WAITING HERE PATIENTLY LIKE A STONE!"
+	done
+
+Text10e0:
+	text "WHAT EXECUTION! YOU'VE FOUGHT"
+	linefw "ADMIRABLY, ", "<RAMNAME>", "!!"
+	done
+
+Text10e1:
+	text "OUR FIGHT WAS GREAT, AS I EXPECTED."
+	linefw "DON'T YOU AGREE, ", "<RAMNAME>", "?"
+	linefw "DUELS LIKE THIS ARE WHY I ENJOY"
+	linefw "PLAYING WITH POKÉMON TRADING CARDS!!"
+	done
+
+Text10e2:
+	text "WELL THAT'S A DISAPPOINTMENT."
+	linefw "YOUR DECK ISN'T TOUGH ENOUGH YET."
+	linefw "IF YOU CAN'T DEFEAT ME, YOU WON'T"
+	linefw "STAND A CHANCE AGAINST GR No.1!"
+	done
+
+Text10e3:
+	text "YOU COULDN'T BEST MY DEFENSES,"
+	linefw "BUT IT WAS A GOOD DUEL!"
+	linefw "I'LL BE HAPPY TO TAKE YOU ON,"
+	linefw "ANY TIME!"
+	done
+
+Text10e4:
+	text "HI THERE!"
+	linefw "I'M MATTHEW OF THE ROCK CLUB."
+	linefw "DESPITE WHAT IT LOOKED LIKE, TEAM GR"
+	linefw "NEVER GOT CLOSE TO CONQUERING US!"
+	linefw "THOUGH I HAD BEEN DEFEATED BY"
+	linefw "THAT GR No.1 FELLOW..."
+	linefw "BUT TEAM GR WON'T EVER WIN AGAIN."
+	linefw "I'LL FIGHT ANYONE WHO WANTS TO DUEL!"
+	done
+
+Text10e5:
+	text "HEY, ", "<RAMNAME>", "!"
+	linefw "HOW'RE YOU FEELING?"
+	linefw "C'MON, LET'S HAVE A DUEL!"
+	linefw "NO ONE ELSE CAN BECAUSE OF TEAM GR!"
+	done
+
+Text10e6:
+	text "WOULD YOU LIKE TO DUEL MATTHEW?"
+	done
+
+Text10e7:
+	text "ALRIGHT, LET'S PLAY!"
+	linefw "WE'LL USE 4 PRIZE CARDS!"
+	linefw "IF YOU CAN BEAT ME,"
+	linefw "I'LL GIVE YOU A BOOSTER PACK!"
+	done
+
+Text10e8:
+	text "JUST MY LUCK!"
+	linefw "BUT..."
+	linefw "YOU'LL LOSE TO TEAM GR"
+	linefw "IF YOU DON'T GET SOME PRACTICE!"
+	done
+
+Text10e9:
+	text "WELL, AREN'T YOU TOUGH!"
+	linefw "HERE, TAKE THIS BOOSTER PACK."
+	done
+
+Text10ea:
+	text "JUST YOU WAIT. I WON'T BE SO"
+	linefw "EASILY DEFEATED NEXT TIME!"
+	done
+
+Text10eb:
+	text "IT'S MY WIN! HEY, YOU CAN'T THINK"
+	linefw "OF TAKING ON TEAM GR LIKE THAT!"
+	linefw "COME BACK ANY TIME YOU NEED"
+	linefw "SOME MORE PRACTICE."
+	done
+
+Text10ec:
+	text "I'M RYAN, A SCULPTOR AND"
+	linefw "MEMBER OF THE ROCK CLUB!"
+	linefw "TEAM GREAT ROCKET..."
+	linefw "THE MONIKER GR No.1..."
+	linefw "THERE'S NO ONE, NO MATTER HOW WEIRD,"
+	linefw "THAT OUR CLUB MASTER CAN'T OVERCOME!"
+	linefw "WE'LL FIGHT AGAINST ALL OF TEAM GR!"
+	linefw "WE HAVE THE MIGHT!"
+	done
+
+Text10ed:
+	text "I'M RYAN, THE HEAD SCULPTOR"
+	linefw "OF THE ROCK CLUB."
+	linefw "WHAT IS IT, ", "<RAMNAME>", "?"
+	linefw "IF YOU'RE HERE TO DUEL, I'M GAME."
+	done
+
+Text10ee:
+	text "WOULD YOU LIKE TO DUEL RYAN?"
+	done
+
+Text10ef:
+	text "ARE 4 PRIZE CARDS ACCEPTABLE?"
+	linefw ""
+	linefw "IF YOU BEAT ME,"
+	linefw "I'LL GIVE YOU A BOOSTER PACK!"
+	done
+
+Text10f0:
+	text "WITHOUT A GOOD OCCASIONAL FIGHT,"
+	linefw "YOUR BODY AND MIND WILL GET WEAK!"
+	linefw "SEE YA LATER."
+	linefw "COME BACK SOMETIME."
+	done
+
+Text10f1:
+	text "GAAAHH, I LOST! AS PROMISED,"
+	linefw "HERE'S YOUR BOOSTER PACK."
+	done
+
+Text10f2:
+	text "YOUR BODY AND MIND ARE BOTH"
+	linefw "IMPRESSIVELY STRONG AFTER ALL!"
+	linefw "I'LL TAKE YOU ON WHEN YOU LIKE,"
+	linefw "ANY TIME! KYAH!"
+	done
+
+Text10f3:
+	text "EEYAH!!"
+	linefw "IT'S MY WIN!"
+	linefw "THAT WAS THE TRUE STRENGTH"
+	linefw "OF MY BODY AND MY MIND!"
+	done
+
+Text10f4:
+	text "GOOD OL' GENE..."
+	linefw "HE'S SO COMPLACENT AND RESERVED."
+	linefw "HE KEPT HIS COOL DURING THE DUEL"
+	linefw "AGAINST GR No.1 AND EASILY WON."
+	linefw "IT'S EASY TO SEE WHY EVERYONE"
+	linefw "ADMIRES HIM IN THIS CLUB."
+	linefw "HEY, WHY DON'T WE HAVE A DUEL?"
+	linefw "I'D LOVE TO PRACTICE MY OWN STYLE."
+	done
+
+Text10f5:
+	text "HAVE YOU COME TO HELP ME PRACTICE MY"
+	linefw "CALM, COLLECTED NEW DUELLING STYLE?"
+	done
+
+Text10f6:
+	text "WOULD YOU LIKE TO DUEL ANDREW?"
+	done
+
+Text10f7:
+	text "ALRIGHT, WE'LL USE A"
+	linefw "STYLISH 4 PRIZE CARDS!"
+	done
+
+Text10f8:
+	text "DAWW, I CAN'T PRACTICE MY STYLE"
+	linefw "IF EVERYONE REFUSES TO DUEL ME!"
+	done
+
+Text10f9:
+	text "WELL, I GUESS IT'S MY LOSS."
+	linefw "I'LL GIVE YOU A BOOSTER PACK."
+	linefw "IT'S PART OF MY STYLE TO HAVE"
+	linefw "NO REGRETS WHATSOEVER!"
+	done
+
+Text10fa:
+	text "I LOVE A GOOD DUEL!"
+	linefw "IT HELPS DEVELOP MY OWN STYLE!"
+	done
+
+Text10fb:
+	text "YOU HAVE TO BE A LITTLE MORE"
+	linefw "STYLISH, LIKE ME, IF YOU WANNA WIN!"
+	linefw "DON'T YOU THINK I LOOK SO COOL"
+	linefw "CASUALLY GIVING YOU STYLE TIPS?"
+	done
+
+Text10fc:
+	text "THAT'S INDEED POWER ENOUGH TO"
+	linefw "DEFEAT THE GRAND MASTERS!"
+	linefw "TAKE THIS, MY"
+	linefw "GR No.1 K.O. DECK."
+	linefw "IT SHOULD PROVE USEFUL FOR"
+	linefw "DUELLING GR No.1!"
+	done
+
+Text10fd:
+	text "<RAMNAME>", " GOT THE"
+	linefw "GR No.1: K.O. DECK!"
+	done
+
+Text10fe:
+	text "OH, THAT'S SURPRISING. YOU DON'T"
+	linefw "HAVE THE SPACE TO MAKE A DECK."
+	linefw "HERE, I'LL GIVE YOU ALL 60 CARDS"
+	linefw "THAT YOU NEED TO DO SO INSTEAD!"
+	done
+
+Text10ff:
+	text "<RAMNAME>", " GOT 60 CARDS"
+	linefw "TO MAKE A NEW DECK!"
+	done
+
+Text1100:
+	text "THE CARD LIST FOR THE DECK HAS ALSO"
+	linefw "BEEN SENT TO THE DECK MACHINE."
+	linefw "YOU CAN BUILD IT USING DR. MASON'S"
+	linefw "AUTOMATIC DECK MACHINE."
+	done
+
+Text1101:
+	text "ALSO..."
+	linefw "TAKE THIS GIFT FROM ME!"
+	done
+
+Text1102:
+	text "YOUR LUCK MAY CHANGE IF YOU SWITCH"
+	linefw "OUT YOUR COIN FOR THIS ONE."
+	linefw "BY ALL MEANS! PLEASE USE IT IN YOUR"
+	linefw "DUEL AGAINST GR No.1!"
+	linefw "AT THE MOMENT, GR No.1 SEEMS TO"
+	linefw "HAVE RETREATED TO THE FIGHTING CLUB."
+	linefw "PLEASE, ", "<RAMNAME>", "!"
+	linefw "YOU'RE THEIR ONLY HOPE!"
+	done
+
+Text1103:
+	text "SNOR- SNOR- SNORLAAAAX!"
+	linefw "I LOOOVE SNORLAX!!"
+	linefw "HEY, DO YOU HAVE A SNORLAX Lv20"
+	linefw "CARD? IF YOU DO, MAY I HAVE IT?"
+	linefw "IF YOU DO, I'LL GLADLY TRADE YOU MY"
+	linefw "RARE JIGGLYPUFF Lv12 FOR IT!"
+	done
+
+Text1104:
+	text "HELLO THERE!"
+	linefw ""
+	linefw "HEY, HEY! LET'S TRADE CARDS!"
+	linefw "I'D LOVE A SNORLAX Lv20."
+	linefw "IN RETURN, I'LL GIVE YOU MY RARE"
+	linefw "JIGGLYPUFF Lv12. DEAL?"
+	done
+
+Text1105:
+	text "OH, YOU DON'T WANT TO TRADE?"
+	linefw "OH NOOO!"
+	linefw "LET ME KNOW IF YOU EVER CHANGE"
+	linefw "YOUR MIND, OKAY?"
+	done
+
+Text1106:
+	text "WHAT? BUT YOU DON'T HAVE"
+	linefw "A SNORLAX Lv20 CARD!"
+	linefw "THEN I GUESS WE CAN'T TRADE, EH?"
+	done

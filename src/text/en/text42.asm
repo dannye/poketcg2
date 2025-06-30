@@ -1,0 +1,412 @@
+Text080f:
+	text "END JUST AFTER CLEARING THE GAME"
+	done
+
+Text0810:
+	text "CHANGE PLAYER GENDER"
+	done
+
+Text0811:
+	text "GO TO STARTING ISLAND"
+	done
+
+Text0812:
+	text "GO TO GR ISLAND"
+	done
+
+Text0813:
+	text "GET ALL COINS"
+	done
+
+Text0814:
+	text "DELIVER ALL MAIL"
+	done
+
+Text0815:
+	text "RESET CHALLENGE MACHINE DATA"
+	done
+
+Text0816:
+	text "OPEN ALL FORTS"
+	done
+
+Text0817:
+	text "HOLD THE GM CUP (CLEAR DATA ONLY)"
+	done
+
+Text0818:
+	text "GET 10 CARDS"
+	done
+
+Text0819:
+	text "GET 10 ENERGY CARDS"
+	done
+
+Text081a:
+	text "THIS AIRSHIP WILL TAKE US TO"
+	linefw "GR ISLAND. WE'LL LEAVE IMMEDIATELY."
+	linefw "I HOPE YOU'VE MADE YOUR PREPARATIONS"
+	linefw "ALREADY! LET'S GO!"
+	done
+
+Text081b:
+	text "WOULD YOU LIKE TO RIDE THE AIRSHIP?"
+	done
+
+Text081c:
+	text "IF YOU FEEL LIKE GOING TO GR ISLAND,"
+	linefw "COME SPEAK TO ME."
+	done
+
+Text081d:
+	text "FOLLOW ME, THEN."
+	done
+
+Text081e:
+	text "WE'VE ARRIVED AT YOUR HOME ISLAND."
+	linefw "GO TALK TO YOUR FRIENDS OR WHATEVER."
+	done
+
+Text081f:
+	text "WOAH THERE!"
+	linefw "ONLY THE 'CHOSEN ONES' MAY PASS!"
+	linefw "YOU DON'T HAVE THE 4 GR COIN PIECES"
+	linefw "REQUIRED TO BE ONE OF THE 'CHOSEN'."
+	linefw "IF YOU WANT IN, FIND THE GR MEMBERS"
+	linefw "NUMBERED 1 THROUGH 4 ON THE ISLAND."
+	linefw "IF YOU MANAGE TO DEFEAT THEM ALL IN"
+	linefw "CARD DUELS, I'LL STEP ASIDE."
+	linefw "EVERY MEMBER YOU DEFEAT WILL AWARD"
+	linefw "YOU WITH A GR COIN PIECE."
+	linefw "BEAT THEM ALL AND YOU'LL BE GIVEN A"
+	linefw "RIDE TO GR ISLAND!"
+	done
+
+Text0820:
+	text "GO CHALLENGE GR 1 THROUGH GR 4 AND"
+	linefw "BRING BACK PROOF OF THEIR DEFEAT!"
+	linefw "EVERY DEFEATED MEMBER WILL AWARD"
+	linefw "YOU WITH A SPECIAL GR COIN PIECE."
+	linefw "WHEN YOU SHOW ME A COMPLETE"
+	linefw "GR COIN, I'LL LET YOU PASS!"
+	done
+
+Text0821:
+	text "OH MY, THAT'S A FULL GR COIN,"
+	linefw "ALRIGHT!"
+	linefw "GREAT! I'LL ALLOW YOU FREE PASSAGE"
+	linefw "TO GR ISLAND!"
+	linefw "FOLLOW ME."
+	done
+
+Text0822:
+	text "WE HAVE AN AIRSHIP BOUND FOR"
+	linefw "GR ISLAND DEPARTING SOON."
+	linefw "IN ORDER TO BOARD, YOU'LL NEED"
+	linefw "TO COLLECT THE 4 GR COIN PIECES."
+	linefw "PLEASE FIND THE COIN PIECES IF"
+	linefw "YOU WOULD LIKE TO RIDE."
+	done
+
+Text0823:
+	text "OH, YOU HAVE A"
+	linefw "FULLY-ASSEMBLED GR COIN."
+	linefw "IN THAT CASE, TALK WITH GR No.5"
+	linefw "ABOUT YOUR TRAVEL CONDITIONS."
+	done
+
+Text0824:
+	text "TAKE A LOOK AT THIS STATUE! IT'S A"
+	linefw "BUST OF OUR KING, VILLICCI!"
+	linefw "HE'S THE MAN WHO MADE "
+	linefw "TEAM GR'S NEW CARDS!"
+	linefw "HE'S SO AMAZING, DON'T YOU THINK?"
+	linefw "*SIGH...*"
+	done
+
+Text0825:
+	text "VILLICCI IS JUST AS AMAZING"
+	linefw "AS I HAD EXPECTED HIM TO BE."
+	linefw "IT'S NOT EASY ADMITTING YOU MADE"
+	linefw "A MISTAKE, YOU KNOW!"
+	done
+
+Text0826:
+	text "THERE ARE SOME THINGS YOU'LL NEED IF"
+	linefw "YOU WANT TO TAKE AN AIRSHIP HERE."
+	linefw "GR COIN PIECES! YOU CAN FLY ANY TIME"
+	linefw "YOU LIKE IF YOU HAVE THEM!"
+	linefw "...BUT HOW CAN I GET SOME"
+	linefw "GR COIN PIECES?"
+	done
+
+Text0827:
+	text "<RAMNAME>", "!"
+	linefw "THAT'S A GR COIN, ISN'T IT?"
+	linefw "AWW, YOU'RE SO LUCKY!"
+	linefw "I WISH I HAD A GR COIN, TOO!!"
+	done
+
+Text0828:
+	text "I'M FREE TO USE THE AIRSHIP,"
+	linefw "EVEN THOUGH I DON'T HAVE A GR COIN."
+	linefw "FINALLY, I CAN GO HAVE CARD BATTLES"
+	linefw "ON GR ISLAND!"
+	done
+
+Text0829:
+	text "WOULD YOU LIKE TO BOARD THE AIRSHIP?"
+	done
+
+Text082a:
+	text "IF YOU EVER FEEL LIKE LEAVING"
+	linefw "GR ISLAND, COME SPEAK TO ME."
+	done
+
+Text082b:
+	text "FOLLOW ME, THEN."
+	done
+
+Text082c:
+	text "YOU'RE FREE TO DO AS YOU PLEASE."
+	linefw "WELL, GO ON!"
+	linefw "IF YOU FEEL LIKE RETURNING TO YOUR"
+	linefw "ISLAND, COME AND TALK TO ME."
+	done
+
+Text082d:
+	text "WE'VE ARRIVED ON GR ISLAND."
+	linefw "EXPLORE OUR ISLAND AT YOUR LEISURE."
+	done
+
+Text082e:
+	text "OUR AIRSHIP FLIES FREELY BETWEEN"
+	linefw "THIS ISLAND AND YOUR HOME ISLAND."
+	linefw "SPEAK WITH GR No.5"
+	linefw "TO ARRANGE TRAVEL PLANS."
+	done
+
+Text082f:
+	text "YOU'RE PRETTY YOUNG COMPARED TO"
+	linefw "THE OTHERS WHO USUALLY FLY HERE."
+	linefw "SINCE YOU'VE MADE IT TO THIS ISLAND,"
+	linefw "YOU MUST BE A GOOD CARD FIGHTER."
+	done
+
+Text0830:
+	text "WE'VE BEEN TOLD THAT WE'RE ALL"
+	linefw "WELCOME TO GO TO YOUR HOME ISLAND."
+	linefw "THAT'S GREAT NEWS! I'D LOVE TO VISIT"
+	linefw "AND PLAY A FEW GAMES OVER THERE."
+	done
+
+Text0831:
+	text "DID YOU HEAR THAT SOME KID FOUGHT"
+	linefw "THEIR WAY HERE TO GR ISLAND?"
+	linefw "BLECK, IT'S YOU!"
+	linefw "IT'S NOT OVER YET."
+	linefw "HEAR THIS: "
+	linefw "WE'RE GOING TO DEFEAT YOU YET."
+	done
+
+Text0832:
+	text "HUNH?"
+	linefw "OH, IT'S YOU, ", "<RAMNAME>", "."
+	linefw "WHAT A SURPRISE! I NEVER THOUGHT YOU"
+	linefw "COULD WIN AGAINST KING VILLICCI..."
+	done
+
+Text0833:
+	text "I'LL SET THE CLUB MEMBERS FREE"
+	linefw "FROM THEIR CAGE NOW. HERE GOES--!"
+	done
+
+Text0834:
+	text "GRAAAAAAAHHH!!!!"
+	done
+
+Text0835:
+	text "DON'T THINK YOU'VE WON! I'VE STILL"
+	linefw "GOT THE FIRE CLUB UNDER MY CONTROL!"
+	linefw "I'LL BE WAITING FOR YOU"
+	linefw "AT THE FIRE CLUB, KID!"
+	done
+
+Text0836:
+	text "MY NAME IS AMY."
+	linefw "I'M THE WATER CLUB MASTER."
+	linefw "THANK YOU SO MUCH FOR DEFEATING"
+	linefw "THAT TEAM GR MEMBER!"
+	linefw "HERE-- TAKE THIS DECK AS "
+	linefw "A REWARD FOR YOUR VICTORY."
+	linefw "IT SHOULD BE USEFUL FOR"
+	linefw "BATTLING GR No.3 LATER!"
+	done
+
+Text0837:
+	text "<RAMNAME>", " GOT THE"
+	linefw "GR No.3: PUNISH DECK!"
+	done
+
+Text0838:
+	text "OH, YOU DON'T SEEM TO HAVE SPACE TO"
+	linefw "RECEIVE THE DECK AS-IS."
+	linefw "GEEZ! I'LL HAND OVER ALL 60 CARDS"
+	linefw "IN THE GR NO.3: PUNISH DECK THEN!"
+	done
+
+Text0839:
+	text "<RAMNAME>", " GOT 60 CARDS"
+	linefw "TO MAKE A NEW DECK!"
+	done
+
+Text083a:
+	text "THE INSTRUCTIONS TO MAKE THIS DECK"
+	linefw "SHOULD BE IN YOUR AUTO DECK MACHINE."
+	linefw "GO VISIT THAT DR. MASON GUY AND USE"
+	linefw "HIS MACHINE TO BUILD IT AT ANY TIME!"
+	done
+
+Text083b:
+	text "THIS IS FOR YOU AS WELL."
+	done
+
+Text083c:
+	text "IT'S GOOD TO SWITCH OUT YOUR"
+	linefw "COINS TO MATCH YOUR MOOD."
+	linefw "GR No.3 IS IN THE FIRE CLUB NOW."
+	linefw "BE EXTRA CAREFUL AROUND HIM!"
+	linefw "I KNOW YOU'LL SUCCEED,"
+	linefw "<RAMNAME>", "!!"
+	done
+
+Text083d:
+	text "GR No.3 IS IN THE FIRE CLUB NOW."
+	linefw "BE EXTRA CAREFUL AROUND HIM!"
+	linefw "I KNOW YOU'LL SUCCEED,"
+	linefw "<RAMNAME>", "!!"
+	done
+
+Text083e:
+	text "GOOD AFTERNOON, ", "<RAMNAME>", "."
+	linefw "DO YOU LIKE THE DECK I GAVE YOU?"
+	linefw "DON'T HOLD BACK WHEN FIGHTING"
+	linefw "TEAM GR! WE'RE ALL COUNTING ON YOU!"
+	done
+
+Text083f:
+	text "I ENJOY POKÉMON TRADING CARDS"
+	linefw "AS MUCH AS ANYBODY ELSE."
+	linefw "I THINK I'D EVEN ENJOY TACKLING"
+	linefw "TEAM GR IN A DUEL!"
+	done
+
+Text0840:
+	text "OH, ", "<RAMNAME>", "!"
+	linefw "I'VE HEARD OF YOUR SUCCESSES!"
+	linefw "YOU'VE BEEN SHOWING EVERYONE ON"
+	linefw "GR ISLAND HOW STRONG YOU ARE."
+	linefw "THE CARDS THAT HAVE BEEN RETURNED"
+	linefw "ALLOWED ME TO MAKE A DECENT DECK."
+	linefw "HOW ABOUT IT?"
+	linefw "WOULD YOU LIKE TO SEE IT IN ACTION?"
+	done
+
+Text0841:
+	text "AHH, YOU'RE BACK, ", "<RAMNAME>", "."
+	linefw "HOW GOES THE TEAM GR BATTLING?"
+	linefw "SINCE YOU'RE HERE AND EVERYTHING,"
+	linefw "WHY NOT HAVE A ROUND WITH ME?"
+	done
+
+Text0842:
+	text "WOULD YOU LIKE TO DUEL AMY?"
+	done
+
+Text0843:
+	text "DO 6 PRIZE CARDS SOUND GOOD TO YOU?"
+	done
+
+Text0844:
+	text "I THOUGHT I'D BE ABLE TO GIVE YOU"
+	linefw "A REAL CHALLENGE. OH, WELL."
+	done
+
+Text0845:
+	text "<RAMNAME>", ", YOUR HARD WORK"
+	linefw "LED TO YOUR DEFEAT OF TEAM GR. "
+	linefw "THERE MAY NOT BE A PLAYER ALIVE"
+	linefw "THAT CAN MATCH YOUR SKILLS."
+	linefw "HOWEVER, SINCE DUELS ARE SO FUN,"
+	linefw "I'D LOVE TO PLAY AGAINST YOU ANYWAY."
+	done
+
+Text0846:
+	text "I'M DOWN FOR A CARD BATTLE AGAINST"
+	linefw "THE MIGHTY ", "<RAMNAME>", " ANY TIME!"
+	done
+
+Text0847:
+	text "YUP, I THOUGHT THAT YOU'D END UP"
+	linefw "WINNING AFTER ALL."
+	done
+
+Text0848:
+	text "I KNOW YOUR FIGHTS AGAINST TEAM GR"
+	linefw "ARE ALL DEADLY SERIOUS."
+	linefw "JUST REMEMBER TO HAVE A LITTLE BIT"
+	linefw "OF FUN ALONG THE WAY, TOO, OKAY?"
+	done
+
+Text0849:
+	text "TEAM GR IS MUCH STRONGER THAN I AM,"
+	linefw "SO PRACTICE A LITTLE HARDER TO WIN."
+	linefw "JUST DO YOU BEST, ", "<RAMNAME>", "!"
+	done
+
+Text084a:
+	text "IT'S ONLY ME!"
+	linefw "YOU DON'T HAVE TO PLAY SO SERIOUSLY!"
+	linefw "BUT THAT'S WHAT MAKES YOU SO"
+	linefw "UNIQUE, ", "<RAMNAME>", "."
+	done
+
+Text084b:
+	text "PLEASE COME HAVE A BATTLE WITH ME"
+	linefw "AGAIN SOMETIME, ", "<RAMNAME>", "."
+	done
+
+Text084c:
+	text "YOU MUST BE TAKING IT EASY"
+	linefw "IF YOU WERE DEFEATED BY ME."
+	done
+
+Text084d:
+	text "IT IS I, JOSHUA! I HAVE RETURNED"
+	linefw "ONCE MORE TO THE PLAYING HALL!"
+	linefw "THANK YOU FOR HELPING EVERYONE OUT,"
+	linefw "<RAMNAME>", "!"
+	linefw "IN ANY CASE...HOW DO YOU DO?"
+	linefw "ARE YOU LOOKING FOR A DUEL?"
+	done
+
+Text084e:
+	text "<RAMNAME>", "! WHAT'S GOIN' ON?"
+	linefw "DO YOU WANT TO DUEL?"
+	done
+
+Text084f:
+	text "WOULD YOU LIKE TO DUEL JOSHUA?"
+	done
+
+Text0850:
+	text "THEN PLACE 4 PRIZE CARDS..."
+	linefw "AND LET'S GO!"
+	done
+
+Text0851:
+	text "YOU DON'T WANT TO DUEL?"
+	linefw " "
+	linefw "THAT'S A REAL SHAME."
+	linefw "ARE YOU AFRAID OF LOSING TO ME?"
+	done

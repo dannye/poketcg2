@@ -1,0 +1,1146 @@
+Text0c85:
+	text "THE NAME'S BERNARD. I'M THE LEADER"
+	linefw "OF TEAM GR'S FIRE FORTRESS."
+	linefw "I'M ALSO THE HEAD CHEF,"
+	linefw "BUT YOU DON'T LOOK LIKE A COOK..."
+	linefw "BEFORE WE GET DOWN TO BUSINESS,"
+	linefw "LISTEN UP."
+	linefw "WHEN OUR TEAM PUTS SPECIAL CARDS IN"
+	linefw "OUR DECKS, WE MEAN TO USE THEM."
+	linefw "PUTTING POINTLESS CARDS IN A DECK"
+	linefw "IS A FOLLY WE DON'T AIM TO PERFORM."
+	linefw "EVERY CARD SHOULD BE USEFUL IN A"
+	linefw "DUEL TO CLAIM A TRUE VICTORY!"
+	linefw "THAT'S THE AMBITION OF THE GREAT"
+	linefw "TEAM GR."
+	linefw "IT'S ALSO THE VISION OF OUR"
+	linefw "PRESTIGIOUS LEADER, KING VILLICCI."
+	linefw "KEEP THAT IN MIND WHEN YOU MEET"
+	linefw "ANY OF OUR TALENTED MEMBERS."
+	linefw "NOW THAT WE'RE ACQUAINTED,"
+	linefw "WE MAY START OUR CARD BATTLE."
+	linefw "AS THE OTHER FORTRESS LEADERS,"
+	linefw "I HAVE SPECIAL DUELLING RULES."
+	linefw "AROUND THIS FLOWING LAVA,"
+	linefw "FIRE POKÉMON ARE ESPECIALLY ROBUST."
+	linefw "IN FACT, THEIR COMMON WEAKNESS TO"
+	linefw "WATER IS EFFECTIVELY IGNORED!"
+	linefw "KEEP THAT ON YOUR MIND."
+	linefw "IF YOU'RE READY, LET'S COOK!"
+	done
+
+Text0c86:
+	text "ALLOW ME TO LAY DOWN THE TERMS OF"
+	linefw "A CARD BATTLE AGAINST ME!"
+	linefw "IF YOU DEFEAT ME,"
+	linefw "I'LL HAND OVER THE GR FIRE COIN."
+	linefw "HOWEVER, THERE'S SOME ADDITIONAL"
+	linefw "INFORMATION YOU SHOULD BE WARY OF."
+	linefw "AROUND ALL THIS MOLTEN LAVA,"
+	linefw "FIRE POKÉMON ARE ESPECIALLY TOUGH."
+	linefw "THEY'RE SO TOUGH, IN FACT, THAT"
+	linefw "THEY LOSE THEIR WEAKNESS TO WATER!"
+	linefw "HAVE YOU PREPARED YOUR DECK?"
+	linefw "LET'S GET COOKING ALREADY!"
+	done
+
+Text0c87:
+	text "WOULD YOU LIKE TO DUEL BERNARD?"
+	done
+
+Text0c88:
+	text "WE'LL USE 6 PRIZE CARDS."
+	linefw " "
+	linefw "I'M INTERESTED TO SEE JUST HOW WELL"
+	linefw "YOU CAN COOK!"
+	done
+
+Text0c89:
+	text "DID YOU THINK YOU COULD STOP MY"
+	linefw "FIRE POKÉMON WITH YOUR WATER-TYPES?"
+	linefw "FIRE POKÉMON HAVE NO WEAKNESS TO"
+	linefw "WATER DURING CARD BATTLES HERE!"
+	linefw "IF YOU WANT TO MODIFY YOUR DECK,"
+	linefw "MAKE IT SNAPPY!"
+	done
+
+Text0c8a:
+	text "I RECALL OUR PREVIOUS CARD BATTLE..."
+	linefw "YOUR INGENUITY WAS SO HOT."
+	linefw "NO MATTER! LET'S HAVE A DUEL!!"
+	linefw " "
+	linefw "THE LAVA FLOWS HERE MAKE FIRE"
+	linefw "POKÉMON EXQUISITELY ROBUST."
+	linefw "THEIR WEAKNESS TO WATER ATTACKS"
+	linefw "IS VIRTUALLY ELIMINATED!"
+	linefw "YOU DIDN'T FORGET, DID YOU?"
+	linefw "THEN LET'S HAVE A CARD BATTLE!"
+	done
+
+Text0c8b:
+	text "6 PRIZE CARDS!"
+	linefw "LET'S HAVE A GREAT MATCH, NOW!"
+	done
+
+Text0c8c:
+	text "I'LL BE WAITING PATIENTLY FOR OUR"
+	linefw "NEXT MATCH."
+	done
+
+Text0c8d:
+	text "HEH...IT'S IMPORTANT TO USE YOUR"
+	linefw "CARDS IN BATTLE, BUT YOU WERE RIGHT."
+	linefw "ALL THAT MATTERS IS THAT YOU'RE"
+	linefw "HAVING FUN WITH YOUR CARDS."
+	linefw "THANKS TO YOU, KING VILLICCI HAS"
+	linefw "SEEN THE LIGHT AND PREACHES THIS."
+	linefw "C'MON, LET'S BATTLE WITH OUR CARDS!"
+	linefw "OF COURSE, IT'S ALL FOR FUN!"
+	done
+
+Text0c8e:
+	text "URGH...IT WAS FUN."
+	linefw " "
+	linefw "THE WAY YOU HANDLE YOUR CARDS"
+	linefw "HAS SHOWN ME A THING OR TWO."
+	done
+
+Text0c8f:
+	text "I'M NOT FINISHED! I HAVEN'T DONE ALL"
+	linefw "I WANTED TO DO IN OUR CARD BATTLE!"
+	linefw "C'MON, BATTLE AGAIN WITH ME!"
+	linefw "PROMISE ME YOU'LL BE BACK!"
+	done
+
+Text0c90:
+	text "STOP, ", "<RAMNAME>", "!"
+	done
+
+Text0c91:
+	text "I'M JUST HAPPY WE COULD COOK UP"
+	linefw "A GOOD CARD BATTLE!"
+	done
+
+Text0c92:
+	text "I BRINGS ME MORE JOY TO BATTLE"
+	linefw "AGAINST YOU THAN TO WIN."
+	done
+
+Text0c93:
+	text "I'D LOVE TO SEE HOW VILLICCI HANDLES"
+	linefw "YOUR IMAGINATIVE PLAYSTYLE."
+	linefw "HERE, TAKE THIS:"
+	linefw "THE GR FIRE COIN."
+	done
+
+Text0c94:
+	text "I WONDER JUST HOW FAR YOU'LL MAKE"
+	linefw "IT ON THIS ISLAND..."
+	linefw "I HOPE YOU'LL RETURN SOMETIME FOR"
+	linefw "A CASUAL DUEL OR TWO."
+	done
+
+Text0c95:
+	text "I SUPPOSE YOU'LL BE VISITING THE"
+	linefw "GR WATER FORTRESS NEXT, EH?"
+	done
+
+Text0c96:
+	text "I SEE YOU ALREADY HAVE THE"
+	linefw "GR WATER COIN..."
+	linefw "IN THAT CASE, YOUR NEXT DESTINATION"
+	linefw "SHOULD BE THE GR FIGHTING FORTRESS."
+	done
+
+Text0c97:
+	text "JUST A MOMENT, PLEASE. I'M TRYING TO"
+	linefw "CONCOCT A NEW RECIPE."
+	linefw "OKAY, SO IF I MIX IN A PINCH OF"
+	linefw "GINGER NOW..."
+	linefw "NO, I SHOULD STOP AND THINK THIS"
+	linefw "OVER FIRST!"
+	linefw "I'M JESS, A MEMBER OF TEAM GR!"
+	linefw " "
+	linefw "BERNARD HAS GIVEN ME ORDERS TO"
+	linefw "IMPROVE MY COOKING SKILLS."
+	done
+
+Text0c98:
+	text "IF WE'RE GOING TO BATTLE, MAKE IT"
+	linefw "QUICK! I'M BUSY!"
+	linefw "IF I'M NOT CAREFUL, I COULD MESS"
+	linefw "THINGS UP IN THE LAVA."
+	done
+
+Text0c99:
+	text "WOULD YOU LIKE TO DUEL JESS?"
+	done
+
+Text0c9a:
+	text "4 PRIZE CARD BATTLES GO QUICKLY,"
+	linefw "SO LET'S USE THAT AMOUNT!"
+	done
+
+Text0c9b:
+	text "I'D LIKE TO COME UP WITH A TASTY"
+	linefw "NEW RECIPE."
+	linefw "I DON'T MIND IN THE LEAST IF YOU"
+	linefw "DON'T WANT TO FIGHT."
+	linefw "I GUESS YOU'D BE THE ONLY ONE"
+	linefw "THAT IT WOULD BE A PROBLEM FOR."
+	done
+
+Text0c9c:
+	text "BECAUSE OF MY DILIGENT WORK FINDING"
+	linefw "NEW RECIPES, I CAN FIGHT YOU FREELY."
+	done
+
+Text0c9d:
+	text "4 PRIZE CARDS."
+	done
+
+Text0c9e:
+	text "I SEE. I'LL GET RIGHT BACK TO"
+	linefw "MY COOKING, THEN!"
+	done
+
+Text0c9f:
+	text "UHH...BECAUSE I LOST, I GUESS I NEED"
+	linefw "TO GIVE YOU THIS BOOSTER PACK FIRST?"
+	done
+
+Text0ca0:
+	text "YES, WELL, I'VE WON."
+	linefw "NOW IF YOU'LL EXCUSE ME, I'M BUSY."
+	linefw "I'M GLAD THERE WAS SUCH A QUICK"
+	linefw "RESOLUTION TO OUR BOUT."
+	done
+
+Text0ca1:
+	text "ONE BOOSTER PACK FOR THE WINNER..."
+	done
+
+Text0ca2:
+	text "OH MY, I DO HAVE A LOT OF FUN"
+	linefw "PLAYING CARDS WITH YOU."
+	linefw "BY ALL MEANS, COME BACK SOMETIME"
+	linefw "FOR ANOTHER MATCH!"
+	done
+
+Text0ca3:
+	text "WELL, SINCE THE MATCH HAS ENDED,"
+	linefw "I GUESS I'LL RETURN TO MY COOKING."
+	done
+
+Text0ca4:
+	text "NEXT, I'LL OPEN THE DOORS LEADING"
+	linefw "TO KARA'S ROOM."
+	linefw "WHEN I PRESS THIS SWITCH,"
+	linefw "THEY SHOULD OPEN."
+	done
+
+Text0ca5:
+	text "YOU'RE FREE TO ADVANCE ONWARD."
+	linefw "I HOPE YOU GO QUICKLY!"
+	done
+
+Text0ca6:
+	text "I AM...ELLEN...OF TEAM GR..."
+	linefw " "
+	linefw "YOU AND I....A CARD BATTLE..."
+	linefw "YOU MUST FIGHT..."
+	linefw "IF YOU WIN...THAT WOMAN..."
+	done
+
+Text0ca7:
+	text "GRAND MASTER...COURTNEY..."
+	linefw "WILL GET...HER FREEDOM..."
+	done
+
+Text0ca8:
+	text "BATTLE...SPECIAL CONDITION..."
+	linefw "EEVEE...4 CONTAINED...IN DECK..."
+	linefw "COMPLY...THEN BATTLE..."
+	done
+
+Text0ca9:
+	text "4 EEVEES...YOUR DECK..."
+	linefw "PUT THEM IN..."
+	linefw "DO THAT...AND WE MAY BATTLE..."
+	done
+
+Text0caa:
+	text "WOULD YOU LIKE TO DUEL ELLEN?"
+	done
+
+Text0cab:
+	text "EEVEE...NOT ENOUGH..."
+	linefw "DECK...PUT IN MORE...RETURN LATER..."
+	done
+
+Text0cac:
+	text "PRIZES...4..."
+	done
+
+Text0cad:
+	text "DO...WHAT YOU LIKE..."
+	done
+
+Text0cae:
+	text "4 EEVEE...YOUR DECK..."
+	linefw "PUT THEM IN..."
+	linefw "DO THAT...WE MAY BATTLE..."
+	done
+
+Text0caf:
+	text "...I WAS DEFEATED..."
+	done
+
+Text0cb0:
+	text "YOU'RE...STRONG..."
+	done
+
+Text0cb1:
+	text "HEH..."
+	linefw "VICTORY...MINE..."
+	done
+
+Text0cb2:
+	text "YOU'RE...AMAZING...STRONG..."
+	done
+
+Text0cb3:
+	text "DECK...YOU'RE USING..."
+	linefw "HANDLE IT...WELL..."
+	done
+
+Text0cb4:
+	text "DOORS...IMPENETRABLE..."
+	linefw "MUST...DEFEAT ME..."
+	done
+
+Text0cb5:
+	text "...COURTNEY...FREE..."
+	done
+
+Text0cb6:
+	text "I'M GRAND MASTER COURTNEY, THE LASS"
+	linefw "WHOM WAS CAUGHT BY TEAM GR COWARDS!"
+	linefw "BUT...OH HO HO...I'M HAPPY THAT YOU"
+	linefw "CAME TO RESCUE ME, ", "<RAMNAME>", "."
+	linefw "BECAUSE I'M SO RELIEVED,"
+	linefw "I'LL GIVE YOU THIS CARD!"
+	done
+
+Text0cb7:
+	text "PLEASE USE IT TO EMPOWER YOUR"
+	linefw "FUTURE CARD BATTLES!"
+	linefw "OH HO HO...I THINK I'LL RETURN"
+	linefw "TO THE POKÉMON DOME."
+	linefw "REMEMBER, AT THE POKÉMON DOME..."
+	linefw "I'LL BE WAITING! OH HO HO!"
+	done
+
+Text0cb8:
+	text "...BERNARD..."
+	done
+
+Text0cb9:
+	text "...GO..."
+	done
+
+Text0cba:
+	text "I'M KNOWN NOT AS TEAM GR'S MYSTERY,"
+	linefw "BUT TEAM GR'S MR. G!"
+	linefw "BUT ANYWAY! I'M NOT QUITE UP TO THE"
+	linefw "TIMES WITH YOU YOUNG'UNS!!"
+	linefw "I CAN'T EVEN PUT TOGETHER A PROPER"
+	linefw "DECK WITHOUT TRADING FIRST!"
+	linefw "WOULD YOU BE SO KIND AS TO HELP ME?"
+	linefw "I REQUIRE BUT A SINGLE CARD!"
+	linefw "YOU'RE A MEMBER OF TEAM GR,"
+	linefw "ARE YOU NOT?"
+	linefw "YOU WOULDN'T HAPPEN TO HAVE AN EXTRA"
+	linefw "DARK CHARIZARD Lv38, EH?"
+	linefw "I'D GLADY EXCHANGE THIS"
+	linefw "CHARIZARD Lv76 FOR ONE."
+	linefw "HOW ABOUT IT?"
+	linefw "WOULD YOU LIKE TO TRADE WITH ME?"
+	done
+
+Text0cbb:
+	text "I'VE HEARD TALES ABOUT YOUR ATTEMPTS"
+	linefw "TO FIGHT TEAM GR BY YOUR LONESOME."
+	linefw "FIGHTING SOLO..."
+	linefw "YOU HAVE MY RESPECT!!"
+	linefw "THIS CHARIZARD Lv76 CARD COULD"
+	linefw "REALLY HELP YOUR EFFORTS, YOU KNOW."
+	linefw "I'D BE GLAD TO TRADE IT FOR A"
+	linefw "DARK CHARIZARD Lv38 CARD!"
+	done
+
+Text0cbc:
+	text "HAVE YOU DECIDED AGAINST TRADING"
+	linefw "WITH ME, THEN?"
+	linefw "WELL, IF YOU SHOULD EVER WISH TO"
+	linefw "RECONSIDER, I SHALL BE HERE WAITING."
+	done
+
+Text0cbd:
+	text "UMMM...IT SEEMS LIKE YOU DON'T"
+	linefw "HAVE A DARK CHARIZARD Lv38 CARD."
+	linefw "YOU MIGHT BE EXCITED TO TRADE, BUT"
+	linefw "WE CAN'T IF YOU DON'T HAVE THE CARD!"
+	linefw "MAKE SURE YOU LOOK FOR THE CORRECT"
+	linefw "CHARIZARD CARD: THE DARK VERSION."
+	done
+
+Text0cbe:
+	text "OH DEAR, I CAN'T TAKE A CARD"
+	linefw "STRAIGHT OUT OF ONE OF YOUR DECKS!"
+	linefw "IT'S AN IMPORTANT PART OF BEING"
+	linefw "COMBAT-READY!"
+	done
+
+Text0cbf:
+	text "OOH! YOU DO HAVE A"
+	linefw "DARK CHARIZARD Lv38 UP FOR GRABS!"
+	linefw "LET US TRADE, IN THAT CASE!"
+	done
+
+Text0cc0:
+	text "TEAM GR REALLY IS FAR TOO PARTICULAR"
+	linefw "ABOUT THEIR DECK STANDARDS."
+	linefw "THOUGH I GUESS AFTER FIGHTING YOU,"
+	linefw "THEY HAVE THEIR REASONS..."
+	done
+
+Text0cc1:
+	text "TEAM GR'S DISPOSITION HAS CHANGED A"
+	linefw "LITTLE SINCE YOU STARTED RESISTING."
+	linefw "IT VERY WELL MAY BE A GOOD THING."
+	done
+
+Text0cc2:
+	text "”TEAM GR IS STRONG!"
+	linefw "TEAM GR IS RIGHT!"
+	linefw "IF YOU WANT TO WIN THE GAME,"
+	linefw "ONLY USE YOUR CARDS TO FIGHT!”"
+	linefw "...OR SO SAYS THEIR PROPAGANDA."
+	linefw "I'M NOT SO SURE IT'S REALLY TRUE."
+	linefw "I THINK I'LL STILL FOCUS ON"
+	linefw "SIMPLY COLLECTING CARDS, THOUGH."
+	linefw "MY PERSONAL MOTTO IS 'DO WHATEVER"
+	linefw "YOU PERSONALLY ENJOY'."
+	linefw "JUST DON'T TELL TEAM GR I DON'T"
+	linefw "BELIEVE IN THEIR IDEALS."
+	linefw "I DON'T NEED THEM SHOVING MORE"
+	linefw "PROPAGANDA DOWN MY THROAT!"
+	done
+
+Text0cc3:
+	text "WITH KING VILLICCI DEFEATED AT LAST,"
+	linefw "I'M FINALLY FREE TO BE MYSELF."
+	linefw "NOW I LIKE TO BOTH COLLECT CARDS"
+	linefw "AND BATTLE WITH 'EM!"
+	done
+
+Text0cc4:
+	text "<RAMNAME>", "!"
+	linefw "I'VE BEEN WAITING FOR YOU!"
+	linefw "UMM...AND..."
+	linefw "WHAT WAS IT?"
+	done
+
+Text0cc5:
+	text "(UHHH...I ANNOUNCE MYSELF FIRST,"
+	linefw "AND THEN BATTLE AFTER THAT...)"
+	done
+
+Text0cc6:
+	text "I AM THE MIGHTY KARA OF TEAM GR!"
+	linefw ""
+	linefw "SO, I'M COOKING FOR ", "<RAMNAME>", "..."
+	linefw "NO, WAIT, WE'RE SUPPOSED TO DUEL!"
+	linefw "I CHALLENGE YOU TO A CARD DUEL,"
+	linefw "<RAMNAME>", "!"
+	linefw "IF YOU DEFEAT ME, I'LL GIVE YOU"
+	linefw "A BOOSTER PACK!"
+	done
+
+Text0cc7:
+	text "DUEL DUEL BAAAATTLE!"
+	linefw "...WAIT, WITH WHOM?"
+	linefw "UMM, A BATTLE AGAINST ME..."
+	linefw "IS THAT IT?"
+	done
+
+Text0cc8:
+	text "(WHAT CARDS SHOULD BE ALLOWED...?"
+	linefw "ONLY FIRE ENERGY...)"
+	done
+
+Text0cc9:
+	text "A CARD BATTLE AGAINST ME COMES WITH"
+	linefw "A SPECIAL CONDITION!"
+	linefw "THE ONLY TYPE OF ENERGY CARDS"
+	linefw "ALLOWED IN YOUR DECK ARE FIRE-TYPE!"
+	linefw "ARE YOU READY TO FIGHT USING"
+	linefw "SUCH A DECK?"
+	done
+
+Text0cca:
+	text "I HOPE THAT YOU'RE PREPARED"
+	linefw "TO HAVE A DUEL WITH ME NOW!"
+	linefw "AND, UM....PREPARED..."
+	linefw "WHAT IS IT..."
+	done
+
+Text0ccb:
+	text "(ONLY ALLOW DECKS WITH WHAT CARDS..."
+	linefw "RIGHT, WITH FIRE ENERGY...)"
+	done
+
+Text0ccc:
+	text "THE ONLY PERMISSIBLE TYPE OF ENERGY"
+	linefw "CARDS IN YOUR DECK ARE FIRE ENERGY."
+	linefw "IF YOU WIN THE DUEL,"
+	linefw "I'LL GIVE YOU A BOOSTER PACK!"
+	done
+
+Text0ccd:
+	text "WOULD YOU LIKE TO DUEL KARA?"
+	done
+
+Text0cce:
+	text "OH, YOU HAVE OTHER TYPES OF ENERGY"
+	linefw "CARDS INCLUDED IN YOUR DECK..."
+	done
+
+Text0ccf:
+	text "(IF OTHER ENERGY TYPES ARE PRESENT,"
+	linefw "THEY MUST RETURN WITH A FIRE DECK.)"
+	done
+
+Text0cd0:
+	text "THE ONLY ALLOWABLE ENERGY CARD TYPE"
+	linefw "IS FIRE ENERGY."
+	linefw "CHALLENGE ME AGAIN WHEN YOU HAVE A"
+	linefw "DECK WITH ONLY FIRE-TYPE ENERGY."
+	done
+
+Text0cd1:
+	text "WE'LL PLAY TO 4 PRIZE CARDS!"
+	done
+
+Text0cd2:
+	text "YOU DON'T WANT TO DUEL?"
+	linefw "IN THAT CASE..."
+	done
+
+Text0cd3:
+	text "(IF THEY DECLINE A CARD BATTLE..."
+	linefw "TELL THEM THEY MAY RETURN LATER...)"
+	done
+
+Text0cd4:
+	text "PLEASE COME BACK TO FIGHT AT"
+	linefw "ANOTHER TIME."
+	done
+
+Text0cd5:
+	text "EH? ", "<RAMNAME>", "! UMMM..."
+	linefw "IF YOU'D LIKE ANOTHER BATTLE..."
+	done
+
+Text0cd6:
+	text "(IF THEY SHOULD DESIRE,"
+	linefw "ALWAYS OFFER TO DUEL CHALLENGERS.)"
+	done
+
+Text0cd7:
+	text "I HAVE SPECIAL RULES IF YOU WOULD"
+	linefw "LIKE TO HAVE A CARD BATTLE WITH ME!"
+	linefw "YOUR DECK IS ONLY ALLOWED TO HAVE"
+	linefw "FIRE-TYPE ENERGY CARDS."
+	linefw "IF YOU CAN BEST ME IN OUR DUEL,"
+	linefw "I'LL REWARD YOU WITH A BOOSTER PACK!"
+	done
+
+Text0cd8:
+	text "YOU'RE USING ENERGY CARDS THAT"
+	linefw "AREN'T FIRE-TYPE ENERGY."
+	linefw "PLEASE RETURN TO CHALLENGE ME WHEN"
+	linefw "YOUR DECK ONLY HAS FIRE ENERGY."
+	done
+
+Text0cd9:
+	text "PLEASE FEEL FREE TO COME BACK"
+	linefw "AND FIGHT ME LATER!"
+	done
+
+Text0cda:
+	text "UMM, IF I LOSE, THEN I AM TO AWARD"
+	linefw "YOU WITH A BOOSTER PACK, RIGHT?"
+	done
+
+Text0cdb:
+	text "OH? WHAT TO DO IF I WIN THE DUEL..."
+	done
+
+Text0cdc:
+	text "(IF YOU WIN THE DUEL..."
+	linefw "WINNING MEANS YOU MAY BE PROUD...)"
+	done
+
+Text0cdd:
+	text "WHAT DO YOU KNOW, I WON."
+	linefw "I'M JUST GREAT! EH HEH HEH!"
+	linefw "SINCE YOU HAVE LOST,"
+	linefw "GO BACK TO YOUR HOME!"
+	done
+
+Text0cde:
+	text "TAKE THIS BOOSTER PACK!"
+	done
+
+Text0cdf:
+	text "(IF YOU LOSE AGAIN,"
+	linefw "JUST SAY THEY ARE FREE TO RETURN.)"
+	done
+
+Text0ce0:
+	text "YOU MAY RETURN FOR ANOTHER DUEL"
+	linefw "LATER, OKAY?"
+	done
+
+Text0ce1:
+	text "YOU HAVE LOST, ", "<RAMNAME>", "."
+	linefw "PLEASE GO HOME!"
+	done
+
+Text0ce2:
+	text "UHH...WHEN I'M DEFEATED IN A DUEL..."
+	done
+
+Text0ce3:
+	text "(IF YOU LOSE,"
+	linefw "REMEMBER TO OPEN THE LOCKED DOORS.)"
+	done
+
+Text0ce4:
+	text "I WILL NOW OPEN THE DOORS THAT"
+	linefw "LEAD THE WAY TO ELLEN!"
+	done
+
+Text0ce5:
+	text "OPEN SESAME SEEDS!"
+	done
+
+Text0ce6:
+	text "NOW IT'S ALL UP TO ELLEN!"
+	done
+
+Text0ce7:
+	text "I AM PAWN."
+	linefw "WELCOME TO YOUR FIRST DUNGEON FIGHT!"
+	linefw "IF YOU CAN DEFEAT ME IN A CARD"
+	linefw "BATTLE, YOU CAN ADVANCE ONWARD."
+	linefw "IN ORDER TO FIGHT, YOU'LL NEED"
+	linefw "TO PAY ME 10 CHIPS."
+	linefw "IF YOU WIN, YOU'LL GAIN 20 CHIPS."
+	linefw "WILL YOU PAY 10 CHIPS TO FIGHT ME?"
+	done
+
+Text0ce8:
+	text "IF YOU CAN DEFEAT ME IN A CARD"
+	linefw "BATTLE, YOU MAY ADVANCE ONWARD."
+	linefw "YOU NEED TO PAY 10 CHIPS TO FIGHT."
+	linefw "WILL YOU CHALLENGE ME?"
+	done
+
+Text0ce9:
+	text "WOULD YOU LIKE TO DUEL PAWN?"
+	done
+
+Text0cea:
+	text "WE'LL HAVE A DUEL WITH 4 PRIZE"
+	linefw "CARDS, THEN!"
+	linefw "COME ON, LET'S FIGHT!"
+	done
+
+Text0ceb:
+	text "YOU DON'T WANT TO BATTLE?"
+	linefw "ARE YOU SURE?"
+	done
+
+Text0cec:
+	text "REFRAIN FROM DUELLING PAWN?"
+	done
+
+Text0ced:
+	text "IN THAT CASE, WOULD YOU RATHER"
+	linefw "WAGER YOUR CHIPS AND BATTLE?"
+	done
+
+Text0cee:
+	text "ALRIGHT, ALRIGHT."
+	linefw "PLEASE EXIT THE DUNGEON."
+	done
+
+Text0cef:
+	text "BY ALL MEANS!"
+	linefw "ADVANCE ONWARD!"
+	done
+
+Text0cf0:
+	text "EXCELLENT!"
+	linefw "HERE, TAKE THESE CHIPS!"
+	done
+
+Text0cf1:
+	text "BECAUSE OF YOUR VICTORY, YOU MAY"
+	linefw "ADVANCE DEEPER INTO THE DUNGEON!"
+	linefw "YOU MAY NOW LEAVE WITH YOUR WINNINGS"
+	linefw "OR CONTINUE YOUR JOURNEY!"
+	linefw "WILL YOU FIGHT ON?"
+	done
+
+Text0cf2:
+	text "YOU HAVE LOST."
+	linefw " "
+	linefw "SINCE YOU HAVE LOST TO ME,"
+	linefw "YOU MUST LEAVE THE DUNGEON!"
+	done
+
+Text0cf3:
+	text "ADVANCE DEEPER INTO THE DUNGEON?"
+	done
+
+Text0cf4:
+	text "AS YOU WISH!"
+	linefw "I'LL OPEN THE DOORS AHEAD!"
+	done
+
+Text0cf5:
+	text "BY ALL MEANS!"
+	linefw "ADVANCE ONWARD!"
+	done
+
+Text0cf6:
+	text "IF YOU DO NOT ADVANCE,"
+	linefw "YOU'LL HAVE TO EXIT THE DUNGEON!"
+	linefw "WHAT WOULD YOU LIKE TO DO?"
+	done
+
+Text0cf7:
+	text "WOULD YOU LIKE TO LEAVE THE DUNGEON?"
+	done
+
+Text0cf8:
+	text "THEN WE PART WAYS HERE!"
+	done
+
+Text0cf9:
+	text "I'M KNOWN AS KNIGHT,"
+	linefw "THE PROTECTOR OF THIS CORRIDOR."
+	linefw "IF YOU SEEK TO DELVE DEEPER INTO THE"
+	linefw "DUNGEON, YOU'LL NEED TO DEFEAT ME."
+	linefw "YOU MAY WAGER EITHER 10 OR"
+	linefw "20 CHIPS ON OUR FIGHT."
+	linefw "WHICHEVER AMOUNT YOU PAY, A VICTORY"
+	linefw "WILL GET YOU DOUBLE YOUR WAGER."
+	linefw "DO YOU UNDERSTAND THE RULES?"
+	linefw "WOULD YOU LIKE TO CHALLENGE ME?"
+	done
+
+Text0cfa:
+	text "IF YOU WISH TO DELVE DEEPER INTO"
+	linefw "THE DUNGEON, YOU MUST DEFEAT ME."
+	linefw "BEFORE WE FIGHT,"
+	linefw "YOU MUST WAGER 10 OR 20 CHIPS."
+	linefw "YOU'LL WIN 20 CHIPS FOR WAGERING 10,"
+	linefw "AND 40 CHIPS FOR WAGERING 20."
+	linefw "UNDERSTAND?"
+	linefw "WOULD YOU LIKE TO CHALLENGE ME?"
+	done
+
+Text0cfb:
+	text "WOULD YOU LIKE TO DUEL KNIGHT?"
+	done
+
+Text0cfc:
+	text "SO YOU'RE WAGERING ", "<RAMNUM>", " CHIPS."
+	linefw "WE'LL USE 4 PRIZE CARDS, THEN."
+	linefw "COME ON, LET'S BATTLE!"
+	done
+
+Text0cfd:
+	text "WHAT THE-! IF YOU MADE IT THIS FAR,"
+	linefw "WHY WOULDN'T YOU WANT TO FIGHT?"
+	linefw "IF YOU REFUSE TO CHALLENGE ME,"
+	linefw "YOU'LL HAVE TO LEAVE THE DUNGEON."
+	linefw "IF YOU LEAVE, YOU'LL LOSE YOUR"
+	linefw "PROGRESS."
+	done
+
+Text0cfe:
+	text "REFRAIN FROM DUELLING KNIGHT?"
+	done
+
+Text0cff:
+	text "OKAY THEN..."
+	linefw "YOU WANT TO FIGHT, CORRECT?"
+	done
+
+Text0d00:
+	text "THEN WE MUST PART."
+	done
+
+Text0d01:
+	text "YOU'LL CONFRONT BISHOP NEXT."
+	linefw "HE'S TOUGH, SO DO YOUR BEST TO WIN!"
+	done
+
+Text0d02:
+	text "CONGRATULATIONS!"
+	linefw "HERE ARE YOUR CHIPS FOR WINNING."
+	done
+
+Text0d03:
+	text "WILL YOU CONTINUE FIGHTING"
+	linefw "OR DO YOU WANT TO RETIRE?"
+	done
+
+Text0d04:
+	text "AHH, SO YOU'VE LOST."
+	linefw "PLEASE EXIT THE DUNGEON."
+	done
+
+Text0d05:
+	text "ADVANCE DEEPER INTO THE DUNGEON?"
+	done
+
+Text0d06:
+	text "THEN I SHALL OPEN THE DOORS!"
+	done
+
+Text0d07:
+	text "THERE WE ARE."
+	linefw "PLEASE PROCEED TO THE NEXT ROOM."
+	done
+
+Text0d08:
+	text "IF YOU DO NOT WISH TO ADVANCE,"
+	linefw "YOU'LL HAVE TO LEAVE THE DUNGEON."
+	linefw "KNOWING THAT,"
+	linefw "DO YOU WANT TO LEAVE?"
+	done
+
+Text0d09:
+	text "WOULD YOU LIKE TO LEAVE THE DUNGEON?"
+	done
+
+Text0d0a:
+	text "YOUR DUNGEON BATTLES ARE OVER, THEN."
+	linefw "GOODBYE!"
+	done
+
+Text0d0b:
+	text "I AM THE POWERFUL BISHOP!"
+	linefw "I AM RENOWNED THE WORLD OVER!"
+	linefw "IF YOU THINK YOU CAN COMPARE TO MY"
+	linefw "MIGHT, BET ME 10 OR 30 CHIPS!"
+	linefw "IF YOU EMERGE VICTORIOUS, YOU'LL"
+	linefw "WIN A GREATER SUM OF CHIPS BACK!"
+	linefw "IF YOU WAGER 30 CHIPS, YOU'LL"
+	linefw "WIN 60. THAT IS MY DECREE!"
+	linefw "CHOOSE NOW!"
+	linefw "WILL YOU CHALLENGE MY MIGHT?"
+	done
+
+Text0d0c:
+	text "IF YOU SEEK TO INCREASE YOUR"
+	linefw "CHIP COLLECTION, TAKE ME ON!"
+	linefw "YOU'LL HAVE TO WAGER SOME CHIPS OF"
+	linefw "YOUR OWN TO BATTLE WITH ME, THOUGH."
+	done
+
+Text0d0d:
+	text "WOULD YOU LIKE TO DUEL BISHOP?"
+	done
+
+Text0d0e:
+	text "YOU DON'T SEEM TO HAVE ENOUGH CHIPS."
+	linefw "COME BACK ONCE YOU HAVE MORE."
+	done
+
+Text0d0f:
+	text "YOU'RE WAGERING ", "<RAMNUM>", " CHIPS?"
+	linefw "ALRIGHT, LET US BEGIN!"
+	linefw "WE'LL DUEL FOR 4 PRIZE CARDS!"
+	done
+
+Text0d10:
+	text "YOU DON'T WANT TO BATTLE?"
+	linefw "DO YOU NOT SEEK TO WIN MORE CHIPS?"
+	done
+
+Text0d11:
+	text "REFRAIN FROM DUELLING BISHOP?"
+	done
+
+Text0d12:
+	text "SO YOU WILL BATTLE WITH ME, RIGHT?"
+	done
+
+Text0d13:
+	text "IN THAT CASE,"
+	linefw "YOU MUST LEAVE THE DUNGEON."
+	done
+
+Text0d14:
+	text "GO ONWARD TO FIND YOUR NEXT"
+	linefw "CHALLENGER IN THE DUNGEON."
+	done
+
+Text0d15:
+	text "YOU'RE THE WINNER!"
+	linefw "AS PROMISED, HERE ARE YOUR CHIPS."
+	done
+
+Text0d16:
+	text "AS I AM DEFEATED, I MUST OPEN THE"
+	linefw "DOOR ONWARD. WILL YOU CONTINUE?"
+	done
+
+Text0d17:
+	text "YOU LOSE! BEGONE WITH YOU,"
+	linefw "OUT OF THE DUNGEON!"
+	done
+
+Text0d18:
+	text "ADVANCE DEEPER INTO THE DUNGEON?"
+	done
+
+Text0d19:
+	text "BEHOLD! THE DOORS OPEN AT MY CALL!"
+	done
+
+Text0d1a:
+	text "NOW CONTINUE YOUR JOURNEY!"
+	done
+
+Text0d1b:
+	text "YOUR ONLY OTHER OPTION IS"
+	linefw "TO LEAVE THE DUNGEON."
+	done
+
+Text0d1c:
+	text "WOULD YOU LIKE TO LEAVE THE DUNGEON?"
+	done
+
+Text0d1d:
+	text "AS YOU WISH."
+	linefw "YOU MAY NOW LEAVE THE DUNGEON!"
+	done
+
+Text0d1e:
+	text "MY NAME IS ROOK. I'VE BEEN AWAITING"
+	linefw "A WORTHY CHALLENGER FOR SOME TIME."
+	linefw "IF YOU HAVE THE POWER TO DEFEAT ME,"
+	linefw "YOU MAY GO ON TO MEET OUR QUEEN."
+	linefw "TO BATTLE ME, YOU'LL NEED TO WAGER"
+	linefw "EITHER 30 OR 50 CHIPS."
+	linefw "DO YOU UNDERSTAND?"
+	linefw "HAVE YOU THE COURAGE TO FIGHT ME?"
+	done
+
+Text0d1f:
+	text "IN ORDER TO MEET WITH THE QUEEN,"
+	linefw "YOU'LL NEED TO GET PAST ME FIRST."
+	linefw "YOU NEED TO WAGER EITHER 30 OR 50"
+	linefw "CHIPS IF YOU'D LIKE TO FIGHT ME."
+	linefw "UNDERSTAND?"
+	linefw "WILL YOU BET AGAINST ME AND FIGHT?"
+	done
+
+Text0d20:
+	text "WOULD YOU LIKE TO DUEL ROOK?"
+	done
+
+Text0d21:
+	text "AH HA HA HA...WHAT A FOOL."
+	linefw "YOU DON'T HAVE ENOUGH CHIPS."
+	done
+
+Text0d22:
+	text "I'LL TAKE YOUR ", "<RAMNUM>", " CHIPS."
+	linefw "PREPARE YOURSELF!"
+	linefw "I FIGHT TO 5 PRIZE CARDS!"
+	done
+
+Text0d23:
+	text "YOU REALLY DON'T WANT TO BATTLE?"
+	done
+
+Text0d24:
+	text "REFRAIN FROM DUELLING ROOK?"
+	done
+
+Text0d25:
+	text "SO YOU'RE READY TO BATTLE?"
+	done
+
+Text0d26:
+	text "THEN LEAVE THE DUNGEON, COWARD!"
+	done
+
+Text0d27:
+	text "IF YOU CAN WIN AGAINST THE QUEEN,"
+	linefw "YOU'LL HAVE CLEARED THE DUNGEON."
+	done
+
+Text0d28:
+	text "I NOBLY ADMIT MY DEFEAT..."
+	done
+
+Text0d29:
+	text "HOW ABOUT IT?"
+	linefw "WILL YOU CHALLENGE THE QUEEN?"
+	done
+
+Text0d2a:
+	text "NATURALLY, IT'S MY VICTORY."
+	linefw " "
+	linefw "SINCE YOU HAVE LOST,"
+	linefw "YOU MUST EXIT THE DUNGEON."
+	done
+
+Text0d2b:
+	text "ADVANCE DEEPER INTO THE DUNGEON?"
+	done
+
+Text0d2c:
+	text "WITH MY MAGNIFICENT POWER,"
+	linefw "THE DOORS SHALL OPEN!"
+	done
+
+Text0d2d:
+	text "THE QUEEN AWAITS YOU JUST AHEAD!"
+	done
+
+Text0d2e:
+	text "IN THAT CASE, YOU HAVE NO CHOICE"
+	linefw "BUT TO LEAVE THE DUNGEON."
+	done
+
+Text0d2f:
+	text "WOULD YOU LIKE TO LEAVE THE DUNGEON?"
+	done
+
+Text0d30:
+	text "SO BE IT. FAREWELL, ADVENTURER."
+	done
+
+Text0d31:
+	text "OOH!"
+	linefw "A CHALLENGER!"
+	linefw "IT'S QUITE A FEAT TO MAKE IT TO"
+	linefw "MY THRONE ROOM, I MUST SAY!"
+	linefw "MY WAIT IS OVER. I CAN FINALLY"
+	linefw "PUT THIS DUELLING TABLE TO USE!"
+	linefw "THIS IS THE DUNGEON'S FINAL BATTLE."
+	linefw "I AM KNOWN AS QUEEN."
+	linefw "I'M AFRAID TO SAY THAT THIS CASTLE"
+	linefw "HAS NO KING, UNFORTUNATELY."
+	linefw "HOWEVER, YOU SHOULD FIND ME"
+	linefw "MORE THAN TOUGH ENOUGH!"
+	linefw "YOU MAY WAGER EITHER 50 OR 100"
+	linefw "CHIPS IN A BATTLE AGAINST ME."
+	linefw "ARE YOU PREPARED FOR THE"
+	linefw "CLIMACTIC FINALE?"
+	done
+
+Text0d32:
+	text "YOU MAY WAGER EITHER 50 OR 100"
+	linefw "CHIPS FOR A BATTLE AGAINST ME."
+	linefw "DO YOU HAVE THE COURAGE TO"
+	linefw "ENTER BATTLE WITH ME?"
+	done
+
+Text0d33:
+	text "WOULD YOU LIKE TO DUEL QUEEN?"
+	done
+
+Text0d34:
+	text "OH DEAR, YOU DON'T SEEM TO HAVE"
+	linefw "ENOUGH CHIPS."
+	done
+
+Text0d35:
+	text "FINALLY, A TRUE CARD BATTLE!"
+	linefw "BEST OF LUCK TO YOU, WARRIOR."
+	linefw "SIT DOWN IN THE CHAIR OPPOSITE ME"
+	linefw "AND WE SHALL START OUR MATCH."
+	done
+
+Text0d36:
+	text "WE SHALL FIGHT USING 6 PRIZE CARDS!"
+	done
+
+Text0d37:
+	text "SO YOU'D RATHER NOT DUEL"
+	linefw "AND INSTEAD LEAVE THE DUNGEON?"
+	done
+
+Text0d38:
+	text "REFRAIN FROM DUELLING QUEEN?"
+	done
+
+Text0d39:
+	text "THEN YOU'D LIKE TO HAVE"
+	linefw "A DUEL WITH ME?"
+	done
+
+Text0d3a:
+	text "MUST I CONTINUE MY LONG WAIT TO"
+	linefw "FIND A SUITABLE CARD WARRIOR?"
+	linefw "I GUESS IT CAN'T BE HELPED."
+	linefw "YOU ARE FREE TO LEAVE THE DUNGEON."
+	done
+
+Text0d3b:
+	text "WHAT AN EXCELLENT BATTLE!"
+	linefw "I CONCEDE DEFEAT."
+	linefw "YOU ARE INDEED THE WARRIOR I'VE"
+	linefw "BEEN WAITING FOR! WHAT STRENGTH!"
+	linefw "WELL, THEN,"
+	linefw "TAKE YOUR PRIZE."
+	done
+
+Text0d3c:
+	text "AND WITH THAT, I MUST BID YOU"
+	linefw "A FOND FAREWELL, BRAVE HERO."
+	linefw "I DO HOPE YOU'LL COME PLAY AGAIN."
+	linefw "IT GETS SO LONELY BACK HERE!"
+	done
+
+Text0d3d:
+	text "I DO APOLOGIZE, BUT SINCE I'VE WON,"
+	linefw "YOUR WAGERED CHIPS ARE MINE."
+	linefw "OF COURSE, YOU'RE WELCOME TO RETURN"
+	linefw "AND CHALLENGE ME AGAIN."
+	linefw "YOU'LL HAVE TO DEFEAT PAWN, KNIGHT,"
+	linefw "BISHOP, AND ROOK AGAIN, HOWEVER."
+	linefw "I LOOK FORWARD TO YOUR NEXT VISIT."
+	linefw "WHAT A SPECTACULAR MATCH IT WILL BE!"
+	done
+
+Text0d3e:
+	text "OH, WHAT BAD LUCK!!"
+	linefw " "
+	linefw "IF YOU WOULD HAVE GOTTEN AT LEAST"
+	linefw "3 HEADS, YOU'D HAVE WON A PRIZE!"
+	linefw "PLEASE TRY AGAIN LATER!"
+	done

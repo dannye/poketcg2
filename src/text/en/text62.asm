@@ -1,0 +1,1456 @@
+Text1302:
+	text "RECYCLE ENERGY"
+	done
+
+Text1303:
+	text "SPECIAL ENERGY CARD"
+	linefw ""
+	linefw "THIS CARD PROVIDES 1 ", "<COLORLESS>", " ENERGY."
+	linefw "WHENEVER THIS CARD IS DISCARDED,"
+	linefw "YOU MAY PUT IT BACK INTO YOUR HAND."
+	done
+
+Text1304:
+	text "BULBASAUR "
+	done
+
+Text1305:
+	text "TACKLE"
+	done
+
+Text1306:
+	text "RAZOR LEAF"
+	done
+
+Text1307:
+	text "SEED"
+	done
+
+Text1308:
+	text "IT CAN GO FOR DAYS WITHOUT EATING A"
+	linefw "SINGLE MORSEL. IN THE BULB ON ITS"
+	linefw "BACK, IT STORES ENERGY. "
+	done
+
+Text1309:
+	text "LEECH SEED"
+	done
+
+Text130a:
+	text "UNLESS ALL DAMAGE FROM THIS ATTACK"
+	linefw "IS PREVENTED, YOU MAY REMOVE 1"
+	linefw "DAMAGE COUNTER FROM THIS POKÉMON."
+	done
+
+Text130b:
+	text "FOR SOME TIME AFTER ITS BIRTH, IT"
+	linefw "GROWS BY GAINING NOURISHMENT FROM"
+	linefw "THE SEED ON ITS BACK."
+	done
+
+Text130c:
+	text "FIRST AID"
+	done
+
+Text130d:
+	text "IF THIS POKÉMON HAS ANY DAMAGE"
+	linefw "COUNTERS ON IT, YOU MAY REMOVE"
+	linefw "1 OF THEM."
+	done
+
+Text130e:
+	text "POISON SEED"
+	done
+
+Text130f:
+	text "THE DEFENDING POKÉMON IS NOW"
+	linefw "POISONED."
+	done
+
+Text1310:
+	text "A STRANGE SEED WAS PLANTED ON ITS"
+	linefw "BACK AT BIRTH. THE PLANT SPROUTS"
+	linefw "AND GROWS WITH THIS POKÉMON. "
+	done
+
+Text1311:
+	text "IVYSAUR "
+	done
+
+Text1312:
+	text "VINE WHIP"
+	done
+
+Text1313:
+	text "POISONPOWDER"
+	done
+
+Text1314:
+	text "WHEN THE BUD ON ITS BACK STARTS"
+	linefw "SWELLING, A SWEET AROMA WAFTS TO"
+	linefw "INDICATE THE FLOWER'S COMING BLOOM."
+	done
+
+Text1315:
+	text "LEECH SEED"
+	done
+
+Text1316:
+	text "UNLESS ALL DAMAGE FROM THIS ATTACK"
+	linefw "IS PREVENTED, YOU MAY REMOVE 1"
+	linefw "DAMAGE COUNTER FROM IVYSAUR."
+	done
+
+Text1317:
+	text "VINE WHIP"
+	done
+
+Text1318:
+	text "EXPOSURE TO SUNLIGHT ADDS TO ITS"
+	linefw "STRENGTH. SUNLIGHT ALSO MAKES THE"
+	linefw "BUD ON ITS BACK GROW LARGER. "
+	done
+
+Text1319:
+	text "DARK IVYSAUR "
+	done
+
+Text131a:
+	text "VINE PULL"
+	done
+
+Text131b:
+	text "ONCE DURING YOUR TURN WHEN DARK"
+	linefw "IVYSAUR RETREATS, CHOOSE 1 OF YOUR"
+	linefw "OPPONENT'S BENCHED POKÉMON AND"
+	linefw "SWITCH IT WITH HIS OR HER ACTIVE"
+	linefw "POKÉMON. "
+	done
+
+Text131c:
+	text "DISORDERLY MESS"
+	done
+
+Text131d:
+	text "THIS ATTACK DOES 10 DAMAGE TO 3 OF"
+	linefw "YOUR OPPONENT'S POKÉMON CHOSEN AT"
+	linefw "RANDOM. DO NOT APPLY WEAKNESS AND"
+	linefw "RESISTANCE."
+	done
+
+Text131e:
+	text "WHEN THE BULB ON ITS BACK GROWS"
+	linefw "LARGE, IT APPEARS TO LOSE THE"
+	linefw "ABILITY TO STAND ON ITS HIND LEGS. "
+	done
+
+Text131f:
+	text "VENUSAUR "
+	done
+
+Text1320:
+	text "SOLAR POWER"
+	done
+
+Text1321:
+	text "YOU MAY USE THIS POWER ONCE DURING"
+	linefw "YOUR TURN (BEFORE YOUR ATTACK). YOUR"
+	linefw "ACTIVE POKÉMON AND THE DEFENDING"
+	linefw "POKÉMON ARE NO LONGER ASLEEP, CON-"
+	linefw "FUSED, PARALYZED, OR POISONED. THIS"
+	linefw "POWER CAN'T BE USED IF VENUSAUR IS"
+	linefw "ASLEEP, CONFUSED, OR PARALYZED. "
+	done
+
+Text1322:
+	text "MEGA DRAIN"
+	done
+
+Text1323:
+	text "REMOVE DAMAGE COUNTERS FROM THIS"
+	linefw "POKÉMON EQUAL TO HALF THE DAMAGE"
+	linefw "DONE TO THE DEFENDING POKÉMON"
+	linefw "(ROUNDED UP TO THE NEAREST 10). IF"
+	linefw "THIS POKÉMON HAS FEWER DAMAGE"
+	linefw "COUNTERS THAN THAT, REMOVE THEM ALL."
+	done
+
+Text1324:
+	text "AFTER A RAINY DAY, THE FLOWER ON"
+	linefw "ITS BACK SMELLS STRONGER. THE SCENT"
+	linefw "ATTRACTS OTHER POKÉMON. "
+	done
+
+Text1325:
+	text "ENERGY TRANS"
+	done
+
+Text1326:
+	text "AS OFTEN AS YOU LIKE DURING YOUR"
+	linefw "TURN, YOU MAY TAKE ONE ", "<GRASS>", " ENERGY"
+	linefw "CARD ATTACHED TO ONE OF YOUR"
+	linefw "POKÉMON AND ATTACH IT TO A"
+	linefw "DIFFERENT ONE. THIS POWER CAN'T BE"
+	linefw "USED IF VENUSAUR IS ASLEEP,"
+	linefw "CONFUSED, OR PARALYZED."
+	done
+
+Text1327:
+	text "SOLAR BEAM"
+	done
+
+Text1328:
+	text "THIS PLANT BLOOMS WHEN IT IS"
+	linefw "ABSORBING SOLAR ENERGY. IT STAYS ON"
+	linefw "THE MOVE TO SEEK SUNLIGHT. "
+	done
+
+Text1329:
+	text "DARK VENUSAUR "
+	done
+
+Text132a:
+	text "HORRID POLLEN"
+	done
+
+Text132b:
+	text "THE DEFENDING POKÉMON IS NOW EITHER"
+	linefw "ASLEEP AND POISONED, CONFUSED AND"
+	linefw "POISONED, OR PARALYZED AND POISONED."
+	linefw "(THE EFFECT IS CHOSEN AT RANDOM.) "
+	done
+
+Text132c:
+	text "BY SPREADING THE BROAD PETALS OF ITS"
+	linefw "FLOWER AND CATCHING THE SUN'S RAYS,"
+	linefw "IT FILLS ITS BODY WITH POWER. "
+	done
+
+Text132d:
+	text "CATERPIE "
+	done
+
+Text132e:
+	text "STRING SHOT"
+	done
+
+Text132f:
+	text "FLIP A COIN. IF HEADS, THE"
+	linefw "DEFENDING POKÉMON IS NOW PARALYZED."
+	done
+
+Text1330:
+	text "WORM"
+	done
+
+Text1331:
+	text "IT RELEASES A STENCH FROM ITS RED"
+	linefw "ANTENNA TO REPEL ENEMIES. IT GROWS"
+	linefw "BY MOLTING REPEATEDLY."
+	done
+
+Text1332:
+	text "METAPOD "
+	done
+
+Text1333:
+	text "GREEN SHIELD"
+	done
+
+Text1334:
+	text "WHILE THIS CARD IS IN PLAY, IGNORE"
+	linefw "WEAKNESSES WHEN ANY OF YOUR GRASS"
+	linefw "POKÉMON ARE DAMAGED. THIS POWER"
+	linefw "STOPS WORKING IF METAPOD IS ASLEEP"
+	linefw "CONFUSED, OR PARALYZED."
+	done
+
+Text1335:
+	text "MYSTERIOUS POWDER"
+	done
+
+Text1336:
+	text "FLIP A COIN. IF HEADS, THE"
+	linefw "DEFENDING POKÉMON IS NOW CONFUSED."
+	done
+
+Text1337:
+	text "COCOON"
+	done
+
+Text1338:
+	text "INSIDE THE SHELL, IT IS SOFT AND"
+	linefw "WEAK AS IT PREPARES TO EVOLVE."
+	linefw "IT STAYS MOTIONLESS IN THE SHELL. "
+	done
+
+Text1339:
+	text "STIFFEN"
+	done
+
+Text133a:
+	text "FLIP A COIN. IF HEADS, PREVENT ALL"
+	linefw "DAMAGE DONE TO THIS POKÉMON DURING"
+	linefw "YOUR OPPONENT'S NEXT TURN."
+	linefw "(OTHER EFFECTS OF ATTACKS STILL"
+	linefw "HAPPEN.)"
+	done
+
+Text133b:
+	text "STUN SPORE"
+	done
+
+Text133c:
+	text "A STEEL-HARD SHELL PROTECTS ITS"
+	linefw "TENDER BODY. IT QUIETLY ENDURES"
+	linefw "HARDSHIPS WHILE AWAITING EVOLUTION."
+	done
+
+Text133d:
+	text "BUTTERFREE "
+	done
+
+Text133e:
+	text "WHIRLWIND"
+	done
+
+Text133f:
+	text "IF YOUR OPPONENT HAS ANY BENCHED"
+	linefw "POKÉMON, HE OR SHE CHOOSES 1 OF THEM"
+	linefw "AND SWITCHES IT WITH THE DEFENDING"
+	linefw "POKÉMON. (DO THE DAMAGE BEFORE"
+	linefw "SWITCHING THE POKÉMON.)"
+	done
+
+Text1340:
+	text "BUTTERFLY"
+	done
+
+Text1341:
+	text "IT LOVES THE HONEY OF FLOWERS AND"
+	linefw "CAN LOCATE FLOWER PATCHES THAT HAVE"
+	linefw "EVEN TINY AMOUNTS OF POLLEN."
+	done
+
+Text1342:
+	text "WEEDLE "
+	done
+
+Text1343:
+	text "POISON STING"
+	done
+
+Text1344:
+	text "FLIP A COIN. IF HEADS, THE"
+	linefw "DEFENDING POKÉMON IS NOW POISONED."
+	done
+
+Text1345:
+	text "HAIRY BUG"
+	done
+
+Text1346:
+	text "IT EATS ITS WEIGHT IN LEAVES EVERY"
+	linefw "DAY. IT FENDS OFF ATTACKERS WITH"
+	linefw "THE NEEDLE ON ITS HEAD."
+	done
+
+Text1347:
+	text "PECK"
+	done
+
+Text1348:
+	text "POISON HORN"
+	done
+
+Text1349:
+	text "ITS POISON STINGER IS VERY POWERFUL."
+	linefw "ITS BRIGHT-COLORED BODY IS INTENDED"
+	linefw "TO WARN OFF ITS ENEMIES."
+	done
+
+Text134a:
+	text "KAKUNA "
+	done
+
+Text134b:
+	text "POISONOUS SECRETION"
+	done
+
+Text134c:
+	text "WHENEVER AN OPPONENT'S ATTACK DOES"
+	linefw "DAMAGE TO KAKUNA (EVEN IF IT IS"
+	linefw "KNOCKED OUT), THE DEFENDING POKÉMON"
+	linefw "IS NOW POISONED. THIS POWER STOPS"
+	linefw "WORKING WHEN KAKUNA IS ASLEEP,"
+	linefw "CONFUSED, OR PARALYZED."
+	done
+
+Text134d:
+	text "ROLLOUT"
+	done
+
+Text134e:
+	text "ALTHOUGH IT IS A COCOON, IT CAN MOVE"
+	linefw "A LITTLE. IT CAN EXTEND ITS POISON"
+	linefw "BARB IF IT IS ATTACKED. "
+	done
+
+Text134f:
+	text "WHILE AWAITING EVOLUTION, IT HIDES"
+	linefw "FROM PREDATORS UNDER LEAVES AND IN"
+	linefw "NOOKS OF BRANCHES."
+	done
+
+Text1350:
+	text "BEEDRILL "
+	done
+
+Text1351:
+	text "TWINEEDLE"
+	done
+
+Text1352:
+	text "FLIP 2 COINS. THIS ATTACK DOES 30"
+	linefw "DAMAGE TIMES THE NUMBER OF HEADS."
+	done
+
+Text1353:
+	text "POISON BEE"
+	done
+
+Text1354:
+	text "ITS BEST ATTACK INVOLVES FLYING"
+	linefw "AROUND AT HIGH SPEED, STRIKING WITH"
+	linefw "POISON NEEDLES, THEN FLYING OFF."
+	done
+
+Text1355:
+	text "EKANS "
+	done
+
+Text1356:
+	text "SPIT POISON"
+	done
+
+Text1357:
+	text "WRAP"
+	done
+
+Text1358:
+	text "SNAKE"
+	done
+
+Text1359:
+	text "IT SNEAKS THROUGH GRASS WITHOUT"
+	linefw "MAKING A SOUND AND STRIKES"
+	linefw "UNSUSPECTING PREY FROM BEHIND."
+	done
+
+Text135a:
+	text "BITE"
+	done
+
+Text135b:
+	text "FLIP A COIN. IF HEADS, THE"
+	linefw "DEFENDING POKÉMON IS NOW POISONED."
+	done
+
+Text135c:
+	text "IT ALWAYS HIDES IN GRASS. WHEN FIRST"
+	linefw "BORN, IT HAS NO POISON, SO ITS BITE"
+	linefw "IS PAINFUL, BUT HARMLESS."
+	done
+
+Text135d:
+	text "ARBOK "
+	done
+
+Text135e:
+	text "TERROR STRIKE"
+	done
+
+Text135f:
+	text "FLIP A COIN. IF HEADS AND IF YOUR"
+	linefw "OPPONENT HAS ANY BENCHED POKÉMON,"
+	linefw "HE OR SHE CHOOSES 1 OF THEM AND"
+	linefw "SWITCHES IT WITH THE DEFENDING"
+	linefw "POKÉMON. (DO THE DAMAGE BEFORE"
+	linefw "SWITCHING THE POKÉMON.)"
+	done
+
+Text1360:
+	text "POISON FANG"
+	done
+
+Text1361:
+	text "COBRA"
+	done
+
+Text1362:
+	text "THE PATTERN ON ITS BELLY IS FOR"
+	linefw "INTIMIDATION. IT CONSTRICTS FOES"
+	linefw "WHILE THEY ARE FROZEN IN FEAR."
+	done
+
+Text1363:
+	text "FLIP A COIN. IF HEADS, THE DEFENDING"
+	linefw "POKÉMON IS NOW PARALYZED."
+	done
+
+Text1364:
+	text "DEADLY POISON"
+	done
+
+Text1365:
+	text "THE DEFENDING POKÉMON IS NOW"
+	linefw "POISONED. IF THE DEFENDING POKÉMON"
+	linefw "WAS ALREADY POISONED WHEN THIS"
+	linefw "ATTACK WAS USED, THIS ATTACK DOES 30"
+	linefw "DAMAGE PLUS 10 MORE DAMAGE."
+	done
+
+Text1366:
+	text "TRANSFIXING PREY WITH THE FACE-LIKE"
+	linefw "PATTERN ON ITS BELLY, IT BINDS AND"
+	linefw "POISONS THE FRIGHTENED VICTIM."
+	done
+
+Text1367:
+	text "DARK ARBOK "
+	done
+
+Text1368:
+	text "STARE"
+	done
+
+Text1369:
+	text "CHOOSE 1 OF YOUR OPPONENT'S POKÉMON."
+	linefw "THIS ATTACK DOES 10 DAMAGE TO THAT"
+	linefw "POKÉMON. DON'T APPLY WEAKNESS AND"
+	linefw "RESISTANCE FOR THIS ATTACK. IF THAT"
+	linefw "POKÉMON HAS A POKÉMON POWER, THAT"
+	linefw "POWER STOPS WORKING UNTIL THE END OF"
+	linefw "YOUR OPPONENT'S NEXT TURN. "
+	done
+
+Text136a:
+	text "POISON VAPOR"
+	done
+
+Text136b:
+	text "THE DEFENDING POKÉMON IS NOW"
+	linefw "POISONED. THIS ATTACK DOES 10 DAMAGE"
+	linefw "TO EACH OF YOUR OPPONENT'S BENCHED"
+	linefw "POKÉMON."
+	done
+
+Text136c:
+	text "WITH A VERY VENGEFUL NATURE, IT"
+	linefw "WON'T GIVE UP THE CHASE, NO MATTER"
+	linefw "HOW FAR, ONCE IT TARGETS ITS PREY. "
+	done
+
+Text136d:
+	text "NIDORAN♀ "
+	done
+
+Text136e:
+	text "TAIL WHIP"
+	done
+
+Text136f:
+	text "FLIP A COIN. IF HEADS, THE DEFENDING"
+	linefw "POKÉMON CAN'T ATTACK THIS POKÉMON"
+	linefw "DURING YOUR OPPONENT'S NEXT TURN."
+	linefw "BENCHING EITHER POKÉMON ENDS THIS"
+	linefw "EFFECT."
+	done
+
+Text1370:
+	text "ALTHOUGH NOT VERY COMBATIVE, IT WILL"
+	linefw "TORMENT ITS FOES WITH POISON SPIKES"
+	linefw "IF IT IS THREATENED IN ANY WAY. "
+	done
+
+Text1371:
+	text "FURY SWIPES"
+	done
+
+Text1372:
+	text "FLIP 3 COINS. THIS ATTACK DOES 10"
+	linefw "DAMAGE TIMES THE NUMBER OF HEADS."
+	done
+
+Text1373:
+	text "CALL FOR FAMILY"
+	done
+
+Text1374:
+	text "SEARCH YOUR DECK FOR A BASIC POKÉMON"
+	linefw "NAMED NIDORAN♂ OR NIDORAN♀ AND"
+	linefw "PUT IT ONTO YOUR BENCH. SHUFFLE YOUR"
+	linefw "DECK AFTERWARD. (YOU CAN'T USE THIS"
+	linefw "ATTACK IF YOUR BENCH IS FULL.)"
+	done
+
+Text1375:
+	text "ALTHOUGH SMALL, ITS VENOMOUS"
+	linefw "BARBS MAKE THIS POKÉMON DANGEROUS."
+	linefw "THE FEMALE HAS SMALLER HORNS."
+	done
+
+Text1376:
+	text "NIDORINA "
+	done
+
+Text1377:
+	text "STRENGTH IN NUMBERS"
+	done
+
+Text1378:
+	text "THIS ATTACK DOES 10 DAMAGE PLUS"
+	linefw "10 MORE DAMAGE FOR EACH NIDORAN♀,"
+	linefw "NIDORINA, NIDOQUEEN, NIDORAN♂,"
+	linefw "NIDORINO, AND NIDOKING ON YOUR"
+	linefw "BENCH."
+	done
+
+Text1379:
+	text "FLIP 3 COINS. THIS ATTACK DOES 30"
+	linefw "DAMAGE TIMES THE NUMBER OF HEADS."
+	done
+
+Text137a:
+	text "IT HAS A CALM AND CARING NATURE."
+	linefw "BECAUSE ITS HORN GROWS SLOWLY,"
+	linefw "IT PREFERS NOT TO FIGHT. "
+	done
+
+Text137b:
+	text "SUPERSONIC"
+	done
+
+Text137c:
+	text "FLIP A COIN. IF HEADS, THE DEFENDING"
+	linefw "POKÉMON IS NOW CONFUSED."
+	done
+
+Text137d:
+	text "DOUBLE KICK"
+	done
+
+Text137e:
+	text "WHEN IT SENSES DANGER, IT RAISES ALL"
+	linefw "THE BARBS ON ITS BODY. THESE BARBS"
+	linefw "GROW SLOWER THAN NIDORINO'S."
+	done
+
+Text137f:
+	text "NIDOQUEEN "
+	done
+
+Text1380:
+	text "BOYFRIENDS"
+	done
+
+Text1381:
+	text "DOES 20 DAMAGE PLUS 20 MORE DAMAGE"
+	linefw "FOR EACH NIDOKING YOU HAVE IN PLAY."
+	done
+
+Text1382:
+	text "MEGA PUNCH"
+	done
+
+Text1383:
+	text "DRILL"
+	done
+
+Text1384:
+	text "ITS ENTIRE BODY IS ARMORED WITH HARD"
+	linefw "SCALES. IT WILL PROTECT THE YOUNG IN"
+	linefw "ITS BURROW WITH ITS LIFE."
+	done
+
+Text1385:
+	text "NIDORAN♂ "
+	done
+
+Text1386:
+	text "HORN HAZARD"
+	done
+
+Text1387:
+	text "FLIP A COIN. IF TAILS, THIS ATTACK"
+	linefw "DOES NOTHING."
+	done
+
+Text1388:
+	text "IT SCANS ITS SURROUNDINGS BY RAISING"
+	linefw "ITS EARS OUT OF THE GRASS. ITS TOXIC"
+	linefw "HORN IS FOR PROTECTION."
+	done
+
+Text1389:
+	text "FOCUS ENERGY"
+	done
+
+Text138a:
+	text "DURING YOUR NEXT TURN,"
+	linefw "NIDORAN♂'S HORN RUSH'S BASE"
+	linefw "DAMAGE IS DOUBLED."
+	done
+
+Text138b:
+	text "HORN RUSH"
+	done
+
+Text138c:
+	text "FLIP A COIN. IF TAILS, THIS ATTACK"
+	linefw "DOES NOTHING."
+	done
+
+Text138d:
+	text "IT IS SMALL, BUT ITS HORN IS FILLED"
+	linefw "WITH POISON. IT CHARGES THEN STABS"
+	linefw "WITH THE HORN TO INJECT POISON. "
+	done
+
+Text138e:
+	text "NIDORINO "
+	done
+
+Text138f:
+	text "HIGH-SPEED THRUST"
+	done
+
+Text1390:
+	text "FLIP A COIN. IF TAILS, THIS ATTACK"
+	linefw "DOES NO DAMAGE TO THE DEFENDING"
+	linefw "POKÉMON AND NIDORINO DOES 20 DAMAGE"
+	linefw "TO ITSELF."
+	done
+
+Text1391:
+	text "QUICK TO ANGER, IT STABS ENEMIES"
+	linefw "WITH ITS HORN TO INJECT A POWERFUL"
+	linefw "POISON WHEN IT BECOMES AGITATED. "
+	done
+
+Text1392:
+	text "HORN DRILL"
+	done
+
+Text1393:
+	text "IT HAS A VIOLENT DISPOSITION AND"
+	linefw "STABS FOES WITH ITS HORN, WHICH"
+	linefw "OOZES POISON UPON IMPACT."
+	done
+
+Text1394:
+	text "NIDOKING "
+	done
+
+Text1395:
+	text "THRASH"
+	done
+
+Text1396:
+	text "FLIP A COIN. IF HEADS, THIS ATTACK"
+	linefw "DOES 30 DAMAGE PLUS 10 MORE DAMAGE;"
+	linefw "IF TAILS, THIS ATTACK DOES 30 DAMAGE"
+	linefw "AND NIDOKING DOES 10 DAMAGE TO"
+	linefw "ITSELF."
+	done
+
+Text1397:
+	text "TOXIC"
+	done
+
+Text1398:
+	text "THE DEFENDING POKÉMON IS NOW"
+	linefw "POISONED. IT NOW TAKES 20 POISON"
+	linefw "DAMAGE INSTEAD OF 10 AFTER EACH"
+	linefw "PLAYER'S TURN (EVEN IF IT WAS"
+	linefw "ALREADY POISONED)."
+	done
+
+Text1399:
+	text "ONE SWING OF ITS MIGHTY TAIL CAN"
+	linefw "SNAP A TELEPHONE POLE AS IF IT WERE"
+	linefw "A MATCHSTICK."
+	done
+
+Text139a:
+	text "ZUBAT "
+	done
+
+Text139b:
+	text "RAM"
+	done
+
+Text139c:
+	text "BAT"
+	done
+
+Text139d:
+	text "EVEN THOUGH IT HAS NO EYES, IT CAN"
+	linefw "SENSE OBSTACLES USING ULTRASONIC"
+	linefw "WAVES IT EMITS FROM IT MOUTH. "
+	done
+
+Text139e:
+	text "LEECH LIFE"
+	done
+
+Text139f:
+	text "REMOVE A NUMBER OF DAMAGE COUNTERS"
+	linefw "FROM THIS POKÉMON EQUAL TO THE"
+	linefw "DAMAGE DONE TO THE DEFENDING POKÉMON"
+	linefw "(AFTER APPLYING WEAKNESS AND"
+	linefw "RESISTANCE)."
+	done
+
+Text13a0:
+	text "DISLIKING SUNLIGHT, IT SLEEPS DEEP"
+	linefw "IN FORESTS AND CAVES UNTIL SUNDOWN."
+	done
+
+Text13a1:
+	text "CONFUSE WAVE"
+	done
+
+Text13a2:
+	text "FORMS COLONIES IN PERPETUALLY DARK"
+	linefw "PLACES. USES ULTRASONIC WAVES TO"
+	linefw "IDENTIFY AND APPROACH TARGETS. "
+	done
+
+Text13a3:
+	text "GOLBAT "
+	done
+
+Text13a4:
+	text "REMOVE A NUMBER OF DAMAGE COUNTERS"
+	linefw "EQUAL TO THE DAMAGE DONE TO THE"
+	linefw "DEFENDING POKÉMON (AFTER APPLYING"
+	linefw "WEAKNESS AND RESISTANCE). IF THIS"
+	linefw "POKÉMON HAS FEWER DAMAGE COUNTERS"
+	linefw "THAN THAT, REMOVE ALL OF THEM."
+	done
+
+Text13a5:
+	text "NOSEDIVE"
+	done
+
+Text13a6:
+	text "FLIP A COIN. IF TAILS, GOLBAT DOES"
+	linefw "40 DAMAGE TO ITSELF."
+	done
+
+Text13a7:
+	text "IT LOVES THE BLOOD OF HUMANS AND"
+	linefw "POKÉMON. IT FLIES AROUND AT NIGHT"
+	linefw "IN SEARCH OF NECK VEINS. "
+	done
+
+Text13a8:
+	text "WING ATTACK"
+	done
+
+Text13a9:
+	text "ONCE IT STARTS SUCKING BLOOD, IT"
+	linefw "DOES NOT STOP UNTIL IT IS FULL."
+	linefw "IT FLIES AT NIGHT IN SEARCH OF PREY."
+	done
+
+Text13aa:
+	text "DARK GOLBAT "
+	done
+
+Text13ab:
+	text "SNEAK ATTACK"
+	done
+
+Text13ac:
+	text "WHEN YOU PLAY THIS CARD FROM YOUR"
+	linefw "HAND, YOU MAY CHOOSE 1 OF YOUR"
+	linefw "OPPONENT'S POKÉMON. IF YOU DO, THAT"
+	linefw "POKÉMON RECEIVES 10 DAMAGE. APPLY"
+	linefw "WEAKNESS AND RESISTANCE."
+	done
+
+Text13ad:
+	text "FLITTER"
+	done
+
+Text13ae:
+	text "CHOOSE 1 OF YOUR OPPONENT'S POKÉMON."
+	linefw "THIS ATTACK DOES 20 DAMAGE TO THAT"
+	linefw "POKÉMON. DON'T APPLY WEAKNESS AND"
+	linefw "RESISTANCE FOR THIS ATTACK."
+	done
+
+Text13af:
+	text "SNEAKS UP SILENTLY ON ITS PREY AND"
+	linefw "ATTACKS IT FROM BEHIND, SOMETIMES"
+	linefw "KILLING IT WITH ONE BITE. "
+	done
+
+Text13b0:
+	text "ODDISH "
+	done
+
+Text13b1:
+	text "SPROUT"
+	done
+
+Text13b2:
+	text "SEARCH YOUR DECK FOR A BASIC POKÉMON"
+	linefw "NAMED ODDISH AND PUT IT ONTO YOUR"
+	linefw "BENCH. SHUFFLE YOUR DECK AFTERWARD."
+	linefw "(YOU CAN'T USE THIS ATTACK IF"
+	linefw "YOUR BENCH IS FULL.)"
+	done
+
+Text13b3:
+	text "WEED"
+	done
+
+Text13b4:
+	text "IT OFTEN PLANTS ITS ROOT FEET IN THE"
+	linefw "GROUND DURING THE DAY AND SOWS SEEDS"
+	linefw "AS IT WALKS ABOUT AT NIGHT."
+	done
+
+Text13b5:
+	text "SLEEP POWDER"
+	done
+
+Text13b6:
+	text "THE DEFENDING POKÉMON IS NOW ASLEEP."
+	done
+
+Text13b7:
+	text "IF EXPOSED TO MOONLIGHT, IT STARTS"
+	linefw "TO MOVE. IT ROAMS FAR AND WIDE AT"
+	linefw "NIGHT TO SCATTER ITS SEEDS. "
+	done
+
+Text13b8:
+	text "GLOOM "
+	done
+
+Text13b9:
+	text "FOUL ODOR"
+	done
+
+Text13ba:
+	text "BOTH THE DEFENDING POKÉMON AND GLOOM"
+	linefw "ARE NOW CONFUSED (AFTER DOING"
+	linefw "DAMAGE)."
+	done
+
+Text13bb:
+	text "THE HONEY IT DROOLS FROM ITS MOUTH"
+	linefw "SMELLS SO ATROCIOUS, IT CAN CURL"
+	linefw "NOSES MORE THAN A MILE AWAY."
+	done
+
+Text13bc:
+	text "DARK GLOOM "
+	done
+
+Text13bd:
+	text "POLLEN STENCH"
+	done
+
+Text13be:
+	text "ONCE DURING YOUR TURN (BEFORE YOUR"
+	linefw "ATTACK), YOU MAY FLIP A COIN. IF"
+	linefw "HEADS, THE DEFENDING POKÉMON IS NOW"
+	linefw "CONFUSED; IF TAILS, YOUR ACTIVE"
+	linefw "POKÉMON IS NOW CONFUSED. THIS POWER"
+	linefw "CAN'T BE USED IF DARK GLOOM IS"
+	linefw "ASLEEP, CONFUSED, OR PARALYZED."
+	done
+
+Text13bf:
+	text "IT SECRETES A STICKY, DROOL-LIKE"
+	linefw "HONEY. ALTHOUGH SWEET, IT SMELLS TOO"
+	linefw "REPULSIVE TO GET VERY CLOSE. "
+	done
+
+Text13c0:
+	text "VILEPLUME "
+	done
+
+Text13c1:
+	text "HEAL"
+	done
+
+Text13c2:
+	text "ONCE DURING YOUR TURN (BEFORE YOUR"
+	linefw "ATTACK), YOU MAY FLIP A COIN. IF"
+	linefw "HEADS, REMOVE 1 DAMAGE COUNTER FROM"
+	linefw "1 OF YOUR POKÉMON. THIS POWER CAN'T"
+	linefw "BE USED IF THIS POKÉMON IS ASLEEP,"
+	linefw "CONFUSED, OR PARALYZED."
+	done
+
+Text13c3:
+	text "PETAL DANCE"
+	done
+
+Text13c4:
+	text "FLIP 3 COINS. THIS ATTACK DOES 40"
+	linefw "DAMAGE TIMES THE NUMBER OF HEADS."
+	linefw "THIS POKÉMON IS NOW CONFUSED (AFTER"
+	linefw "DOING DAMAGE)."
+	done
+
+Text13c5:
+	text "FLOWER"
+	done
+
+Text13c6:
+	text "ITS PETALS ARE THE LARGEST IN THE"
+	linefw "WORLD. AS IT WALKS, IT SCATTERS"
+	linefw "EXTREMELY ALLERGENIC POLLEN."
+	done
+
+Text13c7:
+	text "DARK VILEPLUME "
+	done
+
+Text13c8:
+	text "HAY FEVER"
+	done
+
+Text13c9:
+	text "NO TRAINER CARDS MAY BE PLAYED. THIS"
+	linefw "POWER STOPS WORKING WHILE THIS"
+	linefw "POKÉMON IS ASLEEP, CONFUSED, OR"
+	linefw "PARALYZED."
+	done
+
+Text13ca:
+	text "PETAL WHIRLWIND"
+	done
+
+Text13cb:
+	text "FLIP 3 COINS. THIS ATTACK DOES 30"
+	linefw "DAMAGE TIMES THE NUMBER OF HEADS."
+	linefw "IF YOU GET 2 OR MORE HEADS, DARK"
+	linefw "VILEPLUME IS NOW CONFUSED (AFTER"
+	linefw "DOING DAMAGE)."
+	done
+
+Text13cc:
+	text "IT HAS THE WORLD'S LARGEST PETALS."
+	linefw "WITH EVERY STEP, THE PETALS SHAKE"
+	linefw "OUT HEAVY CLOUDS OF TOXIC POLLEN. "
+	done
+
+Text13cd:
+	text "PARAS "
+	done
+
+Text13ce:
+	text "SCRATCH"
+	done
+
+Text13cf:
+	text "SPORE"
+	done
+
+Text13d0:
+	text "MUSHROOM"
+	done
+
+Text13d1:
+	text "MUSHROOMS NAMED TOCHUKASO GROW ON"
+	linefw "ITS BACK. THEY GROW ALONG WITH THE"
+	linefw "HOST PARAS."
+	done
+
+Text13d2:
+	text "SCATTER SPORES"
+	done
+
+Text13d3:
+	text "SEARCH YOUR DECK FOR A BASIC POKÉMON"
+	linefw "NAMED PARAS AND PUT IT ONTO YOUR"
+	linefw "BENCH. SHUFFLE YOUR DECK AFTERWARD."
+	linefw "YOU CAN'T USE THIS ATTACK IF YOUR"
+	linefw "BENCH IS FULL."
+	done
+
+Text13d4:
+	text "IT IS DOUSED WITH MUSHROOM SPORES"
+	linefw "WHEN IT IS BORN. AS ITS BODY GROWS,"
+	linefw "MUSHROOMS SPROUT FROM ITS BACK. "
+	done
+
+Text13d5:
+	text "PARASECT "
+	done
+
+Text13d6:
+	text "SLASH"
+	done
+
+Text13d7:
+	text "IT IS CONTROLLED BY A MUSHROOM GROWN"
+	linefw "LARGER THAN THE BUG BODY. IT IS SAID"
+	linefw "TO PREFER DAMP PLACES."
+	done
+
+Text13d8:
+	text "POISON SPORE"
+	done
+
+Text13d9:
+	text "IT STAYS MOSTLY IN DARK, DAMP AREAS,"
+	linefw "THE PREFERENCE NOT OF THE BUG, BUT"
+	linefw "OF THE BIG MUSHROOM ON ITS BACK. "
+	done
+
+Text13da:
+	text "VENONAT "
+	done
+
+Text13db:
+	text "INSECT"
+	done
+
+Text13dc:
+	text "ITS BIG EYES ARE ACTUALLY CLUSTERS"
+	linefw "OF TINY EYES. AT NIGHT, ITS KIND IS"
+	linefw "DRAWN BY LIGHT."
+	done
+
+Text13dd:
+	text "DISABLE"
+	done
+
+Text13de:
+	text "FLIP A COIN. IF HEADS, CHOOSE 1 OF"
+	linefw "THE DEFENDING POKÉMON'S ATTACKS."
+	linefw "THAT POKÉMON CAN'T USE THAT ATTACK"
+	linefw "DURING YOUR OPPONENT'S NEXT TURN."
+	done
+
+Text13df:
+	text "PSYBEAM"
+	done
+
+Text13e0:
+	text "POISON OOZES FROM ALL OVER ITS BODY."
+	linefw "IT CATCHES AND EATS SMALL BUGS AT"
+	linefw "NIGHT THAT ARE ATTRACTED BY LIGHT. "
+	done
+
+Text13e1:
+	text "VENOMOTH "
+	done
+
+Text13e2:
+	text "TORNADO GUST"
+	done
+
+Text13e3:
+	text "IF YOUR OPPONENT HAS ANY BENCHED"
+	linefw "POKÉMON, HE OR SHE CHOOSES 1 OF THEM"
+	linefw "AND SWITCHES IT WITH THE DEFENDING"
+	linefw "POKÉMON. (DO THE DAMAGE BEFORE"
+	linefw "SWITCHING THE POKÉMON.) THEN, IF YOU"
+	linefw "HAVE ANY BENCHED POKÉMON, SWITCH"
+	linefw "THIS POKÉMON WITH ONE OF THEM."
+	done
+
+Text13e4:
+	text "RAINBOW POWDER"
+	done
+
+Text13e5:
+	text "FLIP A COIN. IF HEADS, THE DEFENDING"
+	linefw "POKÉMON IS NOW PARALYZED. IF TAILS,"
+	linefw "THE DEFENDING POKÉMON IS NOW"
+	linefw "POISONED."
+	done
+
+Text13e6:
+	text "POISON MOTH"
+	done
+
+Text13e7:
+	text "THE POWDER ON ITS WINGS IS POISONOUS"
+	linefw "IF IT IS DARK IN HUE. IF IT IS LIGHT"
+	linefw "IN HUE, IT CAUSES PARALYSIS. "
+	done
+
+Text13e8:
+	text "SHIFT"
+	done
+
+Text13e9:
+	text "ONCE DURING YOUR TURN (BEFORE YOUR"
+	linefw "ATTACK), YOU MAY CHANGE THE TYPE OF"
+	linefw "VENOMOTH TO THE TYPE OF ANY"
+	linefw "OTHER POKÉMON IN PLAY OTHER THAN"
+	linefw "COLORLESS."
+	done
+
+Text13ea:
+	text "THIS POWER CAN'T BE USED IF VENOMOTH"
+	linefw "IS ASLEEP, CONFUSED, OR PARALYZED."
+	done
+
+Text13eb:
+	text "VENOM POWDER"
+	done
+
+Text13ec:
+	text "FLIP A COIN. IF HEADS, THE DEFENDING"
+	linefw "POKÉMON IS NOW CONFUSED AND"
+	linefw "POISONED."
+	done
+
+Text13ed:
+	text "THE DUST-LIKE SCALES COVERING ITS"
+	linefw "WINGS ARE COLOR-CODED TO INDICATE"
+	linefw "THE KINDS OF POISON IT HAS. "
+	done
+
+Text13ee:
+	text "BELLSPROUT "
+	done
+
+Text13ef:
+	text "SWAY"
+	done
+
+Text13f0:
+	text "EVEN THOUGH ITS BODY IS EXTREMELY"
+	linefw "SKINNY, IT IS BLINDINGLY FAST WHEN"
+	linefw "CATCHING ITS PREY. "
+	done
+
+Text13f1:
+	text "SEARCH YOUR DECK FOR A BASIC POKÉMON"
+	linefw "NAMED BELLSPROUT AND PUT IT ONTO"
+	linefw "YOUR BENCH. SHUFFLE YOUR DECK"
+	linefw "AFTERWARD. (YOU CAN'T USE THIS"
+	linefw "ATTACK IF YOUR BENCH IS FULL.)"
+	done
+
+Text13f2:
+	text "IT PREFERS HOT AND HUMID"
+	linefw "ENVIRONMENTS. IT IS QUICK AT"
+	linefw "CAPTURING PREY WITH ITS VINES."
+	done
+
+Text13f3:
+	text "WEEPINBELL "
+	done
+
+Text13f4:
+	text "REGROWTH"
+	done
+
+Text13f5:
+	text "DISCARD ALL CARDS ATTACHED TO"
+	linefw "WEEPINBELL AND REMOVE ALL DAMAGE"
+	linefw "COUNTERS FROM WEEPINBELL. THEN,"
+	linefw "DISCARD THIS EVOLUTION CARD TO"
+	linefw "RETURN WEEPINBELL TO ITS BASIC"
+	linefw "STAGE."
+	done
+
+Text13f6:
+	text "DISSOLVE"
+	done
+
+Text13f7:
+	text "FLIP A COIN. IF HEADS AND IF THE"
+	linefw "DEFENDING POKÉMON HAS ANY ENERGY"
+	linefw "CARDS ATTACHED TO IT, CHOOSE 1 OF"
+	linefw "THEM AND DISCARD IT."
+	done
+
+Text13f8:
+	text "FLYCATCHER"
+	done
+
+Text13f9:
+	text "EVEN THOUGH IT IS FILLED WITH ACID,"
+	linefw "IT DOES NOT MELT BECAUSE IT ALSO"
+	linefw "OOZES A NEUTRALIZING FLUID. "
+	done
+
+Text13fa:
+	text "IT SPITS OUT POISONPOWDER TO "
+	linefw "IMMOBILIZE THE ENEMY AND THEN "
+	linefw "FINISHES IT WITH A SPRAY OF ACID. "
+	done
+
+Text13fb:
+	text "VICTREEBEL "
+	done
+
+Text13fc:
+	text "LURE"
+	done
+
+Text13fd:
+	text "IF YOUR OPPONENT HAS ANY BENCHED"
+	linefw "POKÉMON, CHOOSE 1 OF THEM AND SWITCH"
+	linefw "IT WITH HIS OR HER ACTIVE POKÉMON."
+	done
+
+Text13fe:
+	text "ACID"
+	done
+
+Text13ff:
+	text "FLIP A COIN. IF HEADS, THE DEFENDING"
+	linefw "POKÉMON CAN'T RETREAT DURING YOUR"
+	linefw "OPPONENT'S NEXT TURN."
+	done
+
+Text1400:
+	text "IT POOLS IN ITS MOUTH A FLUID WITH A"
+	linefw "HONEYLIKE SCENT, WHICH IS REALLY AN"
+	linefw "ACID THAT DISSOLVES ANYTHING."
+	done
+
+Text1401:
+	text "GRIMER "
+	done
+
+Text1402:
+	text "POISON GAS"
+	done
+
+Text1403:
+	text "STICKY HANDS"
+	done
+
+Text1404:
+	text "FLIP A COIN. IF HEADS, THIS ATTACK"
+	linefw "DOES 10 DAMAGE PLUS 20 MORE DAMAGE"
+	linefw "AND THE DEFENDING POKÉMON IS NOW"
+	linefw "PARALYZED; IF TAILS, THIS ATTACK"
+	linefw "DOES 10 DAMAGE."
+	done
+
+Text1405:
+	text "SLUDGE"
+	done
+
+Text1406:
+	text "AS IT MOVES, IT LOSES BITS OF ITS"
+	linefw "BODY FROM WHICH NEW GRIMER EMERGE."
+	linefw "THIS WORSENS THE STENCH AROUND IT. "
+	done
+
+Text1407:
+	text "NASTY GOO"
+	done
+
+Text1408:
+	text "MINIMIZE"
+	done
+
+Text1409:
+	text "ALL DAMAGE DONE BY ATTACKS TO GRIMER"
+	linefw "DURING YOUR OPPONENT'S NEXT TURN IS"
+	linefw "REDUCED BY 20 (AFTER APPLYING"
+	linefw "WEAKNESS AND RESISTANCE)."
+	done
+
+Text140a:
+	text "IT WAS BORN WHEN SLUDGE IN A DIRTY"
+	linefw "STREAM WAS EXPOSED TO THE MOON'S"
+	linefw "X-RAYS. IT APPEARS AMONG FILTH."
+	done
+
+Text140b:
+	text "MUK "
+	done
+
+Text140c:
+	text "TOXIC GAS"
+	done
+
+Text140d:
+	text "IGNORE ALL POKÉMON POWERS OTHER THAN"
+	linefw "TOXIC GASES. THIS POWER STOPS"
+	linefw "WORKING WHILE MUK IS ASLEEP,"
+	linefw "CONFUSED, OR PARALYZED."
+	done
+
+Text140e:
+	text "SLUDGE"
+	done
+
+Text140f:
+	text "A TOXIC FLUID SEEPS FROM ITS BODY."
+	linefw "THE FLUID INSTANTLY KILLS PLANTS AND"
+	linefw "TREES ON CONTACT."
+	done
+
+Text1410:
+	text "DARK MUK "
+	done
+
+Text1411:
+	text "STICKY GOO"
+	done
+
+Text1412:
+	text "AS LONG AS DARK MUK IS YOUR ACTIVE"
+	linefw "POKÉMON, YOUR OPPONENT PAYS ", "<COLORLESS>", "<COLORLESS>"
+	linefw "MORE TO RETREAT HIS OR HER ACTIVE"
+	linefw "POKÉMON. THIS POWER STOPS WORKING"
+	linefw "WHILE DARK MUK IS ASLEEP, CONFUSED,"
+	linefw "OR PARALYZED."
+	done
+
+Text1413:
+	text "SLUDGE PUNCH"
+	done
+
+Text1414:
+	text "ITS BODY IS MADE OF POWERFUL POISON."
+	linefw "TOUCHING IT ACCIDENTALLY WILL CAUSE"
+	linefw "A FEVER THAT REQUIRES BED REST. "
+	done
+
+Text1415:
+	text "EXEGGCUTE "
+	done
+
+Text1416:
+	text "HYPNOSIS"
+	done
+
+Text1417:
+	text "EGG"
+	done
+
+Text1418:
+	text "ITS SIX EGGS CONVERSE USING"
+	linefw "TELEPATHY. THEY CAN QUICKLY GATHER"
+	linefw "IF THEY BECOME SEPARATED."
+	done
+
+Text1419:
+	text "EXEGGUTOR "
+	done
+
+Text141a:
+	text "TELEPORT"
+	done

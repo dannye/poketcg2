@@ -1,0 +1,1434 @@
+Text141b:
+	text "SWITCH EXEGGUTOR WITH 1 OF YOUR"
+	linefw "BENCHED POKÉMON."
+	done
+
+Text141c:
+	text "BIG EGGSPLOSION"
+	done
+
+Text141d:
+	text "FLIP A NUMBER OF COINS EQUAL TO THE"
+	linefw "NUMBER OF ENERGY CARDS ATTACHED TO"
+	linefw "EXEGGUTOR. THIS ATTACK DOES 20"
+	linefw "DAMAGE TIMES THE NUMBER OF HEADS."
+	done
+
+Text141e:
+	text "COCONUT"
+	done
+
+Text141f:
+	text "IT IS CALLED ”THE WALKING JUNGLE.”"
+	linefw "IF A HEAD GROWS TOO BIG, IT FALLS"
+	linefw "OFF AND BECOMES AN EXEGGCUTE."
+	done
+
+Text1420:
+	text "KOFFING "
+	done
+
+Text1421:
+	text "ITS THIN, FLIMSY BODY IS FILLED WITH"
+	linefw "GASES THAT CAUSE CONSTANT SNIFFLES,"
+	linefw "COUGHS AND TEARY EYES. "
+	done
+
+Text1422:
+	text "FOUL GAS"
+	done
+
+Text1423:
+	text "FLIP A COIN. IF HEADS, THE DEFENDING"
+	linefw "POKÉMON IS NOW POISONED; IF TAILS,"
+	linefw "IT IS NOW CONFUSED."
+	done
+
+Text1424:
+	text "LIGHTER-THAN-AIR GASES IN ITS BODY"
+	linefw "KEEP IT ALOFT. THE GASES NOT ONLY"
+	linefw "SMELL, THEY ARE ALSO EXPLOSIVE."
+	done
+
+Text1425:
+	text "CONFUSION GAS"
+	done
+
+Text1426:
+	text "BECAUSE IT STORES SEVERAL KINDS OF"
+	linefw "TOXIC GASES IN ITS BODY, IT IS PRONE"
+	linefw "TO EXPLODING WITHOUT WARNING."
+	done
+
+Text1427:
+	text "WEEZING "
+	done
+
+Text1428:
+	text "POISON MIST"
+	done
+
+Text1429:
+	text "ONCE DURING YOUR TURN (BEFORE YOUR"
+	linefw "ATTACK) YOU MAY FLIP A COIN. IF"
+	linefw "HEADS, AND IF A POKÉMON IN PLAY IS"
+	linefw "POISONED, THAT POKÉMON NOW TAKES 20"
+	linefw "POISON DAMAGE INSTEAD OF 10 AFTER"
+	linefw "EACH PLAYER'S TURN."
+	done
+
+Text142a:
+	text "THIS POWER MAY NOT BE USED IF"
+	linefw "WEEZING IS ASLEEP, PARALYZED,"
+	linefw "OR CONFUSED."
+	done
+
+Text142b:
+	text "GAS EXPLOSION"
+	done
+
+Text142c:
+	text "WEEZING DOES 30 DAMAGE TO ITSELF."
+	linefw "IF THE DEFENDING POKÉMON WAS KNOCKED"
+	linefw "OUT BY THIS ATTACK, THE POKÉMON THAT"
+	linefw "REPLACES IT IS NOW POISONED."
+	done
+
+Text142d:
+	text "IF ONE OF THE TWIN KOFFING INFLATES,"
+	linefw "THE OTHER ONE DEFLATES. IT"
+	linefw "CONSTANTLY MIXES ITS TOXIC GASES. "
+	done
+
+Text142e:
+	text "SMOG"
+	done
+
+Text142f:
+	text "SELFDESTRUCT"
+	done
+
+Text1430:
+	text "DOES 10 DAMAGE TO EACH POKÉMON ON"
+	linefw "EACH PLAYER'S BENCH. (DO NOT APPLY"
+	linefw "WEAKNESS AND RESISTANCE FOR BENCHED"
+	linefw "POKÉMON.) WEEZING DOES 60 DAMAGE TO"
+	linefw "ITSELF."
+	done
+
+Text1431:
+	text "IT GROWS BY FEEDING ON GASES"
+	linefw "RELEASED BY GARBAGE. THOUGH VERY"
+	linefw "RARE, TRIPLETS HAVE BEEN FOUND."
+	done
+
+Text1432:
+	text "DARK WEEZING "
+	done
+
+Text1433:
+	text "MASS EXPLOSION"
+	done
+
+Text1434:
+	text "DOES 20 DAMAGE TIMES THE TOTAL"
+	linefw "NUMBER OF KOFFINGS, WEEZINGS, AND"
+	linefw "DARK WEEZINGS IN PLAY. (APPLY"
+	linefw "WEAKNESS AND RESISTANCE.) THEN, ANY"
+	linefw "KOFFINGS, WEEZINGS, AND DARK"
+	linefw "WEEZINGS IN PLAY RECEIVE 20 DAMAGE."
+	done
+
+Text1435:
+	text "STUN GAS"
+	done
+
+Text1436:
+	text "FLIP A COIN. IF HEADS, THE DEFENDING"
+	linefw "POKÉMON IS NOW POISONED; IF TAILS,"
+	linefw "THE DEFENDING POKÉMON IS NOW"
+	linefw "PARALYZED."
+	done
+
+Text1437:
+	text "WHERE TWO KINDS OF POISON GASES"
+	linefw "MEET, TWO KOFFINGS CAN FUSE INTO"
+	linefw "A WEEZING OVER MANY YEARS. "
+	done
+
+Text1438:
+	text "TANGELA "
+	done
+
+Text1439:
+	text "BIND"
+	done
+
+Text143a:
+	text "CONSTRICT"
+	done
+
+Text143b:
+	text "ITS WHOLE BODY IS SWATHED WITH WIDE"
+	linefw "VINES THAT ARE SIMILAR TO SEAWEED."
+	linefw "THESE VINES SHAKE AS IT WALKS. "
+	done
+
+Text143c:
+	text "POISON WHIP"
+	done
+
+Text143d:
+	text "IT IS SHROUDED BY BLUE VINES. NO ONE"
+	linefw "HAS SEEN THE FACE HIDDEN BEHIND THIS"
+	linefw "GROWTH OF VINES."
+	done
+
+Text143e:
+	text "SCYTHER "
+	done
+
+Text143f:
+	text "SLASHING STRIKE"
+	done
+
+Text1440:
+	text "SCYTHER CAN'T USE THIS ATTACK DURING"
+	linefw "YOUR NEXT TURN. (BENCHING SCYTHER"
+	linefw "ENDS THIS EFFECT.)"
+	done
+
+Text1441:
+	text "MANTIS"
+	done
+
+Text1442:
+	text "THE SHARP SCYTHES ON ITS FOREARMS"
+	linefw "BECOME INCREASINGLY SHARP BY CUTTING"
+	linefw "THROUGH HARD OBJECTS. "
+	done
+
+Text1443:
+	text "SWORDS DANCE"
+	done
+
+Text1444:
+	text "DURING YOUR NEXT TURN, SCYTHER'S"
+	linefw "SLASH ATTACK'S BASE DAMAGE IS"
+	linefw "DOUBLED FROM 30 TO 60."
+	done
+
+Text1445:
+	text "IT IS NEARLY IMPOSSIBLE TO PARRY ITS"
+	linefw "ATTACKING SCYTHES. ITS MOVEMENTS ARE"
+	linefw "LIKE A NINJA'S."
+	done
+
+Text1446:
+	text "PINSIR "
+	done
+
+Text1447:
+	text "SLICING THROW"
+	done
+
+Text1448:
+	text "FLIP A COIN. IF HEADS, THIS ATTACK"
+	linefw "DOES 10 ADDITIONAL DAMAGE."
+	done
+
+Text1449:
+	text "STAGBEETLE"
+	done
+
+Text144a:
+	text "WITH ITS HORNS, IT DIGS BURROWS TO"
+	linefw "SLEEP IN AT NIGHT. IN THE MORNING,"
+	linefw "DAMP SOIL CLINGS TO ITS BODY. "
+	done
+
+Text144b:
+	text "IRONGRIP"
+	done
+
+Text144c:
+	text "GUILLOTINE"
+	done
+
+Text144d:
+	text "IT GRIPS PREY WITH ITS PINCERS UNTIL"
+	linefw "THE PREY IS TORN IN HALF. WHAT IT"
+	linefw "CAN'T TEAR, IT TOSSES FAR."
+	done
+
+Text144e:
+	text "CHARMANDER "
+	done
+
+Text144f:
+	text "GATHER FIRE"
+	done
+
+Text1450:
+	text "ONCE DURING YOUR TURN (BEFORE YOUR"
+	linefw "ATTACK), YOU MAY TAKE 1 ", "<FIRE>", " ENERGY"
+	linefw "CARD ATTACHED TO 1 OF YOUR OTHER"
+	linefw "POKÉMON AND ATTACH IT TO CHARMANDER."
+	linefw "THIS POWER CAN'T BE USED IF"
+	linefw "CHARMANDER IS ASLEEP, CONFUSED,"
+	linefw "OR PARALYZED."
+	done
+
+Text1451:
+	text "FLAME TAIL"
+	done
+
+Text1452:
+	text "LIZARD"
+	done
+
+Text1453:
+	text "IT HAS A PREFERENCE FOR HOT THINGS."
+	linefw "WHEN IT RAINS, STEAM IS SAID TO"
+	linefw "SPOUT FROM THE TIP OF ITS TAIL. "
+	done
+
+Text1454:
+	text "EMBER"
+	done
+
+Text1455:
+	text "DISCARD 1 ", "<FIRE>", " ENERGY CARD IN ORDER"
+	linefw "TO USE THIS ATTACK."
+	done
+
+Text1456:
+	text "THE FIRE ON THE TIP OF ITS TAIL IS"
+	linefw "A MEASURE OF ITS LIFE. IF HEALTHY,"
+	linefw "ITS TAIL BURNS INTENSELY."
+	done
+
+Text1457:
+	text "GROWL"
+	done
+
+Text1458:
+	text "IF THE DEFENDING POKÉMON ATTACKS"
+	linefw "CHARMANDER DURING YOUR OPPONENT'S"
+	linefw "NEXT TURN, THE DAMAGE DONE BY THE"
+	linefw "ATTACK IS REDUCED BY 10 (AFTER"
+	linefw "APPLYING WEAKNESS AND RESISTANCE)."
+	linefw "(BENCHING EITHER POKÉMON ENDS THIS"
+	linefw "EFFECT.)"
+	done
+
+Text1459:
+	text "FROM BIRTH, A FLAME BURNS AT THE TIP"
+	linefw "OF ITS TAIL. ITS LIFE WOULD END IF"
+	linefw "THE FLAME WERE TO GO OUT. "
+	done
+
+Text145a:
+	text "CHARMELEON "
+	done
+
+Text145b:
+	text "FLAMETHROWER"
+	done
+
+Text145c:
+	text "FLAME"
+	done
+
+Text145d:
+	text "IN THE ROCKY MOUNTAINS WHERE"
+	linefw "CHARMELEON LIVE, THEIR FIERY TAILS"
+	linefw "SHINE AT NIGHT LIKE STARS."
+	done
+
+Text145e:
+	text "DARK CHARMELEON "
+	done
+
+Text145f:
+	text "TAIL SLAP"
+	done
+
+Text1460:
+	text "FIREBALL"
+	done
+
+Text1461:
+	text "USE THIS ATTACK ONLY IF THERE ARE"
+	linefw "ANY ", "<FIRE>", " ENERGY CARDS ATTACHED TO"
+	linefw "DARK CHARMELEON. FLIP A COIN. IF"
+	linefw "HEADS, DISCARD 1 OF THOSE ENERGY"
+	linefw "CARDS. IF TAILS, THIS ATTACK DOES"
+	linefw "NOTHING (NOT EVEN DAMAGE). "
+	done
+
+Text1462:
+	text "IT IS VERY HOT-HEADED BY NATURE, SO"
+	linefw "IT CONSTANTLY SEEKS OPPONENTS. IT"
+	linefw "CALMS DOWN ONLY WHEN IT WINS. "
+	done
+
+Text1463:
+	text "CHARIZARD "
+	done
+
+Text1464:
+	text "ENERGY BURN"
+	done
+
+Text1465:
+	text "AS OFTEN AS YOU LIKE DURING YOUR"
+	linefw "TURN (BEFORE YOUR ATTACK), YOU MAY"
+	linefw "TURN ALL ENERGY ATTACHED TO"
+	linefw "CHARIZARD INTO ", "<FIRE>", " ENERGY FOR THE"
+	linefw "REST OF THE TURN. THIS POWER CAN'T"
+	linefw "BE USED IF CHARIZARD IS ASLEEP,"
+	linefw "CONFUSED, OR PARALYZED."
+	done
+
+Text1466:
+	text "FIRE SPIN"
+	done
+
+Text1467:
+	text "DISCARD 2 ", "<FIRE>", " ENERGY CARDS IN ORDER"
+	linefw "TO USE THIS ATTACK."
+	done
+
+Text1468:
+	text "IT IS SAID THAT CHARIZARD'S FIRE"
+	linefw "BURNS HOTTER IF IT HAS EXPERIENCED"
+	linefw "HARSH BATTLES."
+	done
+
+Text1469:
+	text "IF CHARIZARD BECOMES FURIOUS, THE"
+	linefw "FLAME AT THE TIP OF ITS TAIL FLARES"
+	linefw "UP IN A WHITISH-BLUE COLOR. "
+	done
+
+Text146a:
+	text "DARK CHARIZARD "
+	done
+
+Text146b:
+	text "NAIL FLICK"
+	done
+
+Text146c:
+	text "CONTINOUS FIREBALL"
+	done
+
+Text146d:
+	text "FLIP A NUMBER OF COINS EQUAL TO THE"
+	linefw "NUMBER OF ", "<FIRE>", " ENERGY CARDS ATTACHED"
+	linefw "TO DARK CHARIZARD. THIS ATTACK DOES"
+	linefw "50 DAMAGE TIMES THE NUMBER OF HEADS."
+	linefw "DISCARD A NUMBER OF ", "<FIRE>", " ENERGY"
+	linefw "CARDS ATTACHED TO DARK CHARIZARD"
+	linefw "EQUAL TO THE NUMBER OF HEADS."
+	done
+
+Text146e:
+	text "BREATHING INTENSE, HOT FLAMES, IT"
+	linefw "CAN MELT ALMOST ANYTHING. ITS BREATH"
+	linefw "INFLICTS TERRIBLE PAIN ON ENEMIES. "
+	done
+
+Text146f:
+	text "VULPIX "
+	done
+
+Text1470:
+	text "CONFUSE RAY"
+	done
+
+Text1471:
+	text "FOX"
+	done
+
+Text1472:
+	text "IT CONTROLS BALLS OF FIRE. AS IT"
+	linefw "GROWS, ITS SIX TAILS SPLIT FROM"
+	linefw "THEIR TIPS TO MAKE MORE TAILS."
+	done
+
+Text1473:
+	text "FOXFIRE"
+	done
+
+Text1474:
+	text "YOU MAY CHOOSE 1 OF YOUR OPPONENT'S"
+	linefw "BENCHED POKÉMON AND SWITCH IT WITH"
+	linefw "HIS OR HER ACTIVE POKÉMON. DO THE"
+	linefw "DAMAGE TO THE NEW DEFENDING POKÉMON."
+	done
+
+Text1475:
+	text "AS IT DEVELOPS, ITS SINGLE WHITE"
+	linefw "TAIL GAINS COLOR AND SPLITS INTO"
+	linefw "SIX. IT IS QUITE WARM AND CUDDLY. "
+	done
+
+Text1476:
+	text "NINETALES "
+	done
+
+Text1477:
+	text "LURE"
+	done
+
+Text1478:
+	text "FIRE BLAST"
+	done
+
+Text1479:
+	text "ITS NINE TAILS ARE SAID TO BE IMBUED"
+	linefw "WITH A MYSTIC POWER. IT CAN LIVE FOR"
+	linefw "A THOUSAND YEARS."
+	done
+
+Text147a:
+	text "MIX UP"
+	done
+
+Text147b:
+	text "IF YOUR OPPONENT HAS ANY BASIC"
+	linefw "POKÉMON OR EVOLUTION CARDS IN THEIR"
+	linefw "HAND, THEY PLACE THEM BACK INTO"
+	linefw "THEIR DECK. AN EQUAL NUMBER OF"
+	linefw "BASIC POKÉMON AND/OR EVOLUTION CARDS"
+	linefw "IS THEN CHOSEN AT RANDOM OUT OF"
+	linefw "THEIR DECK. THE DECK IS SHUFFLED."
+	done
+
+Text147c:
+	text "DANCING EMBERS"
+	done
+
+Text147d:
+	text "FLIP 8 COINS. THIS ATTACK DOES 10"
+	linefw "DAMAGE TIMES THE NUMBER OF HEADS."
+	done
+
+Text147e:
+	text "NINETALES CASTS A SINISTER LIGHT"
+	linefw "FROM ITS BRIGHT RED EYES TO GAIN"
+	linefw "TOTAL CONTROL OVER ITS FOE'S MIND."
+	done
+
+Text147f:
+	text "DARK NINETALES "
+	done
+
+Text1480:
+	text "MISLEAD"
+	done
+
+Text1481:
+	text "YOUR OPPONENT FLIPS A COIN."
+	linefw "IF TAILS, THEY DON'T DRAW A CARD"
+	linefw "AT THE BEGINNING OF THEIR NEXT TURN."
+	done
+
+Text1482:
+	text "NINE-TAIL WHIP"
+	done
+
+Text1483:
+	text "FLIP 9 COINS. THIS ATTACK DOES 10"
+	linefw "DAMAGE TIMES THE NUMBER OF HEADS."
+	done
+
+Text1484:
+	text "SOME LEGENDS CLAIM THAT EACH OF ITS"
+	linefw "NINE TAILS HAS ITS OWN UNIQUE TYPE"
+	linefw "OF SPECIAL MYSTIC POWER."
+	done
+
+Text1485:
+	text "GROWLITHE "
+	done
+
+Text1486:
+	text "CHARGE"
+	done
+
+Text1487:
+	text "PUPPY"
+	done
+
+Text1488:
+	text "IT HAS A BRAVE AND TRUSTWORTHY"
+	linefw "NATURE. IT FEARLESSLY STANDS UP TO"
+	linefw "BIGGER AND STRONGER FOES. "
+	done
+
+Text1489:
+	text "ERRAND-RUNNING"
+	done
+
+Text148a:
+	text "FLIP A COIN. IF HEADS, SEARCH YOUR"
+	linefw "DECK FOR A TRAINER CARD, SHOW IT TO"
+	linefw "YOUR OPPONENT, AND PUT IT IN YOUR"
+	linefw "HAND. SHUFFLE YOUR DECK AFTERWARDS."
+	done
+
+Text148b:
+	text "DISCARD 1 ", "<FIRE>", " ENERGY CARD IN ORDER"
+	linefw "TO USE THIS ATTACK."
+	done
+
+Text148c:
+	text "EXTREMELY LOYAL, IT WILL FEARLESSLY"
+	linefw "BARK AT ANY OPPONENT TO PROTECT ITS"
+	linefw "OWN TRAINER FROM HARM. "
+	done
+
+Text148d:
+	text "FLARE"
+	done
+
+Text148e:
+	text "A POKÉMON WITH A LOYAL NATURE. IT"
+	linefw "WILL REMAIN MOTIONLESS UNTIL IT IS"
+	linefw "GIVEN AN ORDER BY ITS TRAINER."
+	done
+
+Text148f:
+	text "ARCANINE "
+	done
+
+Text1490:
+	text "QUICK ATTACK"
+	done
+
+Text1491:
+	text "FLIP A COIN. IF HEADS, THIS ATTACK"
+	linefw "DOES 20 ADDITIONAL DAMAGE."
+	done
+
+Text1492:
+	text "FLAMES OF RAGE"
+	done
+
+Text1493:
+	text "DISCARD 2 ", "<FIRE>", " ENERGY CARDS IN"
+	linefw "ORDER TO USE THIS ATTACK."
+	linefw "THIS ATTACK DOES 40 DAMAGE PLUS"
+	linefw "10 MORE DAMAGE FOR EACH DAMAGE"
+	linefw "COUNTER ON THIS POKÉMON."
+	done
+
+Text1494:
+	text "LEGENDARY"
+	done
+
+Text1495:
+	text "ITS PROUD AND REGAL APPEARANCE HAS"
+	linefw "CAPTURED THE HEARTS OF PEOPLE SINCE"
+	linefw "LONG AGO."
+	done
+
+Text1496:
+	text "TAKE DOWN"
+	done
+
+Text1497:
+	text "THIS POKÉMON DOES 20 DAMAGE"
+	linefw "TO ITSELF."
+	done
+
+Text1498:
+	text "THIS LEGENDARY CHINESE POKÉMON IS"
+	linefw "CONSIDERED MAGNIFICENT. MANY PEOPLE"
+	linefw "ARE ENCHANTED BY ITS GRAND MANE. "
+	done
+
+Text1499:
+	text "ARCANINE DOES 20 DAMAGE TO ITSELF."
+	done
+
+Text149a:
+	text "ITS MAGNIFICENT BARK CONVEYS A SENSE"
+	linefw "OF MAJESTY. ANYONE HEARING IT CAN'T"
+	linefw "HELP BUT GROVEL BEFORE IT. "
+	done
+
+Text149b:
+	text "PONYTA "
+	done
+
+Text149c:
+	text "KICK"
+	done
+
+Text149d:
+	text "FIREWORKS"
+	done
+
+Text149e:
+	text "FLIP A COIN. IF HEADS, DISCARD 1"
+	linefw "ENERGY CARD ATTACHED TO PONYTA."
+	done
+
+Text149f:
+	text "FIRE HORSE"
+	done
+
+Text14a0:
+	text "ABOUT AN HOUR AFTER BIRTH, ITS FIERY"
+	linefw "MANE AND TAIL GROW OUT, GIVING IT AN"
+	linefw "IMPRESSIVE APPEARANCE. "
+	done
+
+Text14a1:
+	text "ITS LEGS GROW STRONG WHILE IT CHASES"
+	linefw "AFTER ITS PARENT. IT RUNS IN FIELDS"
+	linefw "AND MOUNTAINS ALL DAY."
+	done
+
+Text14a2:
+	text "ITS HOOVES ARE 10 TIMES HARDER THAN"
+	linefw "DIAMONDS. IT CAN TRAMPLE ANYTHING"
+	linefw "COMPLETELY FLAT IN LITTLE TIME. "
+	done
+
+Text14a3:
+	text "RAPIDASH "
+	done
+
+Text14a4:
+	text "INFERNO"
+	done
+
+Text14a5:
+	text "YOU MAY DISCARD UP TO 2 ", "<FIRE>", " ENERGY"
+	linefw "CARDS ATTACKED TO RAPIDASH WHEN YOU"
+	linefw "USE THIS ATTACK. IF YOU DO, THIS"
+	linefw "ATTACK DOES 10 DAMAGE PLUS 20 MORE"
+	linefw "DAMAGE FOR EACH ENERGY CARD THAT"
+	linefw "WAS DISCARDED."
+	done
+
+Text14a6:
+	text "KICK AWAY"
+	done
+
+Text14a7:
+	text "IF YOUR OPPONENT HAS ANY BENCHED"
+	linefw "POKÉMON, HE OR SHE CHOOSES 1 OF THEM"
+	linefw "AND SWITCHES IT WITH THE DEFENDING"
+	linefw "POKÉMON. (DO THE DAMAGE BEFORE"
+	linefw "SWITCHING THE POKÉMON.)"
+	done
+
+Text14a8:
+	text "IT GALLOPS AT NEARLY 150 MPH. WITH"
+	linefw "ITS MANE BLAZING FEROCIOUSLY, IT"
+	linefw "RACES AS IF IT WERE AN ARROW. "
+	done
+
+Text14a9:
+	text "STOMP"
+	done
+
+Text14aa:
+	text "FLIP A COIN. IF HEADS, THIS ATTACK"
+	linefw "DOES 20 DAMAGE PLUS 10 MORE DAMAGE."
+	linefw "IF TAILS, THIS ATTACK DOES 20"
+	linefw "DAMAGE."
+	done
+
+Text14ab:
+	text "AGILITY"
+	done
+
+Text14ac:
+	text "FLIP A COIN. IF HEADS, DURING YOUR"
+	linefw "OPPONENT'S NEXT TURN, PREVENT ALL"
+	linefw "EFFECTS OF ATTACKS, INCLUDING"
+	linefw "DAMAGE, DONE TO THIS POKÉMON."
+	done
+
+Text14ad:
+	text "IT HAS ASTOUNDING ACCELERATION."
+	linefw "FROM A STANDSTILL, IT CAN REACH TOP"
+	linefw "SPEED WITHIN 10 STEPS."
+	done
+
+Text14ae:
+	text "DARK RAPIDASH "
+	done
+
+Text14af:
+	text "REAR KICK"
+	done
+
+Text14b0:
+	text "FLAME PILLAR"
+	done
+
+Text14b1:
+	text "YOU MAY DISCARD 1 ", "<FIRE>", " ENERGY CARD"
+	linefw "ATTACHED TO DARK RAPIDASH WHEN YOU"
+	linefw "USE THIS ATTACK. IF YOU DO AND IF"
+	linefw "YOUR OPPONENT HAS ANY BENCHED"
+	linefw "POKÉMON, CHOOSE 1 AND DO 10 DAMAGE"
+	linefw "TO IT. (DON'T APPLY WEAKNESS AND"
+	linefw "RESISTANCE TO BENCHED POKÉMON.)"
+	done
+
+Text14b2:
+	text "WHEN AT AN ALL-OUT GALLOP, ITS"
+	linefw "BLAZING MANE SPARKLES, ENHANCING"
+	linefw "ITS BEAUTIFUL APPEARANCE. "
+	done
+
+Text14b3:
+	text "MAGMAR "
+	done
+
+Text14b4:
+	text "FIRE PUNCH"
+	done
+
+Text14b5:
+	text "SPITFIRE"
+	done
+
+Text14b6:
+	text "WHEN IT BREATHES DEEPLY, HEAT WAVES"
+	linefw "FORM AROUND ITS BODY, MAKING IT HARD"
+	linefw "TO SEE CLEARLY."
+	done
+
+Text14b7:
+	text "BORN IN THE SPOUT OF A VOLCANO,"
+	linefw "ITS BODY IS COVERED BY FLAMES THAT"
+	linefw "SHIMMER LIKE THE SUN."
+	done
+
+Text14b8:
+	text "BLAZING FIRE"
+	done
+
+Text14b9:
+	text "YOU MAY DISCARD AS MANY ", "<FIRE>", " ENERGY"
+	linefw "CARDS ATTACHED TO MAGMAR AND ANY OF"
+	linefw "YOUR BENCHED POKÉMON AS YOU LIKE"
+	linefw "WHEN YOU USE THIS ATTACK. IF YOU DO,"
+	linefw "THIS ATTACK DOES 10 DAMAGE PLUS 10"
+	linefw "DAMAGE FOR EACH ", "<FIRE>", " ENERGY CARD"
+	linefw "DISCARDED."
+	done
+
+Text14ba:
+	text "MAGMA PUNCH"
+	done
+
+Text14bb:
+	text "IT DISLIKES COLD PLACES, SO IT BLOWS"
+	linefw "SCORCHING FLAMES TO MAKE THE"
+	linefw "ENVIRONMENT SUITABLE FOR ITSELF. "
+	done
+
+Text14bc:
+	text "SMOKESCREEN"
+	done
+
+Text14bd:
+	text "IF THE DEFENDING POKÉMON TRIES TO"
+	linefw "ATTACK DURING YOUR OPPONENT'S NEXT"
+	linefw "TURN, YOUR OPPONENT FLIPS A COIN."
+	linefw "IF TAILS, THAT ATTACK DOES NOTHING."
+	done
+
+Text14be:
+	text "IN BATTLE, MAGMAR BLOWS OUT"
+	linefw "INTENSELY HOT FLAMES FROM ALL OVER"
+	linefw "ITS BODY TO INTIMIDATE ITS OPPONENT."
+	done
+
+Text14bf:
+	text "FLAREON "
+	done
+
+Text14c0:
+	text "EEVEE "
+	done
+
+Text14c1:
+	text "RAGE"
+	done
+
+Text14c2:
+	text "DOES 10 DAMAGE PLUS 10 MORE DAMAGE"
+	linefw "FOR EACH DAMAGE COUNTER ON THIS"
+	linefw "POKÉMON."
+	done
+
+Text14c3:
+	text "IT HAS A FLAME SAC IN ITS BODY. ITS"
+	linefw "BODY TEMPERATURE TOPS 1,650 DEGREES"
+	linefw "FAHRENHEIT BEFORE BATTLE."
+	done
+
+Text14c4:
+	text "FLAREON'S FLUFFY FUR RELEASES HEAT"
+	linefw "INTO THE AIR SO THAT ITS BODY DOES"
+	linefw "NOT GET EXCESSIVELY HOT."
+	done
+
+Text14c5:
+	text "DARK FLAREON "
+	done
+
+Text14c6:
+	text "PLAYING WITH FIRE"
+	done
+
+Text14c7:
+	text "USE THIS ATTACK ONLY IF THERE ARE"
+	linefw "ANY ", "<FIRE>", " ENERGY CARDS ATTACHED TO"
+	linefw "DARK FLAREON. FLIP A COIN. IF HEADS,"
+	linefw "DISCARD 1 OF THOSE ENERGY CARDS AND"
+	linefw "THIS ATTACK DOES 30 DAMAGE PLUS 20"
+	linefw "MORE DAMAGE; IF TAILS, THIS ATTACK"
+	linefw "DOES 30 DAMAGE. "
+	done
+
+Text14c8:
+	text "INHALED AIR IS HEATED IN THE FLAME"
+	linefw "SAC IN ITS BODY TO AN INTENSE FIRE"
+	linefw "OVER 3,000 DEGREES FAHRENHEIT."
+	done
+
+Text14c9:
+	text "MOLTRES "
+	done
+
+Text14ca:
+	text "WILDFIRE"
+	done
+
+Text14cb:
+	text "YOU MAY DISCARD ANY NUMBER OF ", "<FIRE>"
+	linefw "ENERGY CARDS ATTACHED TO MOLTRES"
+	linefw "WHEN YOU USE THIS ATTACK. IF YOU DO,"
+	linefw "DISCARD THAT MANY CARDS FROM THE TOP"
+	linefw "OF YOUR OPPONENT'S DECK."
+	done
+
+Text14cc:
+	text "DIVE BOMB"
+	done
+
+Text14cd:
+	text "ONE OF THE LEGENDARY BIRD POKÉMON."
+	linefw "IT IS SAID THAT ITS APPEARANCE"
+	linefw "INDICATES THE COMING OF SPRING."
+	done
+
+Text14ce:
+	text "DRY UP"
+	done
+
+Text14cf:
+	text "CHOOSE 1 OF YOUR OPPONENT'S POKÉMON."
+	linefw "FLIP A COIN UNTIL YOU GET TAILS."
+	linefw "FOR EACH HEADS, DISCARD A"
+	linefw "<WATER>", " ENERGY CARD ATTACHED TO THAT"
+	linefw "POKÉMON, IF ANY."
+	done
+
+Text14d0:
+	text "FIRE WING"
+	done
+
+Text14d1:
+	text "THIS LEGENDARY POKÉMON SCATTERS"
+	linefw "EMBERS WITH EVERY FLAP OF ITS WINGS."
+	linefw "IT IS A THRILLING SIGHT TO BEHOLD. "
+	done
+
+Text14d2:
+	text "FIREGIVER"
+	done
+
+Text14d3:
+	text "WHEN YOU PUT MOLTRES INTO PLAY"
+	linefw "DURING YOUR TURN (NOT DURING SETUP),"
+	linefw "PUT FROM 1 TO 4 (CHOSEN AT RANDOM)"
+	linefw "<FIRE>", " ENERGY CARDS FROM YOUR DECK"
+	linefw "INTO YOUR HAND."
+	done
+
+Text14d4:
+	text "SHUFFLE YOUR DECK AFTERWARD."
+	done
+
+Text14d5:
+	text "SQUIRTLE "
+	done
+
+Text14d6:
+	text "BUBBLE"
+	done
+
+Text14d7:
+	text "WITHDRAW"
+	done
+
+Text14d8:
+	text "TINY TURTLE"
+	done
+
+Text14d9:
+	text "IT SHELTERS ITSELF IN ITS SHELL,"
+	linefw "THEN STRIKES BACK WITH SPOUTS OF"
+	linefw "WATER AT EVERY OPPORTUNITY."
+	done
+
+Text14da:
+	text "SKULL BASH"
+	done
+
+Text14db:
+	text "THE SHELL IS SOFT WHEN IT IS BORN."
+	linefw "IT SOON BECOMES SO RESILIENT,"
+	linefw "PRODDING FINGERS WILL BOUNCE OFF IT."
+	done
+
+Text14dc:
+	text "WATER POWER"
+	done
+
+Text14dd:
+	text "DURING YOUR NEXT TURN, SQUIRTLE'S"
+	linefw "POUND ATTACK'S BASE DAMAGE IS 30"
+	linefw "INSTEAD OF 10."
+	done
+
+Text14de:
+	text "POUND"
+	done
+
+Text14df:
+	text "AFTER BIRTH, ITS BACK SWELLS AND"
+	linefw "HARDENS INTO A SHELL. POWERFULLY"
+	linefw "SPRAYS FOAM FROM ITS MOUTH. "
+	done
+
+Text14e0:
+	text "SHELL ATTACK"
+	done
+
+Text14e1:
+	text "WHEN IT RETRACTS ITS LONG NECK INTO"
+	linefw "ITS SHELL, IT SQUIRTS OUT WATER WITH"
+	linefw "VIGOROUS FORCE. "
+	done
+
+Text14e2:
+	text "WARTORTLE "
+	done
+
+Text14e3:
+	text "TURTLE"
+	done
+
+Text14e4:
+	text "IT IS SAID TO LIVE 10,000 YEARS."
+	linefw "ITS FURRY TAIL IS POPULAR AS A"
+	linefw "SYMBOL OF LONGEVITY."
+	done
+
+Text14e5:
+	text "SURF"
+	done
+
+Text14e6:
+	text "IT IS RECOGNIZED AS A SYMBOL OF"
+	linefw "LONGEVITY. IF ITS SHELL HAS ALGAE ON"
+	linefw "IT, THAT WARTORTLE IS VERY OLD. "
+	done
+
+Text14e7:
+	text "DARK WARTORTLE "
+	done
+
+Text14e8:
+	text "DOUBLESLAP"
+	done
+
+Text14e9:
+	text "FLIP 2 COINS. THIS ATTACK DOES 10"
+	linefw "DAMAGE TIMES THE NUMBER OF HEADS."
+	done
+
+Text14ea:
+	text "MIRROR SHELL"
+	done
+
+Text14eb:
+	text "IF AN ATTACK DOES DAMAGE TO DARK"
+	linefw "WARTORTLE DURING YOUR OPPONENT'S"
+	linefw "NEXT TURN (EVEN IF DARK WARTORTLE IS"
+	linefw "KNOCKED OUT), THE DEFENDING POKÉMON"
+	linefw "TAKES AN EQUAL AMOUNT OF DAMAGE."
+	done
+
+Text14ec:
+	text "IT CLEVERLY CONTROLS ITS FURRY EARS"
+	linefw "AND TAIL TO MAINTAIN ITS BALANCE"
+	linefw "WHILE SWIMMING. "
+	done
+
+Text14ed:
+	text "BLASTOISE "
+	done
+
+Text14ee:
+	text "RAIN DANCE"
+	done
+
+Text14ef:
+	text "AS OFTEN AS YOU LIKE DURING YOUR"
+	linefw "TURN, YOU MAY ATTACH 1 ", "<WATER>", " ENERGY"
+	linefw "CARD TO 1 OF YOUR ", "<WATER>", " POKÉMON."
+	linefw "(THIS DOESN'T USE UP YOUR 1 ENERGY"
+	linefw "CARD ATTACHMENT FOR THE TURN.) THIS"
+	linefw "POWER CAN'T BE USED IF BLASTOISE IS"
+	linefw "ASLEEP, CONFUSED, OR PARALYZED."
+	done
+
+Text14f0:
+	text "HYDRO PUMP"
+	done
+
+Text14f1:
+	text "DOES 10 EXTRA DAMAGE FOR EACH"
+	linefw "<WATER>", " ENERGY ATTACHED TO THIS"
+	linefw "POKÉMON BUT NOT USED TO PAY FOR"
+	linefw "THIS ATTACK'S ENERGY COST. YOU CAN'T"
+	linefw "ADD MORE THAN 20 DAMAGE IN THIS WAY."
+	done
+
+Text14f2:
+	text "SHELLFISH"
+	done
+
+Text14f3:
+	text "THE JETS OF WATER IT SPOUTS FROM THE"
+	linefw "ROCKET CANNONS ON ITS SHELL CAN"
+	linefw "PUNCH THROUGH THICK STEEL."
+	done
+
+Text14f4:
+	text "IT DELIBERATELY MAKES ITSELF HEAVY"
+	linefw "SO IT CAN WITHSTAND THE RECOIL OF"
+	linefw "THE WATER JETS IT FIRES. "
+	done
+
+Text14f5:
+	text "DARK BLASTOISE "
+	done
+
+Text14f6:
+	text "HYDROCANNON"
+	done
+
+Text14f7:
+	text "DOES 30 DAMAGE PLUS 20 DAMAGE FOR"
+	linefw "EACH ", "<WATER>", " ENERGY ATTACHED TO DARK"
+	linefw "BLASTOISE BUT NOT USED TO PAY FOR"
+	linefw "THIS ATTACK'S ENERGY COST. YOU CAN'T"
+	linefw "ADD MORE THAN 40 DAMAGE IN THIS WAY."
+	done
+
+Text14f8:
+	text "ROCKET TACKLE"
+	done
+
+Text14f9:
+	text "DARK BLASTOISE DOES 10 DAMAGE TO"
+	linefw "ITSELF. FLIP A COIN. IF HEADS,"
+	linefw "PREVENT ALL DAMAGE DONE TO DARK"
+	linefw "BLASTOISE DURING YOUR OPPONENT'S"
+	linefw "NEXT TURN. (ANY OTHER EFFECTS OF"
+	linefw "ATTACKS STILL HAPPEN.)"
+	done
+
+Text14fa:
+	text "IT CRUSHES ITS FOE UNDER ITS HEAVY"
+	linefw "BODY TO CAUSE FAINTING. IN A PINCH,"
+	linefw "IT WILL WITHDRAW INSIDE ITS SHELL. "
+	done
+
+Text14fb:
+	text "PSYDUCK "
+	done
+
+Text14fc:
+	text "HEADACHE"
+	done
+
+Text14fd:
+	text "YOUR OPPONENT CAN'T PLAY TRAINER"
+	linefw "CARDS DURING HIS OR HER NEXT TURN."
+	done
+
+Text14fe:
+	text "DUCK"
+	done
+
+Text14ff:
+	text "IT NEVER REMEMBERS USING ITS ODD"
+	linefw "POWERS, SO IT ALWAYS TILTS ITS HEAD"
+	linefw "IN PUZZLEMENT."
+	done
+
+Text1500:
+	text "DIZZINESS"
+	done
+
+Text1501:
+	text "DRAW A CARD."
+	done
+
+Text1502:
+	text "WATER GUN"
+	done
+
+Text1503:
+	text "IF ITS USUAL HEADACHE WORSENS, IT"
+	linefw "STARTS EXHIBITING ODD POWERS. IT"
+	linefw "CAN'T REMEMBER DOING SO, HOWEVER. "
+	done
+
+Text1504:
+	text "GOLDUCK "
+	done
+
+Text1505:
+	text "PSYSHOCK"
+	done
+
+Text1506:
+	text "HYPER BEAM"
+	done
+
+Text1507:
+	text "IF THE DEFENDING POKÉMON HAS ANY"
+	linefw "ENERGY CARDS ATTACHED TO IT, CHOOSE"
+	linefw "1 OF THEM AND DISCARD IT."
+	done
+
+Text1508:
+	text "THE FLIPPERS OF ITS WELL-DEVELOPED"
+	linefw "LIMBS GIVE IT SHOCKING SPEED. IT IS"
+	linefw "THE BEST SWIMMER AMONG POKÉMON."
+	done
+
+Text1509:
+	text "PSYCHIC"
+	done
+
+Text150a:
+	text "DOES 10 DAMAGE PLUS 10 MORE DAMAGE"
+	linefw "FOR EACH ENERGY CARD ATTACHED TO THE"
+	linefw "DEFENDING POKÉMON."
+	done
+
+Text150b:
+	text "WAVE SPLASH"
+	done
+
+Text150c:
+	text "A POKÉMON THAT LIVES IN LAKES."
+	linefw "IT SWIMS FASTER THAN ANY HUMAN"
+	linefw "SWIMMING CHAMPION. "
+	done
+
+Text150d:
+	text "DARK GOLDUCK "
+	done
+
+Text150e:
+	text "THIRD EYE"
+	done
+
+Text150f:
+	text "DISCARD 1 ENERGY CARD ATTACHED TO"
+	linefw "DARK GOLDUCK IN ORDER TO DRAW UP TO"
+	linefw "3 CARDS."
+	done
+
+Text1510:
+	text "SUPER PSY"
+	done
+
+Text1511:
+	text "WHEN IT SWIMS AT FULL SPEED USING"
+	linefw "ITS LONG, WEBBED LIMBS, ITS FOREHEAD"
+	linefw "SOMEHOW BEGINS TO GLOW. "
+	done
+
+Text1512:
+	text "POLIWAG "
+	done
+
+Text1513:
+	text "DOES 10 DAMAGE PLUS 10 DAMAGE FOR"
+	linefw "EACH ", "<WATER>", " ENERGY ATTACHED TO THIS"
+	linefw "POKÉMON BUT NOT USED TO PAY FOR THIS"
+	linefw "ATTACK'S ENERGY COST. YOU CAN'T ADD"
+	linefw "MORE THAN 20 DAMAGE IN THIS WAY."
+	done
+
+Text1514:
+	text "TADPOLE"
+	done
+
+Text1515:
+	text "ITS SKIN IS SO THIN, ITS INTERNAL"
+	linefw "ORGANS ARE VISIBLE. IT HAS TROUBLE"
+	linefw "WALKING ON ITS NEWLY GROWN FEET."
+	done
+
+Text1516:
+	text "BECAUSE IT IS INEPT AT WALKING ON"
+	linefw "ITS NEWLY GROWN LEGS, IT ALWAYS"
+	linefw "SWIMS AROUND IN WATER. "
+	done
+
+Text1517:
+	text "POLIWHIRL "
+	done
+
+Text1518:
+	text "AMNESIA"
+	done
+
+Text1519:
+	text "CHOOSE 1 OF THE DEFENDING POKÉMON'S"
+	linefw "ATTACKS. THAT POKÉMON CAN'T USE THAT"
+	linefw "ATTACK DURING YOUR OPPONENT'S NEXT"
+	linefw "TURN."
+	done
+
+Text151a:
+	text "THE SPIRAL PATTERN ON ITS BELLY"
+	linefw "SUBTLY UNDULATES. STARING AT IT"
+	linefw "GRADUALLY CAUSES DROWSINESS."
+	done
+
+Text151b:
+	text "TWIDDLE"
+	done
+
+Text151c:
+	text "FLIP A COIN. IF HEADS, THE"
+	linefw "DEFENDING POKÉMON IS NOW CONFUSED;"
+	linefw "IF TAILS, IT IS NOW ASLEEP."
+	done
+
+Text151d:
+	text "BODY SLAM"
+	done
+
+Text151e:
+	text "THE SWIRL ON ITS BELLY SUBTLY"
+	linefw "UNDULATES. STARING AT IT MAY"
+	linefw "GRADUALLY CAUSE DROWSINESS. "
+	done
+
+Text151f:
+	text "POLIWRATH "
+	done
+
+Text1520:
+	text "THIS STRONG AND SKILLED SWIMMER IS"
+	linefw "EVEN CAPABLE OF CROSSING THE PACIFIC"
+	linefw "OCEAN JUST BY KICKING. "
+	done
+
+Text1521:
+	text "WHIRLPOOL"
+	done
+
+Text1522:
+	text "WITH ITS EXTREMELY TOUGH MUSCLES,"
+	linefw "IT CAN KEEP SWIMMING IN THE PACIFIC"
+	linefw "OCEAN WITHOUT RESTING."
+	done
+
+Text1523:
+	text "TENTACOOL "
+	done
+
+Text1524:
+	text "COWARDICE"
+	done
+
+Text1525:
+	text "AT ANY TIME DURING YOUR TURN"
+	linefw "(BEFORE YOUR ATTACK), YOU MAY RETURN"
+	linefw "TENTACOOL TO YOUR HAND. (DISCARD ALL"
+	linefw "CARDS ATTACHED TO TENTACOOL.) THIS"
+	linefw "POWER CAN'T BE USED THE TURN YOU PUT"
+	linefw "TENTACOOL IN PLAY OR IF TENTACOOL IS"
+	linefw "ASLEEP, CONFUSED, OR PARALYZED."
+	done
+
+Text1526:
+	text "JELLYFISH"
+	done
+
+Text1527:
+	text "IT DRIFTS IN SEA CURRENTS. COUNTLESS"
+	linefw "FISHERMEN ARE HURT BY ITS POISON"
+	linefw "STINGERS."
+	done
+
+Text1528:
+	text "TENTACRUEL "
+	done
+
+Text1529:
+	text "JELLYFISH STING"
+	done
+
+Text152a:
+	text "IT ALERTS OTHERS TO DANGER BY"
+	linefw "STRIDENTLY FLASHING THE RED ORBS"
+	linefw "ON ITS HEAD."
+	done
+
+Text152b:
+	text "SEEL "
+	done
+
+Text152c:
+	text "IF THIS POKÉMON IS ATTACKED DURING"
+	linefw "YOUR OPPONENT'S NEXT TURN, THE"
+	linefw "ATTACK'S DAMAGE IS REDUCED BY 10"
+	linefw "(AFTER APPLYING WEAKNESS AND"
+	linefw "RESISTANCE). (BENCHING EITHER"
+	linefw "POKÉMON ENDS THIS EFFECT.)"
+	done
+
+Text152d:
+	text "ICE BEAM"
+	done
+
+Text152e:
+	text "SEA LION"
+	done

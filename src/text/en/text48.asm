@@ -1,0 +1,1085 @@
+Text0b45:
+	text "I'M BRANDON."
+	linefw "REMEMBER ME?"
+	linefw "YOU'RE SO AMAZING FOR DRIVING"
+	linefw "GR No.4 AWAY, ", "<RAMNAME>", "!"
+	linefw "BUT WE STILL DON'T HAVE OUR CARDS,"
+	linefw "SO I CAN'T TAKE YOU ON YET!"
+	linefw "MY REGARDS TO YOU, ", "<RAMNAME>", ","
+	linefw "AS I MUST RELY ON YOU."
+	done
+
+Text0b46:
+	text "IF I HAD ANY CARDS ON ME,"
+	linefw "BY ALL MEANS, I'D BATTLE YOU."
+	linefw "I'D BE HAPPY TO BATTLE THE ONE"
+	linefw "WHO DEFEATED GR No.4!"
+	done
+
+Text0b47:
+	text "I FINALLY GOT SOME CARDS!"
+	linefw "LET'S HAVE A CARD BATTLE!!"
+	done
+
+Text0b48:
+	text "WOULD YOU LIKE TO DUEL BRANDON?"
+	done
+
+Text0b49:
+	text "LET'S DO IT!"
+	linefw "A DUEL WITH 4 PRIZE CARDS!"
+	done
+
+Text0b4a:
+	text "WELL, THAT'S A REAL LET-DOWN..."
+	linefw "I GUESS I'LL FIND ANOTHER OPPONENT."
+	done
+
+Text0b4b:
+	text "I GUESS YOU REALLY DIDN'T"
+	linefw "DEFEAT GR No.4 BY LUCK ALONE."
+	done
+
+Text0b4c:
+	text "I WONDERED IF YOU WON BY LUCK,"
+	linefw "BUT I SEE NOW THAT IT WAS ALL SKILL."
+	done
+
+Text0b4d:
+	text "BOY, YOU SURE CAUGHT A LUCKY BREAK"
+	linefw "WHEN YOU DEFEATED GR No.4, HUH?"
+	done
+
+Text0b4e:
+	text "DEFEAT NICHOLAS AND ISAAC BEFORE"
+	linefw "YOU EVEN THINK ABOUT DUELLING ME!"
+	linefw "IF YOU SOMEHOW MANAGE TO PULL THAT"
+	linefw "OFF, I'LL TAKE YOU ON."
+	done
+
+Text0b4f:
+	text "I'M JENNIFER..."
+	linefw "A MEMBER OF THE LIGHTNING CLUB..."
+	linefw "I TRIED TO PROTECT MY DEAR PIKACHU"
+	linefw "DECK, BUT NOW IT'S GONE!"
+	linefw "EVEN IF I COULD HAVE A DECK WITHOUT"
+	linefw "A PIKACHU CARD, I WOULD BE HAPPY..."
+	done
+
+Text0b50:
+	text "OH, I MISS MY DEAR PIKACHU..."
+	linefw "HOW CAN I DUEL WITHOUT THEM?"
+	linefw "PLEASE WIN OUR CARDS BACK FROM TEAM"
+	linefw "GR! YOU CAN DO IT, I'M SURE OF IT!"
+	linefw "I'LL BET THE OTHER CLUBS WOULD"
+	linefw "AGREE WITH ME!"
+	linefw "PLEASE TRY YOUR HARDEST,"
+	linefw "<RAMNAME>", "!"
+	done
+
+Text0b51:
+	text "THAT GR No.4 RAN OFF..."
+	linefw "NOW HOW WILL I GET MY PIKACHU BACK?"
+	done
+
+Text0b52:
+	text "<RAMNAME>", ", REMEMBER ME? I'M"
+	linefw "BRANDON, A LIGHTNING CLUB MEMBER."
+	linefw "OUR CLUB HAS BEEN TAKEN OVER BY"
+	linefw "A GIRL CALLING HERSELF 'GR No.4'."
+	linefw "IF IT WASN'T BAD ENOUGH, ISAAC,"
+	linefw "OUR CLUB MASTER, IS WORKING FOR HER."
+	linefw "IS IT POSSIBLE FOR YOU TO DEFEAT"
+	linefw "GR No.4, ", "<RAMNAME>", "?"
+	linefw "AFTER ALL, YOU WERE STRONG ENOUGH TO"
+	linefw "DEFEAT THE GRAND MASTERS..."
+	done
+
+Text0b53:
+	text "SINCE NO ONE HAS ANY CARDS,"
+	linefw "WE CAN'T FIGHT BACK."
+	linefw "IT SEEMS THAT ALL OF THE OTHER CLUBS"
+	linefw "HAVE BEEN OVERTAKEN BY TEAM GR, TOO."
+	linefw "DO YOU THINK YOU'LL BE ABLE TO"
+	linefw "BEAT THEM, ", "<RAMNAME>", "?"
+	linefw "PLEASE TRY YOUR BEST FOR THE SAKE"
+	linefw "OF ALL OF THE ISLAND'S CLUBS!"
+	done
+
+Text0b54:
+	text "I JUST SAW GR No.4 RUNNING OUT,"
+	linefw "YELLING ABOUT YOU, ", "<RAMNAME>", "."
+	linefw "I JUST KNEW THAT YOU WERE STRONG"
+	linefw "ENOUGH TO DEFEAT TEAM GR."
+	linefw "YOU'RE SO TOUGH, ", "<RAMNAME>", "!!"
+	done
+
+Text0b55:
+	text "I LOVE ELECTRIC POKÉMON CARDS, BUT"
+	linefw "I LOVE VOLTORB Lv10 MOST OF ALL!"
+	linefw "HOWEVER, I DON'T HAVE EVEN ONE! IF"
+	linefw "ONLY I HAD 4 VOLTORB Lv10 CARDS..."
+	linefw "OH, ", "<RAMNAME>", ","
+	linefw "PLEASE TRADE WITH ME!"
+	linefw "IF YOU DO, I'LL GIVE YOU MY"
+	linefw "PRECIOUS PIKACHU Lv16 CARD!"
+	done
+
+Text0b56:
+	text "YOU REMEMBER THE CARD I'M"
+	linefw "LOOKING FOR, I HOPE."
+	linefw "IT'S VOLTORB Lv10, BUT"
+	linefw "I WANT 4 OF THEM TOTAL."
+	linefw "SO? SO?"
+	linefw "WOULD YOU LIKE TO TRADE?"
+	linefw "IF SO, I'LL EXCHANGE MY RARE"
+	linefw "PIKACHU Lv16 PROMO CARD FOR THEM!"
+	done
+
+Text0b57:
+	text "I WON'T GIVE UP!"
+	linefw " "
+	linefw "COME BACK AT ANY TIME."
+	linefw "I'LL KEEP MY TRADE OFFER OPEN."
+	done
+
+Text0b58:
+	text "NO GOOD! YOU DON'T HAVE 4 OF THEM!"
+	linefw "IF YOU DON'T HAVE 4, I WON'T TRADE!"
+	done
+
+Text0b59:
+	text "LET'S START THE TRADE THEN..."
+	linefw "OH, YOU HAVE SOME IN YOUR DECKS."
+	linefw "WE CAN'T TRADE UNLESS YOU HAVE"
+	linefw "AT LEAST 4 OUT OF YOUR DECKS."
+	done
+
+Text0b5a:
+	text "THEN LET'S TRADE!"
+	linefw "HERE, TAKE MY PIKACHU Lv16 CARD!"
+	done
+
+Text0b5b:
+	text "I TURNED ONE CARD I DIDN'T NEED"
+	linefw "INTO 4 THAT I WANTED!"
+	linefw "THANK YOU SO MUCH!"
+	done
+
+Text0b5c:
+	text "I REALLY NEEDED THOSE 4 VOLTORB"
+	linefw "CARDS YOU TRADED ME FOR MY DECK."
+	linefw "THANKS AGAIN!"
+	linefw "VZZZT! VZZZT! VZZZZZZT!"
+	done
+
+Text0b5d:
+	text "THE ONLY PEOPLE WHO CAN DEFEAT"
+	linefw "TEAM GR ARE THE GRAND MASTERS."
+	linefw "WITH THEIR LEGENDARY CARDS IN TOW,"
+	linefw "TEAM GR WOULDN'T STAND A CHANCE!"
+	linefw "BUT...ALL OF THE GRAND MASTERS"
+	linefw "ARE CURRENTLY MISSING!"
+	linefw "WE'RE DONE FOR! IT'S USELESS..."
+	done
+
+Text0b5e:
+	text "ALRIGHT! "
+	linefw "THE GRAND MASTERS HAVE RETURNED!"
+	linefw "YOU'RE THE BEST, ", "<RAMNAME>", "."
+	linefw "THANK YOU SO MUCH!"
+	done
+
+Text0b5f:
+	text "YOU DID IT, ", "<RAMNAME>", "!"
+	linefw "YOU'VE FINALLY REFORMED TEAM GR!"
+	linefw "I'VE SINCE BECOME GOOD FRIENDS"
+	linefw "WITH SOME TEAM GR MEMBERS."
+	done
+
+Text0b60:
+	text "I CAN'T REMEMBER HIS NUMBER, BUT ONE"
+	linefw "OF THE GR MEMBERS IS SO HANDSOME!"
+	linefw "I WONDER IF I'LL BE ABLE TO MEET"
+	linefw "HIM IF I JOIN TEAM GR?"
+	done
+
+Text0b61:
+	text "GR No.5 TOLD ME THAT I CAN'T GET"
+	linefw "A MASK FOR JOINING TEAM GR."
+	linefw "I WAS SO DISAPPOINTED!"
+	linefw "THOSE MASKS LOOK SO COOL."
+	done
+
+Text0b62:
+	text "LOOKIE LOOKIE!"
+	linefw "I FINALLY GOT TO JOIN TEAM GR!"
+	linefw "I WAS DISAPPOINTED AT FIRST FOR NOT"
+	linefw "RECEIVING ONE OF THOSE COOL MASKS."
+	linefw "I'M HAPPY NOW, THOUGH, SINCE THEY"
+	linefw "GAVE ME THIS NICE HAT."
+	done
+
+Text0b63:
+	text "YOUR RIVAL IS...RONALD, RIGHT?"
+	linefw "ISN'T HE GREAT?"
+	linefw "EVEN THOUGH HE HAS NO CARDS, HE'S"
+	linefw "SPYING ON TEAM GR ALL BY HIMSELF."
+	linefw "OF COURSE, YOU'RE ALSO GREAT FOR"
+	linefw "FIGHTING TEAM GR, TOO!"
+	done
+
+Text0b64:
+	text "I'VE HEARD THAT RONALD HAS SET OUT"
+	linefw "FOR GR ISLAND ALONE."
+	linefw "THAT RONALD!"
+	linefw "WHAT A BRAVE GUY!"
+	linefw "OF COURSE, YOU'VE GOT COURAGE, TOO,"
+	linefw "FIGHTING BACK AGAINST TEAM GR!"
+	done
+
+Text0b65:
+	text "PEOPLE HAVE BEEN SAYING YOU'RE THE"
+	linefw "REASON TEAM GR BECAME FRIENDLY."
+	linefw "YOU'RE GREAT! SO COURAGEOUS!"
+	linefw "JUST MARVELOUS!!"
+	done
+
+Text0b66:
+	text "AHA, ", "<RAMNAME>", "!"
+	linefw "SO YOU'VE COME ALREADY?"
+	linefw "THAT'S GREAT..."
+	linefw "BUT YOU WON'T FIGHT ME JUST YET."
+	linefw "ISN'T THAT RIGHT, MURRAY?"
+	done
+
+Text0b67:
+	text "PRECISELY..."
+	linefw "LADY GR No.4..."
+	done
+
+Text0b68:
+	text "THESE ARE MY TERMS FOR OUR DUEL:"
+	linefw "YOU MUST DEFEAT MURRAY FIRST."
+	done
+
+Text0b69:
+	text "I AM MURRAY..."
+	linefw "I WILL FIGHT YOU..."
+	done
+
+Text0b6a:
+	text "I AM MURRAY..."
+	linefw "YOU ARE ", "<RAMNAME>", "..."
+	linefw "UNDER GR No.4'S ORDERS,"
+	linefw "I MUST DEFEAT YOU..."
+	done
+
+Text0b6b:
+	text "WOULD YOU LIKE TO DUEL MURRAY?"
+	done
+
+Text0b6c:
+	text "PRIZE CARDS...6..."
+	done
+
+Text0b6d:
+	text "I WON'T LET YOU LEAVE..."
+	linefw "WITHOUT FIGHTING ME..."
+	done
+
+Text0b6e:
+	text "SINCE YOU UTTERLY REFUSE TO FIGHT,"
+	linefw "I'LL LET YOU LEAVE."
+	linefw "BUT IF YOU DON'T FIGHT ME..."
+	linefw "YOU CAN'T SAVE THE PSYCHIC CLUB."
+	done
+
+Text0b6f:
+	text "AS PER LORD GR No.4'S CONDITIONS,"
+	linefw "YOU MUST DEFEAT ME IN A DUEL FIRST."
+	done
+
+Text0b70:
+	text "IT IS GR No.4'S WILL FOR ME"
+	linefw "TO CHALLENGE ALL OPPONENTS."
+	done
+
+Text0b71:
+	text "GOOD LUCK, ", "<RAMNAME>", ","
+	linefw "THOUGH IT SEEMS IMPOSSIBLE."
+	done
+
+Text0b72:
+	text "PRIZE CARDS...6..."
+	done
+
+Text0b73:
+	text "IF YOU HAVE NO COURAGE TO FIGHT,"
+	linefw "LEAVE THE PSYCHIC CLUB AT ONCE..."
+	done
+
+Text0b74:
+	text "YOU STOPPED BY TO HAVE A DUEL"
+	linefw "WITH ME, CORRECT?"
+	linefw "ALRIGHT."
+	linefw "LET'S FIGHT!"
+	done
+
+Text0b75:
+	text "I'LL TAKE YOU ON WITH"
+	linefw "6 PRIZE CARDS!"
+	done
+
+Text0b76:
+	text "I SEE..."
+	linefw "THAT'S TOO BAD."
+	linefw "COME BACK AND DUEL ME IF YOU WANT TO"
+	linefw "PRACTICE WITH A NEW DECK SOMETIME."
+	linefw "I'LL BE GLAD TO HAVE"
+	linefw "A DUEL WITH YOU."
+	done
+
+Text0b77:
+	text "WE WERE SO FORTUNATE YOU HAD BRAVELY"
+	linefw "COME ALONG AND HELPED US OUT."
+	linefw "THANK YOU, ", "<RAMNAME>", "."
+	linefw "IT SEEMS THE CLUB'S SAFE NOW."
+	linefw "I'LL MAKE SURE TEAM GR DOESN'T"
+	linefw "CAPTURE US ALL AGAIN."
+	done
+
+Text0b78:
+	text "DON'T TAKE ME LIGHTLY THIS TIME,"
+	linefw "<RAMNAME>", ". IT'LL BE DIFFERENT."
+	linefw "I'VE FINALLY RID MYSELF OF THAT"
+	linefw "SUBPAR DECK I WAS STUCK WITH BEFORE."
+	linefw "NOW I HAVE A WONDERFUL DECK FILLED"
+	linefw "WITH POWERFUL PSYCHIC POKÉMON."
+	linefw "WELL, WHAT DO YOU SAY?"
+	linefw "WOULD YOU LIKE TO DUEL THE NEW ME?"
+	done
+
+Text0b79:
+	text "DO YOU WISH TO TAKE ON MY DECK"
+	linefw "FOCUSED AROUND PSYCHIC-TYPES?"
+	done
+
+Text0b7a:
+	text "I'VE HEARD A RUMOR THAT THE"
+	linefw "KING OF TEAM GR WAS DEFEATED."
+	linefw "I FIGURED YOU ALONE HAD THE STRENGTH"
+	linefw "TO ACCOMPLISH SUCH A FEAT."
+	linefw "CONGRATS FOR BEATING TEAM GR."
+	linefw "WANT TO HAVE A VICTORY DUEL WITH ME?"
+	done
+
+Text0b7b:
+	text "BATTLES AGAINST ME ARE ALWAYS TO"
+	linefw "A FULL 6 PRIZE CARDS."
+	linefw "LET'S BEGIN THIS PSYCHIC BATTLE!"
+	done
+
+Text0b7c:
+	text "YOU DON'T WANT TO FIGHT?"
+	linefw ""
+	linefw "IN THAT CASE, I'LL SAVE UP MY"
+	linefw "PSYCHIC POWER FOR OUR NEXT MEETING."
+	done
+
+Text0b7d:
+	text "GAH... IT'S MY LOSS..."
+	linefw "I SEEM TO HAVE LOST MY TECHNIQUE."
+	linefw "PLEASE, ", "<RAMNAME>", ","
+	linefw "TAKE GR No.4 DOWN THIS TIME."
+	done
+
+Text0b7e:
+	text "YOU HAVE LOST..."
+	linefw " "
+	linefw "DO NOT RESIST TEAM GR"
+	linefw "ANY LONGER..."
+	done
+
+Text0b7f:
+	text "THAT'S DEFINITELY THE POWER THAT"
+	linefw "ALLOWED YOU TO TAKE DOWN GR No.4."
+	done
+
+Text0b80:
+	text "YES, IT'S JUST AS I THOUGHT:"
+	linefw "THIS DECK JUST WON'T CUT IT."
+	linefw "COULD YOU COME BACK LATER?"
+	linefw "I NEED TO REBUILD MY DECK."
+	linefw "WE SHOULD DEFINITELY PLAY AGAIN"
+	linefw "ONCE I CAN CHANGE MY CARDS."
+	done
+
+Text0b81:
+	text "IT LOOKS LIKE I CAME THROUGH!"
+	linefw "TRY AGAIN SOMETIME, ", "<RAMNAME>", "."
+	done
+
+Text0b82:
+	text "COULD IT BE THAT I LOST...?"
+	linefw "YES, BUT WHAT A SATISFYING DUEL!"
+	done
+
+Text0b83:
+	text "IT SEEMS YOU'VE GOT A SECRET POWER"
+	linefw "THAT TRUMPS MY PSYCHIC ABILITIES."
+	linefw "I'M GOING TO FOCUS MY MIND AND POWER"
+	linefw "UP SO I WON'T LOSE TO YOU NEXT TIME!"
+	done
+
+Text0b84:
+	text "BRUTE STRENGTH OFTEN FAILS WHEN"
+	linefw "MATCHED AGAINST PSYCHIC ABILITIES."
+	linefw "WHEN YOU TRAIN YOUR MIND, YOU CAN"
+	linefw "REACH HIGH ECHELONS OF POWER!"
+	done
+
+Text0b85:
+	text "MY NAME IS ROBERT..."
+	linefw "I WAS A PSYCHIC CLUB MEMBER..."
+	linefw "NOW..."
+	linefw "I'M WITH GR No.4..."
+	done
+
+Text0b86:
+	text "I CAN'T TAKE YOU ON RIGHT NOW"
+	linefw "BECAUSE MY CARDS ARE MISSING."
+	linefw "IF I EVER GET MY CARDS BACK, THOUGH,"
+	linefw "I'D BE GLAD TO HAVE A DUEL WITH YOU!"
+	done
+
+Text0b87:
+	text "HUNH? WHAT HAPPENED?"
+	linefw " "
+	linefw "OH? IS THAT SO?"
+	linefw "THANK YOU, ", "<RAMNAME>", "!"
+	linefw "MY NAME'S ROBERT."
+	linefw "I'M A MEMBER OF THE PSYCHIC CLUB."
+	linefw "REALLY, THANK YOU SO MUCH"
+	linefw "FOR SAVING OUR CLUB!"
+	done
+
+Text0b88:
+	text "WHILE YOU WERE GONE,"
+	linefw "I'VE COLLECTED A BUNCH OF CARDS."
+	linefw "IF POSSIBLE, WOULD YOU HAVE"
+	linefw "A BATTLE WITH ME...?"
+	done
+
+Text0b89:
+	text "IF IT'S ALRIGHT, I'D LIKE YOU"
+	linefw "TO HAVE A BATTLE WITH ME."
+	done
+
+Text0b8a:
+	text "WOULD YOU LIKE TO DUEL ROBERT?"
+	done
+
+Text0b8b:
+	text "PLEASE SET ASIDE 4 PRIZE CARDS."
+	done
+
+Text0b8c:
+	text "THAT'S TOO BAD, BUT IF YOU DON'T"
+	linefw "WANT TO NOW...PLEASE DUEL ME LATER."
+	done
+
+Text0b8d:
+	text "WHEN I THINK ABOUT YOUR POWER,"
+	linefw "I GUESS IT ONLY MAKES SENSE I LOST."
+	done
+
+Text0b8e:
+	text "I MAY NOT BE ABLE TO WIN, BUT I'D"
+	linefw "LIKE TO BATTLE AGAINST YOU AGAIN..."
+	done
+
+Text0b8f:
+	text "I CAN'T BELIEVE I ACTUALLY WON"
+	linefw "AGAINST YOU..."
+	done
+
+Text0b90:
+	text "I'M DANIEL..."
+	linefw " "
+	linefw "MY MIND AND CARDS BELONG"
+	linefw "TO GR No.4..."
+	done
+
+Text0b91:
+	text "I'M DANIEL!"
+	linefw "I'M IN THE PSYCHIC CLUB."
+	linefw "THANKS FOR BREAKING US OUT OF THAT"
+	linefw "TRANCE TEAM GR PUT US UNDER."
+	linefw "BUT PLEASE DON'T LOSE RESPECT"
+	linefw "FOR OUR CLUB MASTER, MURRAY..."
+	linefw "IT'S BEEN SO LONG SINCE HE'S"
+	linefw "HAD SUCH TOUGH OPPOSITION..."
+	done
+
+Text0b92:
+	text "PARDON ME!"
+	linefw "LISTEN, ", "<RAMNAME>", "!"
+	linefw "KNOW WHAT? MURRAY'S FINALLY"
+	linefw "GOT HIS SELF-RESPECT BACK!"
+	linefw "HE LOST IT AFTER THAT FIASCO WITH"
+	linefw "TEAM GR...YOU REMEMBER."
+	linefw "BUT NOW MURRAY'S HEART AND SOUL"
+	linefw "ARE BACK INTO HIS PLAYING STYLE!"
+	linefw "HE'S INSPIRED US ALL!"
+	linefw "C'MON, I'M INSPIRED TO FIGHT NOW!"
+	done
+
+Text0b93:
+	text "I MADE A DECK OF COOL PSYCHIC"
+	linefw "POKÉMON, JUST LIKE MURRAY."
+	linefw "I'VE ALSO USED IT TO CHALLENGE"
+	linefw "QUITE A LOT OF DIFFERENT PEOPLE."
+	linefw "WOULD YOU LIKE TO BATTLE ME AND SEE"
+	linefw "MY AWESOME DECK IN ACTION?"
+	done
+
+Text0b94:
+	text "WOULD YOU LIKE TO DUEL DANIEL?"
+	done
+
+Text0b95:
+	text "4 PRIZE CARDS!"
+	linefw "TRY YOUR BEST TO CLAIM THEM ALL!"
+	done
+
+Text0b96:
+	text "OH, IF YOU'RE NOT INTERESTED,"
+	linefw "I DON'T MIND AT ALL."
+	done
+
+Text0b97:
+	text "YIKES, I GUESS IT DOESN'T HOLD UP"
+	linefw "AS WELL AS I THOUGHT."
+	done
+
+Text0b98:
+	text "THANK YOU."
+	linefw "I UNDERSTAND MY LIMITATIONS NOW."
+	linefw "SEE YOU LATER,"
+	linefw "AND HAVE MY BEST REGARDS!"
+	done
+
+Text0b99:
+	text "EVEN IF I WON AGAINST YOU, I HAVE A"
+	linefw "WAYS TO GO TO MATCH MURRAY'S POWER."
+	linefw "SEE YOU LATER,"
+	linefw "AND HAVE MY BEST REGARDS!"
+	done
+
+Text0b9a:
+	text "I FIGHT FOR GR No.4..."
+	done
+
+Text0b9b:
+	text "WOULD YOU LIKE TO DUEL STEPHANIE?"
+	done
+
+Text0b9c:
+	text "USE 4 PRIZE CARDS..."
+	done
+
+Text0b9d:
+	text "I WANT TO FIGHT FOR GR No.4..."
+	done
+
+Text0b9e:
+	text "I AM..."
+	linefw "STEPHANIE OF THE PSYCHIC CLUB..."
+	linefw "YOU HAVE MY GRATITUDE FOR BREAKING"
+	linefw "ME OUT OF THAT TRANCE..."
+	linefw "BUT IF IT'S A DUEL YOU'RE AFTER..."
+	linefw "I WILL CORDIALLY ACCEPT..."
+	linefw "BUT I BELIEVE..."
+	linefw "YOU WILL LOSE, REGRETTABLY..."
+	done
+
+Text0b9f:
+	text "NO MATTER HOW MANY TIMES YOU ASK..."
+	linefw "I WILL DUEL WITH YOU."
+	linefw "BECAUSE, YOU SEE..."
+	linefw "I FORESEE MY VICTORY..."
+	done
+
+Text0ba0:
+	text "WE SHALL UTILIZE 4"
+	linefw "PRIZE CARDS...ALRIGHT?"
+	done
+
+Text0ba1:
+	text "HEH HEH HEH..."
+	linefw "I KNOW NO ONE LIKES TO LOSE."
+	linefw "WORRY NOT, I UNDERSTAND."
+	linefw "I WON'T TELL A SOUL..."
+	done
+
+Text0ba2:
+	text "I AM..."
+	linefw "STEPHANIE OF THE PSYCHIC CLUB..."
+	linefw "GR No.4... THIS RESENTMENT..."
+	linefw "I WILL REMEMBER..."
+	done
+
+Text0ba3:
+	text "HEH HEH HEH..."
+	linefw "I KNEW YOU WOULD BE COMING..."
+	linefw "YOU'RE HERE FOR A BATTLE TO TRY AND"
+	linefw "WIN SOME BOOSTER PACKS..."
+	done
+
+Text0ba4:
+	text "EVEN IF YOU DON'T SAY A WORD..."
+	linefw "I CAN PREDICT THAT YOU WANT TO DUEL."
+	done
+
+Text0ba5:
+	text "4 PRIZE CARDS..."
+	linefw "AS I HAVE FORETOLD..."
+	done
+
+Text0ba6:
+	text "EVEN IF YOU RESIST MY PREDICTIONS,"
+	linefw "YOU'LL BATTLE ME EVENTUALLY..."
+	done
+
+Text0ba7:
+	text "LADY GR No.4..."
+	linefw "I HAVE BEEN DEFEATED..."
+	done
+
+Text0ba8:
+	text "YOU ARE WEAK."
+	linefw "YOU CANNOT WIN..."
+	done
+
+Text0ba9:
+	text "I...I LOST..."
+	linefw "MY PREMONITION WAS INCORRECT..."
+	done
+
+Text0baa:
+	text "I MAY HAVE FAILED PREDICTING"
+	linefw "THIS CARD BATTLE..."
+	linefw "BUT I CAN DIVINE THE FUTURE..."
+	linefw "I FORESEE YOUR NEXT BATTLE..."
+	linefw "I SEE A NEW BOOSTER PACK..."
+	done
+
+Text0bab:
+	text "I CAN DIVINE THE FUTURE..."
+	linefw "I FORESEE YOUR NEXT BATTLE..."
+	linefw "AT ANY RATE..."
+	linefw "I SEE A NEW BOOSTER PACK..."
+	done
+
+Text0bac:
+	text "MY PREDICTIONS CAN'T FORESEE WHO"
+	linefw "WINS OR LOSES..."
+	done
+
+Text0bad:
+	text "HEH HEH HEH..."
+	linefw "YOU'LL COME AGAIN..."
+	linefw "I CAN FORESEE..."
+	linefw "A BATTLE BETWEEN US IN THE FUTURE..."
+	done
+
+Text0bae:
+	text "HEH HEH HEH HEH..."
+	linefw "YOU'LL CHALLENGE ME AGAIN..."
+	linefw "AND IN THAT FIGHT..."
+	linefw "YOU'LL LOSE..."
+	done
+
+Text0baf:
+	text "DON'T EVEN BOTHER TALKING TO ME!"
+	linefw "I'LL ONLY REPEAT MYSELF ONCE:"
+	linefw "IF YOU WISH TO CHALLENGE ME,"
+	linefw "YOU MUST DEFEAT MURRAY FIRST."
+	linefw "I'VE ALREADY TOLD YOU THIS!"
+	linefw "REMEMBER THIS TIME!"
+	done
+
+Text0bb0:
+	text "GO ON!"
+	linefw "BATTLE MURRAY!"
+	done
+
+Text0bb1:
+	text "YOU THINK YOU'RE TOUGH"
+	linefw "ENOUGH FOR A REMATCH, EH?"
+	linefw "FIRST THINGS FIRST! YOU GOTTA DEFEAT"
+	linefw "MURRAY BEFORE CHALLENGING ME!"
+	done
+
+Text0bb2:
+	text "WELL, WELL! "
+	linefw "YOU WERE VICTORIOUS, WEREN'T YOU?"
+	linefw "BIG DEAL! I'M SUPER-STRONG MYSELF,"
+	linefw "SO YOU'D BEST BE READY TO LOOOOSE!"
+	done
+
+Text0bb3:
+	text "WHAT, HASN'T IT GOTTEN THROUGH?"
+	linefw "YOU CAN'T WIN AGAINST MY MIGHT."
+	linefw "WOULD YOU STILL LIKE TO DUEL?"
+	linefw " "
+	linefw "WEEELL, IF YOU SAY SO,"
+	linefw "I'LL TAKE YOU ON."
+	done
+
+Text0bb4:
+	text "OHO, SO YOU BEAT MURRAY AGAIN, EH?"
+	linefw " "
+	linefw "NO MATTER."
+	linefw "I ASSUME YOU WANT TO DUEL ME, THEN?"
+	done
+
+Text0bb5:
+	text "WOULD YOU LIKE TO DUEL GR No.4?"
+	done
+
+Text0bb6:
+	text "6 PRIZE CARDS, KID."
+	linefw "OH HO HO, CAN YOU REALLY BEAT ME?"
+	done
+
+Text0bb7:
+	text "LIKE BEFORE, 6 PRIZE CARDS."
+	linefw "OH HO HO, I'LL WIN AGAIN FOR SURE!"
+	done
+
+Text0bb8:
+	text "OH HO! SO YOU REALIZE THAT YOU CAN'T"
+	linefw "POSSIBLY MATCH MY SUPER-STRENGTH?"
+	linefw "SMART KID! TELL YOU WHAT: "
+	linefw "I'M KIND. I'LL LET YOU ESCAPE."
+	linefw "GO AND RUN WITH YOUR TAIL BETWEEN"
+	linefw "YOUR LEGS! I'LL JUST STAY HERE!"
+	done
+
+Text0bb9:
+	text "HMM? YOU DON'T WANT TO FIGHT ME?"
+	linefw "GET OUT OF MY SIGHT, THEN."
+	linefw "IT'S IMPOSSIBLE TO BEST MY"
+	linefw "SUPER-STRENGTH, AFTER ALL."
+	linefw "THIS CLUB WILL REMAIN"
+	linefw "UNDER MY THUMB!"
+	done
+
+Text0bba:
+	text "FINE THEN, YOU DON'T HAVE TO FIGHT."
+	linefw "I'LL JUST KEEP THIS CLUB AS IT IS!"
+	done
+
+Text0bbb:
+	text "DANGIT! I LOOOST?"
+	linefw "INCREDIBLE!"
+	done
+
+Text0bbc:
+	text "D-DEFEATED..."
+	done
+
+Text0bbd:
+	text "SEE THAAAAT?"
+	linefw "I TOLD YOU IT'S IMPOSSIBLE TO WIN."
+	linefw "THAT'S THE POWER OF"
+	linefw "MY SUPER-STRENGTH!"
+	linefw "IT'S THAT SAME POWER THAT LET ME"
+	linefw "BRAINWASH THE FOOLS OF THIS CLUB!"
+	linefw "SINCE YOU LOST TO ME, YOU MUST"
+	linefw "DEFEAT MURRAY HERE AGAIN."
+	linefw "I WON'T ACKNOWLEDGE YOU AS AN"
+	linefw "OPPONENT UNTIL YOU DO."
+	done
+
+Text0bbe:
+	text "THAT'S WHAT YOU GET FOR"
+	linefw "DEFYING TEAM GR!"
+	linefw "SEE? YOU WERE DEFEATED BY MY"
+	linefw "SUPER-STRENGTH AGAIN!"
+	linefw "NOW, NOW! IF YOU WANT A REMATCH,"
+	linefw "FIGHT MURRAY AGAIN AND WIN!"
+	done
+
+Text0bbf:
+	text "DEFEATED...I..."
+	linefw "<RAMNAME>", " HAS DEFEATED..."
+	linefw "UWAAAAAAHH!!"
+	done
+
+Text0bc0:
+	text "THE MIND CONTROL I'VE BEEN UNDER"
+	linefw "HAS BEEN SAFELY DISPELLED!"
+	linefw "IT SEEMS TO HAVE BEEN TRIGGERED FROM"
+	linefw "MY DEFEAT! THANK YOU, ", "<RAMNAME>", "!"
+	linefw "WILL YOU STILL FIGHT WITH GR No.4?"
+	linefw "IN THAT CASE, ACCEPT THIS GIFT."
+	linefw "YOU SHOULD FIND IT QUITE HELPFUL"
+	linefw "TO TAKE HER DOWN!"
+	done
+
+Text0bc1:
+	text "<RAMNAME>", " GOT THE"
+	linefw "GR No.4 CRAFTY DECK!"
+	done
+
+Text0bc2:
+	text "EH? IT SEEMS THAT YOU DON'T HAVE AN"
+	linefw "OPEN DECK SLOT TO MAKE THIS DECK."
+	linefw "HERE, I'LL GIVE YOU ALL 60 CARDS"
+	linefw "IN THE GR No.4 CRAFTY DECK."
+	done
+
+Text0bc3:
+	text "<RAMNAME>", " GOT 60 CARDS"
+	linefw "TO MAKE A NEW DECK!"
+	done
+
+Text0bc4:
+	text "I'LL SEND A RECORD OF THE DECK TO"
+	linefw "DR. MASON'S DECK MACHINE FOR YOU."
+	linefw "YOU CAN RECONSTRUCT IT"
+	linefw "AT ANY TIME AT HIS LAB."
+	linefw "JUST USE THE AUTO DECK MACHINE THERE"
+	linefw "TO REBUILD IT IN NO TIME FLAT."
+	done
+
+Text0bc5:
+	text "PLEASE ALSO TAKE THIS COIN."
+	done
+
+Text0bc6:
+	text "EVERY TIME I HAVE A DUEL,"
+	linefw "I LIKE TO SWITCH THE COIN I USE."
+	linefw "IT'S A NICE CHANGE OF PACE."
+	linefw " "
+	linefw "WHILE I SEEM TO BE FREED FROM THE"
+	linefw "MIND CONTROL, THE OTHERS ARE NOT."
+	linefw "I'M AFRAID THE SPELL CAN'T BE BROKEN"
+	linefw "UNTIL GR No.4 IS DEFEATED."
+	linefw "PLEASE DO YOUR BEST,"
+	linefw "<RAMNAME>", "!"
+	done
+
+Text0bc7:
+	text "IT WAS JUST A FLUKE YOU WON..."
+	linefw " "
+	linefw "BUT BECAUSE YOU BESTED MY TOUGHNESS,"
+	linefw "TAKE THIS COIN PIECE."
+	done
+
+Text0bc8:
+	text "BECAUSE YOU BESTED MY TOUGHNESS,"
+	linefw "TAKE THIS FINAL COIN PIECE."
+	done
+
+Text0bc9:
+	text "YOU KNOW WHAT THOSE COINS PIECES"
+	linefw "ARE FOR, RIIIIGHT?"
+	linefw "YOU CAN TRAVEL TO GR ISLAND "
+	linefw "IF YOU COLLECT ALL 4 GR COIN PIECES!"
+	linefw "WITH THE FULL COIN, YOU MAY RIDE"
+	linefw "OUR AIRSHIP AT THE ISLAND'S AIRPORT."
+	linefw "THAT ALL DEPENDS ON WHETHER YOU'RE"
+	linefw "STRONG ENOUGH TO BEAT US ALL!"
+	linefw "WELL, SEE YA!"
+	done
+
+Text0bca:
+	text "SO YOU'VE ALREADY BEATEN ALL OF"
+	linefw "THE TEAM GR MEMBERS HERE..."
+	linefw "YOU'RE FREE TO GO VISIT GR ISLAND"
+	linefw "IF YOU STOP BY THE AIRPORT."
+	linefw "I'LL BE ON MY WAY BACK TO MY"
+	linefw "HOME TURF MYSELF SOON ENOUGH."
+	linefw "I'LL BE SURE TO HAVE A STRONGER"
+	linefw "DECK READY WHEN I'M BACK HOME!"
+	done
+
+Text0bcb:
+	text "HEH... YOU'RE NOT ALLOWED THROUGH"
+	linefw "HERE. GR No.4'S ORDERS, Y'SEE."
+	linefw "LOOK..."
+	linefw "GO TO THE LIGHTNING CLUB..."
+	done
+
+Text0bcc:
+	text "UMM... THIS IS A PROBLEM..."
+	linefw "NOBODY HAS THE CARD I WANT."
+	linefw "WHAT ABOUT YOU? DO YOU HAVE AN"
+	linefw "ALAKAZAM Lv42 UP FOR GRABS?"
+	linefw "I CAN TRADE YOU A VERY RARE CARD"
+	linefw "FOR IT IF YOU DO."
+	done
+
+Text0bcd:
+	text "WOULD YOU POSSIBLY TRADE ME AN"
+	linefw "ALAKAZAM Lv42?"
+	linefw "IF YOU DO, I'D GLADLY GIVE YOU MY"
+	linefw "KANGASKHAN Lv38 FOR IT!"
+	done
+
+Text0bce:
+	text "IF YOU DON'T WANT TO TRADE,"
+	linefw "IT'S HOPELESS."
+	linefw "I WAS GOING TO TRADE..."
+	linefw "MY ONLY KANGASKHAN Lv38."
+	linefw "I DON'T HAVE MUCH BEYOND THAT,"
+	linefw "THOUGH."
+	linefw "IF YOU EVER FEEL LIKE TRADING,"
+	linefw "COME BACK AT ANY TIME."
+	done
+
+Text0bcf:
+	text "IT'S USELESS TO ARGUE IF YOU DON'T"
+	linefw "HAVE AN ALAKAZAM Lv42."
+	linefw "I WON'T TRADE MY KANGASKHAN Lv38"
+	linefw "FOR ANYTHING ELSE!"
+	done
+
+Text0bd0:
+	text "OH? BUT ALL OF YOUR ALAKAZAM Lv42"
+	linefw "CARDS ARE BEING USED IN DECKS."
+	linefw "I DON'T KNOW IF YOU'RE AWARE, BUT"
+	linefw "YOU CAN'T TRADE CARDS USED IN DECKS."
+	linefw "IT'S IMPORTANT TO KEEP YOUR DECKS"
+	linefw "TOGETHER, YOU KNOW."
+	linefw "IF YOU STILL WANT TO TRADE, FIRST"
+	linefw "TAKE THE CARD OUT OF YOUR DECK!"
+	done
+
+Text0bd1:
+	text "SWEET, SWEET, SWEET!"
+	linefw "I GOT AN ALAKAZAM Lv42!"
+	done
+
+Text0bd2:
+	text "OH, I'M SORRY."
+	linefw "I GOT CARRIED AWAY WITH JOY."
+	linefw "HERE'S YOUR KANGASKHAN Lv38."
+	done
+
+Text0bd3:
+	text "THANKS A BUNCH FOR TRADING WITH ME!"
+	done
+
+Text0bd4:
+	text "DAMAGE SWAP!"
+	linefw "CONFUSE RAY!"
+	linefw "ALAKAZAM Lv42 IS SO COOL!"
+	linefw "THANKS AGAIN FOR TRADING WITH ME!"
+	done
+
+Text0bd5:
+	text "<RAMNAME>", ", DO YOU KNOW THE LYRICS"
+	linefw "TO 'MY NAME IS IMAKUNI?'?"
+	linefw "”MAKE IT SHORTER!"
+	linefw "THOUGH IT CAN HURT MY DANCING..."
+	linefw "LET IT POWER UP!"
+	linefw "THEN IT WILL GET FAT."
+	linefw "BUT DON'T LET IT BREAK!"
+	linefw "IF THAT HAPPENS, DON'T TELL ANYONE."
+	linefw "BECAUSE THEN I WON'T KNOW"
+	linefw "WHAT TO DO!”"
+	done
+
+Text0bd6:
+	text "HEY, LOOK OVER THERE!!"
+	linefw "DO YOU SEE THAT MAN IN BLACK?"
+	linefw "THAT'S GOT TO BE THE FAMOUS STAR,"
+	linefw "IMAKUNI?!"
+	linefw "AHHH! MY HEART IS BEATING SO FAST!"
+	linefw "I THINK I'M GOING TO FAINT!!"
+	done
+
+Text0bd7:
+	text "SAY, WHAT'RE YOU DOING?"
+	linefw "YOUR HAT LOOKS LOVELYYY..."
+	linefw "I'D LIKE TO BE YOUR FRIEEEND..."
+	done
+
+Text0bd8:
+	text "AN INFORMANT TO TEAM GR WAS"
+	linefw "UNDER COVER IN THIS GROUP HALL."
+	linefw "TO THINK THAT SUCH A VILE PERSON"
+	linefw "WAS SPYING ON EVERYONE!"
+	linefw "I'VE MADE UP MY MIND!"
+	linefw "I'M GOING TO GR ISLAND!!"
+	linefw "...BUT THEIR POKÉMON CARDS ARE"
+	linefw "SO MUCH STRONGER THAN MINE..."
+	done
+
+Text0bd9:
+	text "IT LOOKS LIKE THAT TEAM GR INFORMANT"
+	linefw "IS HERE AGAIN..."
+	linefw "BUT YOU KNOW WHAT?"
+	linefw "I THINK SHE'S PRETTY CUTE."
+	linefw "I WONDER IF WE COULD BE FRIENDS?"
+	done
+
+Text0bda:
+	text "I WON'T SAY A WORD TO YOU!"
+	linefw " "
+	linefw "YOU'RE JUST TRYING TO SPY"
+	linefw "ON TEAM GR!"
+	done
+
+Text0bdb:
+	text "DON'T SAY A WORD!"
+	linefw "JUST HEAR ME OUT!"
+	linefw "I KNOW I USED TO BE A SPY FOR TEAM"
+	linefw "TEAM GR, BUT I'M THROUGH WITH THAT."
+	linefw "I JUST WANT TO BE FRIENDS WITH THE"
+	linefw "OTHER PSYCHIC-TYPE LOVERS HERE."
+	done
+
+Text0bdc:
+	text "THANK YOU FOR VISITING."
+	linefw "THIS IS TEAM GR'S FIGHTING FORTRESS."
+	linefw "I'M SORRY, BUT I CANNOT ALLOW YOU"
+	linefw "TO ENTER AT THIS TIME."
+	linefw "WE REQUIRE ALL ENTRANTS TO HAVE BOTH"
+	linefw "THE GR FIRE AND GR WATER COINS."
+	linefw "ONCE YOU SHOW ME THOSE COINS,"
+	linefw "YOU MAY ENTER THE FORTRESS."
+	done
+
+Text0bdd:
+	text "THANK YOU FOR VISITING."
+	linefw "THIS IS TEAM GR'S FIGHTING FORTRESS."
+	done
+
+Text0bde:
+	text "THERE IS A CIRCULAR COIN-SIZED SLOT"
+	linefw "UNDER AN IMAGE OF A MAGMAR."
+	done
+
+Text0bdf:
+	text "INSERT YOUR GR FIRE COIN?"
+	done
+
+Text0be0:
+	text "<RAMNAME>", " INSERTED"
+	linefw "THE GR FIRE COIN."
+	done
+
+Text0be1:
+	text "THE GR FIRE COIN FIT INTO THE SLOT."
+	done
+
+Text0be2:
+	text "THERE IS A CIRCULAR COIN-SIZED SLOT"
+	linefw "UNDER AN IMAGE OF A PSYDUCK."
+	done

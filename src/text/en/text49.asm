@@ -1,0 +1,1049 @@
+Text0be3:
+	text "INSERT YOUR GR WATER COIN?"
+	done
+
+Text0be4:
+	text "<RAMNAME>", " INSERTED"
+	linefw "THE GR WATER COIN."
+	done
+
+Text0be5:
+	text "THE GR WATER COIN FIT INTO THE SLOT."
+	done
+
+Text0be6:
+	text "THANK YOU FOR VISITING."
+	linefw "THIS IS TEAM GR'S FIGHTING FORTRESS."
+	linefw "THE LEADER OF THE FORTRESS"
+	linefw "IS A MAN NAMED BRUTUS."
+	linefw "PLEASE CONTINUE FURTHER INSIDE."
+	linefw "BRUTUS IS WAITING FOR YOU."
+	done
+
+Text0be7:
+	text "I'M THE FIGHTING CLUB MASTER, YET I"
+	linefw "HAVE BEEN SO CRUELLY INCARCERATED..."
+	done
+
+Text0be8:
+	text "GAH HA HA HA HAAA!!!"
+	linefw "COME ON, COME ON, COME OOOON!!"
+	linefw "IT IS I, TONY, OF TEAM GR'S"
+	linefw "FIGHTING FORTRESS!"
+	linefw "I DON'T NEGOTIATE! IT'S POINTLESS!"
+	linefw "I'D MUCH RATHER FIGHT WITH CARDS!"
+	linefw "I JUST LOATHE PEOPLE WHO TRY TO"
+	linefw "DRAIN MY SPIRIT OR ENERGY!!"
+	linefw "I HATE ALL DECKS WITH ENERGY REMOVAL"
+	linefw "AND SUPER ENERGY REMOVAL CARDS!!"
+	linefw "IF YOUR DECK INCLUDES SOME OF THOSE"
+	linefw "CARDS, I WON'T FIGHT YOU!"
+	linefw "OTHERWISE I'LL BE STUCK USING WEAK"
+	linefw "MOVES OR DOING NOTHING AT ALL."
+	linefw "I'LL WAGER THE CLUB MASTER HERE"
+	linefw "THAT YOU'LL LOSE IN A DUEL WITH ME!"
+	linefw "NOW ALLOW ME TO BEGIN THIS FIGHT,"
+	linefw "<RAMNAME>", "!!!!"
+	done
+
+Text0be9:
+	text "I HOPE YOU ARE PREPARED, FOR I AM"
+	linefw "READY TO BEGIN OUR CARD BATTLE!!"
+	linefw "REMEMBER, NO ENERGY REMOVAL OR"
+	linefw "SUPER ENERGY REMOVAL CARDS ALLOWED!"
+	linefw "C'MON C'MON C'MOOOON!!"
+	linefw "LET'S BEGIN!!"
+	done
+
+Text0bea:
+	text "WOULD YOU LIKE TO DUEL TONY?"
+	done
+
+Text0beb:
+	text "I CAN SEE A RULE VIOLATION!"
+	linefw "I THOUGHT YOU UNDERSTOOD!!"
+	linefw "REMOVE YOUR ENERGY REMOVAL AND"
+	linefw "SUPER ENERGY REMOVAL CARDS, PRONTO!"
+	linefw "COME BACK WHEN THEY'RE SUBSTITUTED."
+	linefw "I WON'T FIGHT UNTIL THEN!!!"
+	done
+
+Text0bec:
+	text "4 PRIZE CARDS, NOOOOW!"
+	linefw "LET'S GO, LET'S GO, LET'S GOOO!!!"
+	done
+
+Text0bed:
+	text "NO NO NO NO NO NOOOOO!"
+	linefw "I WANT TO DEFEAT YOU!!"
+	done
+
+Text0bee:
+	text "ALRIGHT, ALRIGHT! YOU'VE COME BACK!!"
+	linefw "LET'S FIGHT, ", "<RAMNAME>", "!!"
+	linefw "BUT FIRST I MUST ASK YOU:"
+	linefw "HAVE YOU REMOVED THE CARDS I HATE?"
+	linefw "OF COURSE, I SPEAK OF ENERGY REMOVAL"
+	linefw "AND SUPER ENERGY REMOVAL!"
+	linefw "IF YOUR DECK IS CLEAR OF 'EM,"
+	linefw "LET'S DUUUUEL!!!"
+	done
+
+Text0bef:
+	text "REMOVE ALL ENERGY REMOVAL AND"
+	linefw "SUPER ENERGY REMOVAL CARDS!"
+	linefw "TAKE THEM OUT OF YOUR DECK!"
+	linefw "ALL INSTANCES OF BOTH CARDS!"
+	linefw "I REFUSE TO FIGHT YOU UNTIL YOU"
+	linefw "REMOVE THOSE CARDS!!"
+	done
+
+Text0bf0:
+	text "LET'S GO, LET'S GO, LET'S GO!"
+	linefw "4 PRIZE CARDS!!!"
+	done
+
+Text0bf1:
+	text "NOOOOOOO!!!"
+	linefw "YOU DON'T WANT TO FIGHT?"
+	linefw "GRAAAAAAH!"
+	linefw "SO BOOOOORED!!!"
+	done
+
+Text0bf2:
+	text "GUOOOOOOOH!!"
+	linefw "I WAS BEEEATEN!!!"
+	done
+
+Text0bf3:
+	text "GAH HA HA HAAA!!"
+	linefw "BEATEN, BEATEN! I WAS BEATEN!"
+	done
+
+Text0bf4:
+	text "I ALWAYS TRIUMPH OVER THOSE"
+	linefw "WHO OPPOSE ME!!!"
+	done
+
+Text0bf5:
+	text "UUUOOOOOAH!!"
+	linefw "I LOOOOST!!"
+	done
+
+Text0bf6:
+	text "GAH HA HA HA HAAA!!"
+	linefw "THAT WAS A MEMORABLE BATTLE!!"
+	linefw "<RAMNAME>", " IS STRONG!!"
+	linefw "GAH HA HA HA HAAA!!!"
+	done
+
+Text0bf7:
+	text "YAAAAAAAAAAH!!"
+	linefw "I'M THE VICTOOOOOR!!"
+	linefw "HOO HOO HOO HOOOO..."
+	linefw "...I'M TIRED..."
+	done
+
+Text0bf8:
+	text "I LOST THE GAMBLE, WHICH MEANS"
+	linefw "I LOST THE CLUB MASTER AS WELL!!"
+	done
+
+Text0bf9:
+	text "THANK YOU, ", "<RAMNAME>", "."
+	linefw "YOU SAVED ME."
+	linefw "IT SEEMS MY TRAINING WASN'T GOOD"
+	linefw "ENOUGH TO AVOID CAPTURE."
+	linefw "THIS IS AN EXPRESSION OF MY"
+	linefw "GRATITUDE. PLEASE ACCEPT IT!"
+	done
+
+Text0bfa:
+	text "I'LL HEAD BACK OVER TO THE"
+	linefw "FIGHTING CLUB."
+	linefw "I'D LIKE TO GO TOGETHER WITH YOU,"
+	linefw "BUT I CAN SEE YOU'D PREFER TO STAY."
+	done
+
+Text0bfb:
+	text "ARE YOU CERTAIN, TONY?"
+	linefw "I AM TO TAKE THESE BOOSTER PACKS?"
+	done
+
+Text0bfc:
+	text "GAH HA HA HA HAAA!"
+	linefw "I DON'T MIND, I DON'T MIND!"
+	linefw "WE HAVE AN ARRANGEMENT THAT MUST BE"
+	linefw "HONORED SINCE I'VE BEEN DEFEATED."
+	linefw "TAKE 'EM! THEY'RE FIFTH EDITION"
+	linefw "PACKS! THAT'S THE 'FLIGHT' SERIES!"
+	done
+
+Text0bfd:
+	text "I SEE!"
+	linefw "THEN I SUPPOSE THIS IS GOODBYE!"
+	done
+
+Text0bfe:
+	text "I'M STRONG WHEN SOMETHING'S ON THE"
+	linefw "LINE, BUT YOU'RE MUCH STRONGER."
+	linefw "<RAMNAME>", "! DO WHAT YOU LIKE."
+	linefw "I'LL BE HERE FIGHTING ON!!"
+	done
+
+Text0bff:
+	text "HEH HEH, I'VE BEEN WAITING FOR YOU."
+	linefw "SO GOOD OF YOU TO FINALLY COME!"
+	linefw "ALLOW ME TO FORMALLY INTRODUCE"
+	linefw "MYSELF. I'M GRACE."
+	linefw "CARD BATTLES WITH ME ARE ONLY HELD"
+	linefw "UNDER SPECIFIC PERSONAL RULES."
+	linefw "ALL ENERGY CARDS IN YOUR DECK MUST"
+	linefw "BE FIGHTING-TYPE!"
+	linefw "IF YOUR DECK HAS ONLY FIGHTING"
+	linefw "ENERGY CARDS, THEN LET'S BEGIN!"
+	done
+
+Text0c00:
+	text "THE ONLY ENERGY TYPE I LIKE IS"
+	linefw "FIGHTING ENERGY!"
+	linefw "I WON'T FIGHT AGAINST ANYONE USING"
+	linefw "ANY OTHER TYPES OF ENERGY CARDS."
+	linefw "I HOPE YOU'VE PREPARED A DECK THAT"
+	linefw "MEETS THAT REQUIREMENT! LET'S FIGHT!"
+	done
+
+Text0c01:
+	text "WOULD YOU LIKE TO DUEL GRACE?"
+	done
+
+Text0c02:
+	text "WHAT THE HECK!"
+	linefw ""
+	linefw "YOU'VE GOT ENERGY IN YOUR DECK THAT"
+	linefw "ISN'T FIGHTING-TYPE ENERGY!"
+	linefw "YOUR DECK MUST HAVE ONLY FIGHTING"
+	linefw "ENERGY CARDS IN IT. FIX THAT UP!!"
+	done
+
+Text0c03:
+	text "SET ASIDE 4 PRIZE CARDS!"
+	linefw "I'LL TAKE YOU DOWN!!"
+	done
+
+Text0c04:
+	text "TCH!! ARE YOU AFRAID TO BATTLE ME?"
+	linefw "WHAT A SAD, SORRY PERSON YOU ARE!"
+	linefw "IF YOU'RE NOT HERE TO FIGHT,"
+	linefw "THEN GET OUTTA MY SIGHT!!"
+	done
+
+Text0c05:
+	text "I WON'T LOSE AGAIN!"
+	linefw "LET'S HAVE ANOTHER BATTLE SOMETIME!!"
+	done
+
+Text0c06:
+	text "I SEE YOU'VE RETURNED TO MY SPARRING"
+	linefw "ROOM! I KNOW WHY YOU'RE HERE!"
+	linefw "BUT FIRST OFF, DOES YOUR DECK ONLY"
+	linefw "CONTAIN FIGHTING-TYPE ENERGY CARDS?"
+	linefw "IF IT DOES, LET'S FIGHT!"
+	done
+
+Text0c07:
+	text "YOU JERK! YOUR DECK HAS ENERGY CARDS"
+	linefw "THAT AREN'T FIGHTING-TYPE IN IT!"
+	linefw "RETURN ONCE YOU FIX YOUR DECK TO"
+	linefw "MEET MY STANDARDS!!"
+	done
+
+Text0c08:
+	text "4 PRIZE CARDS, THEN!"
+	linefw "WIN! WIN! WIIIIIIN!"
+	done
+
+Text0c09:
+	text "PERHAPS I WAS MISTAKEN. I GUESS YOU"
+	linefw "DIDN'T COME HERE FOR A BATTLE."
+	linefw "THAT'S JUST FINE."
+	done
+
+Text0c0a:
+	text "YOUR STRENGTH HAS OVERCOME MY OWN!"
+	done
+
+Text0c0b:
+	text "I'M SO STRONG THAT IT'S ONLY NATURAL"
+	linefw "THAT I WON! AH HA HA HA HA!!"
+	done
+
+Text0c0c:
+	text "D...DANGIT!"
+	linefw "I LOOOOST!!"
+	done
+
+Text0c0d:
+	text "I ALWAYS FEEL SO REFRESHED AFTER"
+	linefw "A TOUGH FIGHT."
+	linefw "I DON'T REGRET IT, EVEN IF I LOSE!"
+	done
+
+Text0c0e:
+	text "I...I WOOOON!!!"
+	done
+
+Text0c0f:
+	text "I HAVE ONE MORE THING FOR YOU."
+	done
+
+Text0c10:
+	text "THE CARD IN THIS CHEST IS FOR YOUR"
+	linefw "COLLECTION, ", "<RAMNAME>", "."
+	linefw "I DON'T LIKE IT VERY MUCH, BUT I'LL"
+	linefw "BET IT SUITS YOU JUST FINE."
+	done
+
+Text0c11:
+	text "SO YOU'VE COME, ", "<RAMNAME>", "!"
+	linefw "I'VE BEEN GROWING IMPATIENT WAITING."
+	linefw "I'M BRUTUS, THE LEADER OF TEAM GR'S"
+	linefw "FIGHTING FORTRESS!"
+	linefw "I'D LIKE TO FIGHT YOU IMMEDIATELY,"
+	linefw "BUT I SHALL FIRST TEST YOUR MIGHT!"
+	linefw "MEET SOME PUPILS OF MINE. TONY!"
+	done
+
+Text0c12:
+	text "GOOD DAY. I AM TONY!"
+	done
+
+Text0c13:
+	text "GRACE!"
+	done
+
+Text0c14:
+	text "AFTERNOON. I'M GRACE!"
+	done
+
+Text0c15:
+	text "CONFRONT THESE TWO FIGHTERS AND WIN."
+	linefw "HOWEVER..."
+	done
+
+Text0c16:
+	text "YOU'LL NEED TO FIND AND FIGHT"
+	linefw "THEM INSIDE OUR LABYRINTH."
+	linefw "IF YOU CAN DEFEAT BOTH PUPILS,"
+	linefw "I'LL ACCEPT YOUR DUEL CHALLENGE."
+	linefw "IF YOU SUCCEED AND DEFEAT ME,"
+	linefw "I'LL HAND OVER THE GR FIGHTING COIN."
+	linefw "WITH THIS COIN, YOU MAY OPEN"
+	linefw "THE DOORS BEHIND ME."
+	linefw "GOING THROUGH THAT DOORWAY WILL PUT"
+	linefw "YOU 1 STEP CLOSER TO THE GR CASTLE."
+	linefw "WELL, WHAT ARE YOU WAITING FOR?"
+	linefw "GO ON AND FIGHT MY TWO PUPILS!"
+	done
+
+Text0c17:
+	text "GO ON, GO ON! IF YOU DON'T BEAT BOTH"
+	linefw "OF MY PUPILS, I WON'T FIGHT YOU!"
+	linefw "FOCUS YOUR ENERGY AND WIN QUICKLY!"
+	done
+
+Text0c18:
+	text "I HAVE WORD THAT YOU'VE DEFEATED"
+	linefw "BOTH GRACE AND TONY, ", "<RAMNAME>", "."
+	linefw "LET'S GET TO OUR BATTLE IMMEDIATELY!"
+	linefw "BUT HEED THIS WARNING:"
+	linefw "I AM FOCUSED AND DISCIPLINED! I CAN"
+	linefw "UNLEASH FIGHTING-TYPE'S FULL POWER."
+	linefw "ALL FIGHTING-TYPE POKÉMON HERE"
+	linefw "IGNORE RESISTANCE WHEN THEY STRIKE!"
+	linefw "EVEN IF A FOE HAS A -30 TO FIGHTING"
+	linefw "ATTACKS, THEY HIT AT FULL FORCE."
+	linefw "SO WHAT WILL YOU DO?"
+	linefw "ARE YOU STILL WILLING TO FIGHT ME?"
+	done
+
+Text0c19:
+	text "HAVE YOU COME TO CHALLENGE ME WITH"
+	linefw "MY POWER OF THE FIGHTING-TYPE?"
+	linefw "FIGHTING POKÉMON ATTACKS NEVER INCUR"
+	linefw "RESISTANCE FROM ANY FOES HERE!"
+	linefw "IF YOU STILL WISH TO CHALLENGE ME,"
+	linefw "LET US BEGIN THIS BRUTAL BATTLE!"
+	done
+
+Text0c1a:
+	text "WOULD YOU LIKE TO DUEL BRUTUS?"
+	done
+
+Text0c1b:
+	text "I'LL SHOW YOU MY MASTERY OF FIGHTING"
+	linefw "IN A 6-PRIZE, ALL-OUT BATTLE!"
+	done
+
+Text0c1c:
+	text "I SEE FEAR HAS CREPT INTO YOUR WILL"
+	linefw "BECAUSE OF MY SHEER POWER!"
+	linefw "THAT IS THE MARK OF A COWARD!"
+	done
+
+Text0c1d:
+	text "SINCE I'VE BEEN DEFEATED BY YOU,"
+	linefw "I'VE BEEN TRAINING HARD TO POWER UP!"
+	linefw "HAVE YOU RETURNED TO CHALLENGE MY"
+	linefw "FIGHTING MIGHT ONCE MORE?"
+	linefw "FIGHTING POKÉMON ARE SO TOUGH HERE,"
+	linefw "NO POKÉMON CAN RESIST THEIR ATTACKS!"
+	linefw "ARE YOU STILL WILLING TO BATTLE ME,"
+	linefw "<RAMNAME>", "?"
+	done
+
+Text0c1e:
+	text "6 PRIZE CARDS! I'LL SHOW YOU THE"
+	linefw "RESULTS OF MY RECENT TRAINING!"
+	done
+
+Text0c1f:
+	text "I GUESS I EXPECTED AS MUCH... MY"
+	linefw "FIGHTING POWER IS INTIMIDATING!"
+	linefw "ONCE YOU POWER YOURSELF UP, RETURN"
+	linefw "SO WE MAY HAVE ANOTHER COMPETITION!"
+	linefw "I WON'T WAIT FOR YOU WHILE I POWER"
+	linefw "MYSELF UP, HOWEVER!"
+	done
+
+Text0c20:
+	text "COULD MY MASTERY OF FIGHTING BE"
+	linefw "STILL UNREFINED?"
+	done
+
+Text0c21:
+	text "NOW YOU SEE! THAT'S MY FIGHTING"
+	linefw "SKILL! WITH IT, I WIN EASILY!!"
+	done
+
+Text0c22:
+	text "YOU'VE TORN APART MY FIGHTING"
+	linefw "POWERS AGAIN!"
+	done
+
+Text0c23:
+	text "YOU'VE DEFINITELY POWERED YOURSELF"
+	linefw "UP EVEN MORE. IT SHOWS!"
+	done
+
+Text0c24:
+	text "I HAVE EMERGED TRIUMPHANT,"
+	linefw "AS I HAD EXPECTED..."
+	linefw "MY FIGHTING ABILITIES HAVE BECOME"
+	linefw "MORE FOCUSED, STRONGER."
+	linefw "GREAT BATTLE, ", "<RAMNAME>", "."
+	linefw "AIM TO STRENGTHEN YOURSELF, TOO!!"
+	done
+
+Text0c25:
+	text "MY FIGHTING POWER WAS OVERWHELMED."
+	linefw ""
+	linefw "THIS GR FIGHTING COIN IS A SUITABLE"
+	linefw "PRIZE FOR SUCH A STRONG ADVERSARY."
+	linefw "HERE, ", "<RAMNAME>", "."
+	linefw "TAKE THE GR FIGHTING COIN."
+	done
+
+Text0c26:
+	text "YOU CAN NOW OPEN THE DOORS BEHIND ME"
+	linefw "TO CONTINUE YOUR JOURNEY ONWARD."
+	linefw "TEAM GR'S PSYCHIC FORTRESS AWAITS!"
+	done
+
+Text0c27:
+	text "THERE IS A CIRCULAR COIN-SIZED SLOT"
+	linefw "UNDER AN IMAGE OF A MACHAMP."
+	done
+
+Text0c28:
+	text "INSERT YOUR GR FIGHTING COIN?"
+	done
+
+Text0c29:
+	text "<RAMNAME>", ", YOU HAVE MY GRATITUDE."
+	linefw "PLEASE, COME OVER HERE."
+	done
+
+Text0c2a:
+	text "WE! THE FIRE CLUB!"
+	linefw "THANK YOU FOR YOUR HELP!!"
+	linefw "I KNOW IT'S NOT MUCH,"
+	linefw "BUT TAKE THIS FIRE COIN."
+	done
+
+Text0c2b:
+	text "USE THE FIRE COIN IN A DUEL"
+	linefw "TO SINGE YOUR COMPETITION!"
+	done
+
+Text0c2c:
+	text "MY NAME'S KEN."
+	linefw "I'M THE FIRE CLUB MASTER."
+	linefw "TEAM GR CAUGHT ME UNPREPARED, BEAT"
+	linefw "ME IN A DUEL, AND LOCKED US ALL UP."
+	linefw "THERE'S NO WAY TO OPEN THE DOORS,"
+	linefw "EITHER. ONLY GR No.3 CAN DO THAT."
+	linefw "IF YOU WANT TO HELP US GET OUTTA"
+	linefw "THIS CELL, DEFEAT GR No.3."
+	linefw "YOU'RE OUR ONLY HOPE FOR FREEDOM."
+	linefw "YOU CAN DO IT!"
+	done
+
+Text0c2d:
+	text "I'VE HEARD THAT YOU DEFEATED"
+	linefw "GR No.3 AT THE WATER CLUB."
+	linefw "HE HAS SINCE RETURNED HERE"
+	linefw "AND IS WAITING FOR YOU!"
+	linefw "YOU CAN WIN AGAIN, I KNOW IT!"
+	linefw "GOOD LUCK, ", "<RAMNAME>", "!!"
+	done
+
+Text0c2e:
+	text "GR No.3 SHOULD BE AT THE WATER"
+	linefw "CLUB. PLEASE HELP THEM OUT, TOO!"
+	done
+
+Text0c2f:
+	text "I'VE GOT FAITH YOU'LL PULL THROUGH!"
+	linefw "PLEASE BE CAREFUL!"
+	done
+
+Text0c30:
+	text "PLEASE HURRY AND DEFEAT ANY"
+	linefw "TEAM GR THUGS STILL HANGING AROUND!"
+	done
+
+Text0c31:
+	text "I DON'T HAVE ANY CARDS YET,"
+	linefw "SO I CAN'T DO MUCH AT THE MOMENT."
+	linefw "DON'T WORRY ABOUT ME, THOUGH."
+	linefw "DO YOUR BEST, ", "<RAMNAME>", "!!"
+	done
+
+Text0c32:
+	text "I'VE CONSTRUCTED A NEW DECK WITH"
+	linefw "CARDS I'VE RECENTLY COLLECTED."
+	linefw "I THINK I'M READY TO FIRE IT UP"
+	linefw "AND SEE HOW IT WORKS IN BATTLE!"
+	done
+
+Text0c33:
+	text "SO YOU'VE COME AGAIN, ", "<RAMNAME>", "."
+	linefw "LET'S HEAT IT UP WITH A CARD DUEL!"
+	done
+
+Text0c34:
+	text "WOULD YOU LIKE TO DUEL KEN?"
+	done
+
+Text0c35:
+	text "BETTER GATHER 6 PRIZE CARDS AS FUEL"
+	linefw "FOR THIS BLAZING BOUT!"
+	done
+
+Text0c36:
+	text "WELL IF YOU'RE NOT UP FOR IT,"
+	linefw "I GUESS I OUGHT TO COOL DOWN."
+	linefw "STILL, IF YOU'RE EVER SEEKING A"
+	linefw "HOT BATTLE, I'LL BE BURNING HERE!"
+	done
+
+Text0c37:
+	text "I'VE BEEN ALL FIRED UP WAITING"
+	linefw "FOR YOU TO SHOW UP AGAIN."
+	linefw "I'VE GOT SOME BOOSTERS WITH YOUR"
+	linefw "NAME ON 'EM -- IF YOU CAN BEAT ME."
+	linefw "TAKE 'EM IF YOU CAN, ", "<RAMNAME>", "!"
+	linefw "LET'S HAVE A HEATED BATTLE!"
+	done
+
+Text0c38:
+	text "SO YOU'VE COME AGAIN, ", "<RAMNAME>", "."
+	linefw "LET'S HAVE A HEATED BATTLE!"
+	done
+
+Text0c39:
+	text "AWW, I'M SIZZLING FOR SOME GAMEPLAY"
+	linefw "OVER HERE! WELL, WHATEVER."
+	linefw "I'LL JUST KEEP THIS FIRE BURNING"
+	linefw "FOR MY NEXT BATTLE. AWW, YEAH! "
+	done
+
+Text0c3a:
+	text "I HEAR YOU'VE USED YOUR FIERY SKILLS"
+	linefw "TO BURN DOWN TEAM GR."
+	linefw "LET'S BATTLE, ", "<RAMNAME>", "!"
+	linefw "WE'LL BLAZE BRIGHTLY!"
+	done
+
+Text0c3b:
+	text "THAT WAS INDEED A HEATED BATTLE!"
+	done
+
+Text0c3c:
+	text "PLEASE, USE YOUR FIRE TO BURN"
+	linefw "THROUGH TEAM GR."
+	linefw "OTHERS HAVE TRIED, BUT MADE MISTAKES"
+	linefw "ALONG THAT WAY THAT STOPPED THEM."
+	linefw "POKÉMON CARDS ARE SOMETHING TO BE"
+	linefw "ENJOYED BY EVERYONE."
+	done
+
+Text0c3d:
+	text "YOU CAN'T HOPE TO BEAT TEAM GR"
+	linefw "WITH THAT DEGREE OF HOTNESS."
+	linefw "FIGHT HOT AND YOU'LL BURN HOT!!"
+	done
+
+Text0c3e:
+	text "THAT WAS INDEED A FIERY MATCH,"
+	linefw "<RAMNAME>", "! WELL PLAYED!"
+	done
+
+Text0c3f:
+	text "BATTLES WITH YOU ARE ALWAYS HOT!"
+	linefw "YOU NEVER FAIL TO SATISFY."
+	done
+
+Text0c40:
+	text "YOU MAY NOT HAVE BEEN HOT IN BATTLE,"
+	linefw "BUT YOUR SPIRIT WAS TRULY AFLAME!"
+	done
+
+Text0c41:
+	text "I'M THE FIRE CLUB MEMBER WHO BURNS"
+	linefw "THE HOTTEST! 'TIS I, JOHN!"
+	linefw "...BUT SINCE I'VE BEEN CAUGHT,"
+	linefw "I'M NOT FEELING SO HOT ANY MORE..."
+	done
+
+Text0c42:
+	text "I'M THE FIRE CLUB MEMBER WHO BURNS"
+	linefw "THE HOTTEST! 'TIS I, JOHN!"
+	linefw "PLEASE BURN THE HOTTEST OF US ALL"
+	linefw "AND TAKE DOWN GR No.3!"
+	done
+
+Text0c43:
+	text "WE SAW YOUR BATTLE, AND WOW!"
+	linefw "YOU BURNED SO HOT!"
+	linefw "I'D LOVE TO HAVE A DUEL WITH YOU!"
+	done
+
+Text0c44:
+	text "TEAM GR! YOU MAKE THE FIRE"
+	linefw "INSIDE OF ME BURN SO HOT!"
+	linefw "AHH! I WANT TO FIGHT!!"
+	linefw "I NEED SOME CARDS!!"
+	done
+
+Text0c45:
+	text "I WAS ABLE TO MAKE A HOT AND FIERY"
+	linefw "DECK SINCE MY CARDS WERE RETURNED!"
+	linefw "LET'S HAVE US A HOT, BLAZING DUEL!"
+	done
+
+Text0c46:
+	text "I MAKE ALL OF MY FIGHTS HOT, FIERY,"
+	linefw "AND TOTALLY FUN!"
+	done
+
+Text0c47:
+	text "WOULD YOU LIKE TO DUEL JOHN?"
+	done
+
+Text0c48:
+	text "BATTLES ARE MORE FIERY WITH"
+	linefw "4 PRIZE CARDS!!"
+	done
+
+Text0c49:
+	text "YOU GOTTA EXERT YOURSELF IF YOU"
+	linefw "WANNA BURN YOUR HOTTEST!"
+	done
+
+Text0c4a:
+	text "IT'S HOT! SO HOT!"
+	linefw "THAT BATTLE REALLY BURNED!"
+	done
+
+Text0c4b:
+	text "PLEASE USE THE CARDS YOU GOT FROM"
+	linefw "THOSE BOOSTERS TO MAKE A FIERY DECK!"
+	done
+
+Text0c4c:
+	text "I GUESS I WAS JUST BURNING"
+	linefw "HOTTER THAN YOU WERE!"
+	done
+
+Text0c4d:
+	text "GR No.3 TOOK US ALL ON, AND"
+	linefw "WE ALL LOST, ONE AFTER ANOTHER."
+	linefw "OUR CARDS HAVE ALSO BEEN TAKEN."
+	linefw "WHAT CAN WE POSSIBLY DO?"
+	linefw "THAT GR No.3 GUY LEFT SAYING"
+	linefw "SOMETHING ABOUT THE WATER CLUB..."
+	done
+
+Text0c4e:
+	text "IF YOU CAN WIN,"
+	linefw "MAYBE WE'LL GET OUR CARDS BACK!"
+	linefw "PLEASE BURN HOTTER THAN WE DID"
+	linefw "AND ROAST GR No.3!"
+	done
+
+Text0c4f:
+	text "GR No.3 IS PROBABLY TAKING"
+	linefw "OVER THE WATER CLUB NOW..."
+	done
+
+Text0c50:
+	text "YOU'VE GOT TO SET GR No.3"
+	linefw "ABLAZE AND CLAIM VICTORY."
+	linefw "PLEASE, ", "<RAMNAME>", "."
+	linefw "YOU'RE OUR LAST HOPE!"
+	done
+
+Text0c51:
+	text "YOU BURNED! YOU SIZZLED!"
+	linefw "YOU SPREAD LIKE WILDFIRE!"
+	linefw "I CAN'T HELP BUT FEEL THE URGE"
+	linefw "TO HAVE A DUEL WITH YOU!"
+	done
+
+Text0c52:
+	text "HOW ARE YOU FEELING, ", "<RAMNAME>", "?"
+	linefw "I'M BURNING UP!"
+	linefw "I'VE GOTTEN A FEW CARDS FROM KEN"
+	linefw "AFTER WE WERE FREED FROM THAT CAGE."
+	linefw "IF I DON'T KEEP BATTLING,"
+	linefw "MY FIRE WILL BURN DOWN TO NOTHING."
+	linefw "C'MON!"
+	linefw "LET'S HAVE A DUEL!"
+	done
+
+Text0c53:
+	text "I'LL BURN IF I HAVE A DUEL WITH YOU!"
+	linefw "C'MON, LET'S HEAT IT UP!"
+	done
+
+Text0c54:
+	text "WOULD YOU LIKE TO DUEL ADAM?"
+	done
+
+Text0c55:
+	text "WE'LL BURN BRIGHTLY WITH"
+	linefw "4 PRIZE CARDS IN THIS MATCH!"
+	done
+
+Text0c56:
+	text "SAY WHAT?! I'M GOING TO BE"
+	linefw "NOTHING BUT ASH SOON..."
+	done
+
+Text0c57:
+	text "KEN HAS GOTTEN MORE CARDS AND"
+	linefw "SHARED THEM SO WE COULD MAKE DECKS."
+	linefw "I'M SO HAPPY! I HAVEN'T FELT"
+	linefw "THIS PSYCHED FOR A LONG TIME!"
+	linefw "I REALLY FEEL LIKE I'M BURNING HOT!"
+	linefw "LET'S HAVE A DUEL, ", "<RAMNAME>", "!"
+	done
+
+Text0c58:
+	text "I'VE COMPLETELY BURNED OUT!"
+	done
+
+Text0c59:
+	text "I'VE GOT TO REMEMBER TO WATCH"
+	linefw "MY BLAZE WHEN I'M DUELLING YOU!"
+	done
+
+Text0c5a:
+	text "WHAAAT?"
+	linefw "I'M BURNING SO BRIGHTLY!"
+	linefw "COME BACK ANY TIME YOU'D LIKE"
+	linefw "TO FIRE OFF ANOTHER DUEL!"
+	done
+
+Text0c5b:
+	text "EVEN IF IT'S CAUGHT! FIRE!"
+	linefw "IT CAN'T BE PUT OUT! FIRE!"
+	linefw "EVEN IF WE HAVE NO STRENGTH LEFT!"
+	linefw "FIRE..."
+	done
+
+Text0c5c:
+	text "FIRE! YOU BEAT UP GR No.3"
+	linefw "AT THE WATER CLUB!"
+	linefw "PLEASE, FOR OUR SAKES,"
+	linefw "DO IT ONE MORE TIME! FIIIRE!"
+	done
+
+Text0c5d:
+	text "PLEASE DEFEAT GR No.3!"
+	linefw "<RAMNAME>", "! BE FIERY!"
+	done
+
+Text0c5e:
+	text "THANKS, ", "<RAMNAME>", "!"
+	linefw "YOU PULLED THROUGH! FIRE!"
+	linefw "COME BACK SOMETIME SO WE CAN"
+	linefw "HAVE A DUEL! FIIIRE!!"
+	done
+
+Text0c5f:
+	text "FIRE! FIRE!"
+	linefw "FIIIIRE!!"
+	linefw "I HID THIS DECK BEFORE WE WERE"
+	linefw "ATTACKED! FIRE!"
+	done
+
+Text0c60:
+	text "YOU! FIRE!"
+	linefw "ME! FIRE!"
+	linefw "A BATTLE BETWEEN TWO PEOPLE!"
+	linefw "FIIIIRE!!"
+	done
+
+Text0c61:
+	text "WOULD YOU LIKE TO DUEL JONATHAN?"
+	done
+
+Text0c62:
+	text "4 PRIZE CARDS!"
+	linefw "FIRE!"
+	done
+
+Text0c63:
+	text "MY FIRE ISN'T GONE!"
+	linefw "IT'LL SPREAD YET! FIRE!"
+	done
+
+Text0c64:
+	text "THAT DUEL OUSTED MY FIRE!"
+	done
+
+Text0c65:
+	text "IF YOU WANT ANOTHER BATTLE,"
+	linefw "JUST SAY THE PASSWORD: FIIIIRE!"
+	done
+
+Text0c66:
+	text "THAT WASN'T SUCH A FIERY DUEL..."
+	linefw "OUR NEXT WILL BE BETTER! FIIIRE!!"
+	done
+
+Text0c67:
+	text "WHERE'S YOUR SPIRIT, ", "<RAMNAME>", "?"
+	linefw "I GOT TIRED OF WAITING HERE FOR YOU!"
+	linefw "IT WAS MY OWN FOOLISHNESS THAT"
+	linefw "COST ME OWNERSHIP OF THE WATER CLUB."
+	linefw "IT CAUSED ME A LOT OF MENTAL TRAUMA"
+	linefw "LOSING TO A TWERP LIKE YOU!"
+	linefw "HOWEVER, I'VE GOTTEN STRONGER."
+	linefw "YOU'LL NEVER FREE THE FIRE CLUB!"
+	done
+
+Text0c68:
+	text "YOU CAN'T RUN AWAY AND HIDE FROM ME."
+	linefw "I'M PREPARED TO FIGHT AT ANY TIME!"
+	done
+
+Text0c69:
+	text "WOULD YOU LIKE TO DUEL GR No.3?"
+	done
+
+Text0c6a:
+	text "WE'LL HAVE A FATEFUL DUEL"
+	linefw "WITH 6 PRIZE CARDS!"
+	linefw "IF YOU SOMEHOW MANAGE TO BEST ME"
+	linefw "AGAIN, I'LL FREE THE FIRE CLUB!"
+	done
+
+Text0c6b:
+	text "OH, SO ARE YOU HAPPY WITH THE"
+	linefw "FIRE CLUB STAYING AS IT IS, THEN?"
+	done
+
+Text0c6c:
+	text "NOOO! DEFEATED AGAIN..."
+	linefw "HOW ARE YOU SO STRONG?!"
+	linefw "ARGH...TAKE THESE BOOSTER PACKS."
+	done
+
+Text0c6d:
+	text "WHAT A PATHETIC DECK! WAS IT A FLUKE"
+	linefw "THAT YOU BEAT ME AT THE WATER CLUB?"
+	linefw "IF THAT'S ALL THE POWER YOU HAVE,"
+	linefw "YOU'D BETTER GIVE UP WHILE YOU CAN!"
+	done
+
+Text0c6e:
+	text "YOU'VE ALSO EARNED THIS"
+	linefw "FOR DEFEATING ME TWICE."
+	done
+
+Text0c6f:
+	text "THERE ARE FOUR TOTAL PIECES"
+	linefw "OF THAT COIN TO COLLECT. "
+	linefw "IF YOU OWN ALL FOUR, YOU CAN "
+	linefw "USE OUR AIRSHIP AT THE AIRPORT!"
+	linefw "IT ONLY FLIES TO GR ISLAND,"
+	linefw "WHERE I HAPPEN TO BE HEADED MYSELF."
+	done
+
+Text0c70:
+	text "HO HO HO! SO YOU'VE COLLECTED"
+	linefw "ALL 4 PIECES OF THE GR COIN!"
+	linefw "YOU CAN USE OUR AIRSHIP AT THE"
+	linefw "AIRPORT FOR FREE WITH THAT COIN."
+	linefw "IT ONLY FLIES TO GR ISLAND,"
+	linefw "WHERE I HAPPEN TO BE HEADED MYSELF."
+	done
+
+Text0c71:
+	text "SINCE YOU'VE DEFEATED ME, I'LL"
+	linefw "FREE THE FIRE CLUB RIGHT AWAY."
+	done
+
+Text0c72:
+	text "GRAAAAAHH!!!!"
+	done
+
+Text0c73:
+	text "REMEMBER, I'LL BE ON GR ISLAND,"
+	linefw "WAITING FOR YOU, KID!"
+	done
+
+Text0c74:
+	text "HEY HEY HEEY!"
+	linefw "I'VE GOT A PROBLEM, BABY!"
+	linefw "I WANNA TRADE FER A CARD, BUT NONE"
+	linefw "'A THESE CHUMPS HAVE ANY LEFT!"
+	linefw "I S'PPOSE IT'S THAT TEAM GR'S FAULT."
+	linefw "BUT YOU LOOK LIKE YA HAVE CARDS! "
+	linefw "I'M LOOKIN' FER A FLAREON Lv28."
+	linefw "DO YA HAVE ONE UP FER GRABS, BABY?"
+	linefw "IF YA DO, I'LL TRADE YA FER MY RARE"
+	linefw "MEOWTH Lv14. WHADDAYA SAY?"
+	done
+
+Text0c75:
+	text "HEY HEY HEEY!"
+	linefw "LET'S TRADE, BABY!"
+	linefw "DO YA HAVE A FLAREON Lv28 THAT"
+	linefw "TEAM GR DIDN'T NAB FROM YA?"
+	linefw "I'LL GIVE YA THIS RARE MEOWTH Lv14"
+	linefw "IN EXCHANGE FER IT, BABY!"
+	done
+
+Text0c76:
+	text "OH NOO! YA CAN'T SAY THAT, BABY!"
+	linefw "BUT, IF THERE'S NO OTHER WAY..."
+	linefw "LET ME KNOW IF YA CHANGE YER MIND."
+	linefw "I'LL KEEP THE TRADE OPEN, BABY!"
+	done
+
+Text0c77:
+	text "HEY HEY HEEY!"
+	linefw "THIS AIN'T FLAREON Lv28!"
+	linefw "IF YA DON'T HAVE IT,"
+	linefw "WE CAN'T TRADE, BABY!"
+	done
+
+Text0c78:
+	text "HEY HEY HEEY!"
+	linefw "YOU'RE USIN' IT IN A DECK!"
+	linefw "WE CAN'T TRADE UNTIL YA TAKE"
+	linefw "IT OUTTA THERE, BABY!"
+	done
+
+Text0c79:
+	text "HEY HEY HEEY!"
+	linefw "THEN LET'S TRADE, BABY!"
+	linefw "HERE'S MY MEOWTH Lv14,"
+	linefw "COMIN' YER WAY, BABY!"
+	done
+
+Text0c7a:
+	text "THANKS A BUNCH, BABY!"
+	done
+
+Text0c7b:
+	text "HEY HEY HEEY!"
+	linefw "THANKS AGAIN FER THE FLAREON Lv28!"
+	done
+
+Text0c7c:
+	text "WHILE TEAM GR'S STILL AROUND,"
+	linefw "IT'S IMPOSSIBLE TO PLAY CARDS."
+	done
+
+Text0c7d:
+	text "SINCE TEAM GR HAS DISAPPEARED,"
+	linefw "I CAN PLAY WITH MY CARDS AGAIN!"
+	done
+
+Text0c7e:
+	text "I DON'T UNDERSTAND HOW ANYONE COULD"
+	linefw "THINK GR No.2 ISN'T A VILLAIN."
+	linefw "I MEAN, HE DEFEATED ALL OF US AND"
+	linefw "TOOK AWAY ALL OF OUR CARDS!"
+	done
+
+Text0c7f:
+	text "YOU KNOW WHAT? TEAM GR'S FORMER WAY"
+	linefw "OF THINKING WAS INCREDIBLY MOROSE."
+	linefw "NOT ALLOWING OTHERS TO ACT LIKE"
+	linefw "THEMSELVES IS REALLY SELFISH."
+	done
+
+Text0c80:
+	text "THANK YOU FOR VISITING."
+	linefw "THIS IS TEAM GR'S FIRE FORTRESS."
+	linefw "I'M SORRY, BUT I CANNOT ALLOW YOU"
+	linefw "TO ENTER AT THIS TIME."
+	linefw "SHOW ME THE GR THUNDER COIN, AND"
+	linefw "YOU MAY ENTER THE FORTRESS."
+	done
+
+Text0c81:
+	text "THANK YOU FOR VISITING."
+	linefw "THIS IS TEAM GR'S FIRE FORTRESS."
+	done
+
+Text0c82:
+	text "THERE IS A CIRCULAR COIN-SIZED SLOT"
+	linefw "UNDER AN IMAGE OF A MAGNEMITE."
+	done
+
+Text0c83:
+	text "INSERT YOUR GR THUNDER COIN?"
+	done
+
+Text0c84:
+	text "THANK YOU FOR VISITING."
+	linefw "THIS IS TEAM GR'S FIRE FORTRESS."
+	linefw "ALLOW ME TO TELL YOU ABOUT YOUR"
+	linefw "OPPONENTS AND EXPLAIN THE RULES."
+	linefw "THE LEADER OF THE GR FIRE FORTRESS"
+	linefw "IS A MAN NAMED BERNARD."
+	linefw "IN ORDER TO FIGHT HIM, YOU MUST"
+	linefw "FIRST DEFEAT 3 GR FORTRESS MEMBERS."
+	linefw "YOU'LL LEARN ABOUT EACH MEMBER'S"
+	linefw "SPECIAL BATTLE RULES INSIDE."
+	linefw "THAT IS ALL. PLEASE ENJOY DUELLING"
+	linefw "IN TEAM GR'S FIRE FORTRESS."
+	done

@@ -1,0 +1,700 @@
+Text069b:
+	text "-GRAND MASTER CUP TOURNAMENT TABLE-"
+	done
+
+Text069c:
+	text "CHAMPIONSHIP"
+	done
+
+Text069d:
+	text "<RAMNAME>", " GOT"
+	linefw "A CARD CERTIFICATE!!"
+	done
+
+Text069e:
+	textfw "ヘヘヘヘヘヘ"
+	done
+
+Text069f:
+	textfw "ヘヘヘヘヘヘヘヘヘヘヘヘ"
+	done
+
+Text06a0:
+	text "GAME CENTER"
+	done
+
+Text06a1:
+	text "THE BLACK BOX"
+	done
+
+Text06a2:
+	text "THANK YOU VERY MUCH FOR USING"
+	linefw "THE BLACK BOX."
+	linefw "THE BOX HAS CREATED SOME NEW CARDS"
+	linefw "FROM THE SET OF CARDS YOU HAVE SENT."
+	linefw "PLEASE TAKE THEM NOW."
+	done
+
+Text06a3:
+	text "DID YOU RECEIVE ANY EXCITING"
+	linefw "NEW CARDS FROM THE EXCHANGE?"
+	linefw "PLEASE COME BACK AND USE THE BLACK"
+	linefw "BOX AGAIN IN THE FUTURE."
+	linefw ""
+	linefw "  TEAM GR GAME CENTER (^-^)"
+	done
+
+Text06a4:
+	text "GAME CENTER"
+	done
+
+Text06a5:
+	text "BILL'S COMPUTER"
+	done
+
+Text06a6:
+	text "THANK YOU FOR USING BILL'S COMPUTER."
+	linefw "THE CARD YOU TRADED IN ALONGSIDE"
+	linefw "YOUR BILL'S COMPUTER CARD HAS"
+	linefw "EVOLVED! THE ATTACHED POKÉMON CARD"
+	linefw "IS YOUR PRIZE FOR TRADING."
+	done
+
+Text06a7:
+	text "ISN'T YOUR NEW CARD WONDERFUL?"
+	linefw "WE WILL BE WAITING TO TRADE WITH"
+	linefw "YOU AGAIN."
+	linefw ""
+	linefw ""
+	linefw "  TEAM GR GAME CENTER (^-^)"
+	done
+
+Text06a8:
+	text "DR. MASON"
+	done
+
+Text06a9:
+	text "MINICOM MAIL"
+	done
+
+Text06aa:
+	text "<RAMNAME>", "!"
+	linefw "IT'S ME, DR. MASON."
+	linefw "HAVE YOU RECEIVED THIS MAIL MESSAGE"
+	linefw "ALRIGHT? YOU CAN GET SO MUCH"
+	linefw "INFORMATION BY READING THE MAIL"
+	linefw "YOU GET THROUGH YOUR MINI-COM."
+	done
+
+Text06ab:
+	text "MAKE SURE TO QUICKLY CHECK YOUR"
+	linefw "MINI-COM FOR NEW MAIL NOW AND THEN."
+	linefw "IT CAN ONLY STORE 8 MESSAGES AT A"
+	linefw "TIME IN ITS MEMORY. ANY MORE, AND"
+	linefw "MESSAGES WILL BE AUTOMATICALLY"
+	linefw "DELETED TO MAKE SPACE."
+	done
+
+Text06ac:
+	text "SO, MAKE SURE TO READ ANY MESSAGES"
+	linefw "YOU GET TO YOUR MINICOM AS SOON"
+	linefw "AS YOU CAN."
+	linefw ""
+	linefw "DR. MASON'S RESEARCH LAB"
+	linefw "   GENERAL MANAGER DR. MASON (^o^)"
+	done
+
+Text06ad:
+	text "P.S.-"
+	linefw ""
+	linefw "I HOPE YOU FIND A USE FOR THE"
+	linefw "ATTACHED GIFT IN A FUTURE DUEL."
+	done
+
+Text06ae:
+	text "DR. MASON"
+	done
+
+Text06af:
+	text "DECK DIAGNOSIS"
+	done
+
+Text06b0:
+	text "<RAMNAME>", "!"
+	linefw "IT'S ME, DR. MASON."
+	linefw "MY NEW RESEARCH IN THE FIELD OF"
+	linefw "POKÉMON CARD ANALYSIS HAS BEEN"
+	linefw "UPLOADED INTO MY DECK ANALYSIS"
+	linefw "SYSTEM FOR YOU TO USE."
+	done
+
+Text06b1:
+	text "AS OF NOW, THE ONLY AVAILABLE"
+	linefw "OPTION IS STEP 1. YOU CAN READ SOME"
+	linefw "OF MY ADVICE FOR BEGINNERS OR HAVE"
+	linefw "IT CHECK ANY DECKS YOU CURRENTLY"
+	linefw "HAVE ASSEMBLED FOR BALANCE!"
+	linefw ""
+	done
+
+Text06b2:
+	text "YOU CAN ACCESS IT AT ANY PC."
+	linefw "TRY IT OUT TO GET A FEW POINTERS"
+	linefw "ON MAKING SOME WONDERFUL DECKS!"
+	linefw ""
+	linefw "DR. MASON'S RESEARCH LAB"
+	linefw "   GENERAL MANAGER DR. MASON (^o^)"
+	done
+
+Text06b3:
+	text "P.S.-"
+	linefw "YOU'LL HAVE TO WAIT FOR STEP 2 "
+	linefw "SINCE IT'S A LOT OF WORK..."
+	done
+
+Text06b4:
+	text "DR. MASON"
+	done
+
+Text06b5:
+	text "DECK DIAGNOSIS 2"
+	done
+
+Text06b6:
+	text "<RAMNAME>", "!"
+	linefw "THIS IS DR. MASON."
+	linefw "I'VE UPLOADED SOME NEW INFORMATION"
+	linefw "INTO MY DECK ANALYSIS SYSTEM FOR"
+	linefw "YOU TO USE. I'VE SAVED IT UNDER"
+	linefw "THE LABEL 'STEP 2'."
+	done
+
+Text06b7:
+	text "YOU'LL FIND LOTS OF GREAT DECK"
+	linefw "BUILDING TIPS INSIDE, INCLUDING"
+	linefw "HOW TO DEAL WITH STATUS AILMENTS"
+	linefw "LIKE POISON, SLEEP, AND PARALYSIS."
+	linefw "READ MY ADVICE TO KEEP YOUR DECK"
+	linefw "GOING STRONG THROUGHOUT YOUR DUELS!"
+	done
+
+Text06b8:
+	text "YOU CAN ACCESS IT AT ANY PC."
+	linefw "TRY USING MY ADVICE TO BUILD SOME"
+	linefw "TRULY STELLAR DECKS!"
+	linefw ""
+	linefw "DR. MASON'S RESEARCH LAB"
+	linefw "   GENERAL MANAGER DR. MASON (^o^)"
+	done
+
+Text06b9:
+	text "P.S.-"
+	linefw "YOU'LL HAVE TO WAIT FOR STEP 3."
+	linefw "I PUT A LOT OF TIME AND RESEARCH"
+	linefw "INTO THESE ADVISORIES..."
+	done
+
+Text06ba:
+	text "DR. MASON"
+	done
+
+Text06bb:
+	text "DECK DIAGNOSIS 3"
+	done
+
+Text06bc:
+	text "IT'S ME, DR. MASON."
+	linefw "I'VE RECENTLY UPDATED MY"
+	linefw "DECK DIAGNOSIS PROGRAM."
+	linefw "LOG ON AND CHOOSE THE NEW 'STEP 3'"
+	linefw "OPTION TO LEARN MORE ABOUT"
+	linefw "STRATEGIES WITH ENERGY TYPES!"
+	done
+
+Text06bd:
+	text "THIS IS THE LAST ADVICE I CAN GIVE"
+	linefw "ABOUT BASIC DECK-BUILDING..."
+	linefw ""
+	linefw "DR. MASON'S RESEARCH LAB"
+	linefw "   GENERAL MANAGER DR. MASON (^o^)"
+	done
+
+Text06be:
+	text "P.S.-"
+	linefw "I KNOW YOU'RE ANXIOUS TO LEARN MORE,"
+	linefw "BUT YOU'LL HAVE TO BE PATIENT FOR"
+	linefw "THE UPCOMING STEP 4..."
+	done
+
+Text06bf:
+	text "DR. MASON"
+	done
+
+Text06c0:
+	text "DECK DIAGNOSIS 4"
+	done
+
+Text06c1:
+	text "<RAMNAME>", ", THIS IS DR. MASON."
+	linefw "I'VE FINALLY RELEASED A NEW VERSION"
+	linefw "OF MY DECK DIAGNOSIS SERVICE!"
+	linefw "ONCE YOU CONNECT, CHOOSE 'STEP 4'"
+	linefw "FOR SOME POINTERS ON HOW TO BALANCE"
+	linefw "YOUR DECK."
+	done
+
+Text06c2:
+	text "IT'S IMPORTANT TO CONSIDER YOUR DECK"
+	linefw "THOROUGHLY BEFORE EACH DUEL."
+	linefw "PERHAPS YOU'LL GET SOME TIPS THAT'LL"
+	linefw "IMPROVE YOUR ODDS OF WINNING!"
+	linefw "DR. MASON'S RESEARCH LAB"
+	linefw "   GENERAL MANAGER DR. MASON (^o^)"
+	done
+
+Text06c3:
+	text "DR. MASON"
+	done
+
+Text06c4:
+	text "AUTO DECK MACHINE 1"
+	done
+
+Text06c5:
+	text "<RAMNAME>", "!"
+	linefw "IT'S DR. MASON!"
+	linefw "I'M JUST REMINDING YOU ABOUT"
+	linefw "THE AUTO DECK MACHINE."
+	linefw "IT MAKES CARD DECKS INSTANTLY!"
+	done
+
+Text06c6:
+	text "AN UPDATED VERSION OF THE AUTO DECK"
+	linefw "MACHINE IS SCHEDULED TO COME SOON!"
+	linefw "ONCE THE NEW VERSION IS OUT,"
+	linefw "IT WILL HELP YOUR FUTURE DUELS."
+	linefw "DR. MASON'S RESEARCH LAB"
+	linefw "   GENERAL MANAGER DR. MASON (^o^)"
+	done
+
+Text06c7:
+	text "P.S.-"
+	linefw "I HOPE THIS PRESENT HELPS YOUR"
+	linefw "DECK-BUILDING ENDEAVORS!"
+	done
+
+Text06c8:
+	text "DR. MASON"
+	done
+
+Text06c9:
+	text "AUTO DECK MACHINE 2"
+	done
+
+Text06ca:
+	text "<RAMNAME>", "!"
+	linefw "THIS IS DR. MASON. MANY NEW DECKS"
+	linefw "HAVE BEEN UPLOADED TO MY AUTO DECK"
+	linefw "MACHINE. WHY NOT COME BACK AND"
+	linefw "VISIT MY RESEARCH CENTER SOMETIME"
+	linefw "TO TRY SOME OF THEM OUT?"
+	done
+
+Text06cb:
+	text "THE AUTO DECK MACHINE ASSEMBLES"
+	linefw "THEM VERY QUICKLY FOR YOU."
+	linefw "I'LL LET YOU KNOW ABOUT FUTURE"
+	linefw "UPDATES AS THEY DEVELOP."
+	linefw "DR. MASON'S RESEARCH LAB"
+	linefw "   GENERAL MANAGER DR. MASON (^o^)"
+	done
+
+Text06cc:
+	text "P.S.-"
+	linefw "I'VE INCLUDED A GIFT FOR YOU!"
+	linefw "I HOPE YOU FIND IT USEFUL."
+	done
+
+Text06cd:
+	text "DR. MASON"
+	done
+
+Text06ce:
+	text "AUTO DECK MACHINE 3"
+	done
+
+Text06cf:
+	text "<RAMNAME>", "! I'M PROUD TO ANNOUNCE"
+	linefw "THAT WE HAVE FINALLY FINISHED OUR"
+	linefw "WORK ON AUTO DECK MACHINE 2!!"
+	linefw "THIS MACHINE HAS THE CAPABILITY TO"
+	linefw "UTILIZE THE NEW POKÉMON CARDS"
+	linefw "TEAM GR USES!"
+	done
+
+Text06d0:
+	text "STOP BY THE LABORATORY SOMETIME"
+	linefw "IF YOU'D LIKE TO ASSEMBLE OR STUDY"
+	linefw "THE DECKS THAT CAN BE MADE FROM"
+	linefw "TEAM GR'S CARDS!"
+	linefw "DR. MASON'S RESEARCH LAB"
+	linefw "   GENERAL MANAGER DR. MASON (^o^)"
+	done
+
+Text06d1:
+	text "P.S.-"
+	linefw "HERE'S A PRESENT TO BIDE YOU OVER"
+	linefw "UNTIL WE COMPLETE THE THIRD"
+	linefw "ITERATION OF OUR MACHINE!"
+	done
+
+Text06d2:
+	text "DR. MASON"
+	done
+
+Text06d3:
+	text "AUTO DECK MACHINE 4"
+	done
+
+Text06d4:
+	text "<RAMNAME>", "! IT'S DR. MASON."
+	linefw "HOW ARE YOUR FIGHTS WITH TEAM GR?"
+	linefw "WE'VE FINALLY COLLECTED ENOUGH CARDS"
+	linefw "FROM TEAM GR TO GET THE AUTOMATIC"
+	linefw "DECK MACHINE MACH 2 UP AND RUNNING!"
+	linefw "YOU SHOULD COME SEE IT IN THE LAB."
+	done
+
+Text06d5:
+	text "SINCE THE CARDS HAVE RETURNED, MANY"
+	linefw "OF OUR ISLAND'S PLAYERS HAVE FORMED"
+	linefw "NEW DECKS. WHY NOT COME BACK AND"
+	linefw "CHALLENGE A FEW OF THEM TO DUELS?"
+	linefw "DR. MASON'S RESEARCH LAB"
+	linefw "   GENERAL MANAGER DR. MASON (^o^)"
+	done
+
+Text06d6:
+	text "P.S.-"
+	linefw "HAVE ONE OF THE BOOSTER PACKS"
+	linefw "THAT YOU HELPED RECOVER!"
+	done
+
+Text06d7:
+	text "DR. MASON"
+	done
+
+Text06d8:
+	text "AUTO DECK MACHINE 5"
+	done
+
+Text06d9:
+	text "IT'S ME, DR. MASON."
+	linefw "I'VE HEARD THAT THE TEAM GR KING,"
+	linefw "VILLICCI, WAS FINALLY DEFEATED--"
+	linefw "BY YOUR HAND, NO LESS!"
+	linefw "HOWEVER, YOUR POKÉMON CARD GAMES ARE"
+	linefw "STILL FAR FROM OVER, ", "<RAMNAME>", "!"
+	done
+
+Text06da:
+	text "HAVE YOU TRIED OUT ALL OF THE DECKS"
+	linefw "RECORDED IN MY AUTO DECK MACHINE?"
+	linefw "GO ON AND HAVE A GOOD TIME PLAYING"
+	linefw "AROUND WITH NEW AND UNIQUE DECKS!"
+	linefw "TRY TO CAPTURE AND DEVELOP"
+	linefw "AS MANY DECKS AS YOU CAN!"
+	done
+
+Text06db:
+	text "PLEASE CONTINUE SUPPORTING BOTH"
+	linefw "AUTO DECK MACHINES 1 AND 2!"
+	linefw ""
+	linefw "DR. MASON'S RESEARCH LAB"
+	linefw "   GENERAL MANAGER DR. MASON (^o^)"
+	done
+
+Text06dc:
+	text "DR. MASON"
+	done
+
+Text06dd:
+	text "CHALLENGE MACHINE!"
+	done
+
+Text06de:
+	text "IT IS I! DR. MASON!"
+	linefw "HAVE YOU TRIED OUT OUR NEW"
+	linefw "CHALLENGE MACHINE YET?"
+	linefw "IT'S A GREAT TEST OF ENDURANCE,"
+	linefw "ADAPTABILITY, AND OVERALL STRENGTH"
+	linefw "FOR YOUR DECKS!!"
+	done
+
+Text06df:
+	text "IF YOU CAN MANAGE A STREAK OF"
+	linefw "50 WINS, I'LL AWARD YOU WITH A NEAT"
+	linefw "DUGTRIO COIN FOR YOUR COLLECTION!"
+	linefw "C'MON! TAKE THE CHALLENGE!"
+	linefw "DR. MASON'S RESEARCH LAB"
+	linefw "   GENERAL MANAGER DR. MASON (^o^)"
+	done
+
+Text06e0:
+	text "VILLICCI"
+	done
+
+Text06e1:
+	text "GR CHALLENGE MACHINE"
+	done
+
+Text06e2:
+	text "I HOPE YOU ARE PLAYING WITH YOUR"
+	linefw "POKÉMON CARDS AS ENERGETICALLY AS"
+	linefw "ALWAYS, ", "<RAMNAME>", "!"
+	linefw "I'M WRITING TO TELL YOU ABOUT A NEW"
+	linefw "GR CHALLENGE MACHINE WE'VE SET UP"
+	linefw "IN THE GR CHALLENGE HALL."
+	done
+
+Text06e3:
+	text "IT'S A MARVELOUS MACHINE CONSTRUCTED"
+	linefw "BY THE FAMED DR. MASON."
+	linefw "PLEASE STOP BY AND TRY IT OUT --"
+	linefw "IT'S LOTS OF FUN!"
+	linefw "IF YOU EARN 50 WINS IN A ROW, YOU'LL"
+	linefw "BE AWARDED A NEW RARE COIN!"
+	done
+
+Text06e4:
+	text "IT'S THE COVETED GENGAR COIN!"
+	linefw "PLEASE DO YOUR BEST TO EARN IT."
+	linefw ""
+	linefw "TEAM GR KING"
+	linefw "        VILLICCI (-)"
+	done
+
+Text06e5:
+	text "ROD"
+	done
+
+Text06e6:
+	text "GRAND MASTER CUP"
+	done
+
+Text06e7:
+	text "GREETINGS, ", "<RAMNAME>", "!"
+	linefw "THIS IS GRAND MASTER ROD."
+	linefw "THE OTHER GRAND MASTERS AND I HAVE"
+	linefw "SCHEDULED A VERY SPECIAL EVENT TO"
+	linefw "BE HELD SOON:"
+	linefw "THE GRAND MASTER CUP!"
+	done
+
+Text06e8:
+	text "IF YOU'RE INTERESTED, PLEASE STOP BY"
+	linefw "THE POKÉMON DOME TO PARTICIPATE."
+	linefw "WE'LL BE BUSY PREPARING FOR THE CUP,"
+	linefw "SO VISIT WHENEVER YOU'RE AVAILABLE."
+	linefw "  LEADER OF THE GRAND MASTERS"
+	linefw "                     ROD (^o^)"
+	done
+
+Text06e9:
+	text "RONALD"
+	done
+
+Text06ea:
+	text "GR No.1'S DECK"
+	done
+
+Text06eb:
+	text "YO, ", "<RAMNAME>", "!"
+	linefw "I'M JUST WRITING YOU TO SAY THAT"
+	linefw "I'LL RELAY ANY INFORMATION I FIND"
+	linefw "OUT ABOUT TEAM GR VIA MAIL."
+	linefw "REMEMBER TO CHECK YOUR MAIL"
+	linefw "FREQUENTLY FOR UPDATES, OKAY?"
+	done
+
+Text06ec:
+	text "I HAVE SOME INTEL ABOUT GR No.1!"
+	linefw "HIS DECK IS MADE OF WATER AND"
+	linefw "ELECTRIC POKÉMON, SO FIGHT HIM WITH"
+	linefw "A DECK CAPABLE OF REPELLING HIS"
+	linefw "MAGNEMITE! LATER!"
+	linefw "                   RONALD(", "<HP_NOK>", "__", "<HP_NOK>", ")"
+	done
+
+Text06ed:
+	text "RONALD"
+	done
+
+Text06ee:
+	text "GR No.2'S DECK"
+	done
+
+Text06ef:
+	text "YO, ", "<RAMNAME>", "!"
+	linefw "I'VE GOT SOME NEW INTEL FOR YOU."
+	linefw "IT'S REALLY USEFUL STUFF!!"
+	linefw "I WROTE AS SOON AS I COULD!"
+	linefw "BE SURE TO KEEP CHECKING YOUR MAIL"
+	linefw "FOR MY UPDATES, ", "<RAMNAME>", "!"
+	done
+
+Text06f0:
+	text "MY LATEST RECONNAISSANCE UNCOVERED"
+	linefw "GR No.2'S DECK: IT'S MADE OF"
+	linefw "GRASS AND FIGHTING POKÉMON. BE "
+	linefw "ESPECIALLY WARY OF HIS DARK ARBOK!"
+	linefw ""
+	linefw "                   RONALD(", "<HP_NOK>", "__", "<HP_NOK>", ")"
+	done
+
+Text06f1:
+	text "RONALD"
+	done
+
+Text06f2:
+	text "GR No.3'S DECK"
+	done
+
+Text06f3:
+	text "YO, ", "<RAMNAME>", "!"
+	linefw "ARE YOU CHECKING YOUR MAIL?"
+	linefw "I'VE SECURED SOME MORE IMPORTANT"
+	linefw "INFORMATION ABOUT TEAM GR."
+	linefw "THIS TIME, I PULLED ALL THE STOPS!"
+	linefw "DON'T LET MY EFFORTS GO TO WASTE!"
+	done
+
+Text06f4:
+	text "I'VE BEEN SHADOWING GR No.3"
+	linefw "LATELY. HIS DECK IS MADE OF GRASS"
+	linefw "AND FIRE POKÉMON! IF HE SETS UP HIS"
+	linefw "EXEGGUTOR, ITS BIG EGGSPLOSION CAN"
+	linefw "REALLY HURT! BE CAREFUL!"
+	linefw "                   RONALD(", "<HP_NOK>", "__", "<HP_NOK>", ")"
+	done
+
+Text06f5:
+	text "RONALD"
+	done
+
+Text06f6:
+	text "GR No.4'S DECK"
+	done
+
+Text06f7:
+	text "YO, ", "<RAMNAME>", "!"
+	linefw "ARE YOU CHECKING YOUR MAIL?"
+	linefw "I'VE GOT SOME INTEL ABOUT GR No.4."
+	linefw "HER DECK USES WATER AND PSYCHIC"
+	linefw "POKÉMON. SHE'S GOT PURE POWER WITH"
+	linefw "HER KINGLER'S DOUBLE-EDGED CLAW!"
+	done
+
+Text06f8:
+	text "I'VE GOTTA GO TALK TO MURRAY FROM"
+	linefw "THE PSYCHIC CLUB SOMEHOW SO HE CAN"
+	linefw "GIVE ME SOME TIPS ON HOW TO WARD OFF"
+	linefw "HER EVIL SPIRITS..."
+	linefw ""
+	linefw "                   RONALD(", "<HP_NOK>", "__", "<HP_NOK>", ")"
+	done
+
+Text06f9:
+	text "RONALD"
+	done
+
+Text06fa:
+	text "PARKER'S DECK"
+	done
+
+Text06fb:
+	text "YO, ", "<RAMNAME>", "!"
+	linefw "I'VE COLLECTED SOME INFORMATION"
+	linefw "ABOUT THE GRASS GR LEADER, PARKER!"
+	linefw "DURING BATTLES AGAINST HIM, GRASS"
+	linefw "POKÉMON ARE IMMUNE TO POISON, SLEEP,"
+	linefw "PARALYSIS, AND CONFUSION!"
+	done
+
+Text06fc:
+	text "I'VE ALSO GOT SOME TIPS ON THE"
+	linefw "DECK HE USES!"
+	linefw "IT'S GRASS-THEMED, OF COURSE!"
+	linefw "HIS DECK UTILIZES TWO DARK POKÉMON"
+	linefw "CARDS: GLOOM AND VILEPLUME!"
+	done
+
+Text06fd:
+	text "BOTH OF THESE POKÉMON HAVE POWERS"
+	linefw "AND ATTACKS THAT DEAL WITH"
+	linefw "CONFUSION! SOME ATTACKS PARKER USES"
+	linefw "NORMALLY CONFUSE THE USER, BUT"
+	linefw "SINCE THEY ARE GRASS-TYPE POKÉMON,"
+	linefw "THE CONFUSION IS IGNORED!"
+	done
+
+Text06fe:
+	text "HE WON'T BE AN EASY ADVERSARY!"
+	linefw "YOU'VE GOT TO NIP DARK GLOOM IN THE"
+	linefw "BUD SOMEHOW BEFORE IT EVOLVES INTO"
+	linefw "DARK VILEPLUME!"
+	linefw ""
+	linefw "                   RONALD(", "<HP_NOK>", "__", "<HP_NOK>", ")"
+	done
+
+Text06ff:
+	text "RONALD"
+	done
+
+Text0700:
+	text "CATHERINE'S DECK"
+	done
+
+Text0701:
+	text "<RAMNAME>", "! I HOPE YOU'RE WELL!"
+	linefw "I HAVE INFORMATION ABOUT TEAM GR'S"
+	linefw "ELECTRIC LEADER, CATHERINE!"
+	linefw "SHE USES A RULE CALLED 'THUNDER"
+	linefw "CHARGE' THAT POWERS UP HER ELECTRIC"
+	linefw "ATTACKS, DOING +10 EXTRA DAMAGE!"
+	done
+
+Text0702:
+	text "THAT MEANS THAT ELECTRIC POKÉMON"
+	linefw "ATTACKS THAT DO 10 DAMAGE WOULD THEN"
+	linefw "DO 20 DAMAGE! CATHERINE'S DECK USES"
+	linefw "MANY ELECTRIC POKÉMON, INCLUDING"
+	linefw "PIKACHU, VOLTORB, DARK JOLTEON,"
+	linefw "AND DARK RAICHU!!"
+	done
+
+Text0703:
+	text "WILL YOU MAKE YOUR OWN DECK OF"
+	linefw "ELECTRIC POKÉMON AND TRY TO"
+	linefw "OVERPOWER HERS? HOW WELL YOU DO IS"
+	linefw "UP TO YOU AND WHAT STRATEGY YOU USE!"
+	linefw ""
+	linefw "                   RONALD(", "<HP_NOK>", "__", "<HP_NOK>", ")"
+	done
+
+Text0704:
+	text "RONALD"
+	done
+
+Text0705:
+	text "BERNARD'S DECK"
+	done
+
+Text0706:
+	text "<RAMNAME>", "! IT'S ME, RONALD!"
+	linefw "I JUST GOT SOME INTEL REGARDING"
+	linefw "TEAM GR'S FIRE LEADER, BERNARD!"
+	linefw "HE SURROUNDS HIMSELF WITH HOT LAVA!"
+	linefw "BECAUSE OF THAT, FIRE POKÉMON IN HIS"
+	linefw "ROOM DON'T HAVE A WEAKNESS TO WATER!"
+	done

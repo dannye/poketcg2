@@ -1,0 +1,315 @@
+Text0707:
+	text "IN OTHER WORDS, HIS FIRE POKÉMON"
+	linefw "HAVE NO WEAKNESS WHATSOEVER!"
+	linefw "WHAT'S MORE, HIS DECK IS THEMED"
+	linefw "AROUND FIRE-TYPE POKÉMON CARDS!!"
+	linefw "THAT MEANS HE DOESN'T HAVE TO WORRY"
+	linefw "ABOUT WEAKNESS AT ALL!!"
+	done
+
+Text0708:
+	text "FIGHTING HIM CERTAINLY WON'T BE A"
+	linefw "WALK IN THE PARK!"
+	linefw "THINK HARD ABOUT STRATEGY WHEN YOU"
+	linefw "BUILD YOUR DECK, ", "<RAMNAME>", "!"
+	linefw ""
+	linefw "                   RONALD(", "<HP_NOK>", "__", "<HP_NOK>", ")"
+	done
+
+Text0709:
+	text "RONALD"
+	done
+
+Text070a:
+	text "BROOKE'S DECK"
+	done
+
+Text070b:
+	text "YO, ", "<RAMNAME>", "!"
+	linefw "I'VE GOT SOME INFORMATION ABOUT"
+	linefw "THE DECK OF TEAM GR'S WATER LEADER!"
+	linefw "WATER POKÉMON ARE QUICK IN HER ROOM!"
+	linefw "WHEN WATER POKÉMON RETREAT THERE,"
+	linefw "THEY PAY 1 LESS ENERGY CARD."
+	done
+
+Text070c:
+	text "BROOKE'S CHOSEN A FEW WATER POKÉMON"
+	linefw "WITH LOW RETREAT COSTS. SHE TENDS TO"
+	linefw "MAKE THEM RETREAT IF THINGS DON'T"
+	linefw "LOOK GOOD. BY DOING THIS, SHE MAKES"
+	linefw "IT HARD TO KNOCK OUT HER POKÉMON."
+	linefw "STRIKE HARD WHEN YOU CAN!"
+	done
+
+Text070d:
+	text "YOU'VE GOTTA THINK YOURSELF WHETHER"
+	linefw "YOU'D RATHER YOUR POKÉMON RISK"
+	linefw "STAYING IN OR SAFELY FLEE..."
+	linefw "THINK HARD ABOUT IT!"
+	linefw ""
+	linefw "                   RONALD(", "<HP_NOK>", "__", "<HP_NOK>", ")"
+	done
+
+Text070e:
+	text "RONALD"
+	done
+
+Text070f:
+	text "BRUTUS'S DECK"
+	done
+
+Text0710:
+	text "I HAVE NEWS, ", "<RAMNAME>", "!"
+	linefw "I'M TELLING YOU NOW BEFORE I FORGET!"
+	linefw "I'VE GOT SOME INTERESTING FACTS TO"
+	linefw "SHARE ABOUT BRUTUS, THE GR FIGHTING"
+	linefw "LEADER!!"
+	done
+
+Text0711:
+	text "BRUTUS USES THE EARTH POWER RULE!"
+	linefw "THIS RULE NEGATES THE USUAL -30"
+	linefw "DAMAGE REDUCTION FOR ANY POKÉMON"
+	linefw "THAT RESIST FIGHTING ATTACKS!"
+	linefw "IN OTHER WORDS, FIGHTING POKÉMON"
+	linefw "ALWAYS HIT FOR AT LEAST FULL DAMAGE!"
+	done
+
+Text0712:
+	text "YOU MIGHT WANT TO TRY MAKING A DECK"
+	linefw "THAT PANDERS TO FIGHTING'S WEAKNESS"
+	linefw "SINCE RESISTANCE IS USELESS!"
+	linefw "I GUESS...JUST HANG IN THERE!"
+	linefw ""
+	linefw "                   RONALD(", "<HP_NOK>", "__", "<HP_NOK>", ")"
+	done
+
+Text0713:
+	text "RONALD"
+	done
+
+Text0714:
+	text "CLAIRE'S DECK"
+	done
+
+Text0715:
+	text "<RAMNAME>", "! IT'S RONALD!"
+	linefw "I'VE ACQUIRED SOME INFORMATION ABOUT"
+	linefw "THE GR PSYCHIC LEADER, CLAIRE!"
+	linefw "CLAIRE IS A VERY WISE OPPONENT!"
+	linefw "SHE EMPLOYS A VERY STRANGE RULE."
+	done
+
+Text0716:
+	text "ANY TIME A PLAYER'S POKÉMON IS"
+	linefw "KNOCKED OUT IN A BATTLE AGAINST HER,"
+	linefw "THE ENERGY CARDS ATTACHED TO IT ARE"
+	linefw "RETURNED TO THAT PLAYER'S HAND!"
+	linefw "THIS MEANS YOU'LL CERTAINLY HAVE"
+	linefw "A LOT OF ENERGY FOR THIS FIGHT."
+	done
+
+Text0717:
+	text "BUT SHE'S TOO CLEVER TO LET YOU TAKE"
+	linefw "FULL ADVANTAGE OF THAT."
+	linefw "TO COUNTER THIS, SHE HAS PLENTY OF"
+	linefw "ENERGY REMOVAL AND SUPER ENERGY"
+	linefw "REMOVAL CARDS INSIDE OF HER DECK."
+	done
+
+Text0718:
+	text "SHE USES THOSE CARDS TO ENSURE YOU"
+	linefw "DON'T GET ANY ENERGY WHEN SHE KNOCKS"
+	linefw "OUT YOUR POKÉMON..."
+	linefw "AND BE CAREFUL OF HER DARK GENGAR'S"
+	linefw "PUSH ASIDE ATTACK!! IT CAN PUSH"
+	linefw "POKÉMON BACK INTO YOUR DECK!"
+	done
+
+Text0719:
+	text "YOU MAY HAVE NO OTHER CHOICE THAN TO"
+	linefw "CREATE YOUR OWN PSYCHIC-TYPE DECK"
+	linefw "WITH ENERGY REMOVAL CARDS AS WELL,"
+	linefw "JUST LIKE HERS..."
+	linefw ""
+	linefw "                   RONALD(", "<HP_NOK>", "__", "<HP_NOK>", ")"
+	done
+
+Text071a:
+	text "RONALD"
+	done
+
+Text071b:
+	text "COLORLESS ALTAR INFO"
+	done
+
+Text071c:
+	text "YO, ", "<RAMNAME>", "! I'VE GOT"
+	linefw "SOME INFO ABOUT THE COLORLESS ALTAR!"
+	linefw "YOU'LL NEED TO DEFEAT THE THREE"
+	linefw "CLERICS THERE: SETH, ALAN, AND"
+	linefw "AVERY. EACH SPECIFIES DIFFERENT"
+	linefw "CARDS TO USE IN FIGHTS AGAINST THEM."
+	done
+
+Text071d:
+	text "MOREOVER, AFTER A WIN OR LOSS, THEY"
+	linefw "MAY CHANGE THE CARDS THEY REQUIRE!"
+	linefw "IT'S QUITE TROUBLESOME..."
+	linefw "EVERY TIME YOU LOSE, YOU'LL HAVE TO"
+	linefw "CHANGE YOUR DECK ALL OVER AGAIN!"
+	linefw "BUT ANYWAY..."
+	done
+
+Text071e:
+	text "IF YOU FIND THAT YOU'RE MISSING A"
+	linefw "CARD AND DON'T KNOW WHAT SERIES OF"
+	linefw "BOOSTER PACK IT'S IN, TRY CHECKING"
+	linefw "OUT THE CARD ALBUM. FIGHT SOMEONE"
+	linefw "WHO GIVES OUT THAT BOOSTER SERIES"
+	linefw "UNTIL YOU HAVE ALL 4 REQUIRED CARDS."
+	done
+
+Text071f:
+	text "BY THE WAY, YOU COULD ALWAYS RETURN"
+	linefw "TO OUR HOME ISLAND TO SEE EVERYONE"
+	linefw "AGAIN AND CHALLENGE THEM FOR CARDS."
+	linefw "IF YOU RUSH, YOU MAY MESS UP..."
+	linefw ""
+	linefw "                   RONALD(", "<HP_NOK>", "__", "<HP_NOK>", ")"
+	done
+
+Text0720:
+	text "RONALD"
+	done
+
+Text0721:
+	text "VILLICCI'S DECK"
+	done
+
+Text0722:
+	text "<RAMNAME>", "..."
+	linefw "I FEEL THAT THIS IS THE FINAL STAGE"
+	linefw "OF OUR FIGHT AGAINST TEAM GR..."
+	linefw "BUT I'VE ALREADY LOST..."
+	linefw "IT'S ALL UP TO YOU NOW!"
+	linefw "PLEASE, ", "<RAMNAME>", "!"
+	done
+
+Text0723:
+	text "DEFEAT KING VILLICCI! STOP TEAM GR!"
+	linefw "USE YOUR AMAZING CUNNING TO UTILIZE"
+	linefw "THE FULL POWER OF YOUR CARDS!!"
+	linefw "I BEG YOU, ", "<RAMNAME>", "..."
+	linefw "HEED THE BOONS OF MY FINAL"
+	linefw "SCOUTING MISSION WELL."
+	done
+
+Text0724:
+	text "I WAS COMPLETELY OVERWHELMED BY"
+	linefw "THE TEAM GR EXECUTIVES..."
+	linefw "BECAUSE OF THAT, I COULDN'T GATHER"
+	linefw "MUCH INFORMATION ABOUT THE GR KING"
+	linefw "VILLICCI. I DO KNOW THAT HE HAS"
+	linefw "4 DIFFERENT DECKS, THOUGH!"
+	done
+
+Text0725:
+	text "MOREOVER, A BATTLE AGAINST VILLICCI"
+	linefw "IS A LONG ORDEAL TO SAY THE LEAST."
+	linefw "YOU NEED TO BEAT HIM 2 TIMES, AND"
+	linefw "HE SWITCHES DECKS FOR EACH MATCH!"
+	linefw "HE'LL SWITCH FREELY BETWEEN HIS"
+	linefw "4 POWERFUL DECKS, SO STAY ALERT."
+	done
+
+Text0726:
+	text "MAKE SURE YOU USE YOUR MOST"
+	linefw "RELIABLE DECKS AND PLAY CAREFULLY!"
+	linefw "HANG IN THERE, ", "<RAMNAME>", "!!"
+	linefw ""
+	linefw ""
+	linefw "                   RONALD(", "<HP_NOK>", "__", "<HP_NOK>", ")"
+	done
+
+Text0727:
+	text "BATTLE CENTER"
+	done
+
+Text0728:
+	text "BATTLE NEWS!"
+	done
+
+Text0729:
+	text "GREETINGS FROM THE BATTLE CENTER!"
+	linefw "COME VISIT US SOMETIME WITH A FRIEND"
+	linefw "AND A LINK CABLE FOR A CARD BATTLE!"
+	linefw "WINNERS EARN 3 BOOSTER PACKS."
+	linefw "EVEN IF YOU LOSE, THOUGH, YOU'LL"
+	linefw "STILL WIN A FREE BOOSTER PACK!"
+	done
+
+Text072a:
+	text "ADDITIONALLY, IF YOU HAPPEN TO WIN"
+	linefw "50 LINK BATTLES, YOU'LL EARN A"
+	linefw "SPECIAL COIN! PLEASE STOP BY SOON"
+	linefw "AND SHOW YOUR FRIENDS YOUR SKILLS!"
+	linefw ""
+	linefw "                BATTLE CENTER"
+	done
+
+Text072b:
+	text "MAILBOX"
+	done
+
+Text072c:
+	text "NEW MAIL CANNOT BE RECEIVED"
+	linefw "BECAUSE YOUR MAILBOX IS FULL."
+	linefw "PLEASE DELETE SOME MESSAGES IF YOU"
+	linefw "WOULD LIKE TO RECEIVE NEW MAIL."
+	done
+
+Text072d:
+	text "YOU HAVE NO NEW MAIL."
+	done
+
+Text072e:
+	text "YOU HAVE NEW MAIL!"
+	done
+
+Text072f:
+	text "PLEASE SELECT MAIL."
+	done
+
+Text0730:
+	text "SENDER:"
+	done
+
+Text0731:
+	text " TITLE:"
+	done
+
+Text0732:
+	text "WHAT NEXT?"
+	done
+
+Text0733:
+	text "READ"
+	done
+
+Text0734:
+	text "DELETE"
+	done
+
+Text0735:
+	text "DELETE THIS MESSAGE?"
+	done
+
+Text0736:
+	text "IT HASN'T BEEN READ. ARE YOU SURE?"
+	done
+
+Text0737:
+	text "MESSAGE DELETED."
+	done

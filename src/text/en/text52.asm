@@ -1,0 +1,1059 @@
+Text0dbf:
+	text "DID YOU REALLY DEFEAT OUR KING, TOO?"
+	linefw "I'D HAVE BEEN TERRIFIED TO DUEL HIM."
+	linefw "I GUESS CARDS AREN'T USELESS EVEN"
+	linefw "IF THEY'RE NOT USED IN YOUR DECK."
+	linefw "I ENCOURAGE YOU TO DO WHAT YOU LIKE"
+	linefw "AS LONG AS IT MAKES YOU HAPPY."
+	done
+
+Text0dc0:
+	text "AH HA HA HA HA..."
+	linefw "I SEEM TO HAVE LOST."
+	done
+
+Text0dc1:
+	text "I DIDN'T REALLY EXPECT YOU TO WIN,"
+	linefw "YOU KNOW?"
+	linefw "IT'S EASY TO LOSE WHEN YOU'RE NOT"
+	linefw "FAMILIAR WITH NEW RULES."
+	done
+
+Text0dc2:
+	text "AH HA HA! YOU DESERVE YOUR PRAISE!"
+	linefw "YOU TRULY ARE A TOUGH CHALLENGER!"
+	done
+
+Text0dc3:
+	text "COULD YOU PLAY A BIT LESS INTENSELY?"
+	linefw "EITHER WAY, COME PLAY AGAIN SOON."
+	done
+
+Text0dc4:
+	text "I ENJOY GAINING POPULARITY,"
+	linefw "AND THAT COMES FROM WINNING DUELS."
+	linefw "IT'S CERTAINLY A NICE FEELING."
+	linefw "WINNING MAKES ME FEEL UNSTOPPABLE!"
+	done
+
+Text0dc5:
+	text "ADDITIONALLY, TO SHOW YOUR VICTORY,"
+	linefw "I MUST GIVE YOU THE GR GRASS COIN."
+	done
+
+Text0dc6:
+	text "WITH THAT COIN, YOU WILL BE ALLOWED"
+	linefw "TO ENTER THE GR ELECTRIC FORTRESS."
+	linefw "COME VISIT AGAIN IF YOU'D EVER LIKE"
+	linefw "TO BATTLE IN NATURE'S MAGNIFICENCE!"
+	done
+
+Text0dc7:
+	text "I'M DAN OF TEAM GR!"
+	linefw "STRONG, CAPABLE, AND...EH?"
+	linefw "YOU'RE A FACE I HAVEN'T SEEN BEFORE."
+	linefw "I WONDER IF YOU HAVE WHAT I WANT?"
+	linefw "I'M LOOKING FOR A CERTAIN CARD:"
+	linefw "A DARK VENUSAUR Lv37."
+	linefw "SO? SO?"
+	linefw "DO YOU HAVE IT OR NOT?"
+	linefw "I'LL TRADE MY RARE VENUSAUR Lv67"
+	linefw "WITH A NEW ILLUSTRATION FOR IT!"
+	done
+
+Text0dc8:
+	text "I STILL HAVE MY VENUSAUR Lv67"
+	linefw "WITH AN ALTERNATE ILLUSTRATION!"
+	linefw "DO YOU HAVE A DARK VENUSAUR Lv37"
+	linefw "UP FOR GRABS YET?"
+	done
+
+Text0dc9:
+	text "EH, I GUESS I CAN'T BLAME YOU."
+	linefw "IT IS A PRETTY RARE CARD."
+	done
+
+Text0dca:
+	text "WHAT, WHAT? I DON'T THINK YOU EVEN"
+	linefw "HAVE A DARK VENUSAUR Lv37 CARD!"
+	linefw "IF YOU STILL WANT TO TRADE, COME"
+	linefw "BACK WHEN YOU ACTUALLY GET THE CARD!"
+	done
+
+Text0dcb:
+	text "YOU'RE HOPELESS! YOU'RE USING YOUR"
+	linefw "DARK VENUSAUR Lv37 CARD IN A DECK!"
+	linefw "I NEED THAT CARD TO FINISH MY DECK"
+	linefw "FOR TEAM GR AUDITIONS."
+	linefw "YOU CAN TAKE IT OUT OF YOUR DECK"
+	linefw "AND TRADE IT TO ME, STILL, RIGHT?"
+	done
+
+Text0dcc:
+	text "AWW YEAH! LET'S TRADE!"
+	done
+
+Text0dcd:
+	text "SEE?"
+	linefw "THE ILLUSTRATION IS DIFFERENT!"
+	done
+
+Text0dce:
+	text "HEY, YOU! THANKS FOR TRADING"
+	linefw "WITH ME EARLIER."
+	linefw "DON'T YOU REMEMBER? I'VE HEARD"
+	linefw "STORIES ABOUT YOU SINCE THEN..."
+	linefw "YOU'RE ", "<RAMNAME>", ", THE ONE"
+	linefw "THAT RECENTLY CAME TO THE ISLAND."
+	linefw "I'VE HEARD THAT YOU'RE A BIG"
+	linefw "ENEMY TO ALL OF TEAM GR..."
+	done
+
+Text0dcf:
+	text "HEY,", "<RAMNAME>", "."
+	linefw "DO YOU REMEMBER ME?"
+	linefw "YOU TRADED ME THE CARD I NEEDED TO"
+	linefw "BECOME A MEMBER OF MY FAVORED GROUP."
+	linefw "A TRADE WITH ", "<RAMNAME>", "..."
+	linefw "SO COOL! YOU'RE THE BEST!"
+	linefw "I THINK OF YOU EVERY TIME I USE"
+	linefw "THAT CARD EVER SINCE WE TRADED!"
+	done
+
+Text0dd0:
+	text "I CAN'T BELIEVE WHAT THEY DO"
+	linefw "ON THAT NEARBY ISLAND!!"
+	linefw "I HEARD THAT THEY JUST PROTECT SOME"
+	linefw "KINDS OF LEGENDARY CARDS ON IT!"
+	linefw "WHAT A WASTE! IF I HAD CARDS"
+	linefw "LIKE THAT, I'D PUT THEM IN MY DECK!"
+	done
+
+Text0dd1:
+	text "I DON'T THINK YOUR ISLAND WAS WRONG"
+	linefw "FOR PROTECTING THEIR CARDS ANY MORE."
+	linefw "I JUST FEEL AWFUL THAT WE TOOK"
+	linefw "YOUR CARDS AWAY FROM YOU!"
+	done
+
+Text0dd2:
+	text "SORRY, I'M BUSY AT THE MOMENT."
+	linefw "I CAME TO MEET MY FRIEND, MELISSA."
+	linefw "OH, AREN'T YOU ", "<RAMNAME>", "?"
+	linefw "I'VE HEARD YOU'RE A REAL CARD WHIZ."
+	linefw "WELL, I CAN'T DUEL YOU RIGHT NOW."
+	linefw "PLEASE EXCUSE ME..."
+	done
+
+Text0dd3:
+	text "I CAN'T PLAY WITH MELISSA ANY MORE"
+	linefw "BECAUSE SHE WORKS FOR TEAM GR NOW."
+	linefw "I'M SO BORED WITHOUT HER."
+	done
+
+Text0dd4:
+	text "LISTEN, LISTEN!!"
+	linefw "YOU KNOW ABOUT THE SEALED FORTRESS?"
+	linefw "IT'S AWFUL! THEY HOUSE THE MOST"
+	linefw "TERRIFYING DECKS THERE!"
+	linefw "ABSOLUTELY NO ONE IS ALLOWED"
+	linefw "INSIDE THAT BUILDING!"
+	done
+
+Text0dd5:
+	text "SO YA FINALLY MADE IT OVER HERE,"
+	linefw "EH, ", "<RAMNAME>", "?"
+	linefw "NAME'S JAMES! BUT I'M MORE COMMONLY"
+	linefw "KNOWN BY ANOTHER NAME!"
+	done
+
+Text0dd6:
+	text "AND THAT'S GR No.1!"
+	linefw "NO WAY I'M LOSIN' THIS TIME!"
+	linefw "IF I DO, THERE'S NO WAY THE KING OF"
+	linefw "TEAM GR WILL FORGIVE ME!"
+	done
+
+Text0dd7:
+	text "C'MON, LET'S GO, ", "<RAMNAME>", "!!"
+	done
+
+Text0dd8:
+	text "YOU WON'T BE ABLE TO BEAT ME, THE"
+	linefw "GR PRINCE OF GRASS, THIS TIME!"
+	linefw "C'MON, LET'S GO ", "<RAMNAME>", "!!"
+	done
+
+Text0dd9:
+	text "WOULD YOU LIKE TO DUEL JAMES?"
+	done
+
+Text0dda:
+	text "4 PRIZE CARDS, THEN!"
+	linefw " "
+	linefw "I'LL SHOW YOU THE TRUE STRENGTH"
+	linefw "OF MY DECK!"
+	done
+
+Text0ddb:
+	text "WHA-WHA-WHAAA? WHY WON'T YOU"
+	linefw "FIGHT ME, ", "<RAMNAME>", "?!"
+	linefw "I WON'T GIVE UP WITHOUT A DUEL!"
+	done
+
+Text0ddc:
+	text "<RAMNAME>", "..."
+	linefw "DO ME A FAVOR AND DUEL WITH ME!"
+	done
+
+Text0ddd:
+	text "WE'LL USE 4 PRIZE CARDS!"
+	linefw "HERE WE GO, ", "<RAMNAME>", "!!"
+	done
+
+Text0dde:
+	text "NO, NO. IT'S FINE. IT'S FINE!"
+	linefw "I DON'T WANNA BATTLE NOW EITHER."
+	linefw "IT'S BEEN MUTUALLY DECIDED, THEN."
+	linefw "'TIL NEXT TIME, ", "<RAMNAME>", "."
+	done
+
+Text0ddf:
+	text "DANGIT! BEATEN AGAIN!"
+	linefw "PFFT!! TAKE THIS."
+	done
+
+Text0de0:
+	text "*SIGH*... IT SEEMS LIKE ALL I DO"
+	linefw "ANYMORE IS SIGH..."
+	done
+
+Text0de1:
+	text "BWA HA HA...I'M THE VICTOR!"
+	linefw " "
+	linefw "C'MON BACK ANY TIME, ", "<RAMNAME>", "!"
+	linefw "WE'LL HAVE OURSELVES ANOTHER BATTLE!"
+	done
+
+Text0de2:
+	text "GRR...AGAIN, I WAS DEFEATED!"
+	linefw "HERE, TAKE THIS BOOSTER PACK."
+	done
+
+Text0de3:
+	text "YOU MIGHT BE ABLE TO JOIN TEAM GR"
+	linefw "WITH YOUR DECK-BUILDIN' SKILLS."
+	linefw "BUT DON'T THINK YOU'LL KEEP WINNIN'"
+	linefw "FOREVER, ", "<RAMNAME>", "."
+	done
+
+Text0de4:
+	text "HEH...I'VE WON."
+	linefw "THAT'S MY TRUE POWER."
+	linefw "ANY TIME YOU WANT TO TRY AGAIN,"
+	linefw "C'MON BACK!"
+	done
+
+Text0de5:
+	text "WHAT ARE YOU TRYIN' TO PULL?!"
+	linefw "THOSE DOORS WON'T BUDGE, KID."
+	linefw "YOU GOTTA FIGHT ME FIRST"
+	linefw "AND WIN, FAIR AND SQUARE."
+	done
+
+Text0de6:
+	text "MAN, I SOMETIMES WONDER IF"
+	linefw "YOU'RE UNBEATABLE, KID."
+	linefw "WELL, A LOSS IS A LOSS."
+	linefw "I'LL OPEN THE DOORS."
+	done
+
+Text0de7:
+	text "OPEN SESAME!"
+	done
+
+Text0de8:
+	text "GO QUICKLY! LIZ IS WAITIN'"
+	linefw "FOR YOU IN THE OTHER ROOM."
+	linefw "SHE'S SO MUCH STRONGER THAN ME!"
+	linefw "SO GO ON ALREADY!"
+	done
+
+Text0de9:
+	text "CONGRATULATIONS!"
+	linefw "YOU'VE REACHED 50 CONSECUTIVE WINS!"
+	linefw "FOR YOUR ACHIEVEMENT,"
+	linefw "YOU'VE EARNED A COMMEMORATIVE COIN!"
+	linefw "THIS IS A VERY SPECIAL COIN,"
+	linefw "SO PLEASE USE IT OFTEN!"
+	done
+
+Text0dea:
+	text "CONGRATULATIONS ON YOUR 50 WINS!"
+	linefw ""
+	linefw "NOW KEEP GOING AND SEE HOW MANY"
+	linefw "TOTAL CONSECUTIVE WINS YOU CAN GET!"
+	done
+
+Text0deb:
+	text "WE ARE CURRENTLY ACCEPTING NEW"
+	linefw "ENTRANTS FOR THE GR CHALLENGE CUP."
+	linefw "DEFEAT THREE PLAYERS IN A ROW,"
+	linefw "AND YOU'LL WIN A WONDERFUL CARD!"
+	linefw "THIS CUP'S PRIZE IS A RARE"
+	linefw "DARK PERSIAN Lv28 CARD!"
+	linefw "THE FIRST 2 MATCHES ARE WITH 4 PRIZE"
+	linefw "CARDS! LOSE ONCE, AND YOU'RE OUT!"
+	linefw "WILL YOU BE OUR NEXT CHALLENGER"
+	linefw "IN THIS THRILLING COMPETITION?"
+	done
+
+Text0dec:
+	text "WE ARE CURRENTLY ACCEPTING NEW"
+	linefw "ENTRANTS FOR THE GR CHALLENGE CUP."
+	linefw "DEFEAT THREE PLAYERS IN A ROW,"
+	linefw "AND YOU'LL WIN A WONDERFUL CARD!"
+	linefw "THIS CUP'S PRIZE IS A RARE"
+	linefw "BILL'S COMPUTER CARD!"
+	linefw "MATCHES ARE PLAYED USING 4 PRIZE"
+	linefw "CARDS! LOSE ONCE, AND YOU'RE OUT!"
+	linefw "WILL YOU BE OUR NEXT CHALLENGER"
+	linefw "IN THIS THRILLING COMPETITION?"
+	done
+
+Text0ded:
+	text "TODAY WE'RE HOSTING A SPECIAL EVENT,"
+	linefw "THANKS TO KING VILLICCI!"
+	linefw "THIS IS TEAM GR'S COVETED"
+	linefw "KING'S CUP COMPETITION!"
+	linefw "THE WINNER OF THE EVENT WILL RECEIVE"
+	linefw "A SPECIAL CARD AS THEIR PRIZE."
+	linefw "THIS CUP'S PRIZE IS A RARE"
+	linefw "<RAMTEXT>", " CARD!"
+	linefw "YOU MUST WIN THREE BATTLES IN A ROW"
+	linefw "TO BE DECLARED THE VICTOR!"
+	linefw "I AM AUTHORIZED TO REGISTER ALL"
+	linefw "CHALLENGERS HERE."
+	linefw "WILL YOU BE OUR NEXT CHALLENGER"
+	linefw "IN THIS THRILLING COMPETITION?"
+	done
+
+Text0dee:
+	text "CHALLENGERS WHO HAVE ALREADY PLAYED"
+	linefw "MAY NOT PARTICIPATE IN THE SAME CUP."
+	linefw "PLEASE TRY AGAIN IN THE NEXT"
+	linefw "GR CHALLENGE CUP COMPETITION."
+	done
+
+Text0def:
+	text "THE CHALLENGE CUP IS NOW OVER."
+	done
+
+Text0df0:
+	text "THE CHALLENGE CUP IS NOW OVER."
+	linefw ""
+	linefw "PLEASE BE PATIENT FOR OUR NEXT CUP,"
+	linefw "THE COVETED KING CUP COMPETITION."
+	done
+
+Text0df1:
+	text "CHALLENGERS WHO HAVE ALREADY PLAYED"
+	linefw "MAY NOT PARTICIPATE IN THE SAME CUP."
+	linefw "PLEASE TRY AGAIN IN THE NEXT"
+	linefw "GR CHALLENGE CUP COMPETITION."
+	done
+
+Text0df2:
+	text "PARTICIPATE IN THE GR CHALLENGE CUP?"
+	done
+
+Text0df3:
+	text "THEN PLEASE GO UP ONTO THE STAGE!"
+	done
+
+Text0df4:
+	text "I SEE. THAT'S TOO BAD."
+	linefw "PLEASE COME AGAIN."
+	done
+
+Text0df5:
+	text "CHALLENGERS ARE NOT BEING ACCEPTED"
+	linefw "ON THIS SIDE OF THE STAGE."
+	linefw "PLEASE SPEAK TO THE RECEPTIONIST"
+	linefw "ON THE OTHER SIDE FOR REGISTRATION."
+	done
+
+Text0df6:
+	text "OH? ARE YOU WONDERING"
+	linefw "WHAT I'M DOING HERE?"
+	linefw "I'M ON STAFF, IF YOU MUST KNOW."
+	linefw "SOOO...PLEASE DON'T BOTHER ME."
+	done
+
+Text0df7:
+	text "I'M WORKING ON SETTING UP A NEW"
+	linefw "MACHINE IN THE ROOM."
+	linefw "I'VE GOT TO FIGURE OUT THE BEST"
+	linefw "PLACE TO PUT IT FIRST, THOUGH."
+	done
+
+Text0df8:
+	text "THIS IS THE GR CHALLENGE MACHINE."
+	linefw "IT'S FREE TO PLAY, IF YOU LIKE."
+	linefw "IF YOU CAN GET A 50-WIN STREAK,"
+	linefw "YOU'LL BE AWARDED A RARE COIN."
+	done
+
+Text0df9:
+	text "GOOD AFTERNOON."
+	linefw "ARE YOU WELL?"
+	linefw "I ALWAYS FEEL GREAT MYSELF AFTER"
+	linefw "INCREASING MY CONSECUTIVE WIN COUNT."
+	linefw "GOOD LUCK WITH YOUR OWN CHALLENGES!"
+	done
+
+Text0dfa:
+	text "OUR CHAMPION REMAINS UNDEFEATED AND"
+	linefw "MAY SOON WIN THE GR CHALLENGE CUP!"
+	linefw "YOU'VE DONE WELL SURVIVING THIS"
+	linefw "LONG, ", "<RAMTEXT>", "!"
+	linefw ""
+	text "HERE'S OUR NEXT CHALLENGER,"
+	linefw "<RAMNAME>", "! LET'S SEE..."
+	done
+
+Text0dfb:
+	text "IF MY INFORMATION IS CORRECT,"
+	linefw "<RAMNAME>", " IS TEAM GR'S RIVAL!"
+	done
+
+Text0dfc:
+	text "ARE YOU BOTH READY?"
+	linefw "PLACE YOUR 4 PRIZE CARDS FIRST!"
+	linefw "NOW THEN!!"
+	linefw "START THE COMPETITION!"
+	done
+
+Text0dfd:
+	text "THE GR CUP IS WELL UNDERWAY, AND"
+	linefw "NEW COMPETITORS ARE WELCOME TO JOIN!"
+	linefw "YOU'VE SURVIVED WELL SO FAR,"
+	linefw "<RAMTEXT>", "! CAN YOU KEEP IT UP?"
+	linefw "OUR NEXT CHALLENGER IS HERE TO FIND"
+	linefw "OUT! LET'S MEET YOUR OPPONENT!"
+	done
+
+Text0dfe:
+	text "IT'S ", "<RAMNAME>", ", THE RENOWNED KID"
+	linefw "FIGHTING VALIANTLY AGAINST TEAM GR!"
+	done
+
+Text0dff:
+	text "THINGS ARE HEATING UP IN"
+	linefw "KING VILLICCI'S THRILLING KING CUP!"
+	linefw "YOU MUST FIGHT WELL TO MAKE YOUR WAY"
+	linefw "TO THE TOP AND EMERGE AS THE VICTOR!"
+	linefw "YOU'VE DONE SPECTACULARLY SO FAR,"
+	linefw "<RAMTEXT>", "! YOU'RE ALMOST THERE!"
+	done
+
+Text0e00:
+	text "OH, BUT THE NEXT CHALLENGER IS"
+	linefw "CERTAINLY NOT GOING TO BE EASY!"
+	linefw "IT'S THE POKÉMON CARD MASTER,"
+	linefw "<RAMNAME>", "!!"
+	done
+
+Text0e01:
+	text "ARE YOU BOTH READY?"
+	linefw "SET ASIDE 4 PRIZE CARDS FIRST!"
+	linefw "ALRIGHT!!"
+	linefw "BEGIN THE CARD BATTLE!"
+	done
+
+Text0e02:
+	text "AND THE WINNER IS..."
+	linefw "<RAMNAME>", "!!"
+	linefw "<RAMNAME>", "!"
+	linefw "THAT'S YOUR FIRST WIN!!"
+	done
+
+Text0e03:
+	text "WHAT BAD LUCK, ", "<RAMTEXT>", "."
+	linefw ""
+	linefw "PLEASE TRY AGAIN IN OUR NEXT"
+	linefw "CHALLENGE CUP."
+	done
+
+Text0e04:
+	text "ALRIGHT! WE'RE ALL SET FOR OUR NEXT"
+	linefw "CARD BATTLE!"
+	linefw "NEXT CHALLENGER,"
+	linefw "PLEASE COME UP ON THE STAGE!"
+	done
+
+Text0e05:
+	text "<RAMNAME>", " HAS WON THE MATCH!"
+	linefw "WHAT A TRUE POKÉMON CARD MASTER!"
+	linefw "SIMPLY AMAZING!!"
+	linefw "WHAT AN INTENSE CARD BATTLE!"
+	linefw "<RAMNAME>", "!"
+	linefw "THAT'S YOUR FIRST WIN!!"
+	done
+
+Text0e06:
+	text "WHAT BAD LUCK, ", "<RAMTEXT>", "."
+	linefw "PLEASE COME BACK AGAIN NEXT TIME."
+	done
+
+Text0e07:
+	text "WILL THE NEXT TEAM GR MEMBER"
+	linefw "PLEASE COME TO THE STAGE?"
+	done
+
+Text0e08:
+	text "AND THE WINNER IS..."
+	linefw "<RAMTEXT>", "!!"
+	linefw "<RAMTEXT>", " HAS BEATEN TWO PLAYERS!"
+	linefw "THE PRIZE CARD IS ALMOST CLAIMED!"
+	done
+
+Text0e09:
+	text "WHAT BAD LUCK, ", "<RAMNAME>", "."
+	linefw "PLEASE TRY AGAIN NEXT TIME."
+	done
+
+Text0e0a:
+	text "WHAT?! THE FAMED POKÉMON CARD MASTER"
+	linefw "<RAMNAME>", " HAS BEEN DEFEATED!"
+	linefw "<RAMTEXT>", " HAS PULLED AHEAD AND"
+	linefw "GAINED ANOTHER WIN!"
+	linefw "IF ", "<RAMTEXT>", " GETS 1 MORE,"
+	linefw "THE PRIZE CARD WILL BE AWARDED!"
+	done
+
+Text0e0b:
+	text "WHAT BAD LUCK, ", "<RAMNAME>", "."
+	linefw "PLEASE TRY AGAIN NEXT TIME."
+	done
+
+Text0e0c:
+	text "MEET OUT NEW CHALLENGER,"
+	linefw "<RAMTEXT>", "!"
+	done
+
+Text0e0d:
+	text "THE NEXT CARD BATTLE WILL ALSO"
+	linefw "BE TO 4 PRIZE CARDS."
+	done
+
+Text0e0e:
+	text "<RAMNAME>", ", WOULD YOU LIKE TO"
+	linefw "MODIFY OR CHANGE YOUR DECK?"
+	done
+
+Text0e0f:
+	text "THEN PLEASE MAKE YOUR CHANGES!"
+	done
+
+Text0e10:
+	text "<RAMNAME>", " IS NOW READY!"
+	linefw "LET'S START THE MATCH!"
+	done
+
+Text0e11:
+	text "AND IT'S OVER! ", "<RAMNAME>", "!"
+	linefw "YOU'VE CLAIMED YOUR SECOND VICTORY!!"
+	linefw "WITH ONE MORE WIN,"
+	linefw "YOU'LL BE OUR NEW CHAMPION!!"
+	done
+
+Text0e12:
+	text "WHAT BAD LUCK, ", "<RAMTEXT>", "."
+	linefw "PLEASE TRY AGAIN NEXT TIME."
+	done
+
+Text0e13:
+	text "WELL, WILL THIS BATTLE BE THE LAST"
+	linefw "FOR ", "<RAMNAME>", "? OR..."
+	linefw "PERHAPS OUR NEXT CHALLENGER WILL"
+	linefw "STOP THIS STREAK!"
+	linefw "NEXT CHALLENGER!"
+	linefw "PLEASE COME ON STAGE!"
+	done
+
+Text0e14:
+	text "IT'S OVER! ", "<RAMNAME>"
+	linefw "HAS DEFEATED TWO CHALLENGERS!"
+	linefw "THE CUP'S WEIGHT LIES ON THE"
+	linefw "SHOULDERS OF THIS NEXT CHALLENGER!"
+	done
+
+Text0e15:
+	text "AND ", "<RAMNAME>", " HAS DONE IT AGAIN!"
+	linefw "THAT'S TWO TOTAL VICTORIES!!"
+	linefw "THE NEXT BATTLE MAY DETERMINE"
+	linefw "THIS CUP'S CHAMPION!"
+	done
+
+Text0e16:
+	text "IT'LL BE A FULL 6 PRIZE CARD BOUT"
+	linefw "FOR THIS FINAL CARD BATTLE!"
+	linefw "WELL, WHICH TEAM GR MEMBER"
+	linefw "IS UP TO THE CHALLENGE?"
+	done
+
+Text0e17:
+	text "<RAMTEXT>", " IS THE WINNER!"
+	linefw " "
+	linefw "THIS IS YOUR FIRST WIN, ", "<RAMTEXT>", "!"
+	linefw "2 MORE, AND YOU'LL BE OUR CHAMPION!"
+	done
+
+Text0e18:
+	text "WHAT BAD LUCK, ", "<RAMNAME>", "."
+	linefw "PLEASE TRY AGAIN NEXT TIME."
+	done
+
+Text0e19:
+	text "<RAMTEXT>", " HAS WON!"
+	linefw " "
+	linefw "THE FAMED POKÉMON CARD MASTER"
+	linefw "HAS BEEN DEFEATED!"
+	linefw "THIS IS YOUR FIRST WIN, ", "<RAMTEXT>", "!"
+	linefw "2 MORE, AND YOU'LL BE OUR CHAMPION!"
+	done
+
+Text0e1a:
+	text "WHAT BAD LUCK, ", "<RAMNAME>", "."
+	linefw "PLEASE TRY AGAIN NEXT TIME."
+	done
+
+Text0e1b:
+	text "OUR NEXT CHALLENGER IS HERE!"
+	linefw "IT'S ", "<RAMTEXT>", "!"
+	done
+
+Text0e1c:
+	text "<RAMNAME>", " IS READY!"
+	linefw "START THE FATEFUL THIRD MATCH!"
+	done
+
+Text0e1d:
+	text "CONGRATULATIONS!"
+	linefw "<RAMNAME>", " HAS EMERGED THE VICTOR!"
+	done
+
+Text0e1e:
+	text "MAY I FINALLY ANNOUNCE THE GR CUP'S"
+	linefw "NEW CHAMPION: ", "<RAMNAME>", "!"
+	done
+
+Text0e1f:
+	text "CONGRATULATIONS!"
+	linefw "<RAMNAME>", " HAS EMERGED THE VICTOR!"
+	done
+
+Text0e20:
+	text "WE HAVE FINALLY FOUND OUR NEW"
+	linefw "KING CUP CHAMPION!"
+	linefw "IT'S NONE OTHER THAN THE POKÉMON"
+	linefw "CARD MASTER, ", "<RAMNAME>", "!"
+	done
+
+Text0e21:
+	text "AND ", "<RAMTEXT>", " HAS WON THE BATTLE!"
+	linefw ""
+	linefw "SORRY FOR YOUR LOSS, ", "<RAMNAME>", "."
+	linefw "IT WAS AN EXCELLENT BATTLE, THOUGH!"
+	linefw "THAT'S WIN NUMBER 1 FOR ", "<RAMTEXT>", "!"
+	linefw "TWO MORE AND IT'S ALL OVER!"
+	done
+
+Text0e22:
+	text "WHAT BAD LUCK, ", "<RAMNAME>", "."
+	linefw "PLEASE TRY AGAIN NEXT TIME."
+	done
+
+Text0e23:
+	text "AHH, TOO BAD!"
+	linefw "<RAMNAME>", " WAS DEFEATED!"
+	linefw "<RAMTEXT>", " IS THE WINNER!"
+	linefw "THAT'S WIN NUMBER 1!"
+	linefw "ALL YOU NEED IS TO DEFEAT"
+	linefw "2 MORE CHALLENGERS!"
+	done
+
+Text0e24:
+	text "WHAT BAD LUCK, ", "<RAMNAME>", "."
+	linefw "PLEASE TRY AGAIN NEXT TIME."
+	done
+
+Text0e25:
+	text "HERE YOU GO, ", "<RAMNAME>", ":"
+	linefw "YOUR NEW DARK PERSIAN CARD!"
+	done
+
+Text0e26:
+	text "HERE YOU GO, ", "<RAMNAME>", ":"
+	linefw "YOUR NEW BILL'S COMPUTER CARD!"
+	done
+
+Text0e27:
+	text "HERE YOU GO, ", "<RAMNAME>", ":"
+	linefw "YOUR NEW ", "<RAMTEXT>", " CARD!"
+	done
+
+Text0e28:
+	text "BY THE WAY, ", "<RAMNAME>", ","
+	linefw "DID YOU KNOW?"
+	linefw "THIS IS THE TENTH TIME YOU'VE"
+	linefw "WON THE KING CUP!"
+	linefw "CONGRATULATIONS! FOR YOUR VICTORIES,"
+	linefw "YOU'VE EARNED THIS SPECIAL COIN!"
+	done
+
+Text0e29:
+	text "A HORSEA COIN!"
+	linefw "PLEASE TAKE GOOD CARE OF IT."
+	linefw "<RAMNAME>", "!"
+	linefw "CONGRATULATIONS ONCE AGAIN!"
+	done
+
+Text0e2a:
+	text "<RAMNAME>", "! ONCE MORE!"
+	linefw "CONGRATULATIONS!"
+	done
+
+Text0e2b:
+	text "THE GR CHALLENGE CUP IS HELD HERE"
+	linefw "EVERY NOW AND THEN."
+	linefw "WE AREN'T HOLDING A CUP NOW, THOUGH."
+	linefw "WE THANK YOU FOR YOUR PATIENCE."
+	done
+
+Text0e2c:
+	text "WELCOME TO TEAM GR'S CHALLENGE HALL,"
+	linefw "HOME OF THE GR CHALLENGE CUP."
+	linefw "REGISTRATION FOR THE FIRST GR"
+	linefw "CHALLENGE CUP HAS RECENTLY STARTED."
+	linefw "IF YOU WOULD LIKE TO PARTICIPATE,"
+	linefw "PLEASE ENTER HERE."
+	done
+
+Text0e2d:
+	text "WELCOME TO TEAM GR'S CHALLENGE HALL,"
+	linefw "HOME OF THE GR CHALLENGE CUP."
+	linefw "REGISTRATION FOR THE SECOND GR"
+	linefw "CHALLENGE CUP HAS RECENTLY STARTED."
+	linefw "IF YOU WOULD LIKE TO PARTICIPATE,"
+	linefw "PLEASE ENTER HERE."
+	done
+
+Text0e2e:
+	text "THE GR CHALLENGE CUP IS HELD HERE"
+	linefw "EVERY NOW AND THEN."
+	linefw "WE'RE PREPARING FOR THE NEXT CUP."
+	linefw "WE THANK YOU FOR YOUR PATEINCE."
+	done
+
+Text0e2f:
+	text "KING VILLICCI HASN'T ANNOUNCED"
+	linefw "THE NEXT COMPETITION JUST YET."
+	linefw "WE ARE MAKING ARRANGEMENTS FOR THE"
+	linefw "NEXT CUP. THANKS FOR YOUR PATIENCE."
+	done
+
+Text0e30:
+	text "TODAY, KING VILLICCI HAS SET UP"
+	linefw "THE SPECIAL KING CUP TOURNAMENT."
+	linefw "IF YOU WOULD LIKE TO PARTICIPATE,"
+	linefw "PLEASE GO ON INSIDE."
+	done
+
+Text0e31:
+	text "SO, HOW DID YOU DO?"
+	linefw ""
+	linefw "NO, NO, THERE'S NO REASON TO ASK"
+	linefw "YOU ABOUT THE RESULTS."
+	linefw "WHETHER OR NOT YOU CLAIMED THE"
+	linefw "CHAMPION TITLE IS YOUR OWN BUSINESS."
+	linefw "PLEASE STOP BY AGAIN WHEN THE NEXT"
+	linefw "CHALLENGE CUP IS BEING HELD."
+	done
+
+Text0e32:
+	text "NOPE, THAT'S DEFINITELY A PROBLEM..."
+	linefw "OH, CAN I ASK YOU A QUESTION?"
+	linefw "THERE'S A FAIRLY POPULAR CARD"
+	linefw "I NEED CALLED CHANSEY Lv55."
+	linefw "DO YOU HAPPEN TO HAVE A SPARE"
+	linefw "CHANSEY YOU COULD PART WITH?"
+	linefw "I'M OFFERING A BILL'S COMPUTER CARD,"
+	linefw "USABLE AT THE GAME CENTER, FOR ONE."
+	done
+
+Text0e33:
+	text "YOU DON'T HAPPEN TO HAVE AN EXTRA"
+	linefw "CHANSEY Lv55, DO YOU?"
+	linefw "I'VE BEEN TRYING TO TRADE FOR"
+	linefw "THAT CARD FOR SO LONG NOW..."
+	linefw "I'M OFFERING A BILL'S COMPUTER"
+	linefw "CARD FOR IT, IF YOU'RE INTERESTED."
+	done
+
+Text0e34:
+	text "OH, YOU DON'T HAVE A SPARE CHANSEY?"
+	linefw "AH, THAT'S JUST MY LUCK."
+	linefw "WELL, THIS WON'T DO."
+	linefw "I WON'T BE HAPPY UNTIL I FIND ONE..."
+	done
+
+Text0e35:
+	text "YOU'RE MAKING ME EVEN SADDER"
+	linefw "BY GETTING MY HOPES UP!"
+	linefw "IF YOU DON'T HAVE A CHANSEY Lv55,"
+	linefw "JUST SAY SO..."
+	done
+
+Text0e36:
+	text "IT SEEMS THAT YOU'VE GOT ALL OF YOUR"
+	linefw "CHANSEY Lv55 CARDS IN YOUR DECKS."
+	linefw "THAT'S JUST MY LUCK, I GUESS..."
+	done
+
+Text0e37:
+	text "FINALLY, IT'S MY BIG CHANSEY!"
+	linefw "ERM...MY BIG CHANCE!"
+	done
+
+Text0e38:
+	text "HOPEFULLY I'LL HAVE A LITTLE"
+	linefw "MORE LUCK USING THIS!"
+	done
+
+Text0e39:
+	text "THANKS SO MUCH FOR TRADING WITH ME."
+	linefw "I'VE BEEN SO LUCKY EVER SINCE!"
+	done
+
+Text0e3a:
+	text "OH, HELLO ", "<RAMNAME>", "."
+	linefw "WHEN DID YOU GET HERE?"
+	linefw "WONDERING WHAT THESE ARE FOR?"
+	linefw "THEY'RE FOR OUR CHALLENGE CUPS."
+	linefw "THE WINNERS OF TEAM GR'S CHALLENGE"
+	linefw "CUPS GET THESE SPECIAL TROPHIES."
+	linefw "YOU SHOULD STRIVE TO WIN THEM ALL!"
+	linefw "RIGHT NOW, THOUGH, WE'RE IN RECESS."
+	done
+
+Text0e3b:
+	text "WE'RE CURRENTLY WAITING FOR THE NEXT"
+	linefw "KING CUP COMPETITION."
+	linefw "WAIT, DIDN'T I SEE YOU PARTICIPATE"
+	linefw "IN THE LAST COMPETITION?"
+	linefw "PLEASE MAKE SURE TO COME BACK FOR"
+	linefw "THE NEXT KING CUP, TOO!"
+	done
+
+Text0e3c:
+	text "I CAN'T SPEAK RIGHT NOW."
+	linefw "I'M WORKING ON BUILDING MY DECK."
+	done
+
+Text0e3d:
+	text "I CAN'T SPEAK RIGHT NOW."
+	linefw "I'M WORKING ON BUILDING MY DECK."
+	linefw "I'VE GOT TO FINISH SO I CAN BE ONE"
+	linefw "OF THE GR CUP'S PARTICIPANTS..."
+	done
+
+Text0e3e:
+	text "I CAN'T SPEAK RIGHT NOW."
+	linefw "I'M WORKING ON BUILDING MY DECK."
+	linefw "THE LAST GR CHALLENGE CUP THAT WAS"
+	linefw "HELD HERE WAS AMAZING."
+	linefw "I'M STUDYING THE DECKS YOU AND THE"
+	linefw "OTHERS USED DURING THE COMPETITION."
+	done
+
+Text0e3f:
+	text "I'VE BEEN PREPARING MY DECK TO THE"
+	linefw "BEST OF MY ABILITY FOR THIS MOMENT."
+	linefw "I'VE GOT TO IMPRESS KING VILLICCI..."
+	linefw "MY TIME HAS FINALLY COME."
+	linefw "WELL, WISH ME LUCK."
+	linefw "I'LL RETURN ONCE IT'S ALL OVER."
+	done
+
+Text0e40:
+	text "IT'S BEEN A WHILE SINCE THE LAST"
+	linefw "GR CUP. I HOPE IT STARTS AGAIN SOON!"
+	linefw "I'M GONNA WIN THE TROPHY FOR SURE."
+	linefw "YOU'D BETTER NOT GET IN MY WAY!"
+	done
+
+Text0e41:
+	text "SINCE I'M YOUR ELDER, YOU SHOULD"
+	linefw "LISTEN TO WHAT I HAVE TO SAY."
+	linefw "YOU KNOW THE GR CHALLENGE CUP"
+	linefw "IS ABOUT TO START, CORRECT?"
+	linefw "I'D LIKE TO BE THE ONE WHO WINS"
+	linefw "THE AWARD."
+	done
+
+Text0e42:
+	text "OH, DON'T YOU WORRY IF YOU"
+	linefw "HAPPENED TO LOSE THIS TIME AROUND."
+	linefw "LET THIS OLD WOMAN SHARE SOME OF"
+	linefw "HER WISDOM WITH YOU:"
+	linefw "THE GR CHALLENGE CUP WILL START"
+	linefw "AGAIN BEFORE YOU KNOW IT."
+	linefw "YOU'LL ALWAYS GET ANOTHER CHANCE"
+	linefw "TO PARTICIPATE ONCE MORE."
+	done
+
+Text0e43:
+	text "KING VILLICCI HOLDS THE KING CUP"
+	linefw "COMPETITION FREQUENTLY."
+	linefw "THUS, IT'D BE BEST IF YOU CAME BACK"
+	linefw "NOW AND THEN IN CASE IT'S GOING ON."
+	linefw "YOU MIGHT MISS IT IF YOU STAY AWAY"
+	linefw "FOR TOO LONG, YOU KNOW!"
+	done
+
+Text0e44:
+	text "THE KING CUP IS STARTING VERY SOON."
+	linefw "I HAVE NO ADVICE TO GIVE YOU. SORRY!"
+	linefw "JUST GO ON AND DO YOUR BEST."
+	done
+
+Text0e45:
+	text "MY OH MY, THIS IS TERRIBLE."
+	linefw "MY POKÉMON CARDS HAVE BEEN STOLEN..."
+	linefw "<RAMNAME>", ", PLEASE HELP..."
+	linefw "PLEASE TRY TO GET MY CARDS BACK!"
+	done
+
+Text0e46:
+	text "OH, GOOD AFTERNOON, ", "<RAMNAME>", "."
+	linefw "I WAS JUST FINISHING A NEW DECK."
+	linefw "YOU'VE DONE ME A GREAT FAVOR,"
+	linefw "AND I THANK YOU WHOLE-HEARTEDLY."
+	linefw "EVEN THOUGH IT'S BEEN A WHILE,"
+	linefw "COULD I HAVE A CARD BATTLE WITH YOU?"
+	done
+
+Text0e47:
+	text "OH, IT'S ", "<RAMNAME>", "."
+	linefw "ARE YOU HERE FOR A CARD BATTLE?"
+	done
+
+Text0e48:
+	text "WOULD YOU LIKE TO DUEL NIKKI?"
+	done
+
+Text0e49:
+	text "I LIKE TO HAVE BATTLES"
+	linefw "USING 6 PRIZE CARDS."
+	linefw "PLEASE TRY TO RELAX AND"
+	linefw "NOT GET WORKED UP."
+	done
+
+Text0e4a:
+	text "THEN PLEASE RELAX AROUND OUR"
+	linefw "CLUB'S LUSH GREENERY."
+	linefw "IT'S ESSENTIAL TO REMEMBER TO"
+	linefw "REST BETWEEN YOUR ROUGH FIGHTS."
+	done
+
+Text0e4b:
+	text "OH MY, I'VE BEEN DEFEATED!"
+	linefw "HERE, THEN. PLEASE TAKE THESE."
+	done
+
+Text0e4c:
+	text "I HAD A LOT OF FUN IN"
+	linefw "OUR BATTLE, ", "<RAMNAME>", "."
+	linefw "PLEASE DO YOUR BEST IN YOUR"
+	linefw "FIGHTS ON GR ISLAND."
+	linefw "FEEL FREE TO COME BACK TO OUR CLUB."
+	linefw "I'LL BE WAITING FOR YOUR RETURN."
+	done
+
+Text0e4d:
+	text "THAT WAS QUITE AN EXHILARATING"
+	linefw "CARD BATTLE!"
+	linefw "REMEMBER WE'RE HERE IF YOU'D LIKE"
+	linefw "TO RETURN FOR SOME REST LATER."
+	done
+
+Text0e4e:
+	text "OH, ", "<RAMNAME>", "!"
+	linefw "WELCOME TO OUR PLAY HALL."
+	linefw "I DIDN'T EXPECT YOU TO DEFEAT"
+	linefw "TEAM GR SO EASILY, TO BE TRUTHFUL."
+	linefw "YOU'RE NOT DONE FIGHTING, ARE YOU?"
+	linefw "I HAVE SOME BOOSTER PACKS, YOU SEE!"
+	done
+
+Text0e4f:
+	text "OH, HI ", "<RAMNAME>", "."
+	linefw "WORKING HARD?"
+	linefw "WHY NOT TAKE A BREAK FROM FIGHTING"
+	linefw "TEAM GR AND EARN SOME CARDS FROM ME?"
+	done
+
+Text0e50:
+	text "WOULD YOU LIKE TO DUEL BRITTANY?"
+	done
+
+Text0e51:
+	text "ALRIGHT! I WON'T LOSE THIS TIME!"
+	linefw "LET'S USE 4 PRIZE CARDS!"
+	done
+
+Text0e52:
+	text "IS THAT SO? IF YOU DON'T WANT CARDS,"
+	linefw "I GUESS YOU DON'T NEED TO FIGHT."
+	done
+
+Text0e53:
+	text "WELL, IF IT ISN'T ", "<RAMNAME>", "!"
+	linefw "GOOD TO SEE YOU!"
+	linefw "I'VE FINALLY GOT A GOOD DECK AND"
+	linefw "SOME BOOSTER PACKS. PLEASE DUEL ME!"
+	done
+
+Text0e54:
+	text "AH, YOU'RE HERE! IF YOU'RE LOOKING"
+	linefw "FOR A DUEL, LET'S DUEL IN THE GRASS!"
+	done
+
+Text0e55:
+	text "LET'S USE 4 PRIZE CARDS,"
+	linefw "THE SAME AS WE'VE ALWAYS DONE!"
+	done
+
+Text0e56:
+	text "AW, MAN! I'VE BEEN WAITING SINCE OUR"
+	linefw "LAST MEETING TO CHALLENGE YOU!"
+	linefw "SHUCKS. I GUESS I'LL GET BACK"
+	linefw "TO MY GARDENING THEN."
+	done
+
+Text0e57:
+	text "I WAS DEFEATED AGAIN AFTER ALL..."
+	linefw "YEAH, HERE'RE YOUR BOOSTER PACKS."
+	done
+
+Text0e58:
+	text "IT'S BEEN HARD TO GET CARDS BACK"
+	linefw "SINCE TEAM GR'S ATTACK, HASN'T IT?"
+	done
+
+Text0e59:
+	text "AWW, YEAH! IT WAS GETTING SO"
+	linefw "BORING FIGHTING THE SAME PEOPLE!"
+	done

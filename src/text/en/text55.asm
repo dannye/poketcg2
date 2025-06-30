@@ -1,0 +1,1080 @@
+Text0f3c:
+	text "HOOHOO! IT'S ", "<RAMNAME>", "!"
+	linefw "BACK FOR MORE?"
+	linefw "SINCE I'VE COMPOSED A DECK MYSELF,"
+	linefw "YOU CAN FIGHT ME NORMALLY THIS TIME."
+	linefw "OR WOULD YOU RATHER RETRY SOME"
+	linefw "OF OUR TRAINING EXERCISES?"
+	done
+
+Text0f3d:
+	text "HOOHOO! IT'S ", "<RAMNAME>", "!"
+	linefw "IS IT TRUE THAT YOU STOPPED TEAM GR?"
+	linefw "WAS THE TRAINING YOU RECEIVED HERE"
+	linefw "HELPFUL IN YOUR QUEST?"
+	linefw "BY THE BY, SINCE YOU'RE HERE,"
+	linefw "WOULD YOU LIKE MORE TRAINING?"
+	done
+
+Text0f3e:
+	text "YOU MUST START WITH STEP 1 FIRST."
+	linefw "WOULD YOU LIKE TO TRY IT?"
+	done
+
+Text0f3f:
+	text "WHICH STEP WOULD YOU LIKE"
+	linefw "TO TRAIN ON WITH ME?"
+	done
+
+Text0f40:
+	text "WILL YOU DUEL ME?"
+	linefw "OR WOULD YOU LIKE TO TRAIN?"
+	done
+
+Text0f41:
+	text "HOOHOO!!"
+	linefw "YOU'RE FREE TO DO WHAT YOU PLEASE!"
+	linefw "OUR DOORS ARE OPEN ANY TIME YOU"
+	linefw "SEEK TRAINING."
+	linefw "I'M AVAILABLE FOR SOME DUELS"
+	linefw "AGAINST YOU WHENEVER YOU LIKE!"
+	done
+
+Text0f42:
+	text "STEP 1 YOU SAY..."
+	linefw "THEN LET'S HEAD OVER TO TABLE 1!"
+	done
+
+Text0f43:
+	text "FIRST, LET'S LEARN A LITTLE MORE"
+	linefw "ABOUT POKÉMON CARD EVOLUTION."
+	linefw "TO BEGIN, BASIC POKÉMON MAY EVOLVE"
+	linefw "INTO STAGE 1 FORMS."
+	linefw "IN TURN, THOSE STAGE 1 FORMS MAY"
+	linefw "EVOLVE INTO STAGE 2 FORMS."
+	linefw "SINCE WE'RE ONLY TRAINING,"
+	linefw "PUT YOUR NORMAL DECK AWAY."
+	linefw "WE'LL USE THE LAB'S PRACTICE DECKS"
+	linefw "FOR THIS DUEL."
+	linefw "LET'S START A DUEL USING"
+	linefw "4 PRIZE CARDS!"
+	done
+
+Text0f44:
+	text "VERY GOOD, ", "<RAMNAME>", "!"
+	linefw "YOU'VE CLEARED STEP 1!!"
+	done
+
+Text0f45:
+	text "HOOHOO! THE NEXT STAGE IS EVEN"
+	linefw "MORE CHALLENGING!"
+	linefw "COME BACK FOR MORE TRAINING"
+	linefw "WHENEVER YOU'RE READY! HOOHOO!!"
+	done
+
+Text0f46:
+	text "HOOHOO! YOU DON'T SEEM READY FOR"
+	linefw "THIS TRAINING LEVEL YET!"
+	linefw "PERHAPS YOU SHOULD GO DO SOME"
+	linefw "PRACTICE DUELS WITH SAM FIRST."
+	linefw "HOOHOO!! SEE YA!"
+	linefw "COME TRAIN AGAIN SOMETIME!"
+	done
+
+Text0f47:
+	text "STEP 2 YOU SAY..."
+	linefw "THEN LET'S HEAD OVER TO TABLE 2!"
+	done
+
+Text0f48:
+	text "STEP 2 FEATURES THE POISON, SLEEP,"
+	linefw "PARALYSIS, AND CONFUSION STATUSES."
+	linefw "MAKE SURE YOU THINK YOUR ACTIONS"
+	linefw "OVER CAREFULLY DURING THE DUEL. "
+	linefw "RETREATING A POKÉMON WILL CURE ANY"
+	linefw "STATUS AILMENTS IT CURRENTLY HAS."
+	linefw "HOWEVER, YOU'LL HAVE TO PAY A"
+	linefw "RETREAT COST TO DO SO."
+	linefw "SINCE WE'RE ONLY TRAINING,"
+	linefw "PUT YOUR NORMAL DECK AWAY."
+	linefw "WE'LL USE ANOTHER ONE OF THE LAB'S"
+	linefw "PRACTICE DECKS FOR THIS DUEL."
+	linefw "LET'S START THE MATCH USING"
+	linefw "4 PRIZE CARDS!"
+	done
+
+Text0f49:
+	text "VERY GOOD, ", "<RAMNAME>", "!"
+	linefw "YOU'VE CLEARED STEP 2!!"
+	done
+
+Text0f4a:
+	text "DON'T TAKE POISON, PARALYSIS,"
+	linefw "SLEEP, AND CONFUSION FOR GRANTED!"
+	linefw "YOU MUST LEARN HOW TO HANDLE"
+	linefw "AND HEAL THESE STATUS CONDITIONS!"
+	linefw "HOOHOO!! SEE YA!"
+	linefw "COME TRAIN AGAIN SOMETIME!"
+	done
+
+Text0f4b:
+	text "STEP 3 YOU SAY..."
+	linefw "THEN LET'S HEAD OVER TO TABLE 3!"
+	done
+
+Text0f4c:
+	text "STEP 3 FOCUSES ON THE USE OF"
+	linefw "POKÉMON POWERS."
+	linefw "BE PREPARED FOR ANYTHING WHEN A"
+	linefw "A POKÉMON POWER IS IN PLAY!"
+	linefw "WHEN COMBINED WITH TRAINER CARDS,"
+	linefw "MANY DIFFERENT TACTICS ARE POSSIBLE."
+	linefw "WE'LL USE ANOTHER ONE OF THE LAB'S"
+	linefw "PRACTICE DECKS FOR THIS DUEL."
+	linefw "LET'S START THE MATCH USING"
+	linefw "4 PRIZE CARDS!"
+	done
+
+Text0f4d:
+	text "VERY GOOD, ", "<RAMNAME>", "!"
+	linefw "YOU'VE CLEARED STEP 3!!"
+	done
+
+Text0f4e:
+	text "HOOHOO! WITH THIS,"
+	linefw "YOU'VE CLEARED STEP 3!"
+	linefw "HOWEVER, STEP 4 LIES AHEAD OF YOU!"
+	linefw ""
+	linefw "YOU'LL HAVE TO TRY IT SOONER OR"
+	linefw "LATER IF YOU WANT TO GET BETTER!"
+	linefw "HOOHOO!!"
+	linefw "I'M WAITING!"
+	done
+
+Text0f4f:
+	text "HOOHOO!"
+	linefw "YOU'VE CLEARED STEP 3!"
+	linefw "ALL THAT'S LEFT IS STEP 4!"
+	linefw "COME CHALLENGE ME AT ANY TIME!"
+	linefw "HOOHOO!!"
+	linefw "I'LL BE WAITING!"
+	done
+
+Text0f50:
+	text "AHA! DO YOU FIND IT DIFFICULT TO"
+	linefw "HANDLE BATTLE WITH POKÉMON POWERS?"
+	linefw "YOU OUGHT TO CAREFULLY READ EACH"
+	linefw "CARD'S TEXT WHEN IT'S PLAYED."
+	linefw "POKÉMON POWERS CAN BE AMAZING"
+	linefw "WHEN USED ALONGSIDE OTHER CARDS."
+	linefw "HOOHOO!! SEE YA!"
+	linefw "COME TRAIN AGAIN SOMETIME!"
+	done
+
+Text0f51:
+	text "A NORMAL DUEL..."
+	linefw "LET'S HEAD OVER TO TABLE 4 THEN."
+	done
+
+Text0f52:
+	text "HOOHOO! STEP 4 IS A BATTLE WHERE"
+	linefw "WE FIGHT WITH LIVE WEAPONS!"
+	linefw "IT'S A ROUGH BATTLE OF MY DECK"
+	linefw "AGAINST YOUR DECK."
+	linefw "HOOHOO! I'VE MADE TWO DECKS THAT YOU"
+	linefw "HAVE THE CHOICE TO FIGHT AGAINST."
+	linefw "THAT BEING SO, WHICH DECK"
+	linefw "WILL I CHALLENGE YOU WITH?"
+	linefw "4 PRIZE CARDS!"
+	linefw "LET'S START THE BATTLE!"
+	done
+
+Text0f53:
+	text "HOOHOO?"
+	linefw "I'VE BEEN TRAMPLED!"
+	linefw "JUST AS I SUSPECTED: YOU'RE TOUGH!"
+	linefw "I'LL GIVE YOU THIS AS A PRIZE."
+	done
+
+Text0f54:
+	text "SHOULD I HAVE USED THE OTHER DECK"
+	linefw "INSTEAD, I WONDER?"
+	linefw "COME BACK AGAIN."
+	linefw "I WON'T LOSE NEXT TIME!!"
+	linefw "HOOHOO!!"
+	linefw "SEE YOU! I'LL BE WAITING!"
+	done
+
+Text0f55:
+	text "HOOHOO!! PERHAPS YOU'RE NOT AS"
+	linefw "THREATENING AS I HAD THOUGHT."
+	linefw "YOU'LL NEED TO MAKE USE OF THE"
+	linefw "TRAINING IN THIS ROOM SOME MORE."
+	linefw "HOOHOO! "
+	linefw "I CAN'T BE DEFEATED SO EASILY."
+	linefw "PERHAPS YOU SHOULD START FROM THE"
+	linefw "BEGINNING WITH STEP 1?"
+	done
+
+Text0f56:
+	text "THIS TRAINING ROOM WAS RECENTLY"
+	linefw "BUILT FOR DR. MASON'S PUPILS."
+	linefw "PLEASE FEEL FREE TO PRACTICE DUELS"
+	linefw "HERE WHENEVER YOU LIKE!"
+	linefw "THERE ARE SEVERAL STEPS IN OUR"
+	linefw "TRAINING PROGRAM FOR YOU TO TRY!"
+	done
+
+Text0f57:
+	text "SO YOU HAVE COME, ", "<RAMNAME>", "..."
+	done
+
+Text0f58:
+	text "WE THREE ARE THE CLERICS..."
+	done
+
+Text0f59:
+	text "AVERY! YOUR ATTENTION, PLEASE!"
+	done
+
+Text0f5a:
+	text "AH...?"
+	done
+
+Text0f5b:
+	text "WE THREE ARE THE CLERICS WHO"
+	linefw "PROTECT THE COLORLESS ALTAR."
+	linefw "IF YOUR GOAL IS TO ENTER GR CASTLE,"
+	linefw "YOU MUST FIGHT ALL THREE OF US!"
+	linefw "ONLY BY ATTAINING OUR APPROVAL WILL"
+	linefw "YOU EARN THE GR COLORLESS COIN!"
+	linefw "WE THREE EACH REQUIRE SPECIFIC CARDS"
+	linefw "TO BE IN YOUR DECK WHEN CHALLENGING."
+	linefw "WELL, THAT'S ALL YOU NEED TO KNOW."
+	linefw "COME YE AND FIGHT US!"
+	done
+
+Text0f5c:
+	text "OOH OOH OOOOOH!"
+	linefw "YOU'VE DEFEATED US ALL, EH?"
+	linefw "THEN TAKE THIS:"
+	linefw "THE GR COLORLESS COIN."
+	done
+
+Text0f5d:
+	text "YOU STILL NEED TO EARN THE GR"
+	linefw "PSYCHIC COIN TO ENTER THE GR CASTLE."
+	linefw "THE ONLY PERSON WHO HAS THAT COIN IS"
+	linefw "CLAIRE IN THE GR PSYCHIC FORTRESS."
+	linefw "SO GO ON OVER TO THE"
+	linefw "GR PSYCHIC FORT!"
+	done
+
+Text0f5e:
+	text "AH! ", "<RAMNAME>", "! IT LOOKS LIKE YOU"
+	linefw "ALREADY HAVE THE GR PSYCHIC COIN!"
+	linefw "THAT CAN ONLY MEEEEAN..."
+	linefw "YOU'LL BE ENTERING GR CASTLE SOON."
+	linefw "THAT WOULD MAKE YOU THE FIRST NON-"
+	linefw "TEAM GR MEMBER TO ENTER THE CASTLE!"
+	linefw "IF YOU HAPPEN TO MEET VILLICCI,"
+	linefw "GIVE HIM MY KIND REGARDS."
+	done
+
+Text0f5f:
+	text "DO YOU WISH TO FIGHT AGAINST ME,"
+	linefw "SETH, OF TEAM GR'S COLORLESS ALTAR?"
+	linefw "CREATE A DECK CONTAINING 4"
+	linefw "<RAMTEXT>", " CARDS, THEN!"
+	linefw "IF YOU COMPLETE THAT REQUIREMENT,"
+	linefw "YOU SHALL HAVE YOUR CARD BATTLE!"
+	linefw "FAIL TO DO SO, HOWEVER, AND"
+	linefw "I WILL REFUSE YOUR REQUEST."
+	linefw "IF YOU FULFILL THAT CRITERION,"
+	linefw "LET US BEGIN THE FIGHT!"
+	done
+
+Text0f60:
+	text "THIS TIME, I'M ALL ABOUT"
+	linefw "<RAMTEXT>", " CARDS."
+	linefw "I WANT YOUR DECK TO CONTAIN"
+	linefw "4 ", "<RAMTEXT>", " CARDS!"
+	linefw "DON'T HAVE THEM IN YOUR DECK?"
+	linefw "THEN WE WON'T HAVE A CARD BATTLE!"
+	done
+
+Text0f61:
+	text "<RAMTEXT>", "!"
+	linefw "DO YOU HAVE 4 IN YOUR DECK YET?"
+	linefw "IF YOU DON'T, I WON'T FIGHT YOU."
+	linefw "IF YOU DO, WOULD YOU LIKE TO BATTLE?"
+	done
+
+Text0f62:
+	text "WOULD YOU LIKE TO DUEL SETH?"
+	done
+
+Text0f63:
+	text "EXCUSE ME, I SAID"
+	linefw "'", "<RAMTEXT>", "'."
+	linefw "I'M AFRAID I DON'T SEE 4 OF THEM"
+	linefw "IN YOUR DECK, SO I WON'T FIGHT YOU."
+	linefw "COME BACK AND CHALLENGE ME ONCE"
+	linefw "YOU'VE GOT THOSE CARDS IN YOUR DECK!"
+	done
+
+Text0f64:
+	text "IF YOU DON'T HAVE ENOUGH OF THE"
+	linefw "REQUIRED CARDS, HERE'S A HINT:"
+	linefw "OPEN YOUR CARD ALBUM AND TRY TO"
+	linefw "FIND IT AMONG ALL OF THE SERIES."
+	linefw "MAKE A NOTE OF THE BOOSTER PACK"
+	linefw "SERIES THE CARD IS AVAILABLE IN."
+	linefw "THEN, FIND AN OPPONENT WHO AWARDS"
+	linefw "THAT BOOSTER SERIES AS PRIZES."
+	linefw "ALTERNATIVELY, YOU CAN ALSO RECEIVE"
+	linefw "THE CARDS YOU NEED FROM A FRIEND."
+	done
+
+Text0f65:
+	text "SET ASIDE 6 PRIZE CARDS! BEAT ME,"
+	linefw "AND I'LL GIVE YOU A BOOSTER PACK!"
+	done
+
+Text0f66:
+	text "I SEE FEAR ENTER YOUR EYES!"
+	linefw "THAT'S INEVITABLE AND UNFORTUNATE!"
+	linefw "SUMMON SOME COURAGE BEFORE YOU"
+	linefw "DECIDE TO TRY CHALLENGING ME!!"
+	done
+
+Text0f67:
+	text "DO YOU WANT TO HAVE A CARD BATTLE?"
+	linefw "I'LL PLAY MUCH BETTER TODAY!"
+	linefw "I'M SEEKING OPPONENTS USING"
+	linefw "<RAMTEXT>", " CARDS!"
+	linefw "4 ", "<RAMTEXT>", " CARDS"
+	linefw "IS ENOUGH FOR ME TO ACCEPT."
+	linefw "WILL YOU DUEL WITH ME, THEN?"
+	done
+
+Text0f68:
+	text "<RAMTEXT>"
+	linefw "ARE MY CURRENT FOCUS!"
+	linefw "YOU SHOULD MAKE YOUR DECK CONTAIN"
+	linefw "4 ", "<RAMTEXT>", " CARDS."
+	linefw "IF YOU DON'T,"
+	linefw "I WON'T FIGHT YOU!"
+	done
+
+Text0f69:
+	text "YOU KNOW WHAT CARDS I LIKE?"
+	linefw "<RAMTEXT>", " CARDS."
+	linefw "IF YOUR DECK DOESN'T INCLUDE"
+	linefw "4 OF THEM, I WON'T BATTLE YOU."
+	linefw "IF YOU'VE GOT THEM READY TO GO,"
+	linefw "THOUGH, LET'S START THE BATTLE!"
+	done
+
+Text0f6a:
+	text "THE 4 CARDS I REQUESTED ARE NOT"
+	linefw "PRESENT IN YOUR DECK."
+	linefw "REMEMBER, I WANTED 4"
+	linefw "<RAMTEXT>", "CARDS."
+	linefw "WITHOUT ALL 4 IN YOUR DECK,"
+	linefw "I WON'T BATTLE YOU."
+	done
+
+Text0f6b:
+	text "I HAVE NO QUALMS WITH YOU SINCE"
+	linefw "YOUR DECK HAS THE REQUIRED CARDS."
+	linefw "PLACE 6 PRIZE CARDS FACE DOWN"
+	linefw "AND LET US BEGIN!"
+	done
+
+Text0f6c:
+	text "IF YOU DON'T HAVE ENOUGH OF"
+	linefw "THE CARDS, THAT'S YOUR PROBLEM."
+	linefw "I WILL NOT ACCEPT CHALLENGES AGAINST"
+	linefw "DECKS WITHOUT THOSE CARDS!"
+	done
+
+Text0f6d:
+	text "THIS YOUTH WHO HAS COME HERE IS"
+	linefw "INDEED A STRONG ONE. HA HA HA HA!!"
+	done
+
+Text0f6e:
+	text "WELL I'LL BE."
+	linefw "IT'S BEEN A WHILE SINCE I'VE LOST."
+	linefw "THE NEXT TIME YOU COME TO FIGHT,"
+	linefw "I MAY CHANGE MY CARD REQUIREMENTS."
+	done
+
+Text0f6f:
+	text "HA HA HA HA!"
+	linefw "I DON'T LOSE EASILY!"
+	linefw "I HOPE YOU COME AND TRY AGAIN!"
+	linefw "KEEP ME IN MIND, YOU HEAR?"
+	linefw "I MAY SWITCH MY CARD REQUIREMENTS"
+	linefw "FOR OUR NEXT MATCH."
+	done
+
+Text0f70:
+	text "I'VE LOST YET AGAIN IN A MOST"
+	linefw "EMBARRASSING FASHION!"
+	done
+
+Text0f71:
+	text "IF I CAN'T WIN AGAINST THAT DECK,"
+	linefw "THEN I'LL CHANGE THE REQUIRED CARDS."
+	linefw "YOU MAY NEED TO GO COLLECT THE CARDS"
+	linefw "REQUIRED FOR OUR NEXT FIGHT."
+	done
+
+Text0f72:
+	text "WHENEVER THERE'S A BATTLE, THERE"
+	linefw "WILL ALWAYS BE A WINNER AND A LOSER."
+	done
+
+Text0f73:
+	text "HUNH? A BATTLE WITH ME?"
+	linefw "THEN LET ME CONSULT GR No.2!"
+	done
+
+Text0f74:
+	text "YEAH, YOU GOT IT!"
+	linefw "THAT WAS ME IN DISGUISE!"
+	done
+
+Text0f75:
+	text "I'M DONE BEING GR No.2, THOUGH."
+	linefw "WOULD YOU LIKE TO FIGHT ME AS AVERY?"
+	linefw "I HAVE SPECIAL DECK REQUIREMENTS"
+	linefw "TO PREVENT ME FROM LOSING, THOUGH."
+	linefw "I WANT YOUR DECK TO INCLUDE 4"
+	linefw "<RAMTEXT>", " CARDS."
+	linefw "IT'S THE ONLY WAY I'LL AGREE"
+	linefw "TO HAVE A CARD BATTLE WITH YOU."
+	done
+
+Text0f76:
+	text "LET'S SEE, WHICH CARD SHOULD I MAKE"
+	linefw "YOU HAVE 4 OF INSIDE YOUR DECK?"
+	linefw "OH, I KNOW!"
+	linefw "<RAMTEXT>", "!"
+	linefw "IF YOU'VE GOT 4 OF THOSE CARDS"
+	linefw "IN YOUR DECK, LET'S DUEL!"
+	done
+
+Text0f77:
+	text "HEY THERE. HAVE YOU PUT THE 4 CARDS"
+	linefw "I REQUESTED IN YOUR DECK YET?"
+	linefw "YOU DO REMEMBER THEM, RIGHT?"
+	linefw "4 ", "<RAMTEXT>", " CARDS."
+	done
+
+Text0f78:
+	text "WOULD YOU LIKE TO DUEL AVERY?"
+	done
+
+Text0f79:
+	text "IT'S POINTLESS FOR YOU TO TRY AND"
+	linefw "TRICK ME. I KNOW WHAT TO LOOK FOR!"
+	linefw "I HAVE MY EYES OPEN FOR 4"
+	linefw "<RAMTEXT>", " CARDS."
+	linefw "I CAN SEE YOUR DECK IS STILL LACKING"
+	linefw "<RAMTEXT>", " CARDS!"
+	done
+
+Text0f7a:
+	text "OKEE-DOKEE!"
+	linefw "YOU'VE GOT EVERYTHING I CALLED FOR."
+	linefw "TIME TO UNLEASH YOUR 6 PRIZE CARDS!"
+	linefw "LET'S BEGIN."
+	done
+
+Text0f7b:
+	text "WHAT, NOW YOU DON'T WANT TO FIGHT?"
+	linefw " "
+	linefw "YOU'RE GOING TO HAVE TO BATTLE ME IF"
+	linefw "YOU WANT THE GR COLORLESS COIN..."
+	done
+
+Text0f7c:
+	text "HO HO...HEY THERE, ", "<RAMNAME>", "."
+	linefw "LOOKING FOR ANOTHER FIGHT?"
+	linefw "I KNOW WE FOUGHT BEFORE WITH CERTAIN"
+	linefw "RULES, BUT I'VE SWITCHED THINGS UP."
+	linefw "THIS TIME, I'M FOCUSING ON FIGHTING"
+	linefw "<RAMTEXT>", " CARDS!"
+	linefw "PUT 4 ", "<RAMTEXT>", " CARDS"
+	linefw "IN YOUR DECK IF YOU'D LIKE TO DUEL!"
+	done
+
+Text0f7d:
+	text "OOH OOH OOOOH!"
+	linefw "LET'S BATTLE!"
+	linefw "THIS TIME I'M ASKING FOR"
+	linefw "<RAMTEXT>", " CARDS!"
+	linefw "I'LL FIGHT YOU IF YOU HAVE 4 OF 'EM"
+	linefw "IN YOUR DECK!"
+	done
+
+Text0f7e:
+	text "HAVE YOU COLLECTED ENOUGH"
+	linefw "<RAMTEXT>", " CARDS YET?"
+	linefw "IF YOU HAVE ALL 4 AND THEY'RE IN"
+	linefw "YOUR DECK, LET'S HAVE US A DUEL!"
+	done
+
+Text0f7f:
+	text "<RAMTEXT>", "..."
+	linefw "HEY, YOU DON'T HAVE ENOUGH!"
+	linefw "I TOLD YOU ALREADY THAT I WON'T"
+	linefw "FIGHT YOU WITHOUT 'EM."
+	linefw "PUT 4 ", "<RAMTEXT>", " CARDS"
+	linefw "IN YOUR DECK IF YOU WANNA FIGHT ME!"
+	done
+
+Text0f80:
+	text "YES! YOU'VE GOT ALL THE CARDS"
+	linefw "NEATLY IN YOUR DECK."
+	linefw "PUT 6 PRIZE CARDS DOWN, THEN!"
+	linefw "I WANT TO START THE DUEL, PRONTO!"
+	done
+
+Text0f81:
+	text "IS IT POSSIBLE THAT YOU DON'T HAVE"
+	linefw "ENOUGH OF THOSE CARDS YET?"
+	linefw "WELL, GO OUT AND COLLECT SOME MORE"
+	linefw "AND RETURN SO WE CAN FIGHT!"
+	done
+
+Text0f82:
+	text "OH NO, OH NO...I'VE LOST THE MATCH."
+	linefw "HOW COULD I...? THIS IS NOT GOOD."
+	done
+
+Text0f83:
+	text "YOU'VE DEFEATED ME,"
+	linefw "SO YOU'VE EARNED MY APPROVAL."
+	linefw "YOU'LL NEED THE OTHER CLERICS'"
+	linefw "APPROVALS TO GET OUR COIN, THOUGH."
+	linefw "ONCE YOU DEFEAT THE OTHER CLERICS,"
+	linefw "COME SPEAK WITH ME AGAIN."
+	done
+
+Text0f84:
+	text "WHAT THE HECK?"
+	linefw "YOU'RE SO PATHETICALLY WEAK!"
+	linefw "MAYBE WE'LL ACTUALLY HAVE A DECENT"
+	linefw "BATTLE IF YOU'D GO GET STRONGER."
+	done
+
+Text0f85:
+	text "HO HO...YES, QUITE THE PERFORMANCE."
+	linefw "TAKE THESE PACKS FOR WINNING."
+	done
+
+Text0f86:
+	text "EVEN IF I LOSE, I WON'T TURN DOWN"
+	linefw "ANY CHALLENGES THAT COME MY WAY!"
+	done
+
+Text0f87:
+	text "I WON! IT MUST BE BORING FOR YOU"
+	linefw "SINCE LOSING GETS YOU NOTHING."
+	done
+
+Text0f88:
+	text "I, ALAN OF TEAM GR'S COLORLESS"
+	linefw "ALTAR, CHALLENGE YOU TO A CARD DUEL!"
+	linefw "<RAMTEXT>", " CARDS!"
+	linefw "USE THEM AND I'LL FIGHT YOU!"
+	linefw "BUT IF YOUR DECK DOESN'T HAVE 4"
+	linefw "OF THEM, I'LL REFUSE THE CHALLENGE!"
+	linefw "SO, WHAT SAY YOU? DOES YOUR DECK"
+	linefw "HAVE ", "<RAMTEXT>", " CARDS?"
+	linefw "IF YOU DO, LET US BEGIN THIS"
+	linefw "DECISIVE BATTLE!"
+	done
+
+Text0f89:
+	text "PLAYING CARDS WITH THE SAME OLD"
+	linefw "DECK IS SO BORING."
+	linefw "YOU NEED TO SHIFT THINGS AROUND"
+	linefw "EVERY NOW AND THEN TO KEEP IT FRESH."
+	linefw "<RAMTEXT>", " CARDS!"
+	linefw "PLEASE MAKE A DECK WITH 4 OF THEM!"
+	linefw "IF YOU'VE GOT ALL 4 READY TO GO,"
+	linefw "LET'S START OUR FIGHT IMMEDIATELY!"
+	done
+
+Text0f8a:
+	text "DO YOU HAVE THE 4 CARDS I'VE"
+	linefw "REQUESTED IN YOUR DECK YET?"
+	linefw "I WANT ", "<RAMTEXT>", " CARDS!"
+	linefw "DO YOU UNDERSTAND?"
+	linefw "4 ", "<RAMTEXT>", " CARDS"
+	linefw "ARE NEEDED IF YOU WISH TO FIGHT ME!"
+	done
+
+Text0f8b:
+	text "WOULD YOU LIKE TO DUEL ALAN?"
+	done
+
+Text0f8c:
+	text "STOP RIGHT THERE!"
+	linefw "YOU CAN'T DECEIVE ALAN, NOSIREE!"
+	linefw "IT'S QUITE CLEAR THAT YOU DON'T HAVE"
+	linefw "4 ", "<RAMTEXT>", " CARDS!"
+	linefw "I'LL HAVE TO DECLINE YOUR CHALLENGE"
+	linefw "UNTIL YOU FULFILL MY REQUIREMENT!"
+	done
+
+Text0f8d:
+	text "CHECK!"
+	linefw "YOU HAVE INDEED HEEDED MY REQUEST!"
+	linefw "THEN LET US STALL NO FURTHER."
+	linefw "SET ASIDE 6 PRIZE CARDS!"
+	done
+
+Text0f8e:
+	text "I SUPPOSE YOU DON'T HAVE THE"
+	linefw "CARDS WHICH I HAVE REQUESTED!"
+	linefw "NO MATTER!"
+	linefw "I'LL WAIT HERE FOR YOU."
+	linefw "WELL, NOW. DON'T JUST SIT AROUND!"
+	linefw "GO COLLECT THE CARDS YOU NEED!"
+	done
+
+Text0f8f:
+	text "WILL YOU FIGHT AGAINST THE"
+	linefw "DREADED ALAN AGAIN?"
+	linefw "IF SO, THEN..."
+	linefw "<RAMTEXT>", " CARDS!"
+	linefw "PUT 4 ", "<RAMTEXT>"
+	linefw "CARDS INTO YOUR DECK!"
+	linefw "IF YOU ALREADY HAVE THEM INSIDE,"
+	linefw "LET'S GET THE BATTLE UNDERWAY!"
+	done
+
+Text0f90:
+	text "ARE THERE 4 ", "<RAMTEXT>"
+	linefw "CARDS INSIDE OF YOUR DECK?"
+	linefw "IF THERE ARE, I'LL ACCEPT"
+	linefw "YOUR CHALLENGE TO DUEL!"
+	done
+
+Text0f91:
+	text "YOUR DECK DOESN'T HAVE 4"
+	linefw "<RAMTEXT>", " CARDS."
+	linefw "YOU MAY AS WELL GIVE UP INSTEAD OF"
+	linefw "TRYING TO SKIMP ON MY REQUIREMENTS!"
+	done
+
+Text0f92:
+	text "GOOD! THE CARDS ARE ALL PRESENT"
+	linefw "AND ACCOUNTED FOR!"
+	linefw "6 PRIZE CARDS, GO!"
+	done
+
+Text0f93:
+	text "WELL, I GUESS I CAN'T COAX YOU INTO"
+	linefw "IT SINCE YOU ALREADY BEAT ME ONCE."
+	done
+
+Text0f94:
+	text "HOO HOO HOO...HA HA HA HA!"
+	linefw "BOY, DID I LOSE!"
+	done
+
+Text0f95:
+	text "A LOSS IS A LOSS."
+	linefw "I'M NOT ASHAMED TO ADMIT IT."
+	done
+
+Text0f96:
+	text "THAT'S ANOTHER FAST WIN TO ADD"
+	linefw "TO THE DOZENS I'VE GOTTEN ALREADY!"
+	done
+
+Text0f97:
+	text "...I'LL GIVE YOU YOUR BOOSTER PACKS."
+	done
+
+Text0f98:
+	text "THAT'S RIGHT,"
+	linefw "EVEN ALAN LOSES."
+	linefw "I WONDER WHICH CARD I SHOULD"
+	linefw "CALL FOR IN MY NEXT FIGHT?"
+	done
+
+Text0f99:
+	text "OH, DON'T MIND MY BIG SMILE."
+	linefw "I ALWAYS GET THIS WAY AFTER I WIN."
+	done
+
+Text0f9a:
+	text "ALRIGHT, ", "<RAMNAME>", "."
+	linefw "LET'S BEGIN THE FINAL CUP."
+	linefw "WE ARE THE GRAND MASTERS, KEEPERS"
+	linefw "OF THE POKÉMON CARDS OF LEGEND!"
+	linefw "WITHOUT DEFEATING ALL FOUR OF US,"
+	linefw "YOU CAN'T EARN THE CARDS OF LEGEND!"
+	linefw "LET'S BEGIN."
+	linefw "FIRST, YOU'LL DUEL COURTNEY!"
+	done
+
+Text0f9b:
+	text "OH HO HO...I'M YOUR FIRST OPPONENT!"
+	linefw "COURTNEY OF THE FLAME!"
+	linefw "TAKE A SEAT, ", "<RAMNAME>", "."
+	linefw "OH HO HO...BUT DON'T GET COMFY."
+	linefw "LET'S START THIS 6-PRIZE CARD DUEL!"
+	done
+
+Text0f9c:
+	text "OH HO HO...I GIVE! I LOST THE DUEL."
+	linefw "NICE GOING, ", "<RAMNAME>", "."
+	done
+
+Text0f9d:
+	text "YOUR NEXT BATTLE IS AGAINST STEVE,"
+	linefw "<RAMNAME>", "!"
+	done
+
+Text0f9e:
+	text "OH HO HO..."
+	linefw "IT'S MY WIN."
+	linefw "YOU CAN'T DEFEAT TEAM GR"
+	linefw "PLAYING SLOPPILY LIKE THAT!"
+	done
+
+Text0f9f:
+	text "HEY ", "<RAMNAME>", "!"
+	linefw "LET'S HAVE A POKÉMON CARD BATTLE!"
+	linefw "I'LL SHOW YOU WHY THEY CALL ME"
+	linefw "THUNDERING STEVE!"
+	done
+
+Text0fa0:
+	text "<RAMNAME>", ","
+	linefw "WOULD YOU LIKE TO CHANGE YOUR DECK?"
+	done
+
+Text0fa1:
+	text "OKAY, THEN. YOU MAY START THE"
+	linefw "BATTLE AGAINST ", "<RAMTEXT>", "."
+	done
+
+Text0fa2:
+	text "6 PRIZE CARDS SOUNDS GOOD TO ME!"
+	linefw "READY? LET'S GOOO!"
+	done
+
+Text0fa3:
+	text "YOU'RE THE WINNER!"
+	linefw "YOU DID GREAT!"
+	done
+
+Text0fa4:
+	text "IMPRESSIVE, ", "<RAMNAME>", "."
+	linefw "YOUR NEXT DUEL IS WITH JACK!"
+	done
+
+Text0fa5:
+	text "YOU LOSE!"
+	linefw "IT WAS STILL A GOOD FIGHT!"
+	linefw "KEEP CHALLENGING YOURSELF!"
+	linefw "NEVER GIVE UP!!"
+	done
+
+Text0fa6:
+	text "I WON'T LOSE THIS TIME...NOT WITH"
+	linefw "THE FULL POWER OF MY GORGEOUS DECK."
+	done
+
+Text0fa7:
+	text "WHAT WOULD YOU LIKE?"
+	linefw "I SUGGEST 6 PRIZE CARDS."
+	done
+
+Text0fa8:
+	text "TO THINK, MY GORGEOUS DECK COULD"
+	linefw "BE SO EASILY BESTED...YET IT'S TRUE!"
+	linefw "YOUR POWER IS JUST AS IMPRESSIVE"
+	linefw "AS I HAD EXPECTED IT TO BE."
+	done
+
+Text0fa9:
+	text "<RAMNAME>", ", AS USUAL,"
+	linefw "YOU PLAYED WONDERFULLY!"
+	linefw "IT'S TIME FOR YOU TO FACE OFF"
+	linefw "AGAINST ME!"
+	done
+
+Text0faa:
+	text "WHAT DID I SAY?"
+	linefw "I COULDN'T POSSIBLY LOSE."
+	linefw "MY GORGEOUS DECK IS THE VERY"
+	linefw "PINNACLE OF EXCELLENCE."
+	done
+
+Text0fab:
+	text "THIS IS THE LAST BATTLE"
+	linefw "OF THE FINAL CUP!"
+	done
+
+Text0fac:
+	text "SET ASIDE YOUR 6 PRIZE CARDS."
+	linefw ""
+	linefw "I WON'T LET THE POKÉMON CARDS OF"
+	linefw "LEGEND GO SO EASILY."
+	done
+
+Text0fad:
+	text "AMAZING, ", "<RAMNAME>", "!"
+	linefw "YOU'VE PLAYED WONDERFULLY!"
+	done
+
+Text0fae:
+	text "IT SEEMS YOUR ABILITIES ARE JUST"
+	linefw "A BIT UNDERWHELMING AT THE MOMENT."
+	done
+
+Text0faf:
+	text "YOU'RE THE ONLY SUITABLE PLAYER TO"
+	linefw "HAVE THE POKÉMON CARDS OF LEGEND."
+	linefw "HERE. I PROUDLY CONFER THE POKÉMON"
+	linefw "CARDS OF LEGEND TO YOU..."
+	done
+
+Text0fb0:
+	text "WITH THOSE, ", "<RAMNAME>", ","
+	linefw "FEARLESSLY ENTER GR CASTLE."
+	linefw "ONCE THERE, MEET WITH TEAM GR'S"
+	linefw "LEADER, KING VILLICCI."
+	linefw "I FEAR THAT'S THE ONLY WAY TO MAKE"
+	linefw "TEAM GR CHANGE THEIR TERRIBLE WAYS."
+	linefw "THE OTHER GRAND MASTERS AND I"
+	linefw "ARE LOOKING FORWARD TO THAT CHANGE."
+	linefw "WE'LL ALL FINALLY BE ABLE TO PLAY"
+	linefw "CARDS WITH TEAM GR PEACEFULLY."
+	linefw "DO YOUR BEST,"
+	linefw "<RAMNAME>", "..."
+	done
+
+Text0fb1:
+	text "I'M SORRY, BUT I CAN'T GIVE YOU"
+	linefw "THE POKÉMON CARDS OF LEGEND."
+	linefw "WELL, I GUESS I NEED TO ASK YOU"
+	linefw "TO LEAVE..."
+	done
+
+Text0fb2:
+	text "NOW, THEN, LET'S GET THINGS STARTED"
+	linefw "WITH THIS GRAND MASTER CUP!!"
+	linefw "THE GRAND MASTERS ARE PRESIDING!"
+	linefw "LET'S START THE BATTLES!!"
+	linefw "WE WILL NOW ANNOUNCE THE DUELLING"
+	linefw "PAIRS FOR THE TOURNAMENT!"
+	done
+
+Text0fb3:
+	text "LET'S NOW START THE TOURNAMENT"
+	linefw "WITH OUR FIRST MATCH!"
+	done
+
+Text0fb4:
+	text "ON THIS SIDE, THE PLAYER KNOWN FOR"
+	linefw "DEFEATING TEAM GR! ", "<RAMNAME>", "!"
+	done
+
+Text0fb5:
+	text "AND ON THIS SIDE, THE ", "<RAMTEXT>", " "
+	linefw "CLUB MASTER, ", "<RAMTEXT>", "!"
+	done
+
+Text0fb6:
+	text "NOW THEN!"
+	linefw "LET'S START THE DUEL!"
+	done
+
+Text0fb7:
+	text "ARE BOTH PLAYERS READY TO BEGIN?"
+	done
+
+Text0fb8:
+	text "THEN PLEASE MAKE YOUR ARRANGEMENTS!"
+	done
+
+Text0fb9:
+	text "THEN GET READY TO PLACE"
+	linefw "6 PRIZE CARDS ASIDE!"
+	linefw "OKAY!"
+	linefw "READY? GO!!"
+	done
+
+Text0fba:
+	text "WE'LL NOW START THE SECOND ROUND"
+	linefw "OF OUR TOURNAMENT!"
+	done
+
+Text0fbb:
+	text "LOOKING FOR WIN No.2, HERE'S THE "
+	linefw "DEFEATER OF TEAM GR! ", "<RAMNAME>", "!"
+	done
+
+Text0fbc:
+	text "AND ON THIS SIDE, THE ", "<RAMTEXT>", " "
+	linefw "CLUB MASTER, ", "<RAMTEXT>", "!"
+	done
+
+Text0fbd:
+	text "OKAY, FOLKS, LET'S START THE BATTLE."
+	linefw ""
+	linefw "AS ALWAYS, WE'LL EMPLOY THE RULES"
+	linefw "OF THE GRAND MASTER CUP."
+	linefw "THAT MEANS YOU WILL BOTH FIGHT TO"
+	linefw "A TOTAL OF 6 PRIZE CARDS!"
+	linefw "ALRIGHT, THEN!!"
+	linefw "READY? GO!!"
+	done
+
+Text0fbe:
+	text "THE COMPETITION IS HEATING UP AS WE"
+	linefw "NEAR THE END OF THE TOURNAMENT."
+	linefw "LET'S BEGIN THE FINAL MATCH ON"
+	linefw "THE CHALLENGERS' BRACKET!"
+	done
+
+Text0fbf:
+	text "ON THIS SIDE, SEEKING TO CLAIM THE"
+	linefw "CHAMPIONSHIP, IT'S ", "<RAMNAME>", "!!"
+	done
+
+Text0fc0:
+	text "AND ON THIS SIDE, THE ", "<RAMTEXT>", " "
+	linefw "CLUB MASTER, ", "<RAMTEXT>", "!"
+	done
+
+Text0fc1:
+	text "AND ON THIS SIDE,"
+	linefw "IT'S RONALD!"
+	done
+
+Text0fc2:
+	text "HEY, ", "<RAMNAME>", "."
+	linefw "GLAD TO SEE YOU MADE IT THIS FAR!"
+	linefw "HOWEVER, YOU CAN'T POSSIBLY DEFEAT"
+	linefw "THE NEW AND IMPROVED RONALD."
+	linefw "I BUILT THIS POWERFUL DECK"
+	linefw "SPECIFICALLY TO TAKE YOU DOWN!"
+	done
+
+Text0fc3:
+	text "LET'S GET THIS MATCH UNDERWAY!"
+	linefw ""
+	linefw "I'M SURE YOU BOTH KNOW THE RULES"
+	linefw "OF THE GRAND MASTER CUP BY NOW."
+	linefw "ALL DUELS ARE FOUGHT WITH"
+	linefw "6 TOTAL PRIZE CARDS!"
+	linefw "NOW LET'S SEE A THRILLING FIGHT!"
+	linefw "READY? GO!!"
+	done
+
+Text0fc4:
+	text "THIS IS WIN NUMBER ", "<RAMNUM>", " SO FAR"
+	linefw "FOR ", "<RAMNAME>", "!!"
+	done
+
+Text0fc5:
+	text "SORRY FOR YOUR LOSS, ", "<RAMTEXT>", "."
+	linefw "PLEASE EXIT THE BATTLE HALL."
+	done
+
+Text0fc6:
+	text "ALRIGHT THEN!"
+	linefw "LET'S GET TO OUR OTHER BATTLES!"
+	done
+
+Text0fc7:
+	text "WE HAVE OUR WINNER!!"
+	linefw "IT'S ", "<RAMTEXT>", "!"
+	done
+
+Text0fc8:
+	text "THIS IS WIN NUMBER ", "<RAMNUM>", " SO FAR"
+	linefw "FOR ", "<RAMTEXT>", "!!"
+	done
+
+Text0fc9:
+	text "WE HAVE OUR WINNER!"
+	linefw "IT'S ", "<RAMNAME>", "!"
+	done
+
+Text0fca:
+	text "<RAMNAME>", " HAS WON THE CHANCE"
+	linefw "TO CHALLENGE A GRAND MASTER!"
+	done
+
+Text0fcb:
+	text "SORRY FOR YOUR LOSS, ", "<RAMTEXT>", "."
+	linefw "PLEASE EXIT THE BATTLE HALL."
+	done
+
+Text0fcc:
+	text "CRAP!"
+	linefw "<RAMNAME>", " BEAT ME AGAIN?"
+	linefw "NO, NO, NO..."
+	linefw "I JUST USED THE WRONG DECK."
+	linefw "THAT'S THE REASON I LOST THIS TIME!"
+	linefw "YOU GOT THAT, ", "<RAMNAME>", "?"
+	done
+
+Text0fcd:
+	text "WE HAVE OUR WINNER!"
+	linefw "IT'S ", "<RAMTEXT>", "!"
+	done
+
+Text0fce:
+	text "<RAMTEXT>", " HAS WON THE CHANCE"
+	linefw "TO CHALLENGE A GRAND MASTER!"
+	done
+
+Text0fcf:
+	text "YOU SEE, ", "<RAMNAME>", "?"
+	linefw "THAT'S MY TRUE POWER!!"
+	linefw "JUST AS I'VE ALWAYS KNOWN!"
+	linefw "I'M STRONGER THAN YOU!"
+	done
+
+Text0fd0:
+	text "NOW FOR THE MATCH WE'VE BEEN WAITING"
+	linefw "FOR: THE GRAND MASTER CHALLENGE!"
+	linefw "DOES THE TOURNAMENT CHAMPION HAVE"
+	linefw "THE SKILLS TO BEAT A GRAND MASTER?"
+	linefw "LET'S MEET THE GRAND MASTER LEADER,"
+	linefw "ROD, AND FIND OUT!"
+	done
+
+Text0fd1:
+	text "NOW TO ANNOUNCE THE GRAND MASTER"
+	linefw "AS YOUR OPPONENT..."
+	done
+
+Text0fd2:
+	text "GRAND MASTER ", "<RAMTEXT>", "!"
+	done
+
+Text0fd3:
+	text "COURTNEY IS THE FIRE GRAND MASTER,"
+	linefw "THE QUEEN OF FLAMES!"
+	done
+
+Text0fd4:
+	text "LET'S GO, ", "<RAMNAME>", "."
+	linefw "OH HO HO...I'LL GET YOU YET!"
+	done

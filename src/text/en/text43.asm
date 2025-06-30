@@ -1,0 +1,1081 @@
+Text0852:
+	text "<RAMNAME>", "!"
+	linefw "I'VE MADE A BRAND NEW DECK!"
+	linefw "I'VE BEEN SAVING MY FIRST BATTLE"
+	linefw "WITH IT SO I COULD HAVE IT WITH YOU!"
+	linefw "LET'S PLAY!"
+	done
+
+Text0853:
+	text "I'VE BEEN WAITING, ", "<RAMNAME>", "!"
+	linefw "C'MON, LET'S BATTLE!!"
+	done
+
+Text0854:
+	text "THE NUMBER OF PRIZE CARDS REMAINS"
+	linefw "THE SAME: 4 PRIZES!"
+	done
+
+Text0855:
+	text "DANG! I WANTED TO GIVE MY NEW DECK"
+	linefw "A SPIN. I WANT TO GAUGE ITS POWER!"
+	done
+
+Text0856:
+	text "SINCE I'VE BEEN DEFEATED, I HAVE"
+	linefw "TO GIVE YOU SOME BOOSTER PACKS!"
+	done
+
+Text0857:
+	text "IF YOU KEEP COLLECTING CARDS,"
+	linefw "YOU'LL BE ABLE TO MAKE NEW DECKS!"
+	linefw "COME AND TAKE ME ON AGAIN"
+	linefw "IF YOU HAPPEN TO BUILD ONE!"
+	done
+
+Text0858:
+	text "I'M SO PROUD OF MYSELF FOR"
+	linefw "DEFEATING YOU, ", "<RAMNAME>", "!"
+	done
+
+Text0859:
+	text "AWW, MAN! I THOUGHT I COULD WIN"
+	linefw "WITH THIS DECK..."
+	done
+
+Text085a:
+	text "A DECK CAN'T BE MADE HAPHAZARDLY."
+	linefw "YOU'VE GOT TO BUILD IT CAREFULLY."
+	done
+
+Text085b:
+	text "DID I GET A LITTLE STRONGER?"
+	linefw "I'VE GOT TO BUILD UP MY STRENGTH."
+	linefw "I'M DOING MY BEST TO PROTECT AMY!"
+	done
+
+Text085c:
+	text "BOTH AMANDA AND I ALMOST"
+	linefw "DROWNED IN THE POOL..."
+	linefw "WE WERE GETTING SO EXHAUSTED"
+	linefw "TREADING WATER INSIDE THAT CAGE."
+	linefw "THANK YOU, ", "<RAMNAME>", "."
+	linefw "YOU SAVED US JUST IN TIME!"
+	done
+
+Text085d:
+	text "PLEASE USE YOUR SKILLS TO SAVE"
+	linefw "THE FIRE CLUB, TOO!"
+	done
+
+Text085e:
+	text "THANKS TO YOU, ", "<RAMNAME>", ","
+	linefw "WE FINALLY MADE IT OUT OF THAT CAGE."
+	linefw "DO YOU FEEL LIKE DUELLING ME"
+	linefw "WITH MY NEWFOUND FREEDOM?"
+	done
+
+Text085f:
+	text "MY FREEDOM IS BORING IF NO ONE PLAYS"
+	linefw "THE POKÉMON CARD GAME WITH ME."
+	linefw "I WOULD LIKE TO HAVE A DUEL"
+	linefw "WITH YOU, ", "<RAMNAME>", "..."
+	linefw "IF IT'S NO TROUBLE, THAT IS."
+	linefw "DO YOU WANT TO PLAY?"
+	done
+
+Text0860:
+	text "WOULD YOU LIKE TO DUEL SARA?"
+	done
+
+Text0861:
+	text "UMM...LET'S USE 4 PRIZE CARDS."
+	linefw "SOUND GOOD?"
+	done
+
+Text0862:
+	text "I GUESS YOU HAVE YOUR OWN FREEDOM:"
+	linefw "FREEDOM TO CHOOSE YOUR OPPONENTS."
+	linefw "HOWEVER, I'D LOVE TO DUEL YOU"
+	linefw "SOMETIME. DON'T FORGET IT!"
+	done
+
+Text0863:
+	text "SO THAT'S HOW YOU BEAT THE OTHERS..."
+	linefw "<RAMNAME>", ", YOU'RE SO STRONG!"
+	done
+
+Text0864:
+	text "IF YOU FEEL LIKE CHALLENGING ME"
+	linefw "AGAIN, COME BACK TO THE WATER CLUB!"
+	linefw "YOU'RE FREE TO DO AS YOU LIKE,"
+	linefw "OF COURSE."
+	done
+
+Text0865:
+	text "IF I COULD BEAT ", "<RAMNAME>", ","
+	linefw "I...AM I STRONG?"
+	done
+
+Text0866:
+	text "I'M AMANDA!"
+	linefw "THANK YOU SO MUCH FOR YOUR HELP."
+	linefw "ONLY YOU COULD HAVE DONE IT,"
+	linefw "<RAMNAME>", "!"
+	done
+
+Text0867:
+	text "MAKE SURE YOU GIVE TEAM GR OUR"
+	linefw "CONDOLENCES WHEN THEY LOSE TO YOU!"
+	done
+
+Text0868:
+	text "I CAN'T DUEL ANYONE."
+	linefw "AHH! IT'S SO BORING!"
+	linefw "PLEEEASE BRING BACK MY CARDS"
+	linefw "FROM THOSE TEAM GR IDIOTS!"
+	done
+
+Text0869:
+	text "OH HO HO...YOU CAN ADD ME TO YOUR"
+	linefw "LIST OF POTENTIAL OPPONENTS NOW!"
+	linefw "...WANT TO KNOW WHY?"
+	linefw "S-I-M-P-L-E! I CAN PLAY NOW!"
+	linefw "I'VE GOT PLENTY OF CARDS"
+	linefw "TO PLAY WITH NOW!"
+	linefw "C'MON, ALREADY. LET'S BATTLE!"
+	done
+
+Text086a:
+	text "SWIMMING! PLAYING CARD GAMES!"
+	linefw "OH, I'M HAVING THE TIME OF MY LIFE!"
+	linefw "MY OH MY, ARE YOU HERE TO"
+	linefw "CHALLENGE ME TO A CARD BATTLE?"
+	done
+
+Text086b:
+	text "WOULD YOU LIKE TO DUEL AMANDA?"
+	done
+
+Text086c:
+	text "HOW'S THIS? WE'LL USE 4 PRIZE CARDS!"
+	linefw "I'D ENJOY THAT!"
+	done
+
+Text086d:
+	text "WHA-WHAAAT! YOU DON'T WANT TO HAVE"
+	linefw "EVEN A QUICK LITTLE DUEL WITH ME?"
+	linefw "AH, IT'S NO USE."
+	linefw "I SHOULD JUST STOP ASKING..."
+	done
+
+Text086e:
+	text "GAAH, I LOOOOST..."
+	linefw "YEESH, GO EASY ON ME."
+	done
+
+Text086f:
+	text "WELL, IT WAS FUN!"
+	linefw "I'LL GLADLY TAKE YOU ON AGAIN..."
+	linefw "BUT MORE IMPORTANTLY, THANKS SO MUCH"
+	linefw "FOR GETTING MY CARDS BACK!"
+	done
+
+Text0870:
+	text "WELL, IT WAS FUN!"
+	linefw "I LOVE PLAYING CARDS!"
+	done
+
+Text0871:
+	text "I CAN'T BELIEVE I WON AGAINST"
+	linefw "THE FAMED ", "<RAMNAME>", "!"
+	linefw "IF YOU EVER WANT A REMATCH,"
+	linefw "I'LL BE HERE AND WILLING TO PLAY!"
+	done
+
+Text0872:
+	text "I AM GR No.3 OF TEAM GR!"
+	linefw "THE WATER CLUB IS UNDER MY POWER!"
+	linefw "TAKE A LOOK AT THE POOL!"
+	done
+
+Text0873:
+	text "JUST LOOK AT THE CLUB MEMBERS!"
+	linefw "SARA, AMANDA, CLUB MASTER AMY..."
+	linefw "THOUGH JOSHUA RAN AWAY BEFORE I"
+	linefw "COULD CATCH THE LITTLE WHELP."
+	done
+
+Text0874:
+	text "BUT WHY ARE YOU HERE? YOU WANT ME"
+	linefw "TO FREE THEM FROM THEIR CAGE?"
+	linefw "ALRIGHT THEN...IF YOU CAN BEAT ME"
+	linefw "IN A DUEL, I'LL FREE THEM ALL!"
+	done
+
+Text0875:
+	text "WOULD YOU LIKE TO SAVE THE"
+	linefw "MEMBERS OF THE WATER CLUB?"
+	linefw "IF SO, YOU MUST FIRST DEFEAT"
+	linefw "ME IN A CARD DUEL!"
+	done
+
+Text0876:
+	text "WOULD YOU LIKE TO DUEL GR No.3?"
+	done
+
+Text0877:
+	text "6! WE'LL DUEL WITH 6 PRIZE CARDS!"
+	done
+
+Text0878:
+	text "DON'T YOU WANT TO HELP THE"
+	linefw "MEMBERS OF THE WATER CLUB?"
+	linefw "ALL YOU NEED TO DO IS DUEL ME."
+	linefw "YOU MAY WIN OWNERSHIP OF THE CLUB!"
+	linefw "WELL, SUIT YOURSELF."
+	done
+
+Text0879:
+	text "HMM, SO YOU WON."
+	linefw "I'LL TAKE MY LEAVE, THEN!"
+	linefw "AND YOU'LL TAKE THESE LOVELY"
+	linefw "BOOSTER PACKS!"
+	done
+
+Text087a:
+	text "IT'S THE SAME OLD STORY."
+	linefw "GET OUT OF MY SIGHT, WIMP."
+	linefw "BY THE WAY, YOU DON'T HAPPEN"
+	linefw "TO KNOW WHERE JOSHUA WENT, DO YOU?"
+	done
+
+Text087b:
+	text "MY NAME IS JOSHUA. I'M THE ONLY FREE"
+	linefw "MEMBER OF THE WATER CLUB RIGHT NOW."
+	linefw "THANKS TO CLUB MASTER AMY,"
+	linefw "I WAS ABLE TO ESCAPE UNHARMED."
+	linefw "AMY, SARA, AND AMANDA HAVE ALL BEEN"
+	linefw "CAPTURED BY GR No.3, THOUGH."
+	linefw "YOU GOTTA HELP US DEFEAT TEAM GR,"
+	linefw "<RAMNAME>", "!"
+	linefw "GR No.3 IS IN OUR PLAY HALL"
+	linefw "ALONG WITH THE CAPTURED GIRLS."
+	linefw "HOWEVER, YOU WON'T BE READY TO DUEL"
+	linefw "HIM UNTIL YOU CAN BEAT ME!"
+	done
+
+Text087c:
+	text "IF YOU'RE NOT STRONG, YOU'LL LOSE."
+	linefw "DUEL ME AND TEST YOUR STRENGTH!"
+	done
+
+Text087d:
+	text "WOULD YOU LIKE TO DUEL JOSHUA?"
+	done
+
+Text087e:
+	text "WE'LL DUEL WITH 4 PRIZE CARDS."
+	linefw "LET'S GO, ", "<RAMNAME>", "!!"
+	done
+
+Text087f:
+	text "OH, YOU DON'T WANT TO HONE YOUR"
+	linefw "SKILLS BY DUELLING WITH ME?"
+	linefw "YOU WON'T GET STRONGER IF YOU'RE"
+	linefw "AFRAID OF LOSING, YOU KNOW!"
+	done
+
+Text0880:
+	text "I THINK GR No.3 HAS FLED TO"
+	linefw "THE FIRE CLUB RECENTLY."
+	linefw "I KNOW I'M TOUGH, BUT"
+	linefw "DO YOU THINK YOU'RE TOUGHER?"
+	linefw "COME ON, LET'S FIND OUT WHO'S"
+	linefw "THE STRONGEST OF THEM ALL!"
+	done
+
+Text0881:
+	text "I'VE BEEN DEFEATED..."
+	linefw "HERE, TAKE THESE BOOSTER PACKS!"
+	done
+
+Text0882:
+	text "YOU MAY HAVE BEATEN ME, BUT YOU'D"
+	linefw "BETTER NOT LOSE AGAINST TEAM GR!"
+	done
+
+Text0883:
+	text "I GUESS I'M PRETTY STRONG,"
+	linefw "BUT ARE YOU FEELING GOOD ENOUGH?"
+	linefw "DO YOU WANT TO BATTLE AGAIN?"
+	done
+
+Text0884:
+	text "HEY, TELL ME,"
+	linefw "DO YOU ALSO FIND IMAKUNI STRANGE?"
+	linefw "HE DRESSES IN BLACK AND STAYS NEAR"
+	linefw "THE CORNERS OF CLUBS' LOUNGES."
+	linefw "I MEAN, I GUESS TEAM GR ALSO ACTS"
+	linefw "ODD, BUT THEY'RE MORE PROBLEMATIC."
+	done
+
+Text0885:
+	text "HEY! WHAT'S NEW? WHAT'S HAPPENIN'?"
+	linefw "WHAT? IMAKUNI??"
+	linefw "IS HE THE ODD MAN DRESSED IN BLACK"
+	linefw "STANDING IN THE CORNER OF THE LOBBY?"
+	linefw "IMAKUNI? IS A BIT STRANGE...I THINK"
+	linefw "IT'D BE BETTER TO LET HIM BE."
+	done
+
+Text0886:
+	text "THE WATER CLUB MASTER, AMY,"
+	linefw "HAS BEEN IMPRISONED."
+	linefw "W-WE'LL NEVER... *SNIFFLE* "
+	linefw "NEVER SEE HER AGAIN... *SOB*"
+	done
+
+Text0887:
+	text "I'VE HEARD ABOUT HOW YOU HELPED"
+	linefw "MISS AMY, ", "<RAMNAME>", "."
+	linefw "I GUESS YOU TRULY DO HAVE THE"
+	linefw "POWER TO DEFEAT THE GRAND MASTERS!"
+	linefw "COLOR ME IMPRESSED!"
+	done
+
+Text0888:
+	text "IT'S BETTER TO BE PEACEFULLY SERENE"
+	linefw "LIKE WATER INSTEAD OF QUARREL."
+	done
+
+Text0889:
+	text "AAH! AAH! OUR CARDS HAVE BEEN"
+	linefw "STOLEN! NOW NO ONE CAN PLAY!"
+	linefw "AND SINCE THE CLUB MASTER HAS BEEN"
+	linefw "IMPRISONED, IT'S HOPELESS, ISN'T IT?"
+	done
+
+Text088a:
+	text "THANK YOOOU! ", "<RAMNAME>", "!!"
+	linefw "MY CARDS HAVE BEEN RETURNED!"
+	linefw "PLEASE CONTINUE TO FIGHT TEAM GR"
+	linefw "AND RETURN THE ISLAND AS IT WAS!"
+	done
+
+Text088b:
+	text "YOU OVERCAME THE HIGHEST-RANKING"
+	linefw "MEMBER OF TEAM GR IN A FULL DUEL."
+	linefw "YOU'RE THE GREATEST, ", "<RAMNAME>", "!"
+	done
+
+Text088c:
+	text "THANKS TO YOUR HELP ON GR ISLAND,"
+	linefw "I COULD SAFELY RETURN HERE."
+	linefw "BUT IN THE HEAT OF BATTLE, THERE'S"
+	linefw "NO ROOM FOR KINDNESS OR MANNERS!"
+	linefw "WOULD YOU LIKE TO FIGHT ME TO GET"
+	linefw "THAT ADRENALINE PUMPING?"
+	done
+
+Text088d:
+	text "YOU MAY HAVE RESCUED ME BEFORE, BUT"
+	linefw "THAT WON'T CHANGE HOW I FIGHT YOU."
+	linefw "WE'RE FIGHTING WITH LIVE WEAPONS!"
+	linefw "COME AT ME, ", "<RAMNAME>", "!!"
+	done
+
+Text088e:
+	text "WOULD YOU LIKE TO DUEL MITCH?"
+	done
+
+Text088f:
+	text "REAL BATTLES ARE FOUGHT USING"
+	linefw "6 PRIZE CARDS!"
+	linefw "NOW! BEGIN!"
+	linefw "COME ON, ", "<RAMNAME>", "!!"
+	done
+
+Text0890:
+	text "IF THAT'S THE WAY YOU WANT IT,"
+	linefw "SO BE IT...WHAT A SHAME."
+	done
+
+Text0891:
+	text "YOU NOT ONLY DEFEATED THE GR KING,"
+	linefw "YOU ALSO BEAT THE GRAND MASTERS..."
+	linefw "C'MON!"
+	linefw "PLEASE SHOW ME YOUR POWER!"
+	done
+
+Text0892:
+	text "THAT WAS AN EXCELLENT DEFEAT!"
+	linefw "THESE ARE YOURS FOR WINNING!"
+	done
+
+Text0893:
+	text "WHEN I FIGHT AGAINST YOU, I ALWAYS"
+	linefw "GET SOME GOOD TRAINING OUT OF IT!"
+	done
+
+Text0894:
+	text "OH HO HO..."
+	linefw "EVERYONE CAN LOSE, EVEN YOU!"
+	done
+
+Text0895:
+	text "MY NAME'S MICHAEL..."
+	linefw "OH, DIDN'T WE ALREADY MEET?"
+	linefw "DON'T WORRY, I'LL PROTECT THE"
+	linefw "FIGHTING CLUB UNTIL MITCH RETURNS."
+	linefw "IF YOU HAVE TIME, THOUGH,"
+	linefw "WOULD YOU LIKE TO SPAR WITH ME?"
+	done
+
+Text0896:
+	text "WOULD YOU LIKE TO DUEL MICHAEL?"
+	done
+
+Text0897:
+	text "LET'S HAVE A MATCH WITH"
+	linefw "4 PRIZE CARDS, THEN!"
+	done
+
+Text0898:
+	text "YEAH, UH... I MEAN, IF YOU DON'T"
+	linefw "WANT TO, YEAH, IT'S NO BIG DEAL."
+	done
+
+Text0899:
+	text "TEAM GR'S GIVEN US SOME CARDS BACK"
+	linefw "THANKS TO YOU, ", "<RAMNAME>", "."
+	linefw "SINCE WE HAVE MORE CARDS, I'VE BEEN"
+	linefw "ABLE TO BUILD A SLICK NEW DECK."
+	linefw "SINCE I'VE GOTTEN SOME NEW BOOSTERS,"
+	linefw "DO YOU WANT TO HAVE A CARD BATTLE?"
+	done
+
+Text089a:
+	text "I'D LOVE TO HAVE A BATTLE"
+	linefw "ANYTIME YOU LIKE, ", "<RAMNAME>", "."
+	linefw "IF YOU WIN, YOU CAN HAVE THIS"
+	linefw "BOOSTER PACK! IT'S A LOST ISLE PACK."
+	done
+
+Text089b:
+	text "WE'LL USE 4 PRIZE CARDS!"
+	linefw "HERE I COME!!"
+	done
+
+Text089c:
+	text "AWW, BUT IT'S SO MUCH FUN"
+	linefw "FIGHTING WITH YOU..."
+	linefw "IT'S NO FUN HAVING TO WAIT SO LONG"
+	linefw "TO FIND A CHALLENGING OPPONENT."
+	done
+
+Text089d:
+	text "MITCH HAS RETURNED!"
+	linefw "DID YOU HELP HIM OUT?"
+	linefw "WELL, I GUESS IT'S EXPECTED FROM"
+	linefw "SOMEONE WHO BEAT THE GRAND MASTERS."
+	done
+
+Text089e:
+	text "WAY TO GO, ", "<RAMNAME>", "!"
+	linefw "YOU'RE SO STRONG AND TOUGH!"
+	linefw "HERE, TAKE THIS BOOSTER PACK."
+	done
+
+Text089f:
+	text "YEAH, I FELT IT..."
+	linefw "MY LOSS MEANS I NEED MORE TRAINING."
+	done
+
+Text08a0:
+	text "I THINK I WON DUE TO MY"
+	linefw "DILIGENT TRAINING AND HARD WORK."
+	linefw "IF YOU'D LIKE TO COME BACK AND"
+	linefw "SPAR AGAIN SOMETIME, I'LL BE HERE!"
+	done
+
+Text08a1:
+	text "HAH, I LOST..."
+	linefw "YOU'RE TOO STRONG, ", "<RAMNAME>", "."
+	done
+
+Text08a2:
+	text "I HAD FUN SPARRING WITH YOU."
+	linefw "I LOOK FORWARD TO OUR FUTURE BOUTS!"
+	done
+
+Text08a3:
+	text "JUST AS I THOUGHT! YOU GAVE ME"
+	linefw "ANOTHER AMAZING POKÉMON CARD DUEL."
+	linefw "I HOPE YOU COME BACK AGAIN."
+	linefw "I JUST LOVE BATTLING YOU."
+	done
+
+Text08a4:
+	text "I'M CHRIS. I USED TO HAVE"
+	linefw "QUITE A BIG CARD COLLECTION."
+	linefw "HOWEVER, I WAS DEFEATED BY TEAM GR"
+	linefw "AND THEY TOOK EVERY CARD I HAD."
+	linefw "OH, I WISH CLUB MASTER MITCH WOULD"
+	linefw "RETURN SO I CAN FINISH MY TRAINING!"
+	done
+
+Text08a5:
+	text "<RAMNAME>", ", TAKE A LOOK!"
+	linefw "I GOT MY POKÉMON CARDS BACK!"
+	linefw "COULD YOU DO ME A FAVOR?"
+	linefw "BATTLE ME SO I CAN GAUGE MY POWER!"
+	done
+
+Text08a6:
+	text "HEY, ", "<RAMNAME>", "."
+	linefw "HOW ARE YOU FEELING?"
+	linefw "I WANT TO TEST MY STRENGTH."
+	linefw "WOULD YOU MIND FIGHTING ME?"
+	linefw "IF YOU BEAT ME, I'LL GIVE YOU"
+	linefw "THESE 2 BOOSTER PACKS AS A GIFT!"
+	done
+
+Text08a7:
+	text "WOULD YOU LIKE TO DUEL CHRIS?"
+	done
+
+Text08a8:
+	text "4 PRIZE CARDS, THEN! THESE 2"
+	linefw "BOOSTER PACKS ARE ON THE LINE!"
+	done
+
+Text08a9:
+	text "I SEE. I DON'T WANT TO FORCE YOU"
+	linefw "TO FIGHT IF YOU DON'T WANT TO."
+	done
+
+Text08aa:
+	text "THANKS TO YOUR EFFORTS,"
+	linefw "MITCH HAS RETURNED SAFELY."
+	linefw "C'MON AND DO SOME VICTORY TRAINING"
+	linefw "WITH ME, ", "<RAMNAME>", "!"
+	done
+
+Text08ab:
+	text "HUNH? I HAVE FAILED..."
+	done
+
+Text08ac:
+	text "I SEEM TO LACK PROPER DISCIPLINE."
+	linefw "ALRIGHT! I'M GOING TO TRY HARDER!!"
+	done
+
+Text08ad:
+	text "HUZZAH! I'VE DEFEATED YOU THANKS"
+	linefw "TO MY PERFECT DISCIPLINE!"
+	linefw "IF YOU'D LIKE TO HONE YOUR OWN"
+	linefw "SKILLS, I'D LOVE TO FIGHT AGAIN!"
+	done
+
+Text08ae:
+	text "MY NAME'S AMANDA. I WAS ONCE"
+	linefw "A MEMBER OF THE FIGHTING CLUB."
+	linefw "I WANT TO START TRAINING AGAIN"
+	linefw "BUT DON'T HAVE ANY POKÉMON CARDS..."
+	linefw "WON'T YOU CONTINUE YOUR"
+	linefw "ATTACK ON TEAM GR?"
+	done
+
+Text08af:
+	text "SINCE YOU WERE SO LATE, I'VE BEEN"
+	linefw "MULLING OVER MY DECK FOR SO LONG!"
+	linefw "C'MON, LET'S BATTLE!"
+	linefw "I WANNA BEGIN RIGHT AWAY!!"
+	done
+
+Text08b0:
+	text "WHAT IS IT?"
+	linefw "ARE YOU LOOKING TO BATTLE WITH ME?"
+	linefw "I'M JUST TRYING TO GET SOME FOURTH"
+	linefw "EDITION BOOSTER PACKS: ASSAULT."
+	done
+
+Text08b1:
+	text "WOULD YOU LIKE TO DUEL JESSICA?"
+	done
+
+Text08b2:
+	text "LET'S MAKE IT A QUICKIE."
+	linefw "4 PRIZE CARDS SHOULD DO THE TRICK!"
+	done
+
+Text08b3:
+	text "IF YOU DON'T INTEND TO FIGHT AGAINST"
+	linefw "ME, PLEASE DON'T SPEAK TO ME!"
+	done
+
+Text08b4:
+	text "I LOST..."
+	linefw "MY TRAINING WAS NOT ENOUGH."
+	linefw "A BOOSTER PACK REWARD IS GIVEN"
+	linefw "TO THE VICTOR, AS ALWAYS."
+	done
+
+Text08b5:
+	text "TRAINING IS HARD,"
+	linefw "BUT BATTLING IS QUITE FUN."
+	done
+
+Text08b6:
+	text "AHA, I THOUGHT I WOULD WIN. I FELT"
+	linefw "LIKE MY SKILLS WERE ROCK-SOLID."
+	done
+
+Text08b7:
+	text "WHAT DO YOU WANT?"
+	linefw ""
+	linefw "I'M IN A FOUL MOOD BECAUSE I JUST"
+	linefw "LOST TO GENE OF THE ROCK CLUB."
+	linefw "IF YOU WANNA FIGHT ME, THEN GO AND"
+	linefw "BEAT GENE IN A CARD BATTLE FIRST!"
+	linefw "YOU'RE ONLY WORTH MY TIME IF YOU'RE"
+	linefw "ABLE TO BEAT THAT JERK GENE!"
+	done
+
+Text08b8:
+	text "I'M IN A BAD MOOD BECAUSE I LOST"
+	linefw "TO GENE FROM THE ROCK CLUB!"
+	linefw "I'LL ONLY FIGHT YOU"
+	linefw "IF YOU DEFEAT HIM!"
+	done
+
+Text08b9:
+	text "WHAT THE--!"
+	linefw "YOU DEFEATED GENE?"
+	linefw "THAT'S HIS STONE COIN!"
+	linefw "IT'S PROOF OF YOUR VICTORY."
+	linefw "IN THAT CASE,"
+	linefw "I CHALLENGE YOU TO A DUEL."
+	linefw "MY QUESTION IS, DO YOU HAVE THE"
+	linefw "COURAGE TO FIGHT THE GREAT GR No.1?"
+	done
+
+Text08ba:
+	text "I LET YOU FLEE BEFORE."
+	linefw "WHY'D YOU COME BACK?"
+	linefw "DO YOU WANNA FIGHT ME NOW?"
+	done
+
+Text08bb:
+	text "WOULD YOU LIKE TO DUEL GR No.1?"
+	done
+
+Text08bc:
+	text "WE'LL BATTLE WITH 6 PRIZE CARDS!"
+	linefw " "
+	linefw "IF YOU MANAGE TO BEAT ME,"
+	linefw "I'LL RETREAT FROM THE FIGHTIN' CLUB!"
+	linefw "JUST A FAIR WARNING, THOUGH:"
+	linefw "IT'S IMPOSSIBLE FOR YOU TO WIN."
+	done
+
+Text08bd:
+	text "IF YOU DON'T HAVE THE GUTS TO DUEL,"
+	linefw "DON'T WASTE MY TIME ANY FURTHER."
+	linefw "GO RIGHT AHEAD."
+	linefw "RUN AWAY LIKE A COWARD."
+	done
+
+Text08be:
+	text "YOU'RE STRONGER THAN I THOUGHT"
+	linefw "TO HAVE WON AGAINST ME!"
+	done
+
+Text08bf:
+	text "AH HA HA HA HA!"
+	linefw "SO WEAK!"
+	linefw "YOU MUST'VE BEATEN GENE"
+	linefw "BY LUCK, AND LUCK ALONE!"
+	linefw "HOW FUNNY!"
+	linefw "GO AHEAD! RUN AWAY, WEAKLING!"
+	done
+
+Text08c0:
+	text "AND..."
+	linefw "TAKE THIS!"
+	done
+
+Text08c1:
+	text "YOU'VE GOT A LOT OF GUTS, KID,"
+	linefw "TO TAKE ON THE ILLUSTRIOUS TEAM GR."
+	linefw "TRY TO COLLECT ALL FOUR"
+	linefw "PIECES OF OUR COIN."
+	linefw "IF YOU CAN MANAGE THAT, YOU'LL"
+	linefw "BE ABLE TO TRAVEL TO GR ISLAND!"
+	linefw "HOWEVER..."
+	linefw "CAN YOU TRULY COLLECT THEM ALL?"
+	done
+
+Text08c2:
+	text "OH, I SEE YOU'VE COLLECTED ALL FOUR"
+	linefw "PIECES OF THE GR COIN."
+	linefw "SO YOU REALLY WANT TO CHALLENGE"
+	linefw "ALL OF TEAM GR..."
+	linefw "THEN YOU'LL HAVE TO GO VISIT THE"
+	linefw "WHOLE ORGANIZATION ON GR ISLAND!"
+	linefw "TAKE THE COMPLETED GR COIN TO THE"
+	linefw "AIRPORT AND SHOW IT PROUDLY."
+	linefw "YOU'LL SOON LEARN THE FULL POWER"
+	linefw "THAT TEAM GR POSSESSES!"
+	done
+
+Text08c3:
+	text "BY THE WAY! TEAM GR STILL HAS THE"
+	linefw "CLUB MASTER, MITCH, HELD CAPTIVE."
+	linefw "IF YOU'D LIKE HIM BACK,"
+	linefw "FIND YOUR WAY OVER TO GR ISLAND!"
+	done
+
+Text08c4:
+	text "I'M MICHAEL!"
+	linefw "I'M A MEMBER OF THE FIGHTING CLUB."
+	linefw "OUR CLUB MASTER, MITCH, WAS "
+	linefw "DEFEATED BY GR No.1!"
+	linefw "ALL OF THE FIGHTING CLUB'S CARDS"
+	linefw "WERE ALSO TAKEN BY TEAM GR!"
+	linefw "JESSICA TOLD ME THEY'VE DONE THE"
+	linefw "SAME AT ALL OF THE OTHER CLUBS..."
+	linefw "NOW IT'S IMPOSSIBLE FOR US TO"
+	linefw "FIGHT BACK AGAINST TEAM GR..."
+	done
+
+Text08c5:
+	text "I BEG YOU! PLEASE DEFEAT GR No.1!"
+	done
+
+Text08c6:
+	text "EHH?!"
+	linefw "DON'T MAKE ME ASK AGAIN!"
+	done
+
+Text08c7:
+	text "OH?? FOR REAL?"
+	linefw "THANK YOU VERY MUCH!"
+	linefw "BEFORE YOU GO TAKE ON GR No.1,"
+	linefw "THOUGH, HAVE A DUEL WITH ME!"
+	linefw "IF YOU WIN, I'LL GIVE YOU A"
+	linefw "FEW NEW CARDS!"
+	done
+
+Text08c8:
+	text "GR No.1 IS CURRENTLY"
+	linefw "OCCUPYING THE ROCK CLUB."
+	linefw "I BEG YOU!"
+	linefw "PLEASE DEFEAT GR No.1!"
+	linefw "YOU CAN TRAIN WITH ME TO GET SOME"
+	linefw "ADDITIONAL CARDS FIRST, THOUGH!"
+	done
+
+Text08c9:
+	text "<RAMNAME>", "!"
+	linefw "YOU'VE COME TO THE RIGHT PLACE!"
+	linefw "GR No.1 HAS RETURNED TO OUR"
+	linefw "CLUB'S PLAY HALL!"
+	linefw "NOW'S YOUR CHANCE TO FIGHT HIM!"
+	linefw "...OR DO YOU WANT PRACTICE FIRST?"
+	done
+
+Text08ca:
+	text "WOULD YOU LIKE TO DUEL MICHAEL?"
+	done
+
+Text08cb:
+	text "WE'LL HAVE A DUEL WITH 4 PRIZE"
+	linefw "CARDS! LET'S GO!"
+	done
+
+Text08cc:
+	text "YOU'RE THE ONLY ONE HERE ABLE"
+	linefw "TO WIN AGAINST TEAM GR!"
+	linefw "IF YOU'D LIKE, I'D BE GLAD TO"
+	linefw "TRAIN WITH YOU, ANY TIME!"
+	done
+
+Text08cd:
+	text "I HEARD THAT YOU DEFEATED GR No.1."
+	linefw "THANK YOU VERY MUCH!"
+	linefw "I PROMISE TO PROTECT THE FIGHTING"
+	linefw "CLUB UNTIL MITCH RETURNS."
+	linefw "I WON'T STOP MY TRAINING."
+	linefw "YOU DO YOUR BEST, TOO!"
+	done
+
+Text08ce:
+	text "YOU'RE JUST AS STRONG AS I THOUGHT!"
+	linefw "HERE, TAKE THIS!"
+	done
+
+Text08cf:
+	text "YOU DIDN'T NEED ANY TRAINING"
+	linefw "AFTER ALL. YOU'RE ALREADY STRONG!"
+	done
+
+Text08d0:
+	text "DID I WIN?"
+	linefw "WELL, IT WAS JUST TRAINING."
+	linefw "I PROBABLY COULDN'T WIN AGAINST"
+	linefw "YOU IF YOU WERE PLAYING FOR REAL."
+	done
+
+Text08d1:
+	text "I'D LIKE TO TRADE CARDS, BUT I'M A"
+	linefw "LITTLE EMBARRASSED ABOUT IT..."
+	linefw "NO ONE SEEMS TO TALK WITH ME, SO"
+	linefw "I'VE HAD NO OPPORTUNITY TO TRADE."
+	done
+
+Text08d2:
+	text "I'D LIKE TO TRADE CARDS, BUT I'M A"
+	linefw "LITTLE EMBARRASSED ABOUT IT..."
+	done
+
+Text08d3:
+	text "I'D LIKE TO HAVE THE RARE CARD"
+	linefw "HITMONLEE Lv23 FOR MY NEW DECK."
+	linefw "IN EXCHANGE, I'LL TRADE YOU A"
+	linefw "MEWTWO Lv60, IF YOU DON'T MIND."
+	done
+
+Text08d4:
+	text "AH, YOU DON'T WANT TO TRADE..."
+	linefw "BUT THERE'S NO OTHER WAY."
+	linefw "I GUESS I COULD ASK THE OTHER KIDS,"
+	linefw "BUT I STILL FEEL EMBARRASSED..."
+	done
+
+Text08d5:
+	text "UHMM...I'M SORRY, BUT YOU DON'T SEEM"
+	linefw "TO OWN A HITMONLEE Lv23 CARD."
+	linefw "WITHOUT THAT, WE CAN'T DO THE"
+	linefw "TRADE, YOU SEE."
+	done
+
+Text08d6:
+	text "UHMM...YOU HAVE THE CARD, BUT IT'S"
+	linefw "BEING USED IN ONE OF YOUR DECKS."
+	linefw "THAT MEANS YOU CAN'T TRADE IT."
+	linefw "MAYBE LATER, THEN?"
+	done
+
+Text08d7:
+	text "OH, WHAT A GENEROUS PERSON YOU ARE"
+	linefw "TO TRADE WITH AN OLD MAN LIKE ME!"
+	linefw "I'LL GIVE YOU MY MEWTWO Lv60,"
+	linefw "IN THAT CASE."
+	done
+
+Text08d8:
+	text "I FINALLY GOT A HITMONLEE Lv23!"
+	linefw "WHAT A JOYOUS DAY!"
+	done
+
+Text08d9:
+	text "SINCE I'VE TRADED CARDS WITH YOU,"
+	linefw "I'VE FELT MUCH MORE COURAGEOUS."
+	linefw "I FEEL AT EASE WHILE SPEAKING"
+	linefw "WITH OTHER PLAYERS NOW."
+	linefw "YOU HAVE MY GRATITUDE!"
+	done
+
+Text08da:
+	text "I HEARD THAT TEAM GR IS USING SOME"
+	linefw "SELF-MADE CARDS IN THEIR DECKS."
+	linefw "I FIND THAT...DEPLORABLE!"
+	linefw "TEAM GR IS BREAKING THE RULES!"
+	linefw "YOU SHOULD ONLY USE CARDS THAT ARE"
+	linefw "AVAILABLE TO EVERYONE TO USE."
+	done
+
+Text08db:
+	text "DID TEAM GR LEAVE THE ISLAND?"
+	linefw "BOY, THEY SURE WERE A NUISANCE."
+	linefw "NOW EVERYONE CAN PLAY WITH THEIR"
+	linefw "POKÉMON CARDS SAFELY AGAIN!"
+	done
+
+Text08dc:
+	text "IN THE END, TEAM GR REALIZED IT"
+	linefw "WASN'T RIGHT TO TAKE PEOPLE'S CARDS."
+	linefw "WE ALL HAVE THE RIGHT TO HAVE FUN"
+	linefw "WITH OUR POKÉMON CARDS AS WE LIKE!"
+	done
+
+Text08dd:
+	text "IT ISN'T COOL TO TAKE THINGS"
+	linefw "FROM PEOPLE!"
+	linefw "I MEAN, IT'S FUN TO COLLECT CARDS,"
+	linefw "BUT WHAT TEAM GR HAS DONE IS WRONG!"
+	done
+
+Text08de:
+	text "IT WAS DEFINITELY A REAL DRAG"
+	linefw "WHEN WE COULDN'T PLAY CARDS."
+	linefw "WITH TEAM GR OUT OF THE WAY,"
+	linefw "I CAN GET BACK IN THE GAME."
+	done
+
+Text08df:
+	text "RIGHT, I SEE."
+	linefw "POKÉMON CARDS ARE ALSO FOR BATTLING."
+	linefw "YEAH! I THINK I'VE GOT IT!"
+	linefw "I CAN'T WAIT FOR MY FIRST DUEL!"
+	done
+
+Text08e0:
+	text "DID YOU SPEAK TO THE GUY OVER THERE?"
+	linefw "I WAS TALKING WITH HIM EARLIER."
+	linefw "IT'S AMAZING THAT HE STILL HAS"
+	linefw "POKÉMON CARDS TO TRADE WITH!"
+	linefw "HE'S ONE OF THE FEW OLDER PLAYERS,"
+	linefw "LIKE SOME SORT OF HERO ON A TV SHOW!"
+	done
+
+Text08e1:
+	text "DID YOU SPEAK TO THE GUY OVER THERE?"
+	linefw "I WONDER WHAT HE WANTS."
+	linefw "I HOPE HE KNOWS THAT IT'S ALRIGHT TO"
+	linefw "PLAY POKÉMON CARDS WITH US."
+	linefw "MAYBE OLDER PEOPLE DON'T UNDERSTAND"
+	linefw "YOUNGER KIDS VERY WELL."
+	done
+
+Text08e2:
+	text "YOU WILL NEED THE GR PSYCHIC COIN"
+	linefw "TO CONTINUE ONWARD."
+	linefw "YOU MAY EARN THE GR PSYCHIC COIN"
+	linefw "FROM THE GR PSYCHIC STRONGHOLD."
+	done
+
+Text08e3:
+	text "IF YOU HAVE THE GR PSYCHIC COIN,"
+	linefw "PLEASE GIVE IT TO ME."
+	done
+
+Text08e4:
+	text "GIVE HER THE GR PSYCHIC COIN?"
+	done
+
+Text08e5:
+	text "THIS IS INDEED THE REQUIRED COIN."
+	done
+
+Text08e6:
+	text "I HAVE PLACED YOUR GR PSYCHIC COIN"
+	linefw "INSIDE THE DOOR'S RECESS."
+	done
+
+Text08e7:
+	text "YOU MAY NOT ENTER IF YOU DO NOT"
+	linefw "PRESENT THE GR PSYCHIC COIN TO ME."
+	done
+
+Text08e8:
+	text "YOU WILL NEED THE GR COLORLESS"
+	linefw "COIN TO CONTINUE ONWARD."
+	linefw "YOU MAY EARN THE GR COLORLESS COIN"
+	linefw "FROM THE GR COLORLESS ALTAR."
+	done
+
+Text08e9:
+	text "YOU WILL NEED THE GR COLORLESS"
+	linefw "COIN TO CONTINUE ONWARD."
+	linefw "YOU MAY EARN THE GR COLORLESS COIN"
+	linefw "FROM THE GR COLORLESS ALTAR."
+	done
+
+Text08ea:
+	text "IF YOU HAVE THE GR COLORLESS COIN,"
+	linefw "PLEASE GIVE IT TO ME."
+	done
+
+Text08eb:
+	text "GIVE HER THE GR COLORLESS COIN?"
+	done
+
+Text08ec:
+	text "I HAVE PLACED YOUR GR COLORLESS COIN"
+	linefw "INSIDE THE DOOR'S RECESS."
+	done
+
+Text08ed:
+	text "YOU MAY NOT ENTER IF YOU DO NOT"
+	linefw "PRESENT THE GR COLORLESS COIN TO ME."
+	done
+
+Text08ee:
+	text "YOU WILL NEED THE GR PSYCHIC COIN"
+	linefw "TO CONTINUE ONWARD."
+	linefw "YOU MAY EARN THE GR PSYCHIC COIN"
+	linefw "FROM THE GR PSYCHIC STRONGHOLD."
+	done
+
+Text08ef:
+	text "PLEASE ENTER THE CASTLE."
+	done
+
+Text08f0:
+	text "SINCE YOU HAVE COLLECTED BOTH COINS,"
+	linefw "THE DOORS HAVE OPENED AT LAST."
+	done
+
+Text08f1:
+	text "SO YOU HAVE FINALLY ARRIVED..."
+	linefw "I'M IMPRESSED, ", "<RAMNAME>", "."
+	done
+
+Text08f2:
+	text "YOU'LL HAVE TO COLLECT THE LEGENDARY"
+	linefw "CARDS FIRST BEFORE I RECOGNIZE YOU!"
+	linefw "PROVE YOURSELF BY COLLECTING THOSE"
+	linefw "CARDS AND PUTTING THEM IN YOUR DECK."
+	linefw "I KNOW YOU BELIEVE YOU KNOW WHAT"
+	linefw "DIRECTION IS BEST FOR TEAM GR..."
+	linefw "BUT I'LL NEVER AGREE WITH YOU!"
+	linefw "MY IDEALS ARE IMMACULATE!"
+	done
+
+Text08f3:
+	text "I'LL FIGHT YOU MYSELF IF I HAVE TO!"
+	done
+
+Text08f4:
+	text "EXECUTIVE CLAY!"
+	done
+
+Text08f5:
+	text "HA!!"
+	done
+
+Text08f6:
+	text "EXECUTIVE ALLISON!"
+	done
+
+Text08f7:
+	text "YES, KING VILLICCI!"
+	done
+
+Text08f8:
+	text "<RAMNAME>", "! YOU MUST FIGHT"
+	linefw "MY TWO EXECUTIVES FIRST!"
+	linefw "ONLY WITH VICTORIES AGAINST BOTH"
+	linefw "WILL I CONFRONT YOU IN COMBAT!"
+	linefw "IF, THAT IS, YOU CAN WIN..."
+	done
+
+Text08f9:
+	text "I'M YOUR FIRST OPPONENT."
+	linefw "THEY CALL ME EXECUTIVE CLAY!"
+	linefw "BUT LET US NOT FIGHT HERE."
+	linefw "HEAD OVER TO THE DUEL TABLE."
+	done
