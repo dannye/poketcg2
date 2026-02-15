@@ -686,7 +686,7 @@ EraseCheckMenuCursor_YourOrOppPlayArea:
 ; fallthrough
 
 ; for a = tile byte,
-; draw it in the curosr position
+; draw it in the cursor position
 ; by converting the position to coordinates
 DrawCheckMenuCursor_YourOrOppPlayArea:
 	ld e, a
@@ -1721,7 +1721,7 @@ EraseCheckMenuCursor:
 ; fallthrough
 
 ; for a = tile byte,
-; draw it in the curosr position
+; draw it in the cursor position
 ; by converting the position to coordinates
 DrawCheckMenuCursor:
 	ld e, a
