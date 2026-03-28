@@ -1379,9 +1379,10 @@ HandlePauseMenu:
 	call LoadSymbolsFont
 	call Func_35a0
 	ret
-; 0x10861
 
-SECTION "Bank 4@4865", ROMX[$4865], BANK[$4]
+; unreferenced?
+	ld [wPauseMenuCursorPosition], a
+	ret
 
 PauseMenuDeckScreen:
 	call Func_1022a
