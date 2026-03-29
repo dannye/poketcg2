@@ -6,9 +6,9 @@ It uses the following ROM as a base:
 
 - Pokémon Card GB2 - GR Dan Sanjou! (J) [C][!].gbc `sha1: a7e12bcc5f514e3aad8de570fd511aab0a308822`
 
-To assemble, first download RGBDS (https://github.com/gbdev/rgbds/releases) and extract it to /usr/local/bin.
-Copy the above ROM to this directory as "baserom.gbc".
-Run `make` in your shell.
+To assemble, first install [RGBDS](https://github.com/gbdev/rgbds/releases) and put it in your path.  
+Then copy the above ROM to this directory as "baserom.gbc".  
+Then run `make` in your shell.
 
 This will output a file named "poketcg2.gbc".
 
