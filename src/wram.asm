@@ -2872,7 +2872,11 @@ FOR n, 1, NUM_SPRITE_ANIM_STRUCTS + 1
 wSpriteTileset{d:n}:: obj_tile_struct wSpriteTileset{d:n}
 ENDR
 
-	ds $3
+wd96c:: ; d96c
+	ds $1
+
+wd96d:: ; d96d
+	ds $2
 
 wd96f:: ; d96f
 	ds $1

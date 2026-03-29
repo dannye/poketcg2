@@ -1379,9 +1379,10 @@ HandlePauseMenu:
 	call LoadSymbolsFont
 	call Func_35a0
 	ret
-; 0x10861
 
-SECTION "Bank 4@4865", ROMX[$4865], BANK[$4]
+; unreferenced?
+	ld [wPauseMenuCursorPosition], a
+	ret
 
 PauseMenuDeckScreen:
 	call Func_1022a
@@ -1420,9 +1421,35 @@ ZeroObjectPositionsAndEnableOBPFading:
 	pop bc
 	pop af
 	ret
-; 0x108a2
 
-SECTION "Bank 4@48c9", ROMX[$48c9], BANK[$4]
+BackupObjectPalsFromHLAndFlush:
+	push af
+	push bc
+	push de
+	push hl
+	ld de, wObjectPalettesCGB
+	ld bc, 8 palettes
+	call CopyDataHLtoDE_SaveRegisters
+	call FlushAllPalettes
+	pop hl
+	pop de
+	pop bc
+	pop af
+	ret
+
+RestoreObjectPalsToDE:
+	push af
+	push bc
+	push de
+	push hl
+	ld hl, wObjectPalettesCGB
+	ld bc, 8 palettes
+	call CopyDataHLtoDE_SaveRegisters
+	pop hl
+	pop de
+	pop bc
+	pop af
+	ret
 
 SetwD8A1:
 	ld [wd8a1], a
@@ -1431,9 +1458,28 @@ SetwD8A1:
 GetwD8A1::
 	ld a, [wd8a1]
 	ret
-; 0x108d1
 
-SECTION "Bank 4@48e6", ROMX[$48e6], BANK[$4]
+; flush c non-CGB object pals and a single CGB pal
+FlushCPalsFromOBP:
+	ld a, c
+	and a
+	ret z
+
+	ld a, 8 ; OBP index 0
+.loop_pals
+	push af
+	push bc
+	push de
+	push hl
+	call FlushPalette
+	pop hl
+	pop de
+	pop bc
+	pop af
+	inc a
+	dec c
+	jr nz, .loop_pals
+	ret
 
 ClearSpriteAnims:
 	push af
@@ -1481,9 +1527,28 @@ GetNextInactiveSpriteAnim::
 	pop bc
 	pop af
 	ret
-; 0x1092b
 
-SECTION "Bank 4@4948", ROMX[$4948], BANK[$4]
+GetNextActiveSpriteAnim:
+	push af
+	push bc
+	push de
+	ld hl, wSpriteAnimationStructs
+	ld c, NUM_SPRITE_ANIM_STRUCTS
+	ld b, $00 ; unused
+	ld de, SPRITEANIMSTRUCT_LENGTH
+.loop
+	ld a, [hl] ; SPRITEANIMSTRUCT_FLAGS
+	bit SPRITEANIMSTRUCT_ACTIVE_F, a
+	jr nz, .active
+	add hl, de
+	dec c
+	jr nz, .loop
+	ld hl, NULL
+.active
+	pop de
+	pop bc
+	pop af
+	ret
 
 GetCthSpriteAnim::
 	push bc
@@ -2078,9 +2143,27 @@ SetSpriteAnimAnimating:
 ResetSpriteAnimAnimating:
 	res SPRITEANIMSTRUCT_ANIMATING_F, [hl]
 	ret
-; 0x10bce
 
-SECTION "Bank 4@4be7", ROMX[$4be7], BANK[$4]
+CountActiveSpriteAnims:
+	push bc
+	push de
+	push hl
+	xor a
+	ld c, NUM_SPRITE_ANIM_STRUCTS
+	ld de, SPRITEANIMSTRUCT_LENGTH
+	ld hl, wSpriteAnimationStructs
+.loop
+	bit SPRITEANIMSTRUCT_ACTIVE_F, [hl]
+	jr z, .next
+	inc a
+.next
+	add hl, de
+	dec c
+	jr nz, .loop
+	pop hl
+	pop de
+	pop bc
+	ret
 
 ; push to w3d8db
 ; wSpriteAnimationStructs, wCurVRAMTile, wNumSpriteTilesets, wSpriteTilesets
@@ -2152,9 +2235,29 @@ PullSpriteAnimTileFromBank3:
 CheckIsSpriteAnimAnimating:
 	bit SPRITEANIMSTRUCT_ANIMATING_F, [hl]
 	ret
-; 0x10c3c
 
-SECTION "Bank 4@4c5a", ROMX[$4c5a], BANK[$4]
+SetwD96CAndwD96D:
+	ld [wd96c], a
+
+	add a
+	ld c, a
+	ld b, $00
+	ld hl, .DataTable
+	add hl, bc
+	ld a, [hli]
+	ld [wd96d], a
+	ld a, [hl]
+	ld [wd96d + 1], a
+	ret
+
+.DataTable:
+	dw $707f ; rgb 31, 3, 28?
+	dw $791d ; rgb 29, 8, 30?
+	dw 0
+
+GetwD96C:
+	ld a, [wd96c]
+	ret
 
 ; bc = FRAMESET_* constant
 SetAndInitSpriteAnimFrameset::
@@ -2283,15 +2386,70 @@ SetSpriteAnimAnimation::
 	pop hl
 	pop bc
 	ret
-; 0x10cd9
 
-SECTION "Bank 4@4cfe", ROMX[$4cfe], BANK[$4]
+; bit 0, [hl] = or bit 0, a
+Func_10cd9:
+	push bc
+	and 1
+	ld b, a
+	ld a, [hl]
+	or b
+	ld [hl], a
+	pop bc
+	ret
+
+; hl = sprite anim ptr (active)
+; set flag6, and
+; reset frame index and duration, move duration, and start delay
+InitActiveSpriteAnimFrames:
+	push af
+	push hl
+	bit SPRITEANIMSTRUCT_ACTIVE_F, [hl]
+	jr z, .done
+	xor a
+	set SPRITEANIMSTRUCT_FLAG6_F, [hl]
+REPT SPRITEANIMSTRUCT_FRAME_INDEX
+	inc hl
+ENDR
+	ld [hli], a ; SPRITEANIMSTRUCT_FRAME_INDEX
+REPT SPRITEANIMSTRUCT_FRAME_DURATION - SPRITEANIMSTRUCT_FRAME_INDEX - 1
+	inc hl
+ENDR
+	ld [hli], a ; SPRITEANIMSTRUCT_FRAME_DURATION
+REPT SPRITEANIMSTRUCT_MOVE_DURATION - SPRITEANIMSTRUCT_FRAME_DURATION - 1
+	inc hl
+ENDR
+	ld [hli], a ; SPRITEANIMSTRUCT_MOVE_DURATION
+	ld [hli], a ; SPRITEANIMSTRUCT_START_DELAY
+REPT SPRITEANIMSTRUCT_LENGTH - SPRITEANIMSTRUCT_START_DELAY - 1
+	inc hl
+ENDR
+.done
+	pop hl
+	pop af
+	ret
 
 Stub_10cfe:
 	ret
-; 0x10cff
 
-SECTION "Bank 4@4d17", ROMX[$4d17], BANK[$4]
+InitAllActiveSpriteAnimFrames:
+	push af
+	push bc
+	push de
+	push hl
+	ld c, NUM_SPRITE_ANIM_STRUCTS
+	ld hl, wSpriteAnimationStructs
+	ld de, SPRITEANIMSTRUCT_LENGTH
+.loop_init
+	call InitActiveSpriteAnimFrames
+	add hl, de
+	dec c
+	jr nz, .loop_init
+	pop hl
+	pop de
+	pop bc
+	pop af
+	ret
 
 ; input:
 ; - b: ? (would make sense if $0/$1)
@@ -4152,13 +4310,14 @@ CreateIntroOrbs:
 	ret
 
 .SpriteAnimGfxParams
-	dw TILESET_START_ENERGIES
-	dw SPRITE_ANIM_92
-	dw FRAMESET_159
-	dw PALETTE_168
-; 0x116cc
-
-SECTION "Bank 4@5704", ROMX[$5704], BANK[$4]
+	dw TILESET_START_ENERGIES, SPRITE_ANIM_92, FRAMESET_159, PALETTE_168
+	dw TILESET_START_ENERGIES, SPRITE_ANIM_93, FRAMESET_15A, PALETTE_168
+	dw TILESET_START_ENERGIES, SPRITE_ANIM_94, FRAMESET_15B, PALETTE_168
+	dw TILESET_START_ENERGIES, SPRITE_ANIM_95, FRAMESET_15C, PALETTE_168
+	dw TILESET_START_ENERGIES, SPRITE_ANIM_96, FRAMESET_15D, PALETTE_168
+	dw TILESET_START_ENERGIES, SPRITE_ANIM_97, FRAMESET_15E, PALETTE_168
+	dw TILESET_START_ENERGIES, SPRITE_ANIM_98, FRAMESET_15F, PALETTE_168
+	dw TILESET_START_ENERGIES, SPRITE_ANIM_99, FRAMESET_160, PALETTE_168
 
 SetAthSpriteAnimPosition:
 	push bc
@@ -5221,9 +5380,30 @@ ClearBoxInBGMap:
 	call BankswitchVRAM
 	ei
 	ret
-; 0x11db2
 
-SECTION "Bank 4@5dd2", ROMX[$5dd2], BANK[$4]
+UploadBGPals:
+	push bc
+	push de
+	push hl
+	ld hl, rBGPI
+	ld a, BGPI_AUTOINC
+	ld [hl], a
+
+	ld de, rBGPD
+	ld hl, wBackgroundPalettesCGB
+	ld c, 8 palettes
+.loop_pals
+	ldh a, [rSTAT]
+	and STAT_BUSY ; wait until hblank or vblank
+	jr nz, .loop_pals
+	ld a, [hli]
+	ld [de], a
+	dec c
+	jr nz, .loop_pals
+	pop hl
+	pop de
+	pop bc
+	ret
 
 ; used for Title Screen subtitle distortion BG effect
 Data_11dd2:
@@ -5560,9 +5740,15 @@ LoadAttrmap::
 	pop bc
 	pop af
 	ret
-; 0x12e7c
 
-SECTION "Bank 4@6e87", ROMX[$6e87], BANK[$4]
+ClearCthSpriteAnimFlags:
+	push bc
+	push hl
+	call GetCthSpriteAnim
+	call _ClearSpriteAnimFlags
+	pop hl
+	pop bc
+	ret
 
 SetCthSpriteAnimPosition:
 	push bc
@@ -6068,7 +6254,7 @@ PlayerNameSelection:
 	ret
 
 .SetPlayerID:
-	ld hl, wPlayerName + $e
+	ld hl, wPlayerName + NAME_BUFFER_ID
 	call UpdateRNGSources
 	ld [hli], a
 	call UpdateRNGSources
@@ -6076,7 +6262,7 @@ PlayerNameSelection:
 	ret
 
 .SetGenderByte:
-	ld hl, wPlayerName + $d
+	ld hl, wPlayerName + NAME_BUFFER_GENDER
 	call GetPlayerGender
 	ld [hl], a
 	ret
@@ -6097,7 +6283,7 @@ PlayerNameSelection:
 	ld h, [hl]
 	ld l, a
 	ld de, wPlayerName
-	ld bc, $c
+	ld bc, MAX_PLAYER_NAME_LENGTH
 	call CopyBCBytesFromHLToDE
 	ret
 
@@ -6127,15 +6313,20 @@ PlayerNameSelection:
 	done
 	done
 
-Func_13cc6:
+; a = PLAYER_* gender flag
+SavePlayerGenderToSRAM:
 	call EnableSRAM
-	ld hl, $a01d
+	ld hl, sPlayerName + NAME_BUFFER_GENDER
 	ld [hl], a
 	call DisableSRAM
 	ret
-; 0x13cd1
 
-SECTION "Bank 4@7cdc", ROMX[$7cdc], BANK[$4]
+GetPlayerGenderFromSRAM:
+	call EnableSRAM
+	ld hl, sPlayerName + NAME_BUFFER_GENDER
+	ld a, [hl]
+	call DisableSRAM
+	ret
 
 ; loads player's name from SRAM
 ; outputs in a the number of characters
@@ -6258,7 +6449,6 @@ PlayerGenderSelection:
 	textitems_end
 
 .HandleSelection:
-.loop
 	ldtx hl, ChoosePlayerGenderText
 	call PrintTextInWideTextBox
 	ld a, [wde64]
@@ -6272,7 +6462,7 @@ PlayerGenderSelection:
 .got_selection
 	ld a, $1
 	call DrawWideTextBox_PrintTextWithYesOrNoMenu
-	jr c, .loop
+	jr c, .HandleSelection
 	ld a, [wde64]
 	call SetPlayerGender
 	ret
@@ -6292,7 +6482,7 @@ SetPlayerGender:
 	farcall ZeroOutEventValue
 .get_value
 	call GetPlayerGender
-	call Func_13cc6
+	call SavePlayerGenderToSRAM
 	pop hl
 	pop de
 	pop bc
@@ -6315,7 +6505,7 @@ Func_13dfa:
 	call Func_10d40
 	call Func_102ef
 	call EnableLCD
-	ld a, $01
+	ld a, BANK("WRAM1")
 	ld [wWRAMBank], a
 	call ResetFrameFunctionStack
 	call Func_3cdd
