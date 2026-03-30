@@ -2204,9 +2204,7 @@ wNumCardListEntries:: ; d396
 	ds $1
 
 wNamingScreenBuffer:: ; d397
-	ds NAMING_SCREEN_BUFFER_LENGTH
-
-	ds $32
+	ds MULTILINE_INPUT_SCREEN_BUFFER_LENGTH
 
 wNamingScreenBufferLength:: ; d3e1
 	ds $1
@@ -2237,13 +2235,11 @@ wNamingScreenMode:: ; d3eb
 wTempUnnamedDeckCounter:: ; d3ec
 	ds $3
 
-wd3ef:: ; d3ef
+wIsMultilineInput:: ; d3ef
 	ds $1
 
-	ds $1e
-
-wd40e:: ; d40e
-	ds $8
+wCurLineOfMultilineInput:: ; d3f0
+	ds PER_LINE_INPUT_SCREEN_BUFFER_LENGTH
 
 ; pointers to all decks of current deck machine
 wMachineDeckPtrs:: ; d416

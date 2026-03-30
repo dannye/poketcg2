@@ -13,6 +13,15 @@ DEF MAX_DECK_NAME_LENGTH        EQU 20 * 1 ; note that its unit is byte!
 
 DEF NAMING_SCREEN_BUFFER_LENGTH EQU 24
 
+DEF MAX_MULTILINE_INPUT_CHARS_PER_LINE   EQU 18
+DEF MAX_MULTILINE_INPUT_LENGTH_PER_LINE  EQU MAX_MULTILINE_INPUT_CHARS_PER_LINE * 2                          ; 36
+DEF MAX_MULTILINE_INPUT_LINES            EQU 2
+DEF MAX_MULTILINE_INPUT_CHARS            EQU MAX_MULTILINE_INPUT_CHARS_PER_LINE * MAX_MULTILINE_INPUT_LINES  ; 36
+DEF MAX_MULTILINE_INPUT_LENGTH           EQU MAX_MULTILINE_INPUT_LENGTH_PER_LINE * MAX_MULTILINE_INPUT_LINES ; 72
+
+DEF PER_LINE_INPUT_SCREEN_BUFFER_LENGTH  EQU MAX_MULTILINE_INPUT_LENGTH_PER_LINE + 2                         ; 38
+DEF MULTILINE_INPUT_SCREEN_BUFFER_LENGTH EQU MAX_MULTILINE_INPUT_LENGTH + 2                                  ; 74
+
 	const_def
 	const NAME_MODE_HIRAGANA  ; $0
 	const NAME_MODE_KATAKANA  ; $1
@@ -20,9 +29,14 @@ DEF NAMING_SCREEN_BUFFER_LENGTH EQU 24
 	const NAME_MODE_LOWER_ABC ; $3
 DEF NUM_NAME_MODES EQU const_value
 
+; keyboard toggle locations:
+; - hiragana mode: katakana, upper abc, lower abc, done
+; - katakana mode: hiragana, upper abc, lower abc, done
+; - upper abc mode: hiragana, katakana, lower abc, done
+; - lower abc mode: hiragana, katakana, upper abc, done
 	const_def $06
-	const KEYBOARD_UNKNOWN          ; $06
-	const KEYBOARD_TOGGLE_KATAKANA  ; $07
-	const KEYBOARD_TOGGLE_UPPER_ABC ; $08
-	const KEYBOARD_TOGGLE_LOWER_ABC ; $09
-	const KEYBOARD_DONE             ; $0a
+	const KEYBOARD_UNKNOWN  ; $06
+	const KEYBOARD_TOGGLE_1 ; $07
+	const KEYBOARD_TOGGLE_2 ; $08
+	const KEYBOARD_TOGGLE_3 ; $09
+	const KEYBOARD_DONE     ; $0a
