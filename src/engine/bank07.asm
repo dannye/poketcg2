@@ -325,9 +325,6 @@ GetDuelistPortrait::
 	db PORTRAIT_GR_X          ; GR_X_PIC
 	db PORTRAIT_TOBICHAN      ; TOBICHAN_PIC
 	db PORTRAIT_DR_MASON      ; DR_MASON_PIC
-; 0x1c116
-
-SECTION "Bank 7@416e", ROMX[$416e], BANK[$7]
 
 PauseMenuConfigScreen:
 	farcall Func_1022a
