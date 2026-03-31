@@ -1455,9 +1455,15 @@ CheckPalFading::
 	ld a, [wPaletteFadeMode]
 	and a
 	ret
-; 0x1c941
 
-SECTION "Bank 7@494a", ROMX[$494a], BANK[$7]
+GetwD9DE:
+	ld a, [wd9de]
+	ret
+
+GetPalFadeDirection:
+	ld a, [wPalFadeDirection]
+	and a
+	ret
 
 ; fills the pals with fade enabled
 ; with color in a
@@ -1621,9 +1627,26 @@ StartFadeFromWhite:
 	pop bc
 	pop af
 	ret
-; 0x1ca09
 
-SECTION "Bank 7@4a21", ROMX[$4a21], BANK[$7]
+StartFadeToBlack:
+	push af
+	push bc
+	ld a, $01
+	ld b, $00
+	call StartPalFadeToBlackOrWhite
+	pop bc
+	pop af
+	ret
+
+StartFadeFromBlack:
+	push af
+	push bc
+	ld a, $01
+	ld b, $00
+	call StartPalFadeFromBlackOrWhite
+	pop bc
+	pop af
+	ret
 
 EnableBGPFading:
 	push hl
@@ -1631,9 +1654,13 @@ EnableBGPFading:
 	set 0, [hl]
 	pop hl
 	ret
-; 0x1ca29
 
-SECTION "Bank 7@4a31", ROMX[$4a31], BANK[$7]
+DisableBGPFading:
+	push hl
+	ld hl, wPaletteFadeFlags
+	res 0, [hl]
+	pop hl
+	ret
 
 EnableOBPFading:
 	push hl
@@ -1769,9 +1796,17 @@ SetAllOBPaletteFadeConfigsToEnabled:
 	jr c, .loop_pals
 	pop af
 	ret
-; 0x1cac3
 
-SECTION "Bank 7@4acf", ROMX[$4acf], BANK[$7]
+SetAllOBPaletteFadeConfigsToDisabled:
+	push af
+	xor a
+.loop_pals
+	call SetOBPaletteFadeConfigToDisabled
+	inc a
+	cp NUM_OBJECT_PALETTES
+	jr c, .loop_pals
+	pop af
+	ret
 
 HideNPCAnimsUnderMenuBox:
 	push af
@@ -4729,14 +4764,19 @@ GetwDuelAnimBufferSize:
 GetwDuelAnimBufferCurPos:
 	ld a, [wDuelAnimBufferCurPos]
 	ret
-; 0x1e411
 
-SECTION "Bank 7@6419", ROMX[$6419], BANK[$7]
+; set wAnimationsDisabled to TRUE
+DisableAnimations:
+	push af
+	ld a, TRUE
+	ld [wAnimationsDisabled], a
+	pop af
+	ret
 
-; sets wAnimationsDisabled to FALSE
+; set wAnimationsDisabled to FALSE
 EnableAnimations:
 	push af
-	xor a ; FALSe
+	xor a ; FALSE
 	ld [wAnimationsDisabled], a
 	pop af
 	ret
