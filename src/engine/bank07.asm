@@ -6220,9 +6220,31 @@ Func_1ed5e:
 .SceneNoNewMail
 	db SCENE_MAILBOX
 	tx MailboxNoNewMailText
-; 0x1ed7c
 
-SECTION "Bank 7@6da5", ROMX[$6da5], BANK[$7]
+PrintQueueAndTotalMailCount:
+	push af
+	push bc
+	push de
+	push hl
+	ld a, [wNumMailInQueue]
+	ld l, a
+	ld h, $00
+	ld a, 2
+	ld b, FALSE
+	lb de, 14, 1
+	call PrintNumber
+	ld a, [wMailCount]
+	ld l, a
+	ld h, $00
+	ld a, 2
+	ld b, FALSE
+	lb de, 17, 1
+	call PrintNumber
+	pop hl
+	pop de
+	pop bc
+	pop af
+	ret
 
 MinicomMailboxMainScreen:
 	call DisableLCD
@@ -6509,9 +6531,12 @@ ScrollMailboxPageOnPadUp:
 	call SetMenuBoxFocusedItem
 	call SetMenuBoxBoundaryNoOpFlag
 	ret
-; 0x1ef9a
 
-SECTION "Bank 7@6fa4", ROMX[$6fa4], BANK[$7]
+HandleSelectedMailMenu_Simple:
+	call MailboxSelectedMail_LoadMenuBoxParams
+	call MailboxSelectedMail_HandleMenuBox
+	call MailboxSelectedMail_CallMappedFunction
+	ret
 
 MailboxSelectedMail_LoadMenuBoxParams:
 	lb de, 0, 0
