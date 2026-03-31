@@ -29,7 +29,7 @@ PrintNumber:
 	ld a, d
 	add c
 	ld d, a
-	ld hl, wDecimalRepresentation + $4
+	ld hl, wDecimalRepresentation + 4
 .loop_digits
 	ld a, [hld]
 	cp $ff
@@ -367,30 +367,30 @@ DrawConfigMenu:
 	lb de, 0, 12
 	lb bc, 20, 4
 	call DrawRegularTextBoxVRAM0
-	ld b, $07
-	ld hl, $44ee
+	ld b, BANK(ConfigExitMenuBoxParams)
+	ld hl, ConfigExitMenuBoxParams
 	lb de, 1, 17
 	call LoadMenuBoxParams
-	ld b, $07
-	ld hl, $4476
+	ld b, BANK(MessageSpeedSettingMenuBoxParams)
+	ld hl, MessageSpeedSettingMenuBoxParams
 	lb de, 6, 2
 	call LoadMenuBoxParams
 	ld a, [wMessageSpeedSetting]
 	call DrawMenuBox
-	ld b, $07
-	ld hl, $449a
+	ld b, BANK(DuelAnimationSettingMenuBoxParams)
+	ld hl, DuelAnimationSettingMenuBoxParams
 	lb de, 1, 6
 	call LoadMenuBoxParams
 	ld a, [wDuelAnimationsSetting]
 	call DrawMenuBox
-	ld b, $07
-	ld hl, $44b6
+	ld b, BANK(CoinTossAnimationSettingMenuBoxParams)
+	ld hl, CoinTossAnimationSettingMenuBoxParams
 	lb de, 1, 10
 	call LoadMenuBoxParams
 	ld a, [wCoinTossAnimationSetting]
 	call DrawMenuBox
-	ld b, $07
-	ld hl, $44ce
+	ld b, BANK(TextBoxFrameColorSettingMenuBoxParams)
+	ld hl, TextBoxFrameColorSettingMenuBoxParams
 	lb de, 1, 14
 	call LoadMenuBoxParams
 	ld a, [wTextBoxFrameColor]
@@ -509,8 +509,8 @@ HandleConfigMenu:
 	ret
 
 HandleMessageSpeedSettingMenuBox:
-	ld b, $07
-	ld hl, $4476
+	ld b, BANK(MessageSpeedSettingMenuBoxParams)
+	ld hl, MessageSpeedSettingMenuBoxParams
 	lb de, 6, 2
 	ld a, [wMessageSpeedSetting]
 	call LoadMenuBoxParams
@@ -522,8 +522,8 @@ HandleMessageSpeedSettingMenuBox:
 	ret
 
 HandleDuelAnimationsSettingMenuBox:
-	ld b, $07
-	ld hl, $449a
+	ld b, BANK(DuelAnimationSettingMenuBoxParams)
+	ld hl, DuelAnimationSettingMenuBoxParams
 	lb de, 1, 6
 	ld a, [wDuelAnimationsSetting]
 	call LoadMenuBoxParams
@@ -535,8 +535,8 @@ HandleDuelAnimationsSettingMenuBox:
 	ret
 
 HandleCoinTossAnimationSettingMenuBox:
-	ld b, $07
-	ld hl, $44b6
+	ld b, BANK(CoinTossAnimationSettingMenuBoxParams)
+	ld hl, CoinTossAnimationSettingMenuBoxParams
 	lb de, 1, 10
 	ld a, [wCoinTossAnimationSetting]
 	call LoadMenuBoxParams
@@ -548,8 +548,8 @@ HandleCoinTossAnimationSettingMenuBox:
 	ret
 
 HandleTextBoxFrameColorSettingMenuBox:
-	ld b, $07
-	ld hl, $44ce
+	ld b, BANK(TextBoxFrameColorSettingMenuBoxParams)
+	ld hl, TextBoxFrameColorSettingMenuBoxParams
 	lb de, 1, 14
 	ld a, [wTextBoxFrameColor]
 	call LoadMenuBoxParams
@@ -561,8 +561,8 @@ HandleTextBoxFrameColorSettingMenuBox:
 	ret
 
 HandleConfigExitMenuBox:
-	ld b, $07
-	ld hl, $44ee
+	ld b, BANK(ConfigExitMenuBoxParams)
+	ld hl, ConfigExitMenuBoxParams
 	lb de, 1, 17
 	xor a
 	call LoadMenuBoxParams
@@ -571,9 +571,22 @@ HandleConfigExitMenuBox:
 	xor a
 	call HandleMenuBox
 	ret
-; 0x1c379
 
-SECTION "Bank 7@4395", ROMX[$4395], BANK[$7]
+; dupe of _SaveAndApplyNewTextBoxFrameColor
+_SaveAndApplyNewTextBoxFrameColor_2::
+	ld a, [wTempTextBoxFrameColor_2]
+	ld b, a
+	call GetMenuBoxFocusedItem
+	cp b
+	ret z
+
+	ld [wTempTextBoxFrameColor_2], a
+	call EnableSRAM
+	ld [sTextBoxFrameColor], a
+	call DisableSRAM
+	bank1call SetDefaultPalettes
+	call FlushAllPalettes
+	ret
 
 LoadSavedOptions:
 	call EnableSRAM
@@ -700,9 +713,66 @@ ConvertTextSpeedToMessageSpeedSetting:
 .data
 	; values correspond to the 0,1,2,4,6 values just above
 	db 0, 1, 2, 0, 3, 0, 4
-; 0x1c45a
 
-SECTION "Bank 7@4502", ROMX[$4502], BANK[$7]
+_SaveAndApplyNewTextBoxFrameColor::
+	ld a, [wTempTextBoxFrameColor]
+	ld b, a
+	call GetMenuBoxFocusedItem
+	cp b
+	ret z
+
+	ld [wTempTextBoxFrameColor], a
+	call EnableSRAM
+	ld [sTextBoxFrameColor], a
+	call DisableSRAM
+	bank1call SetDefaultPalettes
+	call FlushAllPalettes
+	ret
+
+MessageSpeedSettingMenuBoxParams:
+	menubox_params FALSE, 10, 1, \
+		SYM_CURSOR_R, SYM_SPACE, SYM_CURSOR_R, SYM_CURSOR_R, \
+		NONE, PAD_B | PAD_UP | PAD_DOWN, TRUE, 0, NULL, NULL
+	textitem 0, 0, ConfigMessageSpeed1Text
+	textitem 2, 0, ConfigMessageSpeed2Text
+	textitem 4, 0, ConfigMessageSpeed3Text
+	textitem 6, 0, ConfigMessageSpeed4Text
+	textitem 8, 0, ConfigMessageSpeed5Text
+	textitems_end
+
+DuelAnimationSettingMenuBoxParams:
+	menubox_params FALSE, 18, 1, \
+		SYM_CURSOR_R, SYM_SPACE, SYM_CURSOR_R, SYM_CURSOR_R, \
+		NONE, PAD_B | PAD_UP | PAD_DOWN, TRUE, 0, NULL, NULL
+	textitem  1, 0, ConfigAnimationShowAllText
+	textitem  7, 0, ConfigAnimationSkipSomeText
+	textitem 15, 0, ConfigAnimationNoneText
+	textitems_end
+
+CoinTossAnimationSettingMenuBoxParams:
+	menubox_params FALSE, 18, 1, \
+		SYM_CURSOR_R, SYM_SPACE, SYM_CURSOR_R, SYM_CURSOR_R, \
+		NONE, PAD_B | PAD_UP | PAD_DOWN, TRUE, 0, NULL, NULL
+	textitem  1, 0, ConfigAnimationShowAllText
+	textitem 12, 0, ConfigAnimationSkipSomeText
+	textitems_end
+
+TextBoxFrameColorSettingMenuBoxParams:
+	menubox_params FALSE, 18, 1, \
+		SYM_CURSOR_R, SYM_SPACE, SYM_CURSOR_R, SYM_CURSOR_R, \
+		NONE, PAD_B | PAD_UP | PAD_DOWN, TRUE, 0, SaveAndApplyNewTextBoxFrameColor, NULL
+	textitem  1, 0, ConfigFrameColorRedText
+	textitem  6, 0, ConfigFrameColorBlueText
+	textitem 11, 0, ConfigFrameColorGreenText
+	textitem 16, 0, ConfigFrameColorBlackText
+	textitems_end
+
+ConfigExitMenuBoxParams:
+	menubox_params FALSE, 9, 1, \
+		SYM_CURSOR_R, SYM_SPACE, SYM_CURSOR_R, SYM_SPACE, \
+		PAD_A, PAD_B | PAD_UP | PAD_DOWN, FALSE, 0, NULL, NULL
+	textitem 1, 0, SingleSpaceText
+	textitems_end
 
 PauseMenuDiaryScreen:
 	farcall Func_1022a

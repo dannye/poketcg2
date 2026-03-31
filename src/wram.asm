@@ -2929,7 +2929,10 @@ wPortraitEmotion:: ; d9cf
 wSelectedConfigSubmenu:: ; d9d0
 	ds $1
 
-	ds $2
+	ds $1
+
+wTempTextBoxFrameColor:: ; d9d2
+	ds $1
 
 ; see also: sDuelAnimationsSetting
 wDuelAnimationsSetting:: ; d9d3
@@ -2945,7 +2948,12 @@ wMessageSpeedSetting:: ; d9d5
 wTextBoxFrameColor:: ; d9d6
 	ds $1
 
-	ds $5
+; this and functions using it are
+; dupes of wTextBoxFrameColor and functions using it
+wTempTextBoxFrameColor_2:: ; d9d7
+	ds $1
+
+	ds $4
 
 wPCMenuCursorPosition:: ; d9dc
 	ds $1

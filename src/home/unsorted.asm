@@ -2060,12 +2060,13 @@ LoadPortraitPalettes::
 	pop af
 	ret
 
-Func_3b14::
-	farcall $7, $4379
+SaveAndApplyNewTextBoxFrameColor_2::
+	farcall _SaveAndApplyNewTextBoxFrameColor_2
 	ret
 
-Func_3b19::
-	farcall $7, $445a
+; this is the one actually in use, not the above one
+SaveAndApplyNewTextBoxFrameColor::
+	farcall _SaveAndApplyNewTextBoxFrameColor
 	ret
 
 SaveGame::
