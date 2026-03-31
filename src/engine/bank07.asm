@@ -5075,11 +5075,18 @@ Func_1e5a2::
 	call ShowSpecialRuleDescription
 .start_duel
 	bank1call StartDuel_VSAIOpp
+.exit
 	farcall Func_10252
 	ret
-; 0x1e5e5
 
-SECTION "Bank 7@65f8", ROMX[$65f8], BANK[$7]
+.Debug:
+	bank1call SetFontAndTextBoxFrameColor
+	call FlushAllPalettes
+	ldtx hl, DebugForceDuelWinPromptText
+	xor a
+	farcall DrawWideTextBox_PrintTextWithYesOrNoMenu
+	ld [wDuelResult], a
+	jr .exit
 
 RunDuelFromSRAM:
 	farcall Stub_10cfe
