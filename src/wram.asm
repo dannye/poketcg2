@@ -2812,6 +2812,7 @@ wScrollTargetSpritePtr:: ; d893
 wOWScrollState:: ; d895
 	ds $1
 
+; PALETTE_* constant
 wd896:: ; d896
 	ds $2
 
@@ -2821,6 +2822,7 @@ wd898:: ; d898
 wd899:: ; d899
 	ds $1
 
+; palette index
 wd89a:: ; d89a
 	ds $1
 

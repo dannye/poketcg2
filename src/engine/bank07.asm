@@ -1456,7 +1456,7 @@ CheckPalFading::
 	and a
 	ret
 
-GetwD9DE:
+GetwD9DE::
 	ld a, [wd9de]
 	ret
 
