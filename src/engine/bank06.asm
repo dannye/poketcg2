@@ -5537,7 +5537,7 @@ LoadHandCardsIcon:
 	ld hl, HandCardsGfx
 	ld de, v0Tiles2 + $38 tiles
 	ld b, 4 tiles
-	call Func_1b8f1
+	call CopyBBytesFromHLToDE_Bank06
 	ret
 
 HandCardsGfx:
@@ -5606,8 +5606,8 @@ InputName:
 	call InitializeInputName
 	call Set_OBJ_8x8
 
-	xor a
-	ld [wd3ef], a
+	xor a ; FALSE
+	ld [wIsMultilineInput], a
 	ld [wTileMapFill], a
 	call EmptyScreen
 	call ZeroObjectPositions
@@ -5882,7 +5882,7 @@ ProcessTextWithUnderbar:
 	ret
 
 .underbar_chars
-	db $57
+	db $57 ; "_"
 	textfw "__________"
 	done
 
@@ -6093,11 +6093,11 @@ DrawSymbolAtCharPosition:
 	call GetCharInfoFromPos
 	ld a, [hli] ; y
 	ld c, a
-	ld a, [wd3ef]
+	ld a, [wIsMultilineInput]
 	or a
-	jr z, .asm_1b1ae
+	jr z, .got_y
 	inc c
-.asm_1b1ae
+.got_y
 	ld b, [hl] ; x
 	dec b
 	ld a, e ; tile
@@ -6123,9 +6123,9 @@ UpdateNameTextCursor:
 	ld a, [wMenuInvisibleCursorTile]
 	cp b
 	jr z, .done ; cursor is invisible, done
-	ld a, [wd3ef]
+	ld a, [wIsMultilineInput]
 	or a
-	jr nz, .asm_1b201
+	jr nz, .check_multiline
 
 ; place text cursor on the next name character position
 	ld a, [wNamingScreenBufferLength]
@@ -6158,21 +6158,21 @@ UpdateNameTextCursor:
 	pop af
 	ret
 
-.asm_1b201
+.check_multiline
 	ld a, [wNamingScreenBufferLength]
-	sub $24
-	jr c, .asm_1b212
-	cp $24
-	jr nz, .asm_1b20e
+	sub MAX_MULTILINE_INPUT_LENGTH_PER_LINE
+	jr c, .fallback_single_line
+	cp MAX_MULTILINE_INPUT_LENGTH_PER_LINE
+	jr nz, .got_line_2_length
 	dec a
 	dec a
-.asm_1b20e
+.got_line_2_length
 	ld e, 32 ; y
-	jr .asm_1b217
-.asm_1b212
+	jr .got_y
+.fallback_single_line
 	ld a, [wNamingScreenBufferLength]
 	ld e, 24 ; y
-.asm_1b217
+.got_y
 	sra a
 	ld l, a
 	ld h, 8
@@ -6220,37 +6220,45 @@ SelectKeyboardItem:
 	ld d, a
 	cp KEYBOARD_DONE
 	jp z, .set_carry
-	cp KEYBOARD_TOGGLE_KATAKANA
-	jr nz, .asm_1b276
+
+; toggle 1
+	cp KEYBOARD_TOGGLE_1
+	jr nz, .check_toggle_2
 	ld a, [wNamingScreenMode]
 	or a
-	jr nz, .hiragana_mode
+	jr nz, .to_hiragana_mode
+; to katakana mode
 	ld a, NAME_MODE_KATAKANA
 	jp .set_mode
-.hiragana_mode
+.to_hiragana_mode
 	xor a ; NAME_MODE_HIRAGANA
 	jp .set_mode
-.asm_1b276
-	cp KEYBOARD_TOGGLE_UPPER_ABC
-	jr nz, .asm_1b289
+
+.check_toggle_2
+	cp KEYBOARD_TOGGLE_2
+	jr nz, .check_toggle_3
 	ld a, [wNamingScreenMode]
 	cp NAME_MODE_UPPER_ABC
-	jr c, .not_upper_abc_mode
+	jr c, .to_upper_abc_mode
+; to katakana mode
 	ld a, NAME_MODE_KATAKANA
 	jr .set_mode
-.not_upper_abc_mode
+.to_upper_abc_mode
 	ld a, NAME_MODE_UPPER_ABC
 	jr .set_mode
-.asm_1b289
-	cp KEYBOARD_TOGGLE_LOWER_ABC
+
+.check_toggle_3
+	cp KEYBOARD_TOGGLE_3
 	jr nz, .character_item
 	ld a, [wNamingScreenMode]
 	cp NAME_MODE_LOWER_ABC
-	jr nz, .not_lower_abc_mode
+	jr nz, .to_lower_abc_mode
+; to upper abc mode
 	ld a, NAME_MODE_UPPER_ABC
 	jr .set_mode
-.not_lower_abc_mode
+.to_lower_abc_mode
 	ld a, NAME_MODE_LOWER_ABC
+
 .set_mode
 	ld [wNamingScreenMode], a
 	call UpdateNamingScreenUI
@@ -6278,6 +6286,7 @@ SelectKeyboardItem:
 	pop hl
 	jr c, .no_carry
 	jr .apply_diacritic
+
 .check_handakuten
 	ldfw bc, "゜"
 	ld a, d
@@ -6291,14 +6300,14 @@ SelectKeyboardItem:
 	call GetDiacriticCharacter
 	pop hl
 	jr c, .no_carry
+
 .apply_diacritic
-	; decrease length by 2
+; decrease length by 2
 	ld a, [wNamingScreenBufferLength]
 	dec a
 	dec a
 	ld [wNamingScreenBufferLength], a
-
-	; get pointer to last character in buffer
+; get pointer to last character in buffer
 	ld hl, wNamingScreenBuffer
 	push de
 	ld d, $00
@@ -6314,12 +6323,12 @@ SelectKeyboardItem:
 	jr nz, .add_character
 	ld a, [wNamingScreenMode]
 	or a
-	jr nz, .asm_1b2fb
-	; NAME_MODE_HIRAGANA
+	jr nz, .katakana
+; NAME_MODE_HIRAGANA
 	ld a, TX_HIRAGANA
 	jr .add_character
-.asm_1b2fb
-	; NAME_MODE_KATAKANA
+.katakana
+; NAME_MODE_KATAKANA
 	ld a, TX_KATAKANA
 	jr .add_character
 .lower_abc
@@ -6345,11 +6354,11 @@ SelectKeyboardItem:
 	cp [hl]
 	pop hl
 	jr nz, .not_last_character
-	; overwrite last character
+; overwrite last character
 	ld hl, wNamingScreenBuffer
 	dec hl
 	dec hl
-	; hl = wNamingScreenBuffer - 2
+; hl = wNamingScreenBuffer - 2
 	jr .got_char_position
 .not_last_character
 	inc [hl]
@@ -6364,11 +6373,12 @@ SelectKeyboardItem:
 	inc hl
 	ld [hl], TX_END
 	call ProcessTextWithUnderbar
+
 .no_carry
 	or a
 	ret
 
-.set_carry:
+.set_carry
 	scf
 	ret
 
@@ -6493,7 +6503,7 @@ KeyboardData:
 	kbchar 10,  2, "え", "?", "@"
 	kbchar 12,  2, "お", "4", ":"
 	kbchar 14,  2, "ゃ", "ぃ", "<LIGHTNING>"
-	kbitem 16,  2, KEYBOARD_TOGGLE_KATAKANA, 3, 2
+	kbitem 16,  2, KEYBOARD_TOGGLE_1, 3, 2
 
 	; col 1
 	kbchar  4,  4, "か", "B", "b"
@@ -6502,7 +6512,7 @@ KeyboardData:
 	kbchar 10,  4, "け", "&", "&"
 	kbchar 12,  4, "こ", "5", ";"
 	kbchar 14,  4, "ゅ", "ぅ", "<GRASS>"
-	kbitem 16,  2, KEYBOARD_TOGGLE_KATAKANA, 2, 2
+	kbitem 16,  2, KEYBOARD_TOGGLE_1, 2, 2
 
 	; col 2
 	kbchar  4,  6, "さ", "C", "c"
@@ -6511,7 +6521,7 @@ KeyboardData:
 	kbchar 10,  6, "せ", "+", "/"
 	kbchar 12,  6, "そ", "6", "_"
 	kbchar 14,  6, "ょ", "ぇ", "<FIRE>"
-	kbitem 16,  2, KEYBOARD_TOGGLE_KATAKANA, 2, 3
+	kbitem 16,  2, KEYBOARD_TOGGLE_1, 2, 3
 
 	; col 3
 	kbchar  4,  8, "た", "D", "d"
@@ -6520,7 +6530,7 @@ KeyboardData:
 	kbchar 10,  8, "て", "-", "*"
 	kbchar 12,  8, "と", "7", "<"
 	kbchar 14,  8, "っ", "ぉ", "<WATER>"
-	kbitem 16,  7, KEYBOARD_TOGGLE_UPPER_ABC, 2, 3
+	kbitem 16,  7, KEYBOARD_TOGGLE_2, 2, 3
 
 	; col 4
 	kbchar  4, 10, "な", "E", "e"
@@ -6529,7 +6539,7 @@ KeyboardData:
 	kbchar 10, 10, "ね", "・", "+"
 	kbchar 12, 10, "の", "8", ">"
 	kbchar 14, 10, "を", "ァ", "<PSYCHIC>"
-	kbitem 16,  7, KEYBOARD_TOGGLE_UPPER_ABC, 2, 2
+	kbitem 16,  7, KEYBOARD_TOGGLE_2, 2, 2
 
 	; col 5
 	kbchar  4, 12, "は", "F", "f"
@@ -6538,7 +6548,7 @@ KeyboardData:
 	kbchar 10, 12, "へ", "0", "-"
 	kbchar 12, 12, "ほ", "9", " "
 	kbchar 14, 12, "゛", "ィ", "<FIGHTING>"
-	kbitem 16, 12, KEYBOARD_TOGGLE_LOWER_ABC, 2, 2
+	kbitem 16, 12, KEYBOARD_TOGGLE_3, 2, 2
 
 	; col 6
 	kbchar  4, 14, "ま", "G", "g"
@@ -6547,7 +6557,7 @@ KeyboardData:
 	kbchar 10, 14, "め", "1", "="
 	kbchar 12, 14, "も", "<No>", " "
 	kbchar 14, 14, "゜", "ゥ", "<COLORLESS>"
-	kbitem 16, 12, KEYBOARD_TOGGLE_LOWER_ABC, 2, 2
+	kbitem 16, 12, KEYBOARD_TOGGLE_3, 2, 2
 
 	; col 7
 	kbchar  4, 16, "や", "H", "h"
@@ -6616,18 +6626,477 @@ HandakutenTable:
 	diacritic "べ", "ぺ" ; katakana ベ, ペ
 	diacritic "ぼ", "ぽ" ; katakana ボ, ポ
 	dw 0 ; end
-; 0x1b613
 
-SECTION "Bank 6@78f1", ROMX[$78f1], BANK[$6]
+InitInputMultilineText:
+	ld a, MAX_MULTILINE_INPUT_LENGTH
+	ld [wNamingScreenBufferMaxLength], a
+	ld a, MULTILINE_INPUT_SCREEN_BUFFER_LENGTH
+	ld hl, wNamingScreenBuffer
+	farcall ClearNBytesFromHL
+	xor a
+	ld [wNamingScreenBufferLength], a
+	ret
 
-Func_1b8f1:
+InputMultilineText:
+	call InitInputMultilineText
+	call Set_OBJ_8x8
+
+	xor a
+	ld [wTileMapFill], a
+	call EmptyScreen
+	call ZeroObjectPositions
+	ld a, TRUE
+	ld [wIsMultilineInput], a
+	ld [wVBlankOAMCopyToggle], a
+	call LoadSymbolsFont
+	lb de, $38, $bf
+	call SetupText
+	call LoadFullWidthTextCursorTile
+	xor a ; NAME_MODE_HIRAGANA
+	ld [wNamingScreenMode], a
+
+	call UpdateMultilineInputScreenUI
+
+	xor a
+	ld [wNamingScreenCursorX], a
+	ld [wNamingScreenCursorY], a
+
+	ld a, 9
+	ld [wNamingScreenNumColumns], a
+	ld a, 7
+	ld [wNumMenuItems], a
+	ld a, SYM_CURSOR_R
+	ld [wMenuVisibleCursorTile], a
+	ld a, SYM_SPACE
+	ld [wMenuInvisibleCursorTile], a
+
+.loop
+	ld a, TRUE
+	ld [wVBlankOAMCopyToggle], a
+	call DoFrame
+
+	ldh a, [hDPadHeld]
+	and PAD_START
+	jr z, .check_select
+	ld a, MENU_CONFIRM
+	call PlaySFXConfirmOrCancel_Bank06
+	call HideCursorAtCharPosition
+	ld a, 6
+	ld [wNamingScreenCursorY], a
+	inc a ; 7
+	ld [wNamingScreenCursorX], a
+	call ShowCursorAtCharPosition
+	jr .loop
+
+.check_select
+	ldh a, [hDPadHeld]
+	and PAD_SELECT
+	jr z, .handle_input
+	ld a, MENU_CONFIRM
+	call PlaySFXConfirmOrCancel_Bank06
+	ld a, [wNamingScreenMode]
+	inc a
+	cp NUM_NAME_MODES
+	jr c, .got_mode
+	xor a ; NAME_MODE_HIRAGANA
+.got_mode
+	ld [wNamingScreenMode], a
+	ld a, MENU_CONFIRM
+	call PlaySFXConfirmOrCancel_Bank06
+	call HideCursorAtCharPosition
+	xor a
+	ld [wNamingScreenCursorX], a
+	ld [wNamingScreenCursorY], a
+	call UpdateMultilineInputScreenUI
+	jr .loop
+
+.handle_input
+	call HandleNamingScreenInput
+	jr nc, .loop
+	cp $ff
+	jr z, .remove_last_char
+	call SelectKeyboardItem_Multiline
+	jr nc, .loop
+	call FinalizeInputName
+	ret
+
+.remove_last_char
+	ld a, [wNamingScreenBufferLength]
+	or a
+	jr z, .loop
+	ld e, a
+	ld d, $00
+	ld hl, wNamingScreenBuffer
+	add hl, de
+	dec hl
+	dec hl
+	ld [hl], TX_END
+	ld hl, wNamingScreenBufferLength
+	dec [hl]
+	dec [hl]
+	call ProcessMultilineInputWithUnderbar
+	jr .loop
+
+; stray ret
+	ret
+
+WriteBBytesToDE_Bank06:
+	push hl
+	ld l, e
+	ld h, d
+.loop_write
+	ld [hli], a
+	dec b
+	jr nz, .loop_write
+	pop hl
+	ret
+
+; fill row at y = c with $1c in v0BGMap0 and $04 in v1BGMap1 (CGB)
+Func_1b6f2:
+	ld b, 0 ; x
+	ld a, $1c
+	call BCCoordToBGMap0Address
+	ld b, SCREEN_WIDTH
+	call WriteBBytesToDE_Bank06
+	ld a, [wConsole]
+	cp CONSOLE_CGB
+	ret nz ; not cgb
+	ld a, $04
+	ld b, SCREEN_WIDTH
+	call BankswitchVRAM1
+	call WriteBBytesToDE_Bank06
+	call BankswitchVRAM0
+	ret
+
+UpdateMultilineInputScreenUI:
+	ld c, 4 ; y
+	call Func_1b6f2
+	call ProcessMultilineInputWithUnderbar
+	ld hl, .end_text
+	call PlaceTextItems
+
+	ld a, [wNamingScreenMode]
+	or a
+	jr nz, .not_hiragana
+; NAME_MODE_HIRAGANA
+	ld hl, .switches_from_hiragana
+	call PlaceTextItems
+	ldtx hl, HiraganaKeyboardText
+	jr .process
+
+.not_hiragana
+	dec a
+	jr nz, .not_katakana
+; NAME_MODE_KATAKANA
+	ld hl, .switches_from_katakana
+	call PlaceTextItems
+	ldtx hl, KatakanaKeyboardText
+	jr .process
+
+.not_katakana
+	dec a
+	jr nz, .lower_abc
+; NAME_MODE_UPPER_ABC
+	ld hl, .switches_from_uppercase
+	call PlaceTextItems
+	ldtx hl, UppercaseKeyboardText
+	jr .process
+
+.lower_abc
+; NAME_MODE_LOWER_ABC
+	ld hl, .switches_from_lowercase
+	call PlaceTextItems
+	ldtx hl, LowercaseKeyboardText
+
+.process
+	lb de, 2, 5
+	call InitTextPrinting
+	call ProcessTextFromID
+	call EnableLCD
+	ret
+
+.end_text
+	textitem 16, 17, EndText
+	textitems_end
+
+.switches_from_hiragana
+	textitem  2, 17, KatakanaOptionText
+	textitem  7, 17, UppercaseOptionText
+	textitem 12, 17, LowercaseOptionText
+	textitems_end
+
+.switches_from_katakana
+	textitem  2, 17, HiraganaOptionText
+	textitem  7, 17, UppercaseOptionText
+	textitem 12, 17, LowercaseOptionText
+	textitems_end
+
+.switches_from_uppercase
+	textitem  2, 17, HiraganaOptionText
+	textitem  7, 17, KatakanaOptionText
+	textitem 12, 17, LowercaseOptionText
+	textitems_end
+
+.switches_from_lowercase
+	textitem  2, 17, HiraganaOptionText
+	textitem  7, 17, KatakanaOptionText
+	textitem 12, 17, UppercaseOptionText
+	textitems_end
+
+
+SelectKeyboardItem_Multiline:
+	ld a, [wNamingScreenCursorX]
+	ld h, a
+	ld a, [wNamingScreenCursorY]
+	ld l, a
+	call GetCharInfoFromPos
+	inc hl
+	inc hl
+	ld e, [hl]
+	inc hl
+	ld a, [hli]
+	ld d, a
+	cp KEYBOARD_DONE
+	jp z, .set_carry
+
+; toggle 1
+	cp KEYBOARD_TOGGLE_1
+	jr nz, .check_toggle_2
+	ld a, [wNamingScreenMode]
+	or a
+	jr nz, .to_hiragana_mode
+; to katakana mode
+	ld a, NAME_MODE_KATAKANA
+	jp .set_mode
+.to_hiragana_mode
+	xor a ; NAME_MODE_HIRAGANA
+	jp .set_mode
+
+.check_toggle_2
+	cp KEYBOARD_TOGGLE_2
+	jr nz, .check_toggle_3
+	ld a, [wNamingScreenMode]
+	cp NAME_MODE_UPPER_ABC
+	jr c, .to_upper_abc_mode
+; to katakana mode
+	ld a, NAME_MODE_KATAKANA
+	jr .set_mode
+.to_upper_abc_mode
+	ld a, NAME_MODE_UPPER_ABC
+	jr .set_mode
+
+.check_toggle_3
+	cp KEYBOARD_TOGGLE_3
+	jr nz, .character_item
+	ld a, [wNamingScreenMode]
+	cp NAME_MODE_LOWER_ABC
+	jr nz, .to_lower_abc_mode
+; to upper abc mode
+	ld a, NAME_MODE_UPPER_ABC
+	jr .set_mode
+.to_lower_abc_mode
+	ld a, NAME_MODE_LOWER_ABC
+
+.set_mode
+	ld [wNamingScreenMode], a
+	call UpdateMultilineInputScreenUI
+	or a
+	ret
+
+.character_item
+	ld a, [wNamingScreenMode]
+	cp NAME_MODE_UPPER_ABC
+	jr z, .upper_abc
+	cp NAME_MODE_LOWER_ABC
+	jr z, .lower_abc
+
+; handle diacritics
+	ldfw bc, "゛"
+	ld a, d
+	cp b
+	jr nz, .check_handakuten
+	ld a, e
+	cp c
+	jr nz, .check_handakuten
+	push hl
+	ld hl, DakutenTable
+	call GetDiacriticCharacter
+	pop hl
+	jr c, .no_carry
+	jr .apply_diacritic
+
+.check_handakuten
+	ldfw bc, "゜"
+	ld a, d
+	cp b
+	jr nz, .not_diacritic
+	ld a, e
+	cp c
+	jr nz, .not_diacritic
+	push hl
+	ld hl, HandakutenTable
+	call GetDiacriticCharacter
+	pop hl
+	jr c, .no_carry
+
+.apply_diacritic
+; decrease length by 2
+	ld a, [wNamingScreenBufferLength]
+	dec a
+	dec a
+	ld [wNamingScreenBufferLength], a
+; get pointer to last character in buffer
+	ld hl, wNamingScreenBuffer
+	push de
+	ld d, $00
+	ld e, a
+	add hl, de
+	pop de
+	ld a, [hl]
+	jr .add_character
+
+.not_diacritic
+	ld a, d
+	or a
+	jr nz, .add_character
+	ld a, [wNamingScreenMode]
+	or a
+	jr nz, .katakana
+; NAME_MODE_HIRAGANA
+	ld a, TX_HIRAGANA
+	jr .add_character
+.katakana
+; NAME_MODE_KATAKANA
+	ld a, TX_KATAKANA
+	jr .add_character
+.lower_abc
+	inc hl
+	inc hl
+.upper_abc
+	ld e, [hl]
+	inc hl
+	ld a, [hl]
+	or a
+	jr nz, .add_character
+	ld a, TX_HIRAGANA
+
+; a = TX_* constant
+; e = character byte
+.add_character
+	ld d, a
+	ld hl, wNamingScreenBufferLength
+	ld a, [hl]
+	ld c, a
+	push hl
+	ld hl, wNamingScreenBufferMaxLength
+	cp [hl]
+	pop hl
+	jr nz, .not_last_character
+; overwrite last character
+	ld hl, wNamingScreenBuffer
+	dec hl
+	dec hl
+	jr .got_char_position
+.not_last_character
+	inc [hl]
+	inc [hl]
+	ld hl, wNamingScreenBuffer
+.got_char_position
+	ld b, $00
+	add hl, bc
+	ld [hl], d
+	inc hl
+	ld [hl], e
+	inc hl
+	ld [hl], TX_END
+	call ProcessMultilineInputWithUnderbar
+
+.no_carry
+	or a
+	ret
+
+.set_carry
+	scf
+	ret
+
+ProcessMultilineInputWithUnderbar:
+	ld a, [wNamingScreenBufferLength]
+	ld b, a
+	ld a, MAX_MULTILINE_INPUT_LENGTH_PER_LINE
+	sub b
+	jr nc, .line_1
+	xor a
+	ld b, MAX_MULTILINE_INPUT_LENGTH_PER_LINE
+
+.line_1
+	push af
+	ld hl, wNamingScreenBuffer
+	ld de, wCurLineOfMultilineInput
+	call CopyBBytesFromHLToDE_Bank06
+	pop af
+	call .FillWithUnderbar
+	xor a ; TX_END
+	ld [wCurLineOfMultilineInput + MAX_MULTILINE_INPUT_LENGTH_PER_LINE], a
+	lb de, 1, 1
+	call InitTextPrinting
+	ld hl, wCurLineOfMultilineInput
+	call ProcessText
+
+; check line 2
+	ld a, [wNamingScreenBufferLength]
+	sub MAX_MULTILINE_INPUT_LENGTH_PER_LINE
+	jr nc, .line_2
+	ld a, MAX_MULTILINE_INPUT_LENGTH_PER_LINE
+	jr .process_text_with_underbar
+
+.line_2
+	ld b, a
+	ld a, MAX_MULTILINE_INPUT_LENGTH_PER_LINE
+	sub b
+	push af
+	ld hl, wNamingScreenBuffer + MAX_MULTILINE_INPUT_LENGTH_PER_LINE
+	ld de, wCurLineOfMultilineInput
+	call CopyBBytesFromHLToDE_Bank06
+	pop af
+
+.process_text_with_underbar
+	call .FillWithUnderbar
+	xor a ; TX_END
+	ld [wCurLineOfMultilineInput + MAX_MULTILINE_INPUT_LENGTH_PER_LINE], a
+	lb de, 1, 2
+	call InitTextPrinting
+	ld hl, wCurLineOfMultilineInput
+	call ProcessText
+
+.FillWithUnderbar
+	or a
+	ret z
+
+	ld c, a
+	ld a, MAX_MULTILINE_INPUT_LENGTH_PER_LINE
+	sub c
+	ld e, a
+	ld d, $00
+	ld hl, wCurLineOfMultilineInput
+	add hl, de
+.loop_fill
+	ld [hl], TX_FULLWIDTH4
+	inc hl
+	ld [hl], $57 ; "_"
+	inc hl
+	dec c
+	dec c
+	jr nz, .loop_fill
+	ret
+
+CopyBBytesFromHLToDE_Bank06:
 	ld a, b
 	or a
 	ret z
-.asm_1b8f4
+.loop
 	ld a, [hli]
 	ld [de], a
 	inc de
 	dec b
-	jr nz, .asm_1b8f4
+	jr nz, .loop
 	ret

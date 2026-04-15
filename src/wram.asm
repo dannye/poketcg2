@@ -2204,9 +2204,7 @@ wNumCardListEntries:: ; d396
 	ds $1
 
 wNamingScreenBuffer:: ; d397
-	ds NAMING_SCREEN_BUFFER_LENGTH
-
-	ds $32
+	ds MULTILINE_INPUT_SCREEN_BUFFER_LENGTH
 
 wNamingScreenBufferLength:: ; d3e1
 	ds $1
@@ -2237,13 +2235,11 @@ wNamingScreenMode:: ; d3eb
 wTempUnnamedDeckCounter:: ; d3ec
 	ds $3
 
-wd3ef:: ; d3ef
+wIsMultilineInput:: ; d3ef
 	ds $1
 
-	ds $1e
-
-wd40e:: ; d40e
-	ds $8
+wCurLineOfMultilineInput:: ; d3f0
+	ds PER_LINE_INPUT_SCREEN_BUFFER_LENGTH
 
 ; pointers to all decks of current deck machine
 wMachineDeckPtrs:: ; d416
@@ -2816,6 +2812,7 @@ wScrollTargetSpritePtr:: ; d893
 wOWScrollState:: ; d895
 	ds $1
 
+; PALETTE_* constant
 wd896:: ; d896
 	ds $2
 
@@ -2825,6 +2822,7 @@ wd898:: ; d898
 wd899:: ; d899
 	ds $1
 
+; palette index
 wd89a:: ; d89a
 	ds $1
 
@@ -2933,7 +2931,10 @@ wPortraitEmotion:: ; d9cf
 wSelectedConfigSubmenu:: ; d9d0
 	ds $1
 
-	ds $2
+	ds $1
+
+wTempTextBoxFrameColor:: ; d9d2
+	ds $1
 
 ; see also: sDuelAnimationsSetting
 wDuelAnimationsSetting:: ; d9d3
@@ -2949,7 +2950,12 @@ wMessageSpeedSetting:: ; d9d5
 wTextBoxFrameColor:: ; d9d6
 	ds $1
 
-	ds $5
+; this and functions using it are
+; dupes of wTextBoxFrameColor and functions using it
+wTempTextBoxFrameColor_2:: ; d9d7
+	ds $1
+
+	ds $4
 
 wPCMenuCursorPosition:: ; d9dc
 	ds $1

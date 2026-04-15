@@ -1435,57 +1435,58 @@ Func_37ce::
 	ld a, [wd896 + 1]
 	ld b, a
 	or c
-	jr z, .asm_3823
+	jr z, .done
 	farcall CheckPalFading
-	jr nz, .asm_3823
-	farcall $7, $4941
+	jr nz, .done
+	farcall GetwD9DE
 	cp $02
-	jr z, .asm_3823
+	jr z, .done
 	ld a, [wd899]
 	dec a
 	ld [wd899], a
-	jr nz, .asm_3823
+	jr nz, .done
 	ld a, [wd898]
 	ld [wd899], a
+
 	farcall GetPaletteGfxPointer
 	ldh a, [hBankROM]
 	push af
 	ld a, b
 	call BankswitchROM
-	ld a, [hli]
+	ld a, [hli] ; number of pals
 	ld b, a
 	ld a, [wd89a]
 	ld c, a
-	inc a
+	inc a ; next pal
 	cp b
-	jr nz, .asm_3810
+	jr nz, .got_pal_index
 	xor a
-.asm_3810
+.got_pal_index
 	ld [wd89a], a
+REPT 3
 	sla c
-	sla c
-	sla c
+ENDR
 	ld b, $00
 	add hl, bc
-	call Func_3828
+	call .LoadPal
 	pop af
 	call BankswitchROM
-.asm_3823
+.done
 	pop hl
 	pop de
 	pop bc
 	pop af
 	ret
 
-Func_3828::
-	ld de, $cb26
-	ld b, $08
-.asm_382d
+.LoadPal:
+	ld de, wBackgroundPalettesCGB + 7 palettes
+	ld b, PAL_SIZE
+.loop_load
 	ld a, [hli]
 	ld [de], a
 	inc de
 	dec b
-	jr nz, .asm_382d
+	jr nz, .loop_load
 	call FlushAllPalettes
 	ret
 
@@ -2060,12 +2061,13 @@ LoadPortraitPalettes::
 	pop af
 	ret
 
-Func_3b14::
-	farcall $7, $4379
+SaveAndApplyNewTextBoxFrameColor_2::
+	farcall _SaveAndApplyNewTextBoxFrameColor_2
 	ret
 
-Func_3b19::
-	farcall $7, $445a
+; this is the one actually in use, not the above one
+SaveAndApplyNewTextBoxFrameColor::
+	farcall _SaveAndApplyNewTextBoxFrameColor
 	ret
 
 SaveGame::

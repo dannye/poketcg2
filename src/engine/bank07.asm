@@ -29,7 +29,7 @@ PrintNumber:
 	ld a, d
 	add c
 	ld d, a
-	ld hl, wDecimalRepresentation + $4
+	ld hl, wDecimalRepresentation + 4
 .loop_digits
 	ld a, [hld]
 	cp $ff
@@ -325,9 +325,6 @@ GetDuelistPortrait::
 	db PORTRAIT_GR_X          ; GR_X_PIC
 	db PORTRAIT_TOBICHAN      ; TOBICHAN_PIC
 	db PORTRAIT_DR_MASON      ; DR_MASON_PIC
-; 0x1c116
-
-SECTION "Bank 7@416e", ROMX[$416e], BANK[$7]
 
 PauseMenuConfigScreen:
 	farcall Func_1022a
@@ -370,30 +367,30 @@ DrawConfigMenu:
 	lb de, 0, 12
 	lb bc, 20, 4
 	call DrawRegularTextBoxVRAM0
-	ld b, $07
-	ld hl, $44ee
+	ld b, BANK(ConfigExitMenuBoxParams)
+	ld hl, ConfigExitMenuBoxParams
 	lb de, 1, 17
 	call LoadMenuBoxParams
-	ld b, $07
-	ld hl, $4476
+	ld b, BANK(MessageSpeedSettingMenuBoxParams)
+	ld hl, MessageSpeedSettingMenuBoxParams
 	lb de, 6, 2
 	call LoadMenuBoxParams
 	ld a, [wMessageSpeedSetting]
 	call DrawMenuBox
-	ld b, $07
-	ld hl, $449a
+	ld b, BANK(DuelAnimationSettingMenuBoxParams)
+	ld hl, DuelAnimationSettingMenuBoxParams
 	lb de, 1, 6
 	call LoadMenuBoxParams
 	ld a, [wDuelAnimationsSetting]
 	call DrawMenuBox
-	ld b, $07
-	ld hl, $44b6
+	ld b, BANK(CoinTossAnimationSettingMenuBoxParams)
+	ld hl, CoinTossAnimationSettingMenuBoxParams
 	lb de, 1, 10
 	call LoadMenuBoxParams
 	ld a, [wCoinTossAnimationSetting]
 	call DrawMenuBox
-	ld b, $07
-	ld hl, $44ce
+	ld b, BANK(TextBoxFrameColorSettingMenuBoxParams)
+	ld hl, TextBoxFrameColorSettingMenuBoxParams
 	lb de, 1, 14
 	call LoadMenuBoxParams
 	ld a, [wTextBoxFrameColor]
@@ -512,8 +509,8 @@ HandleConfigMenu:
 	ret
 
 HandleMessageSpeedSettingMenuBox:
-	ld b, $07
-	ld hl, $4476
+	ld b, BANK(MessageSpeedSettingMenuBoxParams)
+	ld hl, MessageSpeedSettingMenuBoxParams
 	lb de, 6, 2
 	ld a, [wMessageSpeedSetting]
 	call LoadMenuBoxParams
@@ -525,8 +522,8 @@ HandleMessageSpeedSettingMenuBox:
 	ret
 
 HandleDuelAnimationsSettingMenuBox:
-	ld b, $07
-	ld hl, $449a
+	ld b, BANK(DuelAnimationSettingMenuBoxParams)
+	ld hl, DuelAnimationSettingMenuBoxParams
 	lb de, 1, 6
 	ld a, [wDuelAnimationsSetting]
 	call LoadMenuBoxParams
@@ -538,8 +535,8 @@ HandleDuelAnimationsSettingMenuBox:
 	ret
 
 HandleCoinTossAnimationSettingMenuBox:
-	ld b, $07
-	ld hl, $44b6
+	ld b, BANK(CoinTossAnimationSettingMenuBoxParams)
+	ld hl, CoinTossAnimationSettingMenuBoxParams
 	lb de, 1, 10
 	ld a, [wCoinTossAnimationSetting]
 	call LoadMenuBoxParams
@@ -551,8 +548,8 @@ HandleCoinTossAnimationSettingMenuBox:
 	ret
 
 HandleTextBoxFrameColorSettingMenuBox:
-	ld b, $07
-	ld hl, $44ce
+	ld b, BANK(TextBoxFrameColorSettingMenuBoxParams)
+	ld hl, TextBoxFrameColorSettingMenuBoxParams
 	lb de, 1, 14
 	ld a, [wTextBoxFrameColor]
 	call LoadMenuBoxParams
@@ -564,8 +561,8 @@ HandleTextBoxFrameColorSettingMenuBox:
 	ret
 
 HandleConfigExitMenuBox:
-	ld b, $07
-	ld hl, $44ee
+	ld b, BANK(ConfigExitMenuBoxParams)
+	ld hl, ConfigExitMenuBoxParams
 	lb de, 1, 17
 	xor a
 	call LoadMenuBoxParams
@@ -574,9 +571,22 @@ HandleConfigExitMenuBox:
 	xor a
 	call HandleMenuBox
 	ret
-; 0x1c379
 
-SECTION "Bank 7@4395", ROMX[$4395], BANK[$7]
+; dupe of _SaveAndApplyNewTextBoxFrameColor
+_SaveAndApplyNewTextBoxFrameColor_2::
+	ld a, [wTempTextBoxFrameColor_2]
+	ld b, a
+	call GetMenuBoxFocusedItem
+	cp b
+	ret z
+
+	ld [wTempTextBoxFrameColor_2], a
+	call EnableSRAM
+	ld [sTextBoxFrameColor], a
+	call DisableSRAM
+	bank1call SetDefaultPalettes
+	call FlushAllPalettes
+	ret
 
 LoadSavedOptions:
 	call EnableSRAM
@@ -703,9 +713,66 @@ ConvertTextSpeedToMessageSpeedSetting:
 .data
 	; values correspond to the 0,1,2,4,6 values just above
 	db 0, 1, 2, 0, 3, 0, 4
-; 0x1c45a
 
-SECTION "Bank 7@4502", ROMX[$4502], BANK[$7]
+_SaveAndApplyNewTextBoxFrameColor::
+	ld a, [wTempTextBoxFrameColor]
+	ld b, a
+	call GetMenuBoxFocusedItem
+	cp b
+	ret z
+
+	ld [wTempTextBoxFrameColor], a
+	call EnableSRAM
+	ld [sTextBoxFrameColor], a
+	call DisableSRAM
+	bank1call SetDefaultPalettes
+	call FlushAllPalettes
+	ret
+
+MessageSpeedSettingMenuBoxParams:
+	menubox_params FALSE, 10, 1, \
+		SYM_CURSOR_R, SYM_SPACE, SYM_CURSOR_R, SYM_CURSOR_R, \
+		NONE, PAD_B | PAD_UP | PAD_DOWN, TRUE, 0, NULL, NULL
+	textitem 0, 0, ConfigMessageSpeed1Text
+	textitem 2, 0, ConfigMessageSpeed2Text
+	textitem 4, 0, ConfigMessageSpeed3Text
+	textitem 6, 0, ConfigMessageSpeed4Text
+	textitem 8, 0, ConfigMessageSpeed5Text
+	textitems_end
+
+DuelAnimationSettingMenuBoxParams:
+	menubox_params FALSE, 18, 1, \
+		SYM_CURSOR_R, SYM_SPACE, SYM_CURSOR_R, SYM_CURSOR_R, \
+		NONE, PAD_B | PAD_UP | PAD_DOWN, TRUE, 0, NULL, NULL
+	textitem  1, 0, ConfigAnimationShowAllText
+	textitem  7, 0, ConfigAnimationSkipSomeText
+	textitem 15, 0, ConfigAnimationNoneText
+	textitems_end
+
+CoinTossAnimationSettingMenuBoxParams:
+	menubox_params FALSE, 18, 1, \
+		SYM_CURSOR_R, SYM_SPACE, SYM_CURSOR_R, SYM_CURSOR_R, \
+		NONE, PAD_B | PAD_UP | PAD_DOWN, TRUE, 0, NULL, NULL
+	textitem  1, 0, ConfigAnimationShowAllText
+	textitem 12, 0, ConfigAnimationSkipSomeText
+	textitems_end
+
+TextBoxFrameColorSettingMenuBoxParams:
+	menubox_params FALSE, 18, 1, \
+		SYM_CURSOR_R, SYM_SPACE, SYM_CURSOR_R, SYM_CURSOR_R, \
+		NONE, PAD_B | PAD_UP | PAD_DOWN, TRUE, 0, SaveAndApplyNewTextBoxFrameColor, NULL
+	textitem  1, 0, ConfigFrameColorRedText
+	textitem  6, 0, ConfigFrameColorBlueText
+	textitem 11, 0, ConfigFrameColorGreenText
+	textitem 16, 0, ConfigFrameColorBlackText
+	textitems_end
+
+ConfigExitMenuBoxParams:
+	menubox_params FALSE, 9, 1, \
+		SYM_CURSOR_R, SYM_SPACE, SYM_CURSOR_R, SYM_SPACE, \
+		PAD_A, PAD_B | PAD_UP | PAD_DOWN, FALSE, 0, NULL, NULL
+	textitem 1, 0, SingleSpaceText
+	textitems_end
 
 PauseMenuDiaryScreen:
 	farcall Func_1022a
@@ -1388,9 +1455,15 @@ CheckPalFading::
 	ld a, [wPaletteFadeMode]
 	and a
 	ret
-; 0x1c941
 
-SECTION "Bank 7@494a", ROMX[$494a], BANK[$7]
+GetwD9DE::
+	ld a, [wd9de]
+	ret
+
+GetPalFadeDirection:
+	ld a, [wPalFadeDirection]
+	and a
+	ret
 
 ; fills the pals with fade enabled
 ; with color in a
@@ -1554,9 +1627,26 @@ StartFadeFromWhite:
 	pop bc
 	pop af
 	ret
-; 0x1ca09
 
-SECTION "Bank 7@4a21", ROMX[$4a21], BANK[$7]
+StartFadeToBlack:
+	push af
+	push bc
+	ld a, $01
+	ld b, $00
+	call StartPalFadeToBlackOrWhite
+	pop bc
+	pop af
+	ret
+
+StartFadeFromBlack:
+	push af
+	push bc
+	ld a, $01
+	ld b, $00
+	call StartPalFadeFromBlackOrWhite
+	pop bc
+	pop af
+	ret
 
 EnableBGPFading:
 	push hl
@@ -1564,9 +1654,13 @@ EnableBGPFading:
 	set 0, [hl]
 	pop hl
 	ret
-; 0x1ca29
 
-SECTION "Bank 7@4a31", ROMX[$4a31], BANK[$7]
+DisableBGPFading:
+	push hl
+	ld hl, wPaletteFadeFlags
+	res 0, [hl]
+	pop hl
+	ret
 
 EnableOBPFading:
 	push hl
@@ -1702,9 +1796,17 @@ SetAllOBPaletteFadeConfigsToEnabled:
 	jr c, .loop_pals
 	pop af
 	ret
-; 0x1cac3
 
-SECTION "Bank 7@4acf", ROMX[$4acf], BANK[$7]
+SetAllOBPaletteFadeConfigsToDisabled:
+	push af
+	xor a
+.loop_pals
+	call SetOBPaletteFadeConfigToDisabled
+	inc a
+	cp NUM_OBJECT_PALETTES
+	jr c, .loop_pals
+	pop af
+	ret
 
 HideNPCAnimsUnderMenuBox:
 	push af
@@ -4662,14 +4764,19 @@ GetwDuelAnimBufferSize:
 GetwDuelAnimBufferCurPos:
 	ld a, [wDuelAnimBufferCurPos]
 	ret
-; 0x1e411
 
-SECTION "Bank 7@6419", ROMX[$6419], BANK[$7]
+; set wAnimationsDisabled to TRUE
+DisableAnimations:
+	push af
+	ld a, TRUE
+	ld [wAnimationsDisabled], a
+	pop af
+	ret
 
-; sets wAnimationsDisabled to FALSE
+; set wAnimationsDisabled to FALSE
 EnableAnimations:
 	push af
-	xor a ; FALSe
+	xor a ; FALSE
 	ld [wAnimationsDisabled], a
 	pop af
 	ret
@@ -4968,11 +5075,18 @@ Func_1e5a2::
 	call ShowSpecialRuleDescription
 .start_duel
 	bank1call StartDuel_VSAIOpp
+.exit
 	farcall Func_10252
 	ret
-; 0x1e5e5
 
-SECTION "Bank 7@65f8", ROMX[$65f8], BANK[$7]
+.Debug:
+	bank1call SetFontAndTextBoxFrameColor
+	call FlushAllPalettes
+	ldtx hl, DebugForceDuelWinPromptText
+	xor a
+	farcall DrawWideTextBox_PrintTextWithYesOrNoMenu
+	ld [wDuelResult], a
+	jr .exit
 
 RunDuelFromSRAM:
 	farcall Stub_10cfe
@@ -6106,9 +6220,31 @@ Func_1ed5e:
 .SceneNoNewMail
 	db SCENE_MAILBOX
 	tx MailboxNoNewMailText
-; 0x1ed7c
 
-SECTION "Bank 7@6da5", ROMX[$6da5], BANK[$7]
+PrintQueueAndTotalMailCount:
+	push af
+	push bc
+	push de
+	push hl
+	ld a, [wNumMailInQueue]
+	ld l, a
+	ld h, $00
+	ld a, 2
+	ld b, FALSE
+	lb de, 14, 1
+	call PrintNumber
+	ld a, [wMailCount]
+	ld l, a
+	ld h, $00
+	ld a, 2
+	ld b, FALSE
+	lb de, 17, 1
+	call PrintNumber
+	pop hl
+	pop de
+	pop bc
+	pop af
+	ret
 
 MinicomMailboxMainScreen:
 	call DisableLCD
@@ -6395,9 +6531,12 @@ ScrollMailboxPageOnPadUp:
 	call SetMenuBoxFocusedItem
 	call SetMenuBoxBoundaryNoOpFlag
 	ret
-; 0x1ef9a
 
-SECTION "Bank 7@6fa4", ROMX[$6fa4], BANK[$7]
+HandleSelectedMailMenu_Simple:
+	call MailboxSelectedMail_LoadMenuBoxParams
+	call MailboxSelectedMail_HandleMenuBox
+	call MailboxSelectedMail_CallMappedFunction
+	ret
 
 MailboxSelectedMail_LoadMenuBoxParams:
 	lb de, 0, 0
