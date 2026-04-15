@@ -6843,7 +6843,6 @@ UpdateMultilineInputScreenUI:
 	textitem 12, 17, UppercaseOptionText
 	textitems_end
 
-
 SelectKeyboardItem_Multiline:
 	ld a, [wNamingScreenCursorX]
 	ld h, a

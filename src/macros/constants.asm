@@ -12,9 +12,9 @@ MACRO? const
 ENDM
 
 MACRO? const_skip
-	if _NARG > 0
+	IF _NARG > 0
 		DEF const_value += \1
-	else
+	ELSE
 		DEF const_value += 1
-	endc
+	ENDC
 ENDM

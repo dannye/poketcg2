@@ -2176,7 +2176,6 @@ wCardAlbumBoosterPack:: ; d390
 wBoosterPackCardListNumItems:: ; d391
 	ds $1
 
-
 wOwnedPhantomCards:: ; d392
 	ds $1
 

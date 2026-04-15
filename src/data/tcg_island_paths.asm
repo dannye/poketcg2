@@ -406,7 +406,6 @@ TCGIslandPlayerPaths:
 	db $00, $00
 	db $ff, $ff ; end
 
-
 .PsychicClub_MasonLaboratory:
 	db $54, $50
 	db $30, $54
